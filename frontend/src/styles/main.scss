@@ -1,0 +1,11 @@
+// Funciones de Bootstrap
+@import "bootstrap/scss/functions";
+
+// Variables personalizadas del proyecto
+@import "variables";
+
+// Bootstrap
+@import "bootstrap/scss/bootstrap";
+
+// Estilos propios del proyecto irán debajo
+// Al completar este archivo eliminar App.css e index.css
