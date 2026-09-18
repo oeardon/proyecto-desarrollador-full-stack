@@ -1,0 +1,30 @@
+# Variables de entorno y configuración sensible
+.env
+.env.*
+!.env.example
+
+# Composer
+/vendor/
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+
+# Archivos de configuración local
+config/local.php
+config/database.local.php
+
+# Archivos subidos por usuarios
+public/uploads/*
+!public/uploads/.gitkeep
