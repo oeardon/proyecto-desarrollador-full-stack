@@ -1,7 +1,7 @@
 <?php
      class Database {
           private string $host = "localhost";
-          private string $db_name = "tienda_online";
+          private string $db_name = "todoaqui_db";
           private string $username = "root";
           private string $password = "";
           private string $charset = "utf8mb4";
