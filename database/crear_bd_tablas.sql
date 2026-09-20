@@ -212,7 +212,7 @@ CREATE TABLE Resenas(
      ProductoID INT NOT NULL,
      Calificacion TINYINT NOT NULL CHECK (Calificacion BETWEEN 1 AND 5),
      Comentario LONGTEXT,
-     Fecha DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+     FechaResena DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
      Estado ENUM('Publicada', 'Oculta') NOT NULL DEFAULT 'Publicada',
      CONSTRAINT PK_Resenas PRIMARY KEY (ResenaID),
      CONSTRAINT UQ_Resenas_UsuarioProducto UNIQUE (UsuarioID, ProductoID),
