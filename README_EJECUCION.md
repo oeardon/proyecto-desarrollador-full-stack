@@ -1,32 +1,21 @@
-# Proyecto desarrollador full stack - estructura corregida
+# TodoAquí — ejecución del proyecto
 
-## Ubicación recomendada en XAMPP
+## 1. Ubicación recomendada
+Coloca el proyecto en:
 
-Copiar la carpeta completa en:
+`C:\xampp\htdocs\proyecto-desarrollador-full-stack`
 
-`C:\xampp\htdocs\proyecto-desarrollador-full-stack\`
+## 2. Backend
+En XAMPP inicia Apache y MySQL.
 
-## Estructura
+Importa `database/crear_bd_tablas.sql` desde phpMyAdmin.
 
-- `api/`: endpoints PHP de la API.
-- `app/`: controladores, modelos, helpers y servicios PHP.
-- `config/database.php`: conexión PDO a MySQL/MariaDB.
-- `database/crear_bd_tablas.sql`: creación de la base de datos y tablas.
-- `docs/`: documentación y modelo de base de datos.
-- `frontend/`: aplicación React + Vite + Bootstrap/Sass.
-- `public/`: archivos PHP públicos, prueba de conexión y assets del backend.
+Prueba la conexión en:
 
-## 1. Backend PHP / MySQL
+`http://localhost/proyecto-desarrollador-full-stack/public/prueba_conexion.php`
 
-1. Abrir XAMPP.
-2. Iniciar Apache y MySQL.
-3. Importar `database/crear_bd_tablas.sql` desde phpMyAdmin.
-4. Probar:
-   `http://localhost/proyecto-desarrollador-full-stack/public/prueba_conexion.php`
-
-## 2. Frontend React en tiempo real
-
-Abrir PowerShell y ejecutar:
+## 3. Frontend React + Vite
+Abre PowerShell y ejecuta:
 
 ```powershell
 cd C:\xampp\htdocs\proyecto-desarrollador-full-stack\frontend
@@ -34,17 +23,42 @@ npm install
 npm run dev
 ```
 
-Abrir la URL que muestre Vite, normalmente:
+Abre la URL que muestra Vite, normalmente:
 
 `http://localhost:5173/`
 
-Los cambios guardados en `frontend/src/` se actualizan automáticamente en el navegador.
+## 4. Desarrollo en tiempo real
+Edita los archivos dentro de `frontend/src/` y guarda con Ctrl + S. Vite actualiza la vista automáticamente.
 
-## Importante
+Archivos principales:
+- `src/App.jsx`
+- `src/components/`
+- `src/styles/main.scss`
+- `src/js/interacciones.js`
 
-- `package.json` está dentro de `frontend/`.
-- No ejecutar `npm install` desde la raíz del proyecto.
-- `node_modules/` no se incluye en este paquete; se genera con `npm install`.
-- El `package-lock.json` válido está en `frontend/`.
-- Se eliminó el `package-lock.json` vacío de la raíz porque causaba confusión.
-- Se eliminó el segundo import duplicado de Bootstrap en `frontend/src/styles/main.scss`.
+## 5. Interactividad incluida
+- Menú hamburguesa responsive.
+- Menús desplegables y mega menú.
+- Slider principal automático y manual.
+- Filtros y búsqueda de productos.
+- Favoritos.
+- Carrito lateral con cantidades y eliminación.
+- Vista rápida de producto.
+- Animaciones de entrada al hacer scroll.
+- Header sticky con sombra dinámica.
+- Botón volver arriba.
+- Newsletter con confirmación visual.
+
+## 6. Bootstrap
+Bootstrap se carga desde `main.jsx` usando los archivos compilados de `node_modules`, evitando los avisos deprecados de Sass del código fuente de Bootstrap.
+
+```jsx
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'
+```
+
+## 7. Validación antes de entregar
+```powershell
+npm run lint
+npm run build
+```
