@@ -1,18 +1,16 @@
 <?php
-     class Database {
-          private string $host = "localhost";
-          private string $db_name = "todoaqui_db";
-          private string $username = "root";
-          private string $password = "";
-          private string $charset = "utf8mb4";
-          public function conectar(): PDO {
-               $dsn = "mysql:host={$this->host};dbname={$this->db_name};charset={$this->charset}";
-               $opciones = [
-                    PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
-                    PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
-                    PDO::ATTR_EMULATE_PREPARES => false
-               ];
-               return new PDO($dsn,$this->username,$this->password,$opciones);
-          }
+     $host = "localhost";
+     $bd = "todoaqui_db";
+     $usuario = "root";
+     $contrasena = "";
+     try {
+          $conexion = new PDO("mysql:host=$host;dbname=$bd;charset=utf8mb4", $usuario, $contrasena);
+          $conexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+          $conexion->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
+     } catch (PDOException $e) {
+          http_response_code(500);
+          header("Content-Type: application/json; charset=UTF-8");
+          echo json_encode(["success" => false, "message" => "Error de conexión a la base de datos"]);
+          exit();
      }
 ?>
