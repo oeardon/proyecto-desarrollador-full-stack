@@ -1,0 +1,42 @@
+[
+  {
+    "DetalleDevolucionID": 1,
+    "DevolucionID": 1,
+    "DetalleOrdenID": 1,
+    "Cantidad": 1,
+    "Motivo": "Revisión de una unidad del producto.",
+    "MontoReembolso": {
+      "$numberDecimal": "3299.00"
+    }
+  },
+  {
+    "DetalleDevolucionID": 2,
+    "DevolucionID": 2,
+    "DetalleOrdenID": 4,
+    "Cantidad": 1,
+    "Motivo": "Revisión de una unidad del producto.",
+    "MontoReembolso": {
+      "$numberDecimal": "499.00"
+    }
+  },
+  {
+    "DetalleDevolucionID": 3,
+    "DevolucionID": 3,
+    "DetalleOrdenID": 7,
+    "Cantidad": 1,
+    "Motivo": "Revisión de una unidad del producto.",
+    "MontoReembolso": {
+      "$numberDecimal": "429.00"
+    }
+  },
+  {
+    "DetalleDevolucionID": 4,
+    "DevolucionID": 4,
+    "DetalleOrdenID": 10,
+    "Cantidad": 1,
+    "Motivo": "Revisión de una unidad del producto.",
+    "MontoReembolso": {
+      "$numberDecimal": "4599.00"
+    }
+  }
+]

@@ -1,0 +1,1730 @@
+[
+  {
+    "ProductoID": 1,
+    "CategoriaID": 13,
+    "SKU": "TA-00001",
+    "Nombre": "Smartphone Nova X 256 GB",
+    "Descripcion": "Smartphone Nova X 256 GB. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "3299.00"
+    },
+    "Cantidad": 27,
+    "Imagen": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=900&q=85",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 2,
+    "CategoriaID": 16,
+    "SKU": "TA-00002",
+    "Nombre": "Laptop Air 14” 16 GB RAM",
+    "Descripcion": "Laptop Air 14” 16 GB RAM. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "5799.00"
+    },
+    "Cantidad": 34,
+    "Imagen": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=900&q=85",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 3,
+    "CategoriaID": 19,
+    "SKU": "TA-00003",
+    "Nombre": "Audífonos Wave Pro ANC",
+    "Descripcion": "Audífonos Wave Pro ANC. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "649.00"
+    },
+    "Cantidad": 41,
+    "Imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=900&q=85",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 4,
+    "CategoriaID": 22,
+    "SKU": "TA-00004",
+    "Nombre": "Teclado Mecánico RGB",
+    "Descripcion": "Teclado Mecánico RGB. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "499.00"
+    },
+    "Cantidad": 48,
+    "Imagen": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=900&q=85",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 5,
+    "CategoriaID": 34,
+    "SKU": "TA-00005",
+    "Nombre": "Smartwatch Active S",
+    "Descripcion": "Smartwatch Active S. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "899.00"
+    },
+    "Cantidad": 55,
+    "Imagen": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=85",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 6,
+    "CategoriaID": 17,
+    "SKU": "TA-00006",
+    "Nombre": "Monitor UltraView 27”",
+    "Descripcion": "Monitor UltraView 27”. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "1699.00"
+    },
+    "Cantidad": 62,
+    "Imagen": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=900&q=85",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 7,
+    "CategoriaID": 20,
+    "SKU": "TA-00007",
+    "Nombre": "Bocina Pulse Bluetooth",
+    "Descripcion": "Bocina Pulse Bluetooth. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "429.00"
+    },
+    "Cantidad": 69,
+    "Imagen": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=900&q=85",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 8,
+    "CategoriaID": 25,
+    "SKU": "TA-00008",
+    "Nombre": "Cámara Home Secure 2K",
+    "Descripcion": "Cámara Home Secure 2K. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "599.00"
+    },
+    "Cantidad": 76,
+    "Imagen": "https://images.unsplash.com/photo-1557324232-b8917d3c3dcb?auto=format&fit=crop&w=900&q=85",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 9,
+    "CategoriaID": 13,
+    "SKU": "TA-00009",
+    "Nombre": "Smartphone Nova Lite 128 GB",
+    "Descripcion": "Smartphone Nova Lite 128 GB. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "1899.00"
+    },
+    "Cantidad": 83,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 10,
+    "CategoriaID": 13,
+    "SKU": "TA-00010",
+    "Nombre": "Smartphone Aurora 512 GB",
+    "Descripcion": "Smartphone Aurora 512 GB. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "4599.00"
+    },
+    "Cantidad": 25,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 11,
+    "CategoriaID": 14,
+    "SKU": "TA-00011",
+    "Nombre": "Tablet Estudio 10 pulgadas",
+    "Descripcion": "Tablet Estudio 10 pulgadas. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "1299.00"
+    },
+    "Cantidad": 32,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 12,
+    "CategoriaID": 14,
+    "SKU": "TA-00012",
+    "Nombre": "Tablet Dibujo 12 pulgadas",
+    "Descripcion": "Tablet Dibujo 12 pulgadas. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "2499.00"
+    },
+    "Cantidad": 39,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 13,
+    "CategoriaID": 14,
+    "SKU": "TA-00013",
+    "Nombre": "Tablet Infantil 8 pulgadas",
+    "Descripcion": "Tablet Infantil 8 pulgadas. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "899.00"
+    },
+    "Cantidad": 46,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 14,
+    "CategoriaID": 15,
+    "SKU": "TA-00014",
+    "Nombre": "Cargador USB-C 30 W",
+    "Descripcion": "Cargador USB-C 30 W. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "129.00"
+    },
+    "Cantidad": 53,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 15,
+    "CategoriaID": 15,
+    "SKU": "TA-00015",
+    "Nombre": "Batería portátil 20000 mAh",
+    "Descripcion": "Batería portátil 20000 mAh. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "249.00"
+    },
+    "Cantidad": 60,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 16,
+    "CategoriaID": 15,
+    "SKU": "TA-00016",
+    "Nombre": "Cargador inalámbrico 15 W",
+    "Descripcion": "Cargador inalámbrico 15 W. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "179.00"
+    },
+    "Cantidad": 67,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 17,
+    "CategoriaID": 16,
+    "SKU": "TA-00017",
+    "Nombre": "Laptop Aula 15 pulgadas",
+    "Descripcion": "Laptop Aula 15 pulgadas. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "3799.00"
+    },
+    "Cantidad": 74,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 18,
+    "CategoriaID": 16,
+    "SKU": "TA-00018",
+    "Nombre": "Laptop Diseño 16 pulgadas",
+    "Descripcion": "Laptop Diseño 16 pulgadas. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "8499.00"
+    },
+    "Cantidad": 81,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 19,
+    "CategoriaID": 17,
+    "SKU": "TA-00019",
+    "Nombre": "Monitor Oficina 24 pulgadas",
+    "Descripcion": "Monitor Oficina 24 pulgadas. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "1199.00"
+    },
+    "Cantidad": 23,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 20,
+    "CategoriaID": 17,
+    "SKU": "TA-00020",
+    "Nombre": "Monitor Curvo 32 pulgadas",
+    "Descripcion": "Monitor Curvo 32 pulgadas. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "2499.00"
+    },
+    "Cantidad": 30,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 21,
+    "CategoriaID": 18,
+    "SKU": "TA-00021",
+    "Nombre": "SSD NVMe 1 TB",
+    "Descripcion": "SSD NVMe 1 TB. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "599.00"
+    },
+    "Cantidad": 37,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 22,
+    "CategoriaID": 18,
+    "SKU": "TA-00022",
+    "Nombre": "Memoria USB 128 GB",
+    "Descripcion": "Memoria USB 128 GB. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "89.00"
+    },
+    "Cantidad": 44,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 23,
+    "CategoriaID": 18,
+    "SKU": "TA-00023",
+    "Nombre": "Disco externo 2 TB",
+    "Descripcion": "Disco externo 2 TB. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "749.00"
+    },
+    "Cantidad": 51,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 24,
+    "CategoriaID": 19,
+    "SKU": "TA-00024",
+    "Nombre": "Audífonos Studio Cable",
+    "Descripcion": "Audífonos Studio Cable. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "249.00"
+    },
+    "Cantidad": 58,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 25,
+    "CategoriaID": 19,
+    "SKU": "TA-00025",
+    "Nombre": "Audífonos Mini Inalámbricos",
+    "Descripcion": "Audífonos Mini Inalámbricos. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "349.00"
+    },
+    "Cantidad": 65,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 26,
+    "CategoriaID": 20,
+    "SKU": "TA-00026",
+    "Nombre": "Bocina Fiesta 40 W",
+    "Descripcion": "Bocina Fiesta 40 W. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "799.00"
+    },
+    "Cantidad": 72,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 27,
+    "CategoriaID": 20,
+    "SKU": "TA-00027",
+    "Nombre": "Bocina Compacta 10 W",
+    "Descripcion": "Bocina Compacta 10 W. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "199.00"
+    },
+    "Cantidad": 79,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 28,
+    "CategoriaID": 21,
+    "SKU": "TA-00028",
+    "Nombre": "Televisor Smart 32 pulgadas",
+    "Descripcion": "Televisor Smart 32 pulgadas. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "1699.00"
+    },
+    "Cantidad": 21,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 29,
+    "CategoriaID": 21,
+    "SKU": "TA-00029",
+    "Nombre": "Televisor Smart 43 pulgadas",
+    "Descripcion": "Televisor Smart 43 pulgadas. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "2799.00"
+    },
+    "Cantidad": 28,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 30,
+    "CategoriaID": 21,
+    "SKU": "TA-00030",
+    "Nombre": "Televisor UHD 55 pulgadas",
+    "Descripcion": "Televisor UHD 55 pulgadas. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "4499.00"
+    },
+    "Cantidad": 35,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 31,
+    "CategoriaID": 22,
+    "SKU": "TA-00031",
+    "Nombre": "Teclado Compacto 60 por ciento",
+    "Descripcion": "Teclado Compacto 60 por ciento. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "399.00"
+    },
+    "Cantidad": 42,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 32,
+    "CategoriaID": 22,
+    "SKU": "TA-00032",
+    "Nombre": "Teclado Membrana Retroiluminado",
+    "Descripcion": "Teclado Membrana Retroiluminado. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "229.00"
+    },
+    "Cantidad": 49,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 33,
+    "CategoriaID": 23,
+    "SKU": "TA-00033",
+    "Nombre": "Ratón Precisión 12000 DPI",
+    "Descripcion": "Ratón Precisión 12000 DPI. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "249.00"
+    },
+    "Cantidad": 56,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 34,
+    "CategoriaID": 23,
+    "SKU": "TA-00034",
+    "Nombre": "Ratón Inalámbrico Arena",
+    "Descripcion": "Ratón Inalámbrico Arena. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "349.00"
+    },
+    "Cantidad": 63,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 35,
+    "CategoriaID": 23,
+    "SKU": "TA-00035",
+    "Nombre": "Ratón Ligero Competición",
+    "Descripcion": "Ratón Ligero Competición. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "429.00"
+    },
+    "Cantidad": 70,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 36,
+    "CategoriaID": 24,
+    "SKU": "TA-00036",
+    "Nombre": "Control USB Universal",
+    "Descripcion": "Control USB Universal. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "199.00"
+    },
+    "Cantidad": 77,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 37,
+    "CategoriaID": 24,
+    "SKU": "TA-00037",
+    "Nombre": "Control Bluetooth Pro",
+    "Descripcion": "Control Bluetooth Pro. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "399.00"
+    },
+    "Cantidad": 84,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 38,
+    "CategoriaID": 24,
+    "SKU": "TA-00038",
+    "Nombre": "Volante de Carreras Básico",
+    "Descripcion": "Volante de Carreras Básico. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "1299.00"
+    },
+    "Cantidad": 26,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 39,
+    "CategoriaID": 25,
+    "SKU": "TA-00039",
+    "Nombre": "Cámara Exterior IP65",
+    "Descripcion": "Cámara Exterior IP65. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "799.00"
+    },
+    "Cantidad": 33,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 40,
+    "CategoriaID": 25,
+    "SKU": "TA-00040",
+    "Nombre": "Cámara Interior Giratoria",
+    "Descripcion": "Cámara Interior Giratoria. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "449.00"
+    },
+    "Cantidad": 40,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 41,
+    "CategoriaID": 26,
+    "SKU": "TA-00041",
+    "Nombre": "Bombilla Wi-Fi RGB",
+    "Descripcion": "Bombilla Wi-Fi RGB. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "99.00"
+    },
+    "Cantidad": 47,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 42,
+    "CategoriaID": 26,
+    "SKU": "TA-00042",
+    "Nombre": "Tira LED Inteligente 5 m",
+    "Descripcion": "Tira LED Inteligente 5 m. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "199.00"
+    },
+    "Cantidad": 54,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 43,
+    "CategoriaID": 26,
+    "SKU": "TA-00043",
+    "Nombre": "Enchufe Inteligente Wi-Fi",
+    "Descripcion": "Enchufe Inteligente Wi-Fi. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "149.00"
+    },
+    "Cantidad": 61,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 44,
+    "CategoriaID": 27,
+    "SKU": "TA-00044",
+    "Nombre": "Sensor de Puerta Wi-Fi",
+    "Descripcion": "Sensor de Puerta Wi-Fi. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "129.00"
+    },
+    "Cantidad": 68,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 45,
+    "CategoriaID": 27,
+    "SKU": "TA-00045",
+    "Nombre": "Sensor de Movimiento Interior",
+    "Descripcion": "Sensor de Movimiento Interior. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "179.00"
+    },
+    "Cantidad": 75,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 46,
+    "CategoriaID": 27,
+    "SKU": "TA-00046",
+    "Nombre": "Detector de Fugas de Agua",
+    "Descripcion": "Detector de Fugas de Agua. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "159.00"
+    },
+    "Cantidad": 82,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 47,
+    "CategoriaID": 28,
+    "SKU": "TA-00047",
+    "Nombre": "Licuadora Familiar 1.5 L",
+    "Descripcion": "Licuadora Familiar 1.5 L. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "349.00"
+    },
+    "Cantidad": 24,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 48,
+    "CategoriaID": 28,
+    "SKU": "TA-00048",
+    "Nombre": "Cafetera de Goteo 12 Tazas",
+    "Descripcion": "Cafetera de Goteo 12 Tazas. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "299.00"
+    },
+    "Cantidad": 31,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 49,
+    "CategoriaID": 28,
+    "SKU": "TA-00049",
+    "Nombre": "Freidora de Aire 5 L",
+    "Descripcion": "Freidora de Aire 5 L. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "799.00"
+    },
+    "Cantidad": 38,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 50,
+    "CategoriaID": 29,
+    "SKU": "TA-00050",
+    "Nombre": "Aspiradora Compacta 1200 W",
+    "Descripcion": "Aspiradora Compacta 1200 W. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "599.00"
+    },
+    "Cantidad": 45,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 51,
+    "CategoriaID": 29,
+    "SKU": "TA-00051",
+    "Nombre": "Aspiradora de Mano Recargable",
+    "Descripcion": "Aspiradora de Mano Recargable. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "299.00"
+    },
+    "Cantidad": 52,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 52,
+    "CategoriaID": 29,
+    "SKU": "TA-00052",
+    "Nombre": "Limpiador a Vapor Doméstico",
+    "Descripcion": "Limpiador a Vapor Doméstico. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "649.00"
+    },
+    "Cantidad": 59,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 53,
+    "CategoriaID": 30,
+    "SKU": "TA-00053",
+    "Nombre": "Ventilador de Pedestal 16 pulgadas",
+    "Descripcion": "Ventilador de Pedestal 16 pulgadas. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "249.00"
+    },
+    "Cantidad": 66,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 54,
+    "CategoriaID": 30,
+    "SKU": "TA-00054",
+    "Nombre": "Ventilador de Escritorio USB",
+    "Descripcion": "Ventilador de Escritorio USB. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "99.00"
+    },
+    "Cantidad": 73,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 55,
+    "CategoriaID": 30,
+    "SKU": "TA-00055",
+    "Nombre": "Ventilador de Torre 80 cm",
+    "Descripcion": "Ventilador de Torre 80 cm. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "449.00"
+    },
+    "Cantidad": 80,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 56,
+    "CategoriaID": 31,
+    "SKU": "TA-00056",
+    "Nombre": "Juego de Sartenes Antiadherentes",
+    "Descripcion": "Juego de Sartenes Antiadherentes. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "299.00"
+    },
+    "Cantidad": 22,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 57,
+    "CategoriaID": 31,
+    "SKU": "TA-00057",
+    "Nombre": "Juego de Utensilios de Silicona",
+    "Descripcion": "Juego de Utensilios de Silicona. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "119.00"
+    },
+    "Cantidad": 29,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 58,
+    "CategoriaID": 31,
+    "SKU": "TA-00058",
+    "Nombre": "Tabla de Cortar de Bambú",
+    "Descripcion": "Tabla de Cortar de Bambú. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "89.00"
+    },
+    "Cantidad": 36,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 59,
+    "CategoriaID": 32,
+    "SKU": "TA-00059",
+    "Nombre": "Organizador Modular de Cajones",
+    "Descripcion": "Organizador Modular de Cajones. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "79.00"
+    },
+    "Cantidad": 43,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 60,
+    "CategoriaID": 32,
+    "SKU": "TA-00060",
+    "Nombre": "Caja Plegable de Almacenamiento",
+    "Descripcion": "Caja Plegable de Almacenamiento. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "99.00"
+    },
+    "Cantidad": 50,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 61,
+    "CategoriaID": 32,
+    "SKU": "TA-00061",
+    "Nombre": "Estante Metálico de 4 Niveles",
+    "Descripcion": "Estante Metálico de 4 Niveles. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "349.00"
+    },
+    "Cantidad": 57,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 62,
+    "CategoriaID": 33,
+    "SKU": "TA-00062",
+    "Nombre": "Juego de Sábanas Matrimonial",
+    "Descripcion": "Juego de Sábanas Matrimonial. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "249.00"
+    },
+    "Cantidad": 64,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 63,
+    "CategoriaID": 33,
+    "SKU": "TA-00063",
+    "Nombre": "Almohada de Microfibra",
+    "Descripcion": "Almohada de Microfibra. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "99.00"
+    },
+    "Cantidad": 71,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 64,
+    "CategoriaID": 33,
+    "SKU": "TA-00064",
+    "Nombre": "Cobertor Ligero Individual",
+    "Descripcion": "Cobertor Ligero Individual. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "159.00"
+    },
+    "Cantidad": 78,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 65,
+    "CategoriaID": 34,
+    "SKU": "TA-00065",
+    "Nombre": "Reloj Deportivo Track",
+    "Descripcion": "Reloj Deportivo Track. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "549.00"
+    },
+    "Cantidad": 20,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 66,
+    "CategoriaID": 34,
+    "SKU": "TA-00066",
+    "Nombre": "Pulsera de Actividad Fit",
+    "Descripcion": "Pulsera de Actividad Fit. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "299.00"
+    },
+    "Cantidad": 27,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 67,
+    "CategoriaID": 35,
+    "SKU": "TA-00067",
+    "Nombre": "Mochila Urbana para Laptop",
+    "Descripcion": "Mochila Urbana para Laptop. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "249.00"
+    },
+    "Cantidad": 34,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 68,
+    "CategoriaID": 35,
+    "SKU": "TA-00068",
+    "Nombre": "Mochila Escolar Reforzada",
+    "Descripcion": "Mochila Escolar Reforzada. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "179.00"
+    },
+    "Cantidad": 41,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 69,
+    "CategoriaID": 35,
+    "SKU": "TA-00069",
+    "Nombre": "Mochila de Viaje 35 L",
+    "Descripcion": "Mochila de Viaje 35 L. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "349.00"
+    },
+    "Cantidad": 48,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 70,
+    "CategoriaID": 36,
+    "SKU": "TA-00070",
+    "Nombre": "Bolso Casual de Lona",
+    "Descripcion": "Bolso Casual de Lona. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "149.00"
+    },
+    "Cantidad": 55,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 71,
+    "CategoriaID": 36,
+    "SKU": "TA-00071",
+    "Nombre": "Cartera Compacta Unisex",
+    "Descripcion": "Cartera Compacta Unisex. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "89.00"
+    },
+    "Cantidad": 62,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 72,
+    "CategoriaID": 36,
+    "SKU": "TA-00072",
+    "Nombre": "Bolso Cruzado Impermeable",
+    "Descripcion": "Bolso Cruzado Impermeable. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "129.00"
+    },
+    "Cantidad": 69,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 73,
+    "CategoriaID": 37,
+    "SKU": "TA-00073",
+    "Nombre": "Casco de Ciclismo Ajustable",
+    "Descripcion": "Casco de Ciclismo Ajustable. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "229.00"
+    },
+    "Cantidad": 76,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 74,
+    "CategoriaID": 37,
+    "SKU": "TA-00074",
+    "Nombre": "Luz Recargable para Bicicleta",
+    "Descripcion": "Luz Recargable para Bicicleta. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "99.00"
+    },
+    "Cantidad": 83,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 75,
+    "CategoriaID": 37,
+    "SKU": "TA-00075",
+    "Nombre": "Bomba de Aire Portátil",
+    "Descripcion": "Bomba de Aire Portátil. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "79.00"
+    },
+    "Cantidad": 25,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 76,
+    "CategoriaID": 38,
+    "SKU": "TA-00076",
+    "Nombre": "Par de Mancuernas 5 kg",
+    "Descripcion": "Par de Mancuernas 5 kg. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "249.00"
+    },
+    "Cantidad": 32,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 77,
+    "CategoriaID": 38,
+    "SKU": "TA-00077",
+    "Nombre": "Bandas de Resistencia Set",
+    "Descripcion": "Bandas de Resistencia Set. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "119.00"
+    },
+    "Cantidad": 39,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 78,
+    "CategoriaID": 38,
+    "SKU": "TA-00078",
+    "Nombre": "Colchoneta de Yoga 6 mm",
+    "Descripcion": "Colchoneta de Yoga 6 mm. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "99.00"
+    },
+    "Cantidad": 46,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 79,
+    "CategoriaID": 39,
+    "SKU": "TA-00079",
+    "Nombre": "Tienda de Campaña para 2 Personas",
+    "Descripcion": "Tienda de Campaña para 2 Personas. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "599.00"
+    },
+    "Cantidad": 53,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 80,
+    "CategoriaID": 39,
+    "SKU": "TA-00080",
+    "Nombre": "Linterna LED Recargable",
+    "Descripcion": "Linterna LED Recargable. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "149.00"
+    },
+    "Cantidad": 60,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 81,
+    "CategoriaID": 39,
+    "SKU": "TA-00081",
+    "Nombre": "Botella Térmica de 750 ml",
+    "Descripcion": "Botella Térmica de 750 ml. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "129.00"
+    },
+    "Cantidad": 67,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 82,
+    "CategoriaID": 40,
+    "SKU": "TA-00082",
+    "Nombre": "Cepillo Dental Eléctrico",
+    "Descripcion": "Cepillo Dental Eléctrico. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "199.00"
+    },
+    "Cantidad": 74,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 83,
+    "CategoriaID": 40,
+    "SKU": "TA-00083",
+    "Nombre": "Kit de Aseo de Viaje",
+    "Descripcion": "Kit de Aseo de Viaje. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "79.00"
+    },
+    "Cantidad": 81,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 84,
+    "CategoriaID": 40,
+    "SKU": "TA-00084",
+    "Nombre": "Dispensador de Jabón Recargable",
+    "Descripcion": "Dispensador de Jabón Recargable. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "149.00"
+    },
+    "Cantidad": 23,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 85,
+    "CategoriaID": 41,
+    "SKU": "TA-00085",
+    "Nombre": "Secadora Compacta 1800 W",
+    "Descripcion": "Secadora Compacta 1800 W. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "229.00"
+    },
+    "Cantidad": 30,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 86,
+    "CategoriaID": 41,
+    "SKU": "TA-00086",
+    "Nombre": "Plancha Cerámica para Cabello",
+    "Descripcion": "Plancha Cerámica para Cabello. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "279.00"
+    },
+    "Cantidad": 37,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 87,
+    "CategoriaID": 41,
+    "SKU": "TA-00087",
+    "Nombre": "Cepillo Desenredante",
+    "Descripcion": "Cepillo Desenredante. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "49.00"
+    },
+    "Cantidad": 44,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 88,
+    "CategoriaID": 42,
+    "SKU": "TA-00088",
+    "Nombre": "Rodillo Facial de Cuarzo",
+    "Descripcion": "Rodillo Facial de Cuarzo. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "89.00"
+    },
+    "Cantidad": 51,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 89,
+    "CategoriaID": 42,
+    "SKU": "TA-00089",
+    "Nombre": "Espejo de Tocador LED",
+    "Descripcion": "Espejo de Tocador LED. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "199.00"
+    },
+    "Cantidad": 58,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 90,
+    "CategoriaID": 42,
+    "SKU": "TA-00090",
+    "Nombre": "Cepillo Facial de Silicona",
+    "Descripcion": "Cepillo Facial de Silicona. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "129.00"
+    },
+    "Cantidad": 65,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 91,
+    "CategoriaID": 43,
+    "SKU": "TA-00091",
+    "Nombre": "Juego de Destornilladores 12 Piezas",
+    "Descripcion": "Juego de Destornilladores 12 Piezas. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "129.00"
+    },
+    "Cantidad": 72,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 92,
+    "CategoriaID": 43,
+    "SKU": "TA-00092",
+    "Nombre": "Martillo de Uña 16 oz",
+    "Descripcion": "Martillo de Uña 16 oz. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "79.00"
+    },
+    "Cantidad": 79,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 93,
+    "CategoriaID": 43,
+    "SKU": "TA-00093",
+    "Nombre": "Juego de Llaves Combinadas",
+    "Descripcion": "Juego de Llaves Combinadas. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "249.00"
+    },
+    "Cantidad": 21,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 94,
+    "CategoriaID": 44,
+    "SKU": "TA-00094",
+    "Nombre": "Taladro Inalámbrico 20 V",
+    "Descripcion": "Taladro Inalámbrico 20 V. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "699.00"
+    },
+    "Cantidad": 28,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 95,
+    "CategoriaID": 44,
+    "SKU": "TA-00095",
+    "Nombre": "Lijadora Orbital 240 W",
+    "Descripcion": "Lijadora Orbital 240 W. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "449.00"
+    },
+    "Cantidad": 35,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 96,
+    "CategoriaID": 44,
+    "SKU": "TA-00096",
+    "Nombre": "Atornillador Recargable 4 V",
+    "Descripcion": "Atornillador Recargable 4 V. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "199.00"
+    },
+    "Cantidad": 42,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 97,
+    "CategoriaID": 45,
+    "SKU": "TA-00097",
+    "Nombre": "Gafas de Protección Transparentes",
+    "Descripcion": "Gafas de Protección Transparentes. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "49.00"
+    },
+    "Cantidad": 49,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 98,
+    "CategoriaID": 45,
+    "SKU": "TA-00098",
+    "Nombre": "Guantes de Trabajo Reforzados",
+    "Descripcion": "Guantes de Trabajo Reforzados. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "59.00"
+    },
+    "Cantidad": 56,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 99,
+    "CategoriaID": 45,
+    "SKU": "TA-00099",
+    "Nombre": "Casco de Seguridad Ajustable",
+    "Descripcion": "Casco de Seguridad Ajustable. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "89.00"
+    },
+    "Cantidad": 63,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 100,
+    "CategoriaID": 46,
+    "SKU": "TA-00100",
+    "Nombre": "Alimento Seco para Perro 3 kg",
+    "Descripcion": "Alimento Seco para Perro 3 kg. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "159.00"
+    },
+    "Cantidad": 70,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 101,
+    "CategoriaID": 46,
+    "SKU": "TA-00101",
+    "Nombre": "Alimento Seco para Gato 1.5 kg",
+    "Descripcion": "Alimento Seco para Gato 1.5 kg. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "139.00"
+    },
+    "Cantidad": 77,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 102,
+    "CategoriaID": 46,
+    "SKU": "TA-00102",
+    "Nombre": "Premios para Perro 200 g",
+    "Descripcion": "Premios para Perro 200 g. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "49.00"
+    },
+    "Cantidad": 84,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 103,
+    "CategoriaID": 47,
+    "SKU": "TA-00103",
+    "Nombre": "Pelota Resistente para Perro",
+    "Descripcion": "Pelota Resistente para Perro. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "39.00"
+    },
+    "Cantidad": 26,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 104,
+    "CategoriaID": 47,
+    "SKU": "TA-00104",
+    "Nombre": "Rascador Compacto para Gato",
+    "Descripcion": "Rascador Compacto para Gato. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "199.00"
+    },
+    "Cantidad": 33,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 105,
+    "CategoriaID": 47,
+    "SKU": "TA-00105",
+    "Nombre": "Juguete Interactivo con Cuerda",
+    "Descripcion": "Juguete Interactivo con Cuerda. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "59.00"
+    },
+    "Cantidad": 40,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 106,
+    "CategoriaID": 48,
+    "SKU": "TA-00106",
+    "Nombre": "Correa Ajustable 1.5 m",
+    "Descripcion": "Correa Ajustable 1.5 m. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "69.00"
+    },
+    "Cantidad": 47,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 107,
+    "CategoriaID": 48,
+    "SKU": "TA-00107",
+    "Nombre": "Cama Lavable para Mascota",
+    "Descripcion": "Cama Lavable para Mascota. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "249.00"
+    },
+    "Cantidad": 54,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  },
+  {
+    "ProductoID": 108,
+    "CategoriaID": 48,
+    "SKU": "TA-00108",
+    "Nombre": "Comedero Doble Antideslizante",
+    "Descripcion": "Comedero Doble Antideslizante. Producto de demostración para el catálogo de TodoAquí.",
+    "Precio": {
+      "$numberDecimal": "89.00"
+    },
+    "Cantidad": 61,
+    "Imagen": null,
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-07-01T15:00:00.000Z"
+    }
+  }
+]

@@ -1,0 +1,1826 @@
+[
+  {
+    "DetalleFacturaID": 1,
+    "FacturaID": 1,
+    "DetalleOrdenID": 1,
+    "Descripcion": "Smartphone Nova X 256 GB",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "3299.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "3299.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 2,
+    "FacturaID": 1,
+    "DetalleOrdenID": 2,
+    "Descripcion": "Laptop Air 14” 16 GB RAM",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "5799.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "11598.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 3,
+    "FacturaID": 1,
+    "DetalleOrdenID": 3,
+    "Descripcion": "Audífonos Wave Pro ANC",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "649.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "649.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 4,
+    "FacturaID": 2,
+    "DetalleOrdenID": 4,
+    "Descripcion": "Teclado Mecánico RGB",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "499.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "998.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 5,
+    "FacturaID": 2,
+    "DetalleOrdenID": 5,
+    "Descripcion": "Smartwatch Active S",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "899.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "899.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 6,
+    "FacturaID": 2,
+    "DetalleOrdenID": 6,
+    "Descripcion": "Monitor UltraView 27”",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "1699.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "3398.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 7,
+    "FacturaID": 3,
+    "DetalleOrdenID": 7,
+    "Descripcion": "Bocina Pulse Bluetooth",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "429.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "429.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 8,
+    "FacturaID": 3,
+    "DetalleOrdenID": 8,
+    "Descripcion": "Cámara Home Secure 2K",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "599.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "1198.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 9,
+    "FacturaID": 3,
+    "DetalleOrdenID": 9,
+    "Descripcion": "Smartphone Nova Lite 128 GB",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "1899.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "1899.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 10,
+    "FacturaID": 4,
+    "DetalleOrdenID": 10,
+    "Descripcion": "Smartphone Aurora 512 GB",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "4599.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "9198.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 11,
+    "FacturaID": 4,
+    "DetalleOrdenID": 11,
+    "Descripcion": "Tablet Estudio 10 pulgadas",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "1299.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "1299.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 12,
+    "FacturaID": 4,
+    "DetalleOrdenID": 12,
+    "Descripcion": "Tablet Dibujo 12 pulgadas",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "2499.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "4998.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 13,
+    "FacturaID": 5,
+    "DetalleOrdenID": 13,
+    "Descripcion": "Tablet Infantil 8 pulgadas",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "899.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "899.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 14,
+    "FacturaID": 5,
+    "DetalleOrdenID": 14,
+    "Descripcion": "Cargador USB-C 30 W",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "129.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "258.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 15,
+    "FacturaID": 5,
+    "DetalleOrdenID": 15,
+    "Descripcion": "Batería portátil 20000 mAh",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "249.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "249.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 16,
+    "FacturaID": 6,
+    "DetalleOrdenID": 16,
+    "Descripcion": "Cargador inalámbrico 15 W",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "179.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "358.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 17,
+    "FacturaID": 6,
+    "DetalleOrdenID": 17,
+    "Descripcion": "Laptop Aula 15 pulgadas",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "3799.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "3799.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 18,
+    "FacturaID": 6,
+    "DetalleOrdenID": 18,
+    "Descripcion": "Laptop Diseño 16 pulgadas",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "8499.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "16998.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 19,
+    "FacturaID": 7,
+    "DetalleOrdenID": 19,
+    "Descripcion": "Monitor Oficina 24 pulgadas",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "1199.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "1199.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 20,
+    "FacturaID": 7,
+    "DetalleOrdenID": 20,
+    "Descripcion": "Monitor Curvo 32 pulgadas",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "2499.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "4998.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 21,
+    "FacturaID": 7,
+    "DetalleOrdenID": 21,
+    "Descripcion": "SSD NVMe 1 TB",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "599.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "599.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 22,
+    "FacturaID": 8,
+    "DetalleOrdenID": 22,
+    "Descripcion": "Memoria USB 128 GB",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "89.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "178.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 23,
+    "FacturaID": 8,
+    "DetalleOrdenID": 23,
+    "Descripcion": "Disco externo 2 TB",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "749.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "749.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 24,
+    "FacturaID": 8,
+    "DetalleOrdenID": 24,
+    "Descripcion": "Audífonos Studio Cable",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "249.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "498.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 25,
+    "FacturaID": 9,
+    "DetalleOrdenID": 25,
+    "Descripcion": "Audífonos Mini Inalámbricos",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "349.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "349.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 26,
+    "FacturaID": 9,
+    "DetalleOrdenID": 26,
+    "Descripcion": "Bocina Fiesta 40 W",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "799.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "1598.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 27,
+    "FacturaID": 9,
+    "DetalleOrdenID": 27,
+    "Descripcion": "Bocina Compacta 10 W",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "199.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "199.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 28,
+    "FacturaID": 10,
+    "DetalleOrdenID": 28,
+    "Descripcion": "Televisor Smart 32 pulgadas",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "1699.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "3398.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 29,
+    "FacturaID": 10,
+    "DetalleOrdenID": 29,
+    "Descripcion": "Televisor Smart 43 pulgadas",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "2799.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "2799.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 30,
+    "FacturaID": 10,
+    "DetalleOrdenID": 30,
+    "Descripcion": "Televisor UHD 55 pulgadas",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "4499.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "8998.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 31,
+    "FacturaID": 11,
+    "DetalleOrdenID": 31,
+    "Descripcion": "Teclado Compacto 60 por ciento",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "399.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "399.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 32,
+    "FacturaID": 11,
+    "DetalleOrdenID": 32,
+    "Descripcion": "Teclado Membrana Retroiluminado",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "229.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "458.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 33,
+    "FacturaID": 11,
+    "DetalleOrdenID": 33,
+    "Descripcion": "Ratón Precisión 12000 DPI",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "249.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "249.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 34,
+    "FacturaID": 12,
+    "DetalleOrdenID": 34,
+    "Descripcion": "Ratón Inalámbrico Arena",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "349.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "698.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 35,
+    "FacturaID": 12,
+    "DetalleOrdenID": 35,
+    "Descripcion": "Ratón Ligero Competición",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "429.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "429.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 36,
+    "FacturaID": 12,
+    "DetalleOrdenID": 36,
+    "Descripcion": "Control USB Universal",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "199.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "398.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 37,
+    "FacturaID": 13,
+    "DetalleOrdenID": 37,
+    "Descripcion": "Control Bluetooth Pro",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "399.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "399.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 38,
+    "FacturaID": 13,
+    "DetalleOrdenID": 38,
+    "Descripcion": "Volante de Carreras Básico",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "1299.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "2598.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 39,
+    "FacturaID": 13,
+    "DetalleOrdenID": 39,
+    "Descripcion": "Cámara Exterior IP65",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "799.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "799.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 40,
+    "FacturaID": 14,
+    "DetalleOrdenID": 40,
+    "Descripcion": "Cámara Interior Giratoria",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "449.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "898.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 41,
+    "FacturaID": 14,
+    "DetalleOrdenID": 41,
+    "Descripcion": "Bombilla Wi-Fi RGB",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "99.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "99.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 42,
+    "FacturaID": 14,
+    "DetalleOrdenID": 42,
+    "Descripcion": "Tira LED Inteligente 5 m",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "199.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "398.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 43,
+    "FacturaID": 15,
+    "DetalleOrdenID": 43,
+    "Descripcion": "Enchufe Inteligente Wi-Fi",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "149.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "149.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 44,
+    "FacturaID": 15,
+    "DetalleOrdenID": 44,
+    "Descripcion": "Sensor de Puerta Wi-Fi",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "129.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "258.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 45,
+    "FacturaID": 15,
+    "DetalleOrdenID": 45,
+    "Descripcion": "Sensor de Movimiento Interior",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "179.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "179.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 46,
+    "FacturaID": 16,
+    "DetalleOrdenID": 46,
+    "Descripcion": "Detector de Fugas de Agua",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "159.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "318.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 47,
+    "FacturaID": 16,
+    "DetalleOrdenID": 47,
+    "Descripcion": "Licuadora Familiar 1.5 L",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "349.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "349.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 48,
+    "FacturaID": 16,
+    "DetalleOrdenID": 48,
+    "Descripcion": "Cafetera de Goteo 12 Tazas",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "299.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "598.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 49,
+    "FacturaID": 17,
+    "DetalleOrdenID": 49,
+    "Descripcion": "Freidora de Aire 5 L",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "799.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "799.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 50,
+    "FacturaID": 17,
+    "DetalleOrdenID": 50,
+    "Descripcion": "Aspiradora Compacta 1200 W",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "599.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "1198.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 51,
+    "FacturaID": 17,
+    "DetalleOrdenID": 51,
+    "Descripcion": "Aspiradora de Mano Recargable",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "299.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "299.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 52,
+    "FacturaID": 18,
+    "DetalleOrdenID": 52,
+    "Descripcion": "Limpiador a Vapor Doméstico",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "649.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "1298.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 53,
+    "FacturaID": 18,
+    "DetalleOrdenID": 53,
+    "Descripcion": "Ventilador de Pedestal 16 pulgadas",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "249.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "249.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 54,
+    "FacturaID": 18,
+    "DetalleOrdenID": 54,
+    "Descripcion": "Ventilador de Escritorio USB",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "99.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "198.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 55,
+    "FacturaID": 19,
+    "DetalleOrdenID": 55,
+    "Descripcion": "Ventilador de Torre 80 cm",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "449.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "449.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 56,
+    "FacturaID": 19,
+    "DetalleOrdenID": 56,
+    "Descripcion": "Juego de Sartenes Antiadherentes",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "299.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "598.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 57,
+    "FacturaID": 19,
+    "DetalleOrdenID": 57,
+    "Descripcion": "Juego de Utensilios de Silicona",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "119.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "119.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 58,
+    "FacturaID": 20,
+    "DetalleOrdenID": 58,
+    "Descripcion": "Tabla de Cortar de Bambú",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "89.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "178.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 59,
+    "FacturaID": 20,
+    "DetalleOrdenID": 59,
+    "Descripcion": "Organizador Modular de Cajones",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "79.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "79.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 60,
+    "FacturaID": 20,
+    "DetalleOrdenID": 60,
+    "Descripcion": "Caja Plegable de Almacenamiento",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "99.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "198.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 61,
+    "FacturaID": 21,
+    "DetalleOrdenID": 61,
+    "Descripcion": "Estante Metálico de 4 Niveles",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "349.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "349.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 62,
+    "FacturaID": 21,
+    "DetalleOrdenID": 62,
+    "Descripcion": "Juego de Sábanas Matrimonial",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "249.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "498.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 63,
+    "FacturaID": 21,
+    "DetalleOrdenID": 63,
+    "Descripcion": "Almohada de Microfibra",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "99.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "99.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 64,
+    "FacturaID": 22,
+    "DetalleOrdenID": 64,
+    "Descripcion": "Cobertor Ligero Individual",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "159.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "318.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 65,
+    "FacturaID": 22,
+    "DetalleOrdenID": 65,
+    "Descripcion": "Reloj Deportivo Track",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "549.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "549.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 66,
+    "FacturaID": 22,
+    "DetalleOrdenID": 66,
+    "Descripcion": "Pulsera de Actividad Fit",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "299.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "598.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 67,
+    "FacturaID": 23,
+    "DetalleOrdenID": 67,
+    "Descripcion": "Mochila Urbana para Laptop",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "249.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "249.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 68,
+    "FacturaID": 23,
+    "DetalleOrdenID": 68,
+    "Descripcion": "Mochila Escolar Reforzada",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "179.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "358.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 69,
+    "FacturaID": 23,
+    "DetalleOrdenID": 69,
+    "Descripcion": "Mochila de Viaje 35 L",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "349.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "349.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 70,
+    "FacturaID": 24,
+    "DetalleOrdenID": 70,
+    "Descripcion": "Bolso Casual de Lona",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "149.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "298.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 71,
+    "FacturaID": 24,
+    "DetalleOrdenID": 71,
+    "Descripcion": "Cartera Compacta Unisex",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "89.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "89.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 72,
+    "FacturaID": 24,
+    "DetalleOrdenID": 72,
+    "Descripcion": "Bolso Cruzado Impermeable",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "129.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "258.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 73,
+    "FacturaID": 25,
+    "DetalleOrdenID": 73,
+    "Descripcion": "Casco de Ciclismo Ajustable",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "229.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "229.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 74,
+    "FacturaID": 25,
+    "DetalleOrdenID": 74,
+    "Descripcion": "Luz Recargable para Bicicleta",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "99.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "198.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 75,
+    "FacturaID": 25,
+    "DetalleOrdenID": 75,
+    "Descripcion": "Bomba de Aire Portátil",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "79.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "79.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 76,
+    "FacturaID": 26,
+    "DetalleOrdenID": 76,
+    "Descripcion": "Par de Mancuernas 5 kg",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "249.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "498.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 77,
+    "FacturaID": 26,
+    "DetalleOrdenID": 77,
+    "Descripcion": "Bandas de Resistencia Set",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "119.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "119.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 78,
+    "FacturaID": 26,
+    "DetalleOrdenID": 78,
+    "Descripcion": "Colchoneta de Yoga 6 mm",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "99.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "198.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 79,
+    "FacturaID": 27,
+    "DetalleOrdenID": 79,
+    "Descripcion": "Tienda de Campaña para 2 Personas",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "599.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "599.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 80,
+    "FacturaID": 27,
+    "DetalleOrdenID": 80,
+    "Descripcion": "Linterna LED Recargable",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "149.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "298.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 81,
+    "FacturaID": 27,
+    "DetalleOrdenID": 81,
+    "Descripcion": "Botella Térmica de 750 ml",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "129.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "129.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 82,
+    "FacturaID": 28,
+    "DetalleOrdenID": 82,
+    "Descripcion": "Cepillo Dental Eléctrico",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "199.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "398.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 83,
+    "FacturaID": 28,
+    "DetalleOrdenID": 83,
+    "Descripcion": "Kit de Aseo de Viaje",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "79.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "79.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 84,
+    "FacturaID": 28,
+    "DetalleOrdenID": 84,
+    "Descripcion": "Dispensador de Jabón Recargable",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "149.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "298.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 85,
+    "FacturaID": 29,
+    "DetalleOrdenID": 85,
+    "Descripcion": "Secadora Compacta 1800 W",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "229.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "229.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 86,
+    "FacturaID": 29,
+    "DetalleOrdenID": 86,
+    "Descripcion": "Plancha Cerámica para Cabello",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "279.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "558.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 87,
+    "FacturaID": 29,
+    "DetalleOrdenID": 87,
+    "Descripcion": "Cepillo Desenredante",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "49.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "49.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 88,
+    "FacturaID": 30,
+    "DetalleOrdenID": 88,
+    "Descripcion": "Rodillo Facial de Cuarzo",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "89.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "178.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 89,
+    "FacturaID": 30,
+    "DetalleOrdenID": 89,
+    "Descripcion": "Espejo de Tocador LED",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "199.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "199.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 90,
+    "FacturaID": 30,
+    "DetalleOrdenID": 90,
+    "Descripcion": "Cepillo Facial de Silicona",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "129.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "258.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 91,
+    "FacturaID": 31,
+    "DetalleOrdenID": 91,
+    "Descripcion": "Juego de Destornilladores 12 Piezas",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "129.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "129.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 92,
+    "FacturaID": 31,
+    "DetalleOrdenID": 92,
+    "Descripcion": "Martillo de Uña 16 oz",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "79.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "158.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 93,
+    "FacturaID": 31,
+    "DetalleOrdenID": 93,
+    "Descripcion": "Juego de Llaves Combinadas",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "249.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "249.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 94,
+    "FacturaID": 32,
+    "DetalleOrdenID": 94,
+    "Descripcion": "Taladro Inalámbrico 20 V",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "699.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "1398.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 95,
+    "FacturaID": 32,
+    "DetalleOrdenID": 95,
+    "Descripcion": "Lijadora Orbital 240 W",
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "449.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "449.00"
+    }
+  },
+  {
+    "DetalleFacturaID": 96,
+    "FacturaID": 32,
+    "DetalleOrdenID": 96,
+    "Descripcion": "Atornillador Recargable 4 V",
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "199.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Impuesto": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "398.00"
+    }
+  }
+]

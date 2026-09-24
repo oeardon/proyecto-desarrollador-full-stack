@@ -1,0 +1,902 @@
+[
+  {
+    "OrdenID": 1,
+    "UsuarioID": 3,
+    "FechaOrden": {
+      "$date": "2026-08-01T16:00:00.000Z"
+    },
+    "DireccionPago": "Dirección de demostración 1, zona 1, Ciudad de Guatemala",
+    "DireccionEnvio": "Dirección de demostración 1, zona 1, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "15546.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "CostoEnvio": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "15546.00"
+    },
+    "Estado": "Entregada"
+  },
+  {
+    "OrdenID": 2,
+    "UsuarioID": 4,
+    "FechaOrden": {
+      "$date": "2026-08-02T16:00:00.000Z"
+    },
+    "DireccionPago": "Dirección de demostración 2, zona 2, Ciudad de Guatemala",
+    "DireccionEnvio": "Dirección de demostración 2, zona 2, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "5295.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "CostoEnvio": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "5295.00"
+    },
+    "Estado": "Entregada"
+  },
+  {
+    "OrdenID": 3,
+    "UsuarioID": 5,
+    "FechaOrden": {
+      "$date": "2026-08-03T16:00:00.000Z"
+    },
+    "DireccionPago": "Dirección de demostración 3, zona 3, Ciudad de Guatemala",
+    "DireccionEnvio": "Dirección de demostración 3, zona 3, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "3526.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "CostoEnvio": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "3526.00"
+    },
+    "Estado": "Entregada"
+  },
+  {
+    "OrdenID": 4,
+    "UsuarioID": 6,
+    "FechaOrden": {
+      "$date": "2026-08-04T16:00:00.000Z"
+    },
+    "DireccionPago": "Dirección de demostración 4, zona 4, Ciudad de Guatemala",
+    "DireccionEnvio": "Dirección de demostración 4, zona 4, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "15495.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "CostoEnvio": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "15495.00"
+    },
+    "Estado": "Entregada"
+  },
+  {
+    "OrdenID": 5,
+    "UsuarioID": 7,
+    "FechaOrden": {
+      "$date": "2026-08-05T16:00:00.000Z"
+    },
+    "DireccionPago": "Dirección de demostración 5, zona 5, Ciudad de Guatemala",
+    "DireccionEnvio": "Dirección de demostración 5, zona 5, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "1406.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "CostoEnvio": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "1406.00"
+    },
+    "Estado": "Entregada"
+  },
+  {
+    "OrdenID": 6,
+    "UsuarioID": 8,
+    "FechaOrden": {
+      "$date": "2026-08-06T16:00:00.000Z"
+    },
+    "DireccionPago": "Dirección de demostración 6, zona 6, Ciudad de Guatemala",
+    "DireccionEnvio": "Dirección de demostración 6, zona 6, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "21155.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "CostoEnvio": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "21155.00"
+    },
+    "Estado": "Entregada"
+  },
+  {
+    "OrdenID": 7,
+    "UsuarioID": 9,
+    "FechaOrden": {
+      "$date": "2026-08-07T16:00:00.000Z"
+    },
+    "DireccionPago": "Dirección de demostración 7, zona 7, Ciudad de Guatemala",
+    "DireccionEnvio": "Dirección de demostración 7, zona 7, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "6796.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "CostoEnvio": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "6796.00"
+    },
+    "Estado": "Entregada"
+  },
+  {
+    "OrdenID": 8,
+    "UsuarioID": 10,
+    "FechaOrden": {
+      "$date": "2026-08-08T16:00:00.000Z"
+    },
+    "DireccionPago": "Dirección de demostración 8, zona 8, Ciudad de Guatemala",
+    "DireccionEnvio": "Dirección de demostración 8, zona 8, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "1425.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "CostoEnvio": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "1425.00"
+    },
+    "Estado": "Entregada"
+  },
+  {
+    "OrdenID": 9,
+    "UsuarioID": 11,
+    "FechaOrden": {
+      "$date": "2026-08-09T16:00:00.000Z"
+    },
+    "DireccionPago": "Dirección de demostración 9, zona 9, Ciudad de Guatemala",
+    "DireccionEnvio": "Dirección de demostración 9, zona 9, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "2146.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "CostoEnvio": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "2146.00"
+    },
+    "Estado": "Entregada"
+  },
+  {
+    "OrdenID": 10,
+    "UsuarioID": 13,
+    "FechaOrden": {
+      "$date": "2026-08-10T16:00:00.000Z"
+    },
+    "DireccionPago": "Dirección de demostración 10, zona 10, Ciudad de Guatemala",
+    "DireccionEnvio": "Dirección de demostración 10, zona 10, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "15195.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "CostoEnvio": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "15195.00"
+    },
+    "Estado": "Entregada"
+  },
+  {
+    "OrdenID": 11,
+    "UsuarioID": 14,
+    "FechaOrden": {
+      "$date": "2026-08-11T16:00:00.000Z"
+    },
+    "DireccionPago": "Dirección de demostración 11, zona 11, Ciudad de Guatemala",
+    "DireccionEnvio": "Dirección de demostración 11, zona 11, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "1106.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "CostoEnvio": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "1106.00"
+    },
+    "Estado": "Entregada"
+  },
+  {
+    "OrdenID": 12,
+    "UsuarioID": 15,
+    "FechaOrden": {
+      "$date": "2026-08-12T16:00:00.000Z"
+    },
+    "DireccionPago": "Dirección de demostración 12, zona 12, Ciudad de Guatemala",
+    "DireccionEnvio": "Dirección de demostración 12, zona 12, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "1525.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "CostoEnvio": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "1525.00"
+    },
+    "Estado": "Entregada"
+  },
+  {
+    "OrdenID": 13,
+    "UsuarioID": 16,
+    "FechaOrden": {
+      "$date": "2026-08-13T16:00:00.000Z"
+    },
+    "DireccionPago": "Dirección de demostración 13, zona 1, Ciudad de Guatemala",
+    "DireccionEnvio": "Dirección de demostración 13, zona 1, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "3796.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "CostoEnvio": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "3796.00"
+    },
+    "Estado": "Entregada"
+  },
+  {
+    "OrdenID": 14,
+    "UsuarioID": 17,
+    "FechaOrden": {
+      "$date": "2026-08-14T16:00:00.000Z"
+    },
+    "DireccionPago": "Dirección de demostración 14, zona 2, Ciudad de Guatemala",
+    "DireccionEnvio": "Dirección de demostración 14, zona 2, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "1395.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "CostoEnvio": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "1395.00"
+    },
+    "Estado": "Entregada"
+  },
+  {
+    "OrdenID": 15,
+    "UsuarioID": 18,
+    "FechaOrden": {
+      "$date": "2026-08-15T16:00:00.000Z"
+    },
+    "DireccionPago": "Dirección de demostración 15, zona 3, Ciudad de Guatemala",
+    "DireccionEnvio": "Dirección de demostración 15, zona 3, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "586.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "CostoEnvio": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "586.00"
+    },
+    "Estado": "Entregada"
+  },
+  {
+    "OrdenID": 16,
+    "UsuarioID": 19,
+    "FechaOrden": {
+      "$date": "2026-08-16T16:00:00.000Z"
+    },
+    "DireccionPago": "Dirección de demostración 16, zona 4, Ciudad de Guatemala",
+    "DireccionEnvio": "Dirección de demostración 16, zona 4, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "1265.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "CostoEnvio": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "1265.00"
+    },
+    "Estado": "Entregada"
+  },
+  {
+    "OrdenID": 17,
+    "UsuarioID": 20,
+    "FechaOrden": {
+      "$date": "2026-08-17T16:00:00.000Z"
+    },
+    "DireccionPago": "Dirección de demostración 17, zona 5, Ciudad de Guatemala",
+    "DireccionEnvio": "Dirección de demostración 17, zona 5, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "2296.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "CostoEnvio": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "2296.00"
+    },
+    "Estado": "Entregada"
+  },
+  {
+    "OrdenID": 18,
+    "UsuarioID": 21,
+    "FechaOrden": {
+      "$date": "2026-08-18T16:00:00.000Z"
+    },
+    "DireccionPago": "Dirección de demostración 18, zona 6, Ciudad de Guatemala",
+    "DireccionEnvio": "Dirección de demostración 18, zona 6, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "1745.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "CostoEnvio": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "1745.00"
+    },
+    "Estado": "Entregada"
+  },
+  {
+    "OrdenID": 19,
+    "UsuarioID": 23,
+    "FechaOrden": {
+      "$date": "2026-08-19T16:00:00.000Z"
+    },
+    "DireccionPago": "Dirección de demostración 19, zona 7, Ciudad de Guatemala",
+    "DireccionEnvio": "Dirección de demostración 19, zona 7, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "1166.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "CostoEnvio": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "1166.00"
+    },
+    "Estado": "Enviada"
+  },
+  {
+    "OrdenID": 20,
+    "UsuarioID": 24,
+    "FechaOrden": {
+      "$date": "2026-08-20T16:00:00.000Z"
+    },
+    "DireccionPago": "Dirección de demostración 20, zona 8, Ciudad de Guatemala",
+    "DireccionEnvio": "Dirección de demostración 20, zona 8, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "455.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "CostoEnvio": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "455.00"
+    },
+    "Estado": "Enviada"
+  },
+  {
+    "OrdenID": 21,
+    "UsuarioID": 25,
+    "FechaOrden": {
+      "$date": "2026-08-21T16:00:00.000Z"
+    },
+    "DireccionPago": "Dirección de demostración 21, zona 9, Ciudad de Guatemala",
+    "DireccionEnvio": "Dirección de demostración 21, zona 9, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "946.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "CostoEnvio": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "946.00"
+    },
+    "Estado": "Enviada"
+  },
+  {
+    "OrdenID": 22,
+    "UsuarioID": 26,
+    "FechaOrden": {
+      "$date": "2026-08-22T16:00:00.000Z"
+    },
+    "DireccionPago": "Dirección de demostración 22, zona 10, Ciudad de Guatemala",
+    "DireccionEnvio": "Dirección de demostración 22, zona 10, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "1465.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "CostoEnvio": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "1465.00"
+    },
+    "Estado": "Enviada"
+  },
+  {
+    "OrdenID": 23,
+    "UsuarioID": 27,
+    "FechaOrden": {
+      "$date": "2026-08-23T16:00:00.000Z"
+    },
+    "DireccionPago": "Dirección de demostración 23, zona 11, Ciudad de Guatemala",
+    "DireccionEnvio": "Dirección de demostración 23, zona 11, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "956.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "CostoEnvio": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "956.00"
+    },
+    "Estado": "Enviada"
+  },
+  {
+    "OrdenID": 24,
+    "UsuarioID": 28,
+    "FechaOrden": {
+      "$date": "2026-08-24T16:00:00.000Z"
+    },
+    "DireccionPago": "Dirección de demostración 24, zona 12, Ciudad de Guatemala",
+    "DireccionEnvio": "Dirección de demostración 24, zona 12, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "645.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "CostoEnvio": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "645.00"
+    },
+    "Estado": "Procesando"
+  },
+  {
+    "OrdenID": 25,
+    "UsuarioID": 29,
+    "FechaOrden": {
+      "$date": "2026-08-25T16:00:00.000Z"
+    },
+    "DireccionPago": "Dirección de demostración 25, zona 1, Ciudad de Guatemala",
+    "DireccionEnvio": "Dirección de demostración 25, zona 1, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "506.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "CostoEnvio": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "506.00"
+    },
+    "Estado": "Procesando"
+  },
+  {
+    "OrdenID": 26,
+    "UsuarioID": 30,
+    "FechaOrden": {
+      "$date": "2026-08-26T16:00:00.000Z"
+    },
+    "DireccionPago": "Dirección de demostración 26, zona 2, Ciudad de Guatemala",
+    "DireccionEnvio": "Dirección de demostración 26, zona 2, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "815.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "CostoEnvio": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "815.00"
+    },
+    "Estado": "Procesando"
+  },
+  {
+    "OrdenID": 27,
+    "UsuarioID": 31,
+    "FechaOrden": {
+      "$date": "2026-08-27T16:00:00.000Z"
+    },
+    "DireccionPago": "Dirección de demostración 27, zona 3, Ciudad de Guatemala",
+    "DireccionEnvio": "Dirección de demostración 27, zona 3, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "1026.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "CostoEnvio": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "1026.00"
+    },
+    "Estado": "Procesando"
+  },
+  {
+    "OrdenID": 28,
+    "UsuarioID": 33,
+    "FechaOrden": {
+      "$date": "2026-08-28T16:00:00.000Z"
+    },
+    "DireccionPago": "Dirección de demostración 28, zona 4, Ciudad de Guatemala",
+    "DireccionEnvio": "Dirección de demostración 28, zona 4, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "775.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "CostoEnvio": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "775.00"
+    },
+    "Estado": "Procesando"
+  },
+  {
+    "OrdenID": 29,
+    "UsuarioID": 34,
+    "FechaOrden": {
+      "$date": "2026-08-29T16:00:00.000Z"
+    },
+    "DireccionPago": "Dirección de demostración 29, zona 5, Ciudad de Guatemala",
+    "DireccionEnvio": "Dirección de demostración 29, zona 5, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "836.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "CostoEnvio": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "836.00"
+    },
+    "Estado": "Confirmada"
+  },
+  {
+    "OrdenID": 30,
+    "UsuarioID": 35,
+    "FechaOrden": {
+      "$date": "2026-08-30T16:00:00.000Z"
+    },
+    "DireccionPago": "Dirección de demostración 30, zona 6, Ciudad de Guatemala",
+    "DireccionEnvio": "Dirección de demostración 30, zona 6, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "635.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "CostoEnvio": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "635.00"
+    },
+    "Estado": "Confirmada"
+  },
+  {
+    "OrdenID": 31,
+    "UsuarioID": 36,
+    "FechaOrden": {
+      "$date": "2026-08-31T16:00:00.000Z"
+    },
+    "DireccionPago": "Dirección de demostración 31, zona 7, Ciudad de Guatemala",
+    "DireccionEnvio": "Dirección de demostración 31, zona 7, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "536.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "CostoEnvio": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "536.00"
+    },
+    "Estado": "Confirmada"
+  },
+  {
+    "OrdenID": 32,
+    "UsuarioID": 37,
+    "FechaOrden": {
+      "$date": "2026-09-01T16:00:00.000Z"
+    },
+    "DireccionPago": "Dirección de demostración 32, zona 8, Ciudad de Guatemala",
+    "DireccionEnvio": "Dirección de demostración 32, zona 8, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "2245.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "CostoEnvio": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "2245.00"
+    },
+    "Estado": "Confirmada"
+  },
+  {
+    "OrdenID": 33,
+    "UsuarioID": 38,
+    "FechaOrden": {
+      "$date": "2026-09-02T16:00:00.000Z"
+    },
+    "DireccionPago": "Dirección de demostración 33, zona 9, Ciudad de Guatemala",
+    "DireccionEnvio": "Dirección de demostración 33, zona 9, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "256.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "CostoEnvio": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "256.00"
+    },
+    "Estado": "Pendiente"
+  },
+  {
+    "OrdenID": 34,
+    "UsuarioID": 39,
+    "FechaOrden": {
+      "$date": "2026-09-03T16:00:00.000Z"
+    },
+    "DireccionPago": "Dirección de demostración 34, zona 10, Ciudad de Guatemala",
+    "DireccionEnvio": "Dirección de demostración 34, zona 10, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "555.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "CostoEnvio": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "555.00"
+    },
+    "Estado": "Pendiente"
+  },
+  {
+    "OrdenID": 35,
+    "UsuarioID": 40,
+    "FechaOrden": {
+      "$date": "2026-09-04T16:00:00.000Z"
+    },
+    "DireccionPago": "Dirección de demostración 35, zona 11, Ciudad de Guatemala",
+    "DireccionEnvio": "Dirección de demostración 35, zona 11, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "496.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "CostoEnvio": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "496.00"
+    },
+    "Estado": "Cancelada"
+  },
+  {
+    "OrdenID": 36,
+    "UsuarioID": 41,
+    "FechaOrden": {
+      "$date": "2026-09-05T16:00:00.000Z"
+    },
+    "DireccionPago": "Dirección de demostración 36, zona 12, Ciudad de Guatemala",
+    "DireccionEnvio": "Dirección de demostración 36, zona 12, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "565.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "CostoEnvio": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "565.00"
+    },
+    "Estado": "Cancelada"
+  }
+]

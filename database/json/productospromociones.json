@@ -1,0 +1,434 @@
+[
+  {
+    "ProductoID": 1,
+    "PromocionID": 1
+  },
+  {
+    "ProductoID": 9,
+    "PromocionID": 1
+  },
+  {
+    "ProductoID": 10,
+    "PromocionID": 1
+  },
+  {
+    "ProductoID": 11,
+    "PromocionID": 1
+  },
+  {
+    "ProductoID": 12,
+    "PromocionID": 1
+  },
+  {
+    "ProductoID": 13,
+    "PromocionID": 1
+  },
+  {
+    "ProductoID": 14,
+    "PromocionID": 1
+  },
+  {
+    "ProductoID": 15,
+    "PromocionID": 1
+  },
+  {
+    "ProductoID": 16,
+    "PromocionID": 1
+  },
+  {
+    "ProductoID": 2,
+    "PromocionID": 2
+  },
+  {
+    "ProductoID": 6,
+    "PromocionID": 2
+  },
+  {
+    "ProductoID": 17,
+    "PromocionID": 2
+  },
+  {
+    "ProductoID": 18,
+    "PromocionID": 2
+  },
+  {
+    "ProductoID": 19,
+    "PromocionID": 2
+  },
+  {
+    "ProductoID": 20,
+    "PromocionID": 2
+  },
+  {
+    "ProductoID": 21,
+    "PromocionID": 2
+  },
+  {
+    "ProductoID": 22,
+    "PromocionID": 2
+  },
+  {
+    "ProductoID": 23,
+    "PromocionID": 2
+  },
+  {
+    "ProductoID": 3,
+    "PromocionID": 3
+  },
+  {
+    "ProductoID": 7,
+    "PromocionID": 3
+  },
+  {
+    "ProductoID": 24,
+    "PromocionID": 3
+  },
+  {
+    "ProductoID": 25,
+    "PromocionID": 3
+  },
+  {
+    "ProductoID": 26,
+    "PromocionID": 3
+  },
+  {
+    "ProductoID": 27,
+    "PromocionID": 3
+  },
+  {
+    "ProductoID": 28,
+    "PromocionID": 3
+  },
+  {
+    "ProductoID": 29,
+    "PromocionID": 3
+  },
+  {
+    "ProductoID": 30,
+    "PromocionID": 3
+  },
+  {
+    "ProductoID": 4,
+    "PromocionID": 4
+  },
+  {
+    "ProductoID": 31,
+    "PromocionID": 4
+  },
+  {
+    "ProductoID": 32,
+    "PromocionID": 4
+  },
+  {
+    "ProductoID": 33,
+    "PromocionID": 4
+  },
+  {
+    "ProductoID": 34,
+    "PromocionID": 4
+  },
+  {
+    "ProductoID": 35,
+    "PromocionID": 4
+  },
+  {
+    "ProductoID": 36,
+    "PromocionID": 4
+  },
+  {
+    "ProductoID": 37,
+    "PromocionID": 4
+  },
+  {
+    "ProductoID": 38,
+    "PromocionID": 4
+  },
+  {
+    "ProductoID": 8,
+    "PromocionID": 5
+  },
+  {
+    "ProductoID": 39,
+    "PromocionID": 5
+  },
+  {
+    "ProductoID": 40,
+    "PromocionID": 5
+  },
+  {
+    "ProductoID": 41,
+    "PromocionID": 5
+  },
+  {
+    "ProductoID": 42,
+    "PromocionID": 5
+  },
+  {
+    "ProductoID": 43,
+    "PromocionID": 5
+  },
+  {
+    "ProductoID": 44,
+    "PromocionID": 5
+  },
+  {
+    "ProductoID": 45,
+    "PromocionID": 5
+  },
+  {
+    "ProductoID": 46,
+    "PromocionID": 5
+  },
+  {
+    "ProductoID": 47,
+    "PromocionID": 6
+  },
+  {
+    "ProductoID": 48,
+    "PromocionID": 6
+  },
+  {
+    "ProductoID": 49,
+    "PromocionID": 6
+  },
+  {
+    "ProductoID": 50,
+    "PromocionID": 6
+  },
+  {
+    "ProductoID": 51,
+    "PromocionID": 6
+  },
+  {
+    "ProductoID": 52,
+    "PromocionID": 6
+  },
+  {
+    "ProductoID": 53,
+    "PromocionID": 6
+  },
+  {
+    "ProductoID": 54,
+    "PromocionID": 6
+  },
+  {
+    "ProductoID": 55,
+    "PromocionID": 6
+  },
+  {
+    "ProductoID": 56,
+    "PromocionID": 7
+  },
+  {
+    "ProductoID": 57,
+    "PromocionID": 7
+  },
+  {
+    "ProductoID": 58,
+    "PromocionID": 7
+  },
+  {
+    "ProductoID": 59,
+    "PromocionID": 7
+  },
+  {
+    "ProductoID": 60,
+    "PromocionID": 7
+  },
+  {
+    "ProductoID": 61,
+    "PromocionID": 7
+  },
+  {
+    "ProductoID": 62,
+    "PromocionID": 7
+  },
+  {
+    "ProductoID": 63,
+    "PromocionID": 7
+  },
+  {
+    "ProductoID": 64,
+    "PromocionID": 7
+  },
+  {
+    "ProductoID": 5,
+    "PromocionID": 8
+  },
+  {
+    "ProductoID": 65,
+    "PromocionID": 8
+  },
+  {
+    "ProductoID": 66,
+    "PromocionID": 8
+  },
+  {
+    "ProductoID": 67,
+    "PromocionID": 8
+  },
+  {
+    "ProductoID": 68,
+    "PromocionID": 8
+  },
+  {
+    "ProductoID": 69,
+    "PromocionID": 8
+  },
+  {
+    "ProductoID": 70,
+    "PromocionID": 8
+  },
+  {
+    "ProductoID": 71,
+    "PromocionID": 8
+  },
+  {
+    "ProductoID": 72,
+    "PromocionID": 8
+  },
+  {
+    "ProductoID": 73,
+    "PromocionID": 9
+  },
+  {
+    "ProductoID": 74,
+    "PromocionID": 9
+  },
+  {
+    "ProductoID": 75,
+    "PromocionID": 9
+  },
+  {
+    "ProductoID": 76,
+    "PromocionID": 9
+  },
+  {
+    "ProductoID": 77,
+    "PromocionID": 9
+  },
+  {
+    "ProductoID": 78,
+    "PromocionID": 9
+  },
+  {
+    "ProductoID": 79,
+    "PromocionID": 9
+  },
+  {
+    "ProductoID": 80,
+    "PromocionID": 9
+  },
+  {
+    "ProductoID": 81,
+    "PromocionID": 9
+  },
+  {
+    "ProductoID": 82,
+    "PromocionID": 10
+  },
+  {
+    "ProductoID": 83,
+    "PromocionID": 10
+  },
+  {
+    "ProductoID": 84,
+    "PromocionID": 10
+  },
+  {
+    "ProductoID": 85,
+    "PromocionID": 10
+  },
+  {
+    "ProductoID": 86,
+    "PromocionID": 10
+  },
+  {
+    "ProductoID": 87,
+    "PromocionID": 10
+  },
+  {
+    "ProductoID": 88,
+    "PromocionID": 10
+  },
+  {
+    "ProductoID": 89,
+    "PromocionID": 10
+  },
+  {
+    "ProductoID": 90,
+    "PromocionID": 10
+  },
+  {
+    "ProductoID": 91,
+    "PromocionID": 11
+  },
+  {
+    "ProductoID": 92,
+    "PromocionID": 11
+  },
+  {
+    "ProductoID": 93,
+    "PromocionID": 11
+  },
+  {
+    "ProductoID": 94,
+    "PromocionID": 11
+  },
+  {
+    "ProductoID": 95,
+    "PromocionID": 11
+  },
+  {
+    "ProductoID": 96,
+    "PromocionID": 11
+  },
+  {
+    "ProductoID": 97,
+    "PromocionID": 11
+  },
+  {
+    "ProductoID": 98,
+    "PromocionID": 11
+  },
+  {
+    "ProductoID": 99,
+    "PromocionID": 11
+  },
+  {
+    "ProductoID": 100,
+    "PromocionID": 12
+  },
+  {
+    "ProductoID": 101,
+    "PromocionID": 12
+  },
+  {
+    "ProductoID": 102,
+    "PromocionID": 12
+  },
+  {
+    "ProductoID": 103,
+    "PromocionID": 12
+  },
+  {
+    "ProductoID": 104,
+    "PromocionID": 12
+  },
+  {
+    "ProductoID": 105,
+    "PromocionID": 12
+  },
+  {
+    "ProductoID": 106,
+    "PromocionID": 12
+  },
+  {
+    "ProductoID": 107,
+    "PromocionID": 12
+  },
+  {
+    "ProductoID": 108,
+    "PromocionID": 12
+  }
+]

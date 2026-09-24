@@ -1,0 +1,338 @@
+[
+  {
+    "CategoriaID": 1,
+    "Nombre": "Celulares y tablets",
+    "Descripcion": "Selección de celulares y tablets para la tienda TodoAquí.",
+    "Estado": "Activo",
+    "CategoriaPadreID": null
+  },
+  {
+    "CategoriaID": 2,
+    "Nombre": "Computación",
+    "Descripcion": "Selección de computación para la tienda TodoAquí.",
+    "Estado": "Activo",
+    "CategoriaPadreID": null
+  },
+  {
+    "CategoriaID": 3,
+    "Nombre": "Audio y video",
+    "Descripcion": "Selección de audio y video para la tienda TodoAquí.",
+    "Estado": "Activo",
+    "CategoriaPadreID": null
+  },
+  {
+    "CategoriaID": 4,
+    "Nombre": "Gaming",
+    "Descripcion": "Selección de gaming para la tienda TodoAquí.",
+    "Estado": "Activo",
+    "CategoriaPadreID": null
+  },
+  {
+    "CategoriaID": 5,
+    "Nombre": "Hogar inteligente",
+    "Descripcion": "Selección de hogar inteligente para la tienda TodoAquí.",
+    "Estado": "Activo",
+    "CategoriaPadreID": null
+  },
+  {
+    "CategoriaID": 6,
+    "Nombre": "Electrodomésticos",
+    "Descripcion": "Selección de electrodomésticos para la tienda TodoAquí.",
+    "Estado": "Activo",
+    "CategoriaPadreID": null
+  },
+  {
+    "CategoriaID": 7,
+    "Nombre": "Hogar y cocina",
+    "Descripcion": "Selección de hogar y cocina para la tienda TodoAquí.",
+    "Estado": "Activo",
+    "CategoriaPadreID": null
+  },
+  {
+    "CategoriaID": 8,
+    "Nombre": "Moda y accesorios",
+    "Descripcion": "Selección de moda y accesorios para la tienda TodoAquí.",
+    "Estado": "Activo",
+    "CategoriaPadreID": null
+  },
+  {
+    "CategoriaID": 9,
+    "Nombre": "Deportes y aire libre",
+    "Descripcion": "Selección de deportes y aire libre para la tienda TodoAquí.",
+    "Estado": "Activo",
+    "CategoriaPadreID": null
+  },
+  {
+    "CategoriaID": 10,
+    "Nombre": "Belleza y cuidado personal",
+    "Descripcion": "Selección de belleza y cuidado personal para la tienda TodoAquí.",
+    "Estado": "Activo",
+    "CategoriaPadreID": null
+  },
+  {
+    "CategoriaID": 11,
+    "Nombre": "Herramientas y ferretería",
+    "Descripcion": "Selección de herramientas y ferretería para la tienda TodoAquí.",
+    "Estado": "Activo",
+    "CategoriaPadreID": null
+  },
+  {
+    "CategoriaID": 12,
+    "Nombre": "Mascotas",
+    "Descripcion": "Selección de mascotas para la tienda TodoAquí.",
+    "Estado": "Activo",
+    "CategoriaPadreID": null
+  },
+  {
+    "CategoriaID": 13,
+    "Nombre": "Smartphones",
+    "Descripcion": "Productos de smartphones de la categoría Celulares y tablets.",
+    "Estado": "Activo",
+    "CategoriaPadreID": 1
+  },
+  {
+    "CategoriaID": 14,
+    "Nombre": "Tablets",
+    "Descripcion": "Productos de tablets de la categoría Celulares y tablets.",
+    "Estado": "Activo",
+    "CategoriaPadreID": 1
+  },
+  {
+    "CategoriaID": 15,
+    "Nombre": "Cargadores móviles",
+    "Descripcion": "Productos de cargadores móviles de la categoría Celulares y tablets.",
+    "Estado": "Activo",
+    "CategoriaPadreID": 1
+  },
+  {
+    "CategoriaID": 16,
+    "Nombre": "Portátiles",
+    "Descripcion": "Productos de portátiles de la categoría Computación.",
+    "Estado": "Activo",
+    "CategoriaPadreID": 2
+  },
+  {
+    "CategoriaID": 17,
+    "Nombre": "Monitores",
+    "Descripcion": "Productos de monitores de la categoría Computación.",
+    "Estado": "Activo",
+    "CategoriaPadreID": 2
+  },
+  {
+    "CategoriaID": 18,
+    "Nombre": "Almacenamiento",
+    "Descripcion": "Productos de almacenamiento de la categoría Computación.",
+    "Estado": "Activo",
+    "CategoriaPadreID": 2
+  },
+  {
+    "CategoriaID": 19,
+    "Nombre": "Audífonos",
+    "Descripcion": "Productos de audífonos de la categoría Audio y video.",
+    "Estado": "Activo",
+    "CategoriaPadreID": 3
+  },
+  {
+    "CategoriaID": 20,
+    "Nombre": "Bocinas",
+    "Descripcion": "Productos de bocinas de la categoría Audio y video.",
+    "Estado": "Activo",
+    "CategoriaPadreID": 3
+  },
+  {
+    "CategoriaID": 21,
+    "Nombre": "Televisores",
+    "Descripcion": "Productos de televisores de la categoría Audio y video.",
+    "Estado": "Activo",
+    "CategoriaPadreID": 3
+  },
+  {
+    "CategoriaID": 22,
+    "Nombre": "Teclados gaming",
+    "Descripcion": "Productos de teclados gaming de la categoría Gaming.",
+    "Estado": "Activo",
+    "CategoriaPadreID": 4
+  },
+  {
+    "CategoriaID": 23,
+    "Nombre": "Ratones gaming",
+    "Descripcion": "Productos de ratones gaming de la categoría Gaming.",
+    "Estado": "Activo",
+    "CategoriaPadreID": 4
+  },
+  {
+    "CategoriaID": 24,
+    "Nombre": "Controles gaming",
+    "Descripcion": "Productos de controles gaming de la categoría Gaming.",
+    "Estado": "Activo",
+    "CategoriaPadreID": 4
+  },
+  {
+    "CategoriaID": 25,
+    "Nombre": "Cámaras de seguridad",
+    "Descripcion": "Productos de cámaras de seguridad de la categoría Hogar inteligente.",
+    "Estado": "Activo",
+    "CategoriaPadreID": 5
+  },
+  {
+    "CategoriaID": 26,
+    "Nombre": "Iluminación inteligente",
+    "Descripcion": "Productos de iluminación inteligente de la categoría Hogar inteligente.",
+    "Estado": "Activo",
+    "CategoriaPadreID": 5
+  },
+  {
+    "CategoriaID": 27,
+    "Nombre": "Sensores domésticos",
+    "Descripcion": "Productos de sensores domésticos de la categoría Hogar inteligente.",
+    "Estado": "Activo",
+    "CategoriaPadreID": 5
+  },
+  {
+    "CategoriaID": 28,
+    "Nombre": "Cocina eléctrica",
+    "Descripcion": "Productos de cocina eléctrica de la categoría Electrodomésticos.",
+    "Estado": "Activo",
+    "CategoriaPadreID": 6
+  },
+  {
+    "CategoriaID": 29,
+    "Nombre": "Limpieza eléctrica",
+    "Descripcion": "Productos de limpieza eléctrica de la categoría Electrodomésticos.",
+    "Estado": "Activo",
+    "CategoriaPadreID": 6
+  },
+  {
+    "CategoriaID": 30,
+    "Nombre": "Ventilación",
+    "Descripcion": "Productos de ventilación de la categoría Electrodomésticos.",
+    "Estado": "Activo",
+    "CategoriaPadreID": 6
+  },
+  {
+    "CategoriaID": 31,
+    "Nombre": "Utensilios de cocina",
+    "Descripcion": "Productos de utensilios de cocina de la categoría Hogar y cocina.",
+    "Estado": "Activo",
+    "CategoriaPadreID": 7
+  },
+  {
+    "CategoriaID": 32,
+    "Nombre": "Organización del hogar",
+    "Descripcion": "Productos de organización del hogar de la categoría Hogar y cocina.",
+    "Estado": "Activo",
+    "CategoriaPadreID": 7
+  },
+  {
+    "CategoriaID": 33,
+    "Nombre": "Ropa de cama",
+    "Descripcion": "Productos de ropa de cama de la categoría Hogar y cocina.",
+    "Estado": "Activo",
+    "CategoriaPadreID": 7
+  },
+  {
+    "CategoriaID": 34,
+    "Nombre": "Relojes inteligentes",
+    "Descripcion": "Productos de relojes inteligentes de la categoría Moda y accesorios.",
+    "Estado": "Activo",
+    "CategoriaPadreID": 8
+  },
+  {
+    "CategoriaID": 35,
+    "Nombre": "Mochilas",
+    "Descripcion": "Productos de mochilas de la categoría Moda y accesorios.",
+    "Estado": "Activo",
+    "CategoriaPadreID": 8
+  },
+  {
+    "CategoriaID": 36,
+    "Nombre": "Bolsos y carteras",
+    "Descripcion": "Productos de bolsos y carteras de la categoría Moda y accesorios.",
+    "Estado": "Activo",
+    "CategoriaPadreID": 8
+  },
+  {
+    "CategoriaID": 37,
+    "Nombre": "Ciclismo",
+    "Descripcion": "Productos de ciclismo de la categoría Deportes y aire libre.",
+    "Estado": "Activo",
+    "CategoriaPadreID": 9
+  },
+  {
+    "CategoriaID": 38,
+    "Nombre": "Entrenamiento en casa",
+    "Descripcion": "Productos de entrenamiento en casa de la categoría Deportes y aire libre.",
+    "Estado": "Activo",
+    "CategoriaPadreID": 9
+  },
+  {
+    "CategoriaID": 39,
+    "Nombre": "Campismo",
+    "Descripcion": "Productos de campismo de la categoría Deportes y aire libre.",
+    "Estado": "Activo",
+    "CategoriaPadreID": 9
+  },
+  {
+    "CategoriaID": 40,
+    "Nombre": "Higiene personal",
+    "Descripcion": "Productos de higiene personal de la categoría Belleza y cuidado personal.",
+    "Estado": "Activo",
+    "CategoriaPadreID": 10
+  },
+  {
+    "CategoriaID": 41,
+    "Nombre": "Cuidado del cabello",
+    "Descripcion": "Productos de cuidado del cabello de la categoría Belleza y cuidado personal.",
+    "Estado": "Activo",
+    "CategoriaPadreID": 10
+  },
+  {
+    "CategoriaID": 42,
+    "Nombre": "Cuidado de la piel",
+    "Descripcion": "Productos de cuidado de la piel de la categoría Belleza y cuidado personal.",
+    "Estado": "Activo",
+    "CategoriaPadreID": 10
+  },
+  {
+    "CategoriaID": 43,
+    "Nombre": "Herramientas manuales",
+    "Descripcion": "Productos de herramientas manuales de la categoría Herramientas y ferretería.",
+    "Estado": "Activo",
+    "CategoriaPadreID": 11
+  },
+  {
+    "CategoriaID": 44,
+    "Nombre": "Herramientas eléctricas",
+    "Descripcion": "Productos de herramientas eléctricas de la categoría Herramientas y ferretería.",
+    "Estado": "Activo",
+    "CategoriaPadreID": 11
+  },
+  {
+    "CategoriaID": 45,
+    "Nombre": "Seguridad industrial",
+    "Descripcion": "Productos de seguridad industrial de la categoría Herramientas y ferretería.",
+    "Estado": "Activo",
+    "CategoriaPadreID": 11
+  },
+  {
+    "CategoriaID": 46,
+    "Nombre": "Alimentación para mascotas",
+    "Descripcion": "Productos de alimentación para mascotas de la categoría Mascotas.",
+    "Estado": "Activo",
+    "CategoriaPadreID": 12
+  },
+  {
+    "CategoriaID": 47,
+    "Nombre": "Juguetes para mascotas",
+    "Descripcion": "Productos de juguetes para mascotas de la categoría Mascotas.",
+    "Estado": "Activo",
+    "CategoriaPadreID": 12
+  },
+  {
+    "CategoriaID": 48,
+    "Nombre": "Accesorios para mascotas",
+    "Descripcion": "Productos de accesorios para mascotas de la categoría Mascotas.",
+    "Estado": "Activo",
+    "CategoriaPadreID": 12
+  }
+]

@@ -1,0 +1,230 @@
+[
+  {
+    "PromocionID": 1,
+    "Nombre": "Septiembre: Celulares y tablets",
+    "Descripcion": "Promoción de demostración para celulares y tablets.",
+    "TipoDescuento": "Porcentaje",
+    "ValorDescuento": {
+      "$numberDecimal": "10.00"
+    },
+    "FechaInicio": {
+      "$date": "2026-09-01T06:00:00.000Z"
+    },
+    "FechaFin": {
+      "$date": "2027-01-01T05:59:59.000Z"
+    },
+    "RequiereCupon": true,
+    "CodigoCupon": "DEMO01",
+    "AplicaTodosProductos": false,
+    "Estado": "Activo"
+  },
+  {
+    "PromocionID": 2,
+    "Nombre": "Septiembre: Computación",
+    "Descripcion": "Promoción de demostración para computación.",
+    "TipoDescuento": "Monto",
+    "ValorDescuento": {
+      "$numberDecimal": "25.00"
+    },
+    "FechaInicio": {
+      "$date": "2026-09-01T06:00:00.000Z"
+    },
+    "FechaFin": {
+      "$date": "2027-01-01T05:59:59.000Z"
+    },
+    "RequiereCupon": true,
+    "CodigoCupon": "DEMO02",
+    "AplicaTodosProductos": false,
+    "Estado": "Activo"
+  },
+  {
+    "PromocionID": 3,
+    "Nombre": "Septiembre: Audio y video",
+    "Descripcion": "Promoción de demostración para audio y video.",
+    "TipoDescuento": "Porcentaje",
+    "ValorDescuento": {
+      "$numberDecimal": "10.00"
+    },
+    "FechaInicio": {
+      "$date": "2026-09-01T06:00:00.000Z"
+    },
+    "FechaFin": {
+      "$date": "2027-01-01T05:59:59.000Z"
+    },
+    "RequiereCupon": true,
+    "CodigoCupon": "DEMO03",
+    "AplicaTodosProductos": false,
+    "Estado": "Activo"
+  },
+  {
+    "PromocionID": 4,
+    "Nombre": "Septiembre: Gaming",
+    "Descripcion": "Promoción de demostración para gaming.",
+    "TipoDescuento": "Monto",
+    "ValorDescuento": {
+      "$numberDecimal": "25.00"
+    },
+    "FechaInicio": {
+      "$date": "2026-09-01T06:00:00.000Z"
+    },
+    "FechaFin": {
+      "$date": "2027-01-01T05:59:59.000Z"
+    },
+    "RequiereCupon": true,
+    "CodigoCupon": "DEMO04",
+    "AplicaTodosProductos": false,
+    "Estado": "Activo"
+  },
+  {
+    "PromocionID": 5,
+    "Nombre": "Septiembre: Hogar inteligente",
+    "Descripcion": "Promoción de demostración para hogar inteligente.",
+    "TipoDescuento": "Porcentaje",
+    "ValorDescuento": {
+      "$numberDecimal": "10.00"
+    },
+    "FechaInicio": {
+      "$date": "2026-09-01T06:00:00.000Z"
+    },
+    "FechaFin": {
+      "$date": "2027-01-01T05:59:59.000Z"
+    },
+    "RequiereCupon": true,
+    "CodigoCupon": "DEMO05",
+    "AplicaTodosProductos": false,
+    "Estado": "Activo"
+  },
+  {
+    "PromocionID": 6,
+    "Nombre": "Septiembre: Electrodomésticos",
+    "Descripcion": "Promoción de demostración para electrodomésticos.",
+    "TipoDescuento": "Monto",
+    "ValorDescuento": {
+      "$numberDecimal": "25.00"
+    },
+    "FechaInicio": {
+      "$date": "2026-09-01T06:00:00.000Z"
+    },
+    "FechaFin": {
+      "$date": "2027-01-01T05:59:59.000Z"
+    },
+    "RequiereCupon": true,
+    "CodigoCupon": "DEMO06",
+    "AplicaTodosProductos": false,
+    "Estado": "Activo"
+  },
+  {
+    "PromocionID": 7,
+    "Nombre": "Septiembre: Hogar y cocina",
+    "Descripcion": "Promoción de demostración para hogar y cocina.",
+    "TipoDescuento": "Porcentaje",
+    "ValorDescuento": {
+      "$numberDecimal": "10.00"
+    },
+    "FechaInicio": {
+      "$date": "2026-09-01T06:00:00.000Z"
+    },
+    "FechaFin": {
+      "$date": "2027-01-01T05:59:59.000Z"
+    },
+    "RequiereCupon": true,
+    "CodigoCupon": "DEMO07",
+    "AplicaTodosProductos": false,
+    "Estado": "Activo"
+  },
+  {
+    "PromocionID": 8,
+    "Nombre": "Septiembre: Moda y accesorios",
+    "Descripcion": "Promoción de demostración para moda y accesorios.",
+    "TipoDescuento": "Monto",
+    "ValorDescuento": {
+      "$numberDecimal": "25.00"
+    },
+    "FechaInicio": {
+      "$date": "2026-09-01T06:00:00.000Z"
+    },
+    "FechaFin": {
+      "$date": "2027-01-01T05:59:59.000Z"
+    },
+    "RequiereCupon": true,
+    "CodigoCupon": "DEMO08",
+    "AplicaTodosProductos": false,
+    "Estado": "Activo"
+  },
+  {
+    "PromocionID": 9,
+    "Nombre": "Septiembre: Deportes y aire libre",
+    "Descripcion": "Promoción de demostración para deportes y aire libre.",
+    "TipoDescuento": "Porcentaje",
+    "ValorDescuento": {
+      "$numberDecimal": "10.00"
+    },
+    "FechaInicio": {
+      "$date": "2026-09-01T06:00:00.000Z"
+    },
+    "FechaFin": {
+      "$date": "2027-01-01T05:59:59.000Z"
+    },
+    "RequiereCupon": true,
+    "CodigoCupon": "DEMO09",
+    "AplicaTodosProductos": false,
+    "Estado": "Activo"
+  },
+  {
+    "PromocionID": 10,
+    "Nombre": "Septiembre: Belleza y cuidado personal",
+    "Descripcion": "Promoción de demostración para belleza y cuidado personal.",
+    "TipoDescuento": "Monto",
+    "ValorDescuento": {
+      "$numberDecimal": "25.00"
+    },
+    "FechaInicio": {
+      "$date": "2026-09-01T06:00:00.000Z"
+    },
+    "FechaFin": {
+      "$date": "2027-01-01T05:59:59.000Z"
+    },
+    "RequiereCupon": true,
+    "CodigoCupon": "DEMO10",
+    "AplicaTodosProductos": false,
+    "Estado": "Activo"
+  },
+  {
+    "PromocionID": 11,
+    "Nombre": "Septiembre: Herramientas y ferretería",
+    "Descripcion": "Promoción de demostración para herramientas y ferretería.",
+    "TipoDescuento": "Porcentaje",
+    "ValorDescuento": {
+      "$numberDecimal": "10.00"
+    },
+    "FechaInicio": {
+      "$date": "2026-09-01T06:00:00.000Z"
+    },
+    "FechaFin": {
+      "$date": "2027-01-01T05:59:59.000Z"
+    },
+    "RequiereCupon": true,
+    "CodigoCupon": "DEMO11",
+    "AplicaTodosProductos": false,
+    "Estado": "Activo"
+  },
+  {
+    "PromocionID": 12,
+    "Nombre": "Septiembre: Mascotas",
+    "Descripcion": "Promoción de demostración para mascotas.",
+    "TipoDescuento": "Monto",
+    "ValorDescuento": {
+      "$numberDecimal": "25.00"
+    },
+    "FechaInicio": {
+      "$date": "2026-09-01T06:00:00.000Z"
+    },
+    "FechaFin": {
+      "$date": "2027-01-01T05:59:59.000Z"
+    },
+    "RequiereCupon": true,
+    "CodigoCupon": "DEMO12",
+    "AplicaTodosProductos": false,
+    "Estado": "Activo"
+  }
+]

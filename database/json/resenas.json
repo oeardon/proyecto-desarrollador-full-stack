@@ -1,0 +1,398 @@
+[
+  {
+    "ResenaID": 1,
+    "UsuarioID": 3,
+    "ProductoID": 1,
+    "Calificacion": 3,
+    "Comentario": "El producto llegó bien empacado y funciona como esperaba.",
+    "FechaResena": {
+      "$date": "2026-08-06T21:00:00.000Z"
+    },
+    "Estado": "Publicada"
+  },
+  {
+    "ResenaID": 2,
+    "UsuarioID": 3,
+    "ProductoID": 2,
+    "Calificacion": 3,
+    "Comentario": "El producto llegó bien empacado y funciona como esperaba.",
+    "FechaResena": {
+      "$date": "2026-08-06T21:00:00.000Z"
+    },
+    "Estado": "Publicada"
+  },
+  {
+    "ResenaID": 3,
+    "UsuarioID": 4,
+    "ProductoID": 4,
+    "Calificacion": 4,
+    "Comentario": "Buena relación entre precio y calidad; la entrega fue puntual.",
+    "FechaResena": {
+      "$date": "2026-08-07T21:00:00.000Z"
+    },
+    "Estado": "Publicada"
+  },
+  {
+    "ResenaID": 4,
+    "UsuarioID": 4,
+    "ProductoID": 5,
+    "Calificacion": 4,
+    "Comentario": "Buena relación entre precio y calidad; la entrega fue puntual.",
+    "FechaResena": {
+      "$date": "2026-08-07T21:00:00.000Z"
+    },
+    "Estado": "Publicada"
+  },
+  {
+    "ResenaID": 5,
+    "UsuarioID": 5,
+    "ProductoID": 7,
+    "Calificacion": 5,
+    "Comentario": "Cumple su función, aunque las instrucciones podrían ser más claras.",
+    "FechaResena": {
+      "$date": "2026-08-08T21:00:00.000Z"
+    },
+    "Estado": "Publicada"
+  },
+  {
+    "ResenaID": 6,
+    "UsuarioID": 5,
+    "ProductoID": 8,
+    "Calificacion": 5,
+    "Comentario": "Cumple su función, aunque las instrucciones podrían ser más claras.",
+    "FechaResena": {
+      "$date": "2026-08-08T21:00:00.000Z"
+    },
+    "Estado": "Publicada"
+  },
+  {
+    "ResenaID": 7,
+    "UsuarioID": 6,
+    "ProductoID": 10,
+    "Calificacion": 3,
+    "Comentario": "El producto llegó bien empacado y funciona como esperaba.",
+    "FechaResena": {
+      "$date": "2026-08-09T21:00:00.000Z"
+    },
+    "Estado": "Publicada"
+  },
+  {
+    "ResenaID": 8,
+    "UsuarioID": 6,
+    "ProductoID": 11,
+    "Calificacion": 3,
+    "Comentario": "El producto llegó bien empacado y funciona como esperaba.",
+    "FechaResena": {
+      "$date": "2026-08-09T21:00:00.000Z"
+    },
+    "Estado": "Publicada"
+  },
+  {
+    "ResenaID": 9,
+    "UsuarioID": 7,
+    "ProductoID": 13,
+    "Calificacion": 4,
+    "Comentario": "Buena relación entre precio y calidad; la entrega fue puntual.",
+    "FechaResena": {
+      "$date": "2026-08-10T21:00:00.000Z"
+    },
+    "Estado": "Publicada"
+  },
+  {
+    "ResenaID": 10,
+    "UsuarioID": 7,
+    "ProductoID": 14,
+    "Calificacion": 4,
+    "Comentario": "Buena relación entre precio y calidad; la entrega fue puntual.",
+    "FechaResena": {
+      "$date": "2026-08-10T21:00:00.000Z"
+    },
+    "Estado": "Publicada"
+  },
+  {
+    "ResenaID": 11,
+    "UsuarioID": 8,
+    "ProductoID": 16,
+    "Calificacion": 5,
+    "Comentario": "Cumple su función, aunque las instrucciones podrían ser más claras.",
+    "FechaResena": {
+      "$date": "2026-08-11T21:00:00.000Z"
+    },
+    "Estado": "Publicada"
+  },
+  {
+    "ResenaID": 12,
+    "UsuarioID": 8,
+    "ProductoID": 17,
+    "Calificacion": 5,
+    "Comentario": "Cumple su función, aunque las instrucciones podrían ser más claras.",
+    "FechaResena": {
+      "$date": "2026-08-11T21:00:00.000Z"
+    },
+    "Estado": "Publicada"
+  },
+  {
+    "ResenaID": 13,
+    "UsuarioID": 9,
+    "ProductoID": 19,
+    "Calificacion": 3,
+    "Comentario": "El producto llegó bien empacado y funciona como esperaba.",
+    "FechaResena": {
+      "$date": "2026-08-12T21:00:00.000Z"
+    },
+    "Estado": "Publicada"
+  },
+  {
+    "ResenaID": 14,
+    "UsuarioID": 9,
+    "ProductoID": 20,
+    "Calificacion": 3,
+    "Comentario": "El producto llegó bien empacado y funciona como esperaba.",
+    "FechaResena": {
+      "$date": "2026-08-12T21:00:00.000Z"
+    },
+    "Estado": "Publicada"
+  },
+  {
+    "ResenaID": 15,
+    "UsuarioID": 10,
+    "ProductoID": 22,
+    "Calificacion": 4,
+    "Comentario": "Buena relación entre precio y calidad; la entrega fue puntual.",
+    "FechaResena": {
+      "$date": "2026-08-13T21:00:00.000Z"
+    },
+    "Estado": "Publicada"
+  },
+  {
+    "ResenaID": 16,
+    "UsuarioID": 10,
+    "ProductoID": 23,
+    "Calificacion": 4,
+    "Comentario": "Buena relación entre precio y calidad; la entrega fue puntual.",
+    "FechaResena": {
+      "$date": "2026-08-13T21:00:00.000Z"
+    },
+    "Estado": "Publicada"
+  },
+  {
+    "ResenaID": 17,
+    "UsuarioID": 11,
+    "ProductoID": 25,
+    "Calificacion": 5,
+    "Comentario": "Cumple su función, aunque las instrucciones podrían ser más claras.",
+    "FechaResena": {
+      "$date": "2026-08-14T21:00:00.000Z"
+    },
+    "Estado": "Publicada"
+  },
+  {
+    "ResenaID": 18,
+    "UsuarioID": 11,
+    "ProductoID": 26,
+    "Calificacion": 5,
+    "Comentario": "Cumple su función, aunque las instrucciones podrían ser más claras.",
+    "FechaResena": {
+      "$date": "2026-08-14T21:00:00.000Z"
+    },
+    "Estado": "Publicada"
+  },
+  {
+    "ResenaID": 19,
+    "UsuarioID": 13,
+    "ProductoID": 28,
+    "Calificacion": 3,
+    "Comentario": "El producto llegó bien empacado y funciona como esperaba.",
+    "FechaResena": {
+      "$date": "2026-08-15T21:00:00.000Z"
+    },
+    "Estado": "Publicada"
+  },
+  {
+    "ResenaID": 20,
+    "UsuarioID": 13,
+    "ProductoID": 29,
+    "Calificacion": 3,
+    "Comentario": "El producto llegó bien empacado y funciona como esperaba.",
+    "FechaResena": {
+      "$date": "2026-08-15T21:00:00.000Z"
+    },
+    "Estado": "Publicada"
+  },
+  {
+    "ResenaID": 21,
+    "UsuarioID": 14,
+    "ProductoID": 31,
+    "Calificacion": 4,
+    "Comentario": "Buena relación entre precio y calidad; la entrega fue puntual.",
+    "FechaResena": {
+      "$date": "2026-08-16T21:00:00.000Z"
+    },
+    "Estado": "Publicada"
+  },
+  {
+    "ResenaID": 22,
+    "UsuarioID": 14,
+    "ProductoID": 32,
+    "Calificacion": 4,
+    "Comentario": "Buena relación entre precio y calidad; la entrega fue puntual.",
+    "FechaResena": {
+      "$date": "2026-08-16T21:00:00.000Z"
+    },
+    "Estado": "Publicada"
+  },
+  {
+    "ResenaID": 23,
+    "UsuarioID": 15,
+    "ProductoID": 34,
+    "Calificacion": 5,
+    "Comentario": "Cumple su función, aunque las instrucciones podrían ser más claras.",
+    "FechaResena": {
+      "$date": "2026-08-17T21:00:00.000Z"
+    },
+    "Estado": "Publicada"
+  },
+  {
+    "ResenaID": 24,
+    "UsuarioID": 15,
+    "ProductoID": 35,
+    "Calificacion": 5,
+    "Comentario": "Cumple su función, aunque las instrucciones podrían ser más claras.",
+    "FechaResena": {
+      "$date": "2026-08-17T21:00:00.000Z"
+    },
+    "Estado": "Publicada"
+  },
+  {
+    "ResenaID": 25,
+    "UsuarioID": 16,
+    "ProductoID": 37,
+    "Calificacion": 3,
+    "Comentario": "El producto llegó bien empacado y funciona como esperaba.",
+    "FechaResena": {
+      "$date": "2026-08-18T21:00:00.000Z"
+    },
+    "Estado": "Publicada"
+  },
+  {
+    "ResenaID": 26,
+    "UsuarioID": 16,
+    "ProductoID": 38,
+    "Calificacion": 3,
+    "Comentario": "El producto llegó bien empacado y funciona como esperaba.",
+    "FechaResena": {
+      "$date": "2026-08-18T21:00:00.000Z"
+    },
+    "Estado": "Publicada"
+  },
+  {
+    "ResenaID": 27,
+    "UsuarioID": 17,
+    "ProductoID": 40,
+    "Calificacion": 4,
+    "Comentario": "Buena relación entre precio y calidad; la entrega fue puntual.",
+    "FechaResena": {
+      "$date": "2026-08-19T21:00:00.000Z"
+    },
+    "Estado": "Publicada"
+  },
+  {
+    "ResenaID": 28,
+    "UsuarioID": 17,
+    "ProductoID": 41,
+    "Calificacion": 4,
+    "Comentario": "Buena relación entre precio y calidad; la entrega fue puntual.",
+    "FechaResena": {
+      "$date": "2026-08-19T21:00:00.000Z"
+    },
+    "Estado": "Publicada"
+  },
+  {
+    "ResenaID": 29,
+    "UsuarioID": 18,
+    "ProductoID": 43,
+    "Calificacion": 5,
+    "Comentario": "Cumple su función, aunque las instrucciones podrían ser más claras.",
+    "FechaResena": {
+      "$date": "2026-08-20T21:00:00.000Z"
+    },
+    "Estado": "Publicada"
+  },
+  {
+    "ResenaID": 30,
+    "UsuarioID": 18,
+    "ProductoID": 44,
+    "Calificacion": 5,
+    "Comentario": "Cumple su función, aunque las instrucciones podrían ser más claras.",
+    "FechaResena": {
+      "$date": "2026-08-20T21:00:00.000Z"
+    },
+    "Estado": "Publicada"
+  },
+  {
+    "ResenaID": 31,
+    "UsuarioID": 19,
+    "ProductoID": 46,
+    "Calificacion": 3,
+    "Comentario": "El producto llegó bien empacado y funciona como esperaba.",
+    "FechaResena": {
+      "$date": "2026-08-21T21:00:00.000Z"
+    },
+    "Estado": "Publicada"
+  },
+  {
+    "ResenaID": 32,
+    "UsuarioID": 19,
+    "ProductoID": 47,
+    "Calificacion": 3,
+    "Comentario": "El producto llegó bien empacado y funciona como esperaba.",
+    "FechaResena": {
+      "$date": "2026-08-21T21:00:00.000Z"
+    },
+    "Estado": "Publicada"
+  },
+  {
+    "ResenaID": 33,
+    "UsuarioID": 20,
+    "ProductoID": 49,
+    "Calificacion": 4,
+    "Comentario": "Buena relación entre precio y calidad; la entrega fue puntual.",
+    "FechaResena": {
+      "$date": "2026-08-22T21:00:00.000Z"
+    },
+    "Estado": "Publicada"
+  },
+  {
+    "ResenaID": 34,
+    "UsuarioID": 20,
+    "ProductoID": 50,
+    "Calificacion": 4,
+    "Comentario": "Buena relación entre precio y calidad; la entrega fue puntual.",
+    "FechaResena": {
+      "$date": "2026-08-22T21:00:00.000Z"
+    },
+    "Estado": "Publicada"
+  },
+  {
+    "ResenaID": 35,
+    "UsuarioID": 21,
+    "ProductoID": 52,
+    "Calificacion": 5,
+    "Comentario": "Cumple su función, aunque las instrucciones podrían ser más claras.",
+    "FechaResena": {
+      "$date": "2026-08-23T21:00:00.000Z"
+    },
+    "Estado": "Publicada"
+  },
+  {
+    "ResenaID": 36,
+    "UsuarioID": 21,
+    "ProductoID": 53,
+    "Calificacion": 5,
+    "Comentario": "Cumple su función, aunque las instrucciones podrían ser más claras.",
+    "FechaResena": {
+      "$date": "2026-08-23T21:00:00.000Z"
+    },
+    "Estado": "Publicada"
+  }
+]

@@ -1,0 +1,866 @@
+[
+  {
+    "ProductoID": 1,
+    "ProveedorID": 1,
+    "CostoCompra": {
+      "$numberDecimal": "2309.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 2,
+    "ProveedorID": 2,
+    "CostoCompra": {
+      "$numberDecimal": "4059.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 3,
+    "ProveedorID": 3,
+    "CostoCompra": {
+      "$numberDecimal": "454.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 4,
+    "ProveedorID": 4,
+    "CostoCompra": {
+      "$numberDecimal": "349.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 5,
+    "ProveedorID": 8,
+    "CostoCompra": {
+      "$numberDecimal": "629.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 6,
+    "ProveedorID": 2,
+    "CostoCompra": {
+      "$numberDecimal": "1189.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 7,
+    "ProveedorID": 3,
+    "CostoCompra": {
+      "$numberDecimal": "300.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 8,
+    "ProveedorID": 5,
+    "CostoCompra": {
+      "$numberDecimal": "419.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 9,
+    "ProveedorID": 1,
+    "CostoCompra": {
+      "$numberDecimal": "1329.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 10,
+    "ProveedorID": 1,
+    "CostoCompra": {
+      "$numberDecimal": "3219.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 11,
+    "ProveedorID": 1,
+    "CostoCompra": {
+      "$numberDecimal": "909.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 12,
+    "ProveedorID": 1,
+    "CostoCompra": {
+      "$numberDecimal": "1749.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 13,
+    "ProveedorID": 1,
+    "CostoCompra": {
+      "$numberDecimal": "629.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 14,
+    "ProveedorID": 1,
+    "CostoCompra": {
+      "$numberDecimal": "90.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 15,
+    "ProveedorID": 1,
+    "CostoCompra": {
+      "$numberDecimal": "174.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 16,
+    "ProveedorID": 1,
+    "CostoCompra": {
+      "$numberDecimal": "125.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 17,
+    "ProveedorID": 2,
+    "CostoCompra": {
+      "$numberDecimal": "2659.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 18,
+    "ProveedorID": 2,
+    "CostoCompra": {
+      "$numberDecimal": "5949.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 19,
+    "ProveedorID": 2,
+    "CostoCompra": {
+      "$numberDecimal": "839.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 20,
+    "ProveedorID": 2,
+    "CostoCompra": {
+      "$numberDecimal": "1749.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 21,
+    "ProveedorID": 2,
+    "CostoCompra": {
+      "$numberDecimal": "419.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 22,
+    "ProveedorID": 2,
+    "CostoCompra": {
+      "$numberDecimal": "62.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 23,
+    "ProveedorID": 2,
+    "CostoCompra": {
+      "$numberDecimal": "524.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 24,
+    "ProveedorID": 3,
+    "CostoCompra": {
+      "$numberDecimal": "174.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 25,
+    "ProveedorID": 3,
+    "CostoCompra": {
+      "$numberDecimal": "244.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 26,
+    "ProveedorID": 3,
+    "CostoCompra": {
+      "$numberDecimal": "559.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 27,
+    "ProveedorID": 3,
+    "CostoCompra": {
+      "$numberDecimal": "139.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 28,
+    "ProveedorID": 3,
+    "CostoCompra": {
+      "$numberDecimal": "1189.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 29,
+    "ProveedorID": 3,
+    "CostoCompra": {
+      "$numberDecimal": "1959.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 30,
+    "ProveedorID": 3,
+    "CostoCompra": {
+      "$numberDecimal": "3149.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 31,
+    "ProveedorID": 4,
+    "CostoCompra": {
+      "$numberDecimal": "279.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 32,
+    "ProveedorID": 4,
+    "CostoCompra": {
+      "$numberDecimal": "160.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 33,
+    "ProveedorID": 4,
+    "CostoCompra": {
+      "$numberDecimal": "174.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 34,
+    "ProveedorID": 4,
+    "CostoCompra": {
+      "$numberDecimal": "244.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 35,
+    "ProveedorID": 4,
+    "CostoCompra": {
+      "$numberDecimal": "300.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 36,
+    "ProveedorID": 4,
+    "CostoCompra": {
+      "$numberDecimal": "139.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 37,
+    "ProveedorID": 4,
+    "CostoCompra": {
+      "$numberDecimal": "279.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 38,
+    "ProveedorID": 4,
+    "CostoCompra": {
+      "$numberDecimal": "909.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 39,
+    "ProveedorID": 5,
+    "CostoCompra": {
+      "$numberDecimal": "559.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 40,
+    "ProveedorID": 5,
+    "CostoCompra": {
+      "$numberDecimal": "314.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 41,
+    "ProveedorID": 5,
+    "CostoCompra": {
+      "$numberDecimal": "69.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 42,
+    "ProveedorID": 5,
+    "CostoCompra": {
+      "$numberDecimal": "139.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 43,
+    "ProveedorID": 5,
+    "CostoCompra": {
+      "$numberDecimal": "104.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 44,
+    "ProveedorID": 5,
+    "CostoCompra": {
+      "$numberDecimal": "90.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 45,
+    "ProveedorID": 5,
+    "CostoCompra": {
+      "$numberDecimal": "125.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 46,
+    "ProveedorID": 5,
+    "CostoCompra": {
+      "$numberDecimal": "111.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 47,
+    "ProveedorID": 6,
+    "CostoCompra": {
+      "$numberDecimal": "244.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 48,
+    "ProveedorID": 6,
+    "CostoCompra": {
+      "$numberDecimal": "209.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 49,
+    "ProveedorID": 6,
+    "CostoCompra": {
+      "$numberDecimal": "559.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 50,
+    "ProveedorID": 6,
+    "CostoCompra": {
+      "$numberDecimal": "419.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 51,
+    "ProveedorID": 6,
+    "CostoCompra": {
+      "$numberDecimal": "209.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 52,
+    "ProveedorID": 6,
+    "CostoCompra": {
+      "$numberDecimal": "454.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 53,
+    "ProveedorID": 6,
+    "CostoCompra": {
+      "$numberDecimal": "174.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 54,
+    "ProveedorID": 6,
+    "CostoCompra": {
+      "$numberDecimal": "69.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 55,
+    "ProveedorID": 6,
+    "CostoCompra": {
+      "$numberDecimal": "314.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 56,
+    "ProveedorID": 7,
+    "CostoCompra": {
+      "$numberDecimal": "209.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 57,
+    "ProveedorID": 7,
+    "CostoCompra": {
+      "$numberDecimal": "83.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 58,
+    "ProveedorID": 7,
+    "CostoCompra": {
+      "$numberDecimal": "62.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 59,
+    "ProveedorID": 7,
+    "CostoCompra": {
+      "$numberDecimal": "55.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 60,
+    "ProveedorID": 7,
+    "CostoCompra": {
+      "$numberDecimal": "69.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 61,
+    "ProveedorID": 7,
+    "CostoCompra": {
+      "$numberDecimal": "244.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 62,
+    "ProveedorID": 7,
+    "CostoCompra": {
+      "$numberDecimal": "174.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 63,
+    "ProveedorID": 7,
+    "CostoCompra": {
+      "$numberDecimal": "69.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 64,
+    "ProveedorID": 7,
+    "CostoCompra": {
+      "$numberDecimal": "111.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 65,
+    "ProveedorID": 8,
+    "CostoCompra": {
+      "$numberDecimal": "384.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 66,
+    "ProveedorID": 8,
+    "CostoCompra": {
+      "$numberDecimal": "209.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 67,
+    "ProveedorID": 8,
+    "CostoCompra": {
+      "$numberDecimal": "174.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 68,
+    "ProveedorID": 8,
+    "CostoCompra": {
+      "$numberDecimal": "125.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 69,
+    "ProveedorID": 8,
+    "CostoCompra": {
+      "$numberDecimal": "244.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 70,
+    "ProveedorID": 8,
+    "CostoCompra": {
+      "$numberDecimal": "104.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 71,
+    "ProveedorID": 8,
+    "CostoCompra": {
+      "$numberDecimal": "62.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 72,
+    "ProveedorID": 8,
+    "CostoCompra": {
+      "$numberDecimal": "90.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 73,
+    "ProveedorID": 9,
+    "CostoCompra": {
+      "$numberDecimal": "160.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 74,
+    "ProveedorID": 9,
+    "CostoCompra": {
+      "$numberDecimal": "69.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 75,
+    "ProveedorID": 9,
+    "CostoCompra": {
+      "$numberDecimal": "55.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 76,
+    "ProveedorID": 9,
+    "CostoCompra": {
+      "$numberDecimal": "174.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 77,
+    "ProveedorID": 9,
+    "CostoCompra": {
+      "$numberDecimal": "83.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 78,
+    "ProveedorID": 9,
+    "CostoCompra": {
+      "$numberDecimal": "69.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 79,
+    "ProveedorID": 9,
+    "CostoCompra": {
+      "$numberDecimal": "419.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 80,
+    "ProveedorID": 9,
+    "CostoCompra": {
+      "$numberDecimal": "104.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 81,
+    "ProveedorID": 9,
+    "CostoCompra": {
+      "$numberDecimal": "90.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 82,
+    "ProveedorID": 10,
+    "CostoCompra": {
+      "$numberDecimal": "139.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 83,
+    "ProveedorID": 10,
+    "CostoCompra": {
+      "$numberDecimal": "55.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 84,
+    "ProveedorID": 10,
+    "CostoCompra": {
+      "$numberDecimal": "104.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 85,
+    "ProveedorID": 10,
+    "CostoCompra": {
+      "$numberDecimal": "160.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 86,
+    "ProveedorID": 10,
+    "CostoCompra": {
+      "$numberDecimal": "195.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 87,
+    "ProveedorID": 10,
+    "CostoCompra": {
+      "$numberDecimal": "34.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 88,
+    "ProveedorID": 10,
+    "CostoCompra": {
+      "$numberDecimal": "62.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 89,
+    "ProveedorID": 10,
+    "CostoCompra": {
+      "$numberDecimal": "139.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 90,
+    "ProveedorID": 10,
+    "CostoCompra": {
+      "$numberDecimal": "90.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 91,
+    "ProveedorID": 11,
+    "CostoCompra": {
+      "$numberDecimal": "90.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 92,
+    "ProveedorID": 11,
+    "CostoCompra": {
+      "$numberDecimal": "55.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 93,
+    "ProveedorID": 11,
+    "CostoCompra": {
+      "$numberDecimal": "174.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 94,
+    "ProveedorID": 11,
+    "CostoCompra": {
+      "$numberDecimal": "489.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 95,
+    "ProveedorID": 11,
+    "CostoCompra": {
+      "$numberDecimal": "314.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 96,
+    "ProveedorID": 11,
+    "CostoCompra": {
+      "$numberDecimal": "139.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 97,
+    "ProveedorID": 11,
+    "CostoCompra": {
+      "$numberDecimal": "34.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 98,
+    "ProveedorID": 11,
+    "CostoCompra": {
+      "$numberDecimal": "41.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 99,
+    "ProveedorID": 11,
+    "CostoCompra": {
+      "$numberDecimal": "62.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 100,
+    "ProveedorID": 12,
+    "CostoCompra": {
+      "$numberDecimal": "111.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 101,
+    "ProveedorID": 12,
+    "CostoCompra": {
+      "$numberDecimal": "97.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 102,
+    "ProveedorID": 12,
+    "CostoCompra": {
+      "$numberDecimal": "34.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 103,
+    "ProveedorID": 12,
+    "CostoCompra": {
+      "$numberDecimal": "27.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 104,
+    "ProveedorID": 12,
+    "CostoCompra": {
+      "$numberDecimal": "139.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 105,
+    "ProveedorID": 12,
+    "CostoCompra": {
+      "$numberDecimal": "41.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 106,
+    "ProveedorID": 12,
+    "CostoCompra": {
+      "$numberDecimal": "48.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 107,
+    "ProveedorID": 12,
+    "CostoCompra": {
+      "$numberDecimal": "174.30"
+    },
+    "EsPrincipal": true
+  },
+  {
+    "ProductoID": 108,
+    "ProveedorID": 12,
+    "CostoCompra": {
+      "$numberDecimal": "62.30"
+    },
+    "EsPrincipal": true
+  }
+]

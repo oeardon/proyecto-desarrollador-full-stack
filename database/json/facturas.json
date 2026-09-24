@@ -1,0 +1,802 @@
+[
+  {
+    "FacturaID": 1,
+    "NumeroFactura": "DEMO-2026-00001",
+    "FechaEmision": {
+      "$date": "2026-08-01T18:00:00.000Z"
+    },
+    "OrdenID": 1,
+    "Nombre": "Cliente de demostración 3",
+    "NIT": "CF",
+    "Direccion": "Dirección de demostración 1, zona 1, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "15546.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "15546.00"
+    },
+    "Notas": "Documento interno de demostración; sin validez fiscal.",
+    "Estado": "Emitida"
+  },
+  {
+    "FacturaID": 2,
+    "NumeroFactura": "DEMO-2026-00002",
+    "FechaEmision": {
+      "$date": "2026-08-02T18:00:00.000Z"
+    },
+    "OrdenID": 2,
+    "Nombre": "Cliente de demostración 4",
+    "NIT": "CF",
+    "Direccion": "Dirección de demostración 2, zona 2, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "5295.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "5295.00"
+    },
+    "Notas": "Documento interno de demostración; sin validez fiscal.",
+    "Estado": "Emitida"
+  },
+  {
+    "FacturaID": 3,
+    "NumeroFactura": "DEMO-2026-00003",
+    "FechaEmision": {
+      "$date": "2026-08-03T18:00:00.000Z"
+    },
+    "OrdenID": 3,
+    "Nombre": "Cliente de demostración 5",
+    "NIT": "CF",
+    "Direccion": "Dirección de demostración 3, zona 3, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "3526.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "3526.00"
+    },
+    "Notas": "Documento interno de demostración; sin validez fiscal.",
+    "Estado": "Emitida"
+  },
+  {
+    "FacturaID": 4,
+    "NumeroFactura": "DEMO-2026-00004",
+    "FechaEmision": {
+      "$date": "2026-08-04T18:00:00.000Z"
+    },
+    "OrdenID": 4,
+    "Nombre": "Cliente de demostración 6",
+    "NIT": "CF",
+    "Direccion": "Dirección de demostración 4, zona 4, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "15495.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "15495.00"
+    },
+    "Notas": "Documento interno de demostración; sin validez fiscal.",
+    "Estado": "Emitida"
+  },
+  {
+    "FacturaID": 5,
+    "NumeroFactura": "DEMO-2026-00005",
+    "FechaEmision": {
+      "$date": "2026-08-05T18:00:00.000Z"
+    },
+    "OrdenID": 5,
+    "Nombre": "Cliente de demostración 7",
+    "NIT": "CF",
+    "Direccion": "Dirección de demostración 5, zona 5, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "1406.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "1406.00"
+    },
+    "Notas": "Documento interno de demostración; sin validez fiscal.",
+    "Estado": "Emitida"
+  },
+  {
+    "FacturaID": 6,
+    "NumeroFactura": "DEMO-2026-00006",
+    "FechaEmision": {
+      "$date": "2026-08-06T18:00:00.000Z"
+    },
+    "OrdenID": 6,
+    "Nombre": "Cliente de demostración 8",
+    "NIT": "CF",
+    "Direccion": "Dirección de demostración 6, zona 6, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "21155.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "21155.00"
+    },
+    "Notas": "Documento interno de demostración; sin validez fiscal.",
+    "Estado": "Emitida"
+  },
+  {
+    "FacturaID": 7,
+    "NumeroFactura": "DEMO-2026-00007",
+    "FechaEmision": {
+      "$date": "2026-08-07T18:00:00.000Z"
+    },
+    "OrdenID": 7,
+    "Nombre": "Cliente de demostración 9",
+    "NIT": "CF",
+    "Direccion": "Dirección de demostración 7, zona 7, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "6796.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "6796.00"
+    },
+    "Notas": "Documento interno de demostración; sin validez fiscal.",
+    "Estado": "Emitida"
+  },
+  {
+    "FacturaID": 8,
+    "NumeroFactura": "DEMO-2026-00008",
+    "FechaEmision": {
+      "$date": "2026-08-08T18:00:00.000Z"
+    },
+    "OrdenID": 8,
+    "Nombre": "Cliente de demostración 10",
+    "NIT": "CF",
+    "Direccion": "Dirección de demostración 8, zona 8, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "1425.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "1425.00"
+    },
+    "Notas": "Documento interno de demostración; sin validez fiscal.",
+    "Estado": "Emitida"
+  },
+  {
+    "FacturaID": 9,
+    "NumeroFactura": "DEMO-2026-00009",
+    "FechaEmision": {
+      "$date": "2026-08-09T18:00:00.000Z"
+    },
+    "OrdenID": 9,
+    "Nombre": "Cliente de demostración 11",
+    "NIT": "CF",
+    "Direccion": "Dirección de demostración 9, zona 9, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "2146.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "2146.00"
+    },
+    "Notas": "Documento interno de demostración; sin validez fiscal.",
+    "Estado": "Emitida"
+  },
+  {
+    "FacturaID": 10,
+    "NumeroFactura": "DEMO-2026-00010",
+    "FechaEmision": {
+      "$date": "2026-08-10T18:00:00.000Z"
+    },
+    "OrdenID": 10,
+    "Nombre": "Cliente de demostración 13",
+    "NIT": "CF",
+    "Direccion": "Dirección de demostración 10, zona 10, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "15195.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "15195.00"
+    },
+    "Notas": "Documento interno de demostración; sin validez fiscal.",
+    "Estado": "Emitida"
+  },
+  {
+    "FacturaID": 11,
+    "NumeroFactura": "DEMO-2026-00011",
+    "FechaEmision": {
+      "$date": "2026-08-11T18:00:00.000Z"
+    },
+    "OrdenID": 11,
+    "Nombre": "Cliente de demostración 14",
+    "NIT": "CF",
+    "Direccion": "Dirección de demostración 11, zona 11, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "1106.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "1106.00"
+    },
+    "Notas": "Documento interno de demostración; sin validez fiscal.",
+    "Estado": "Emitida"
+  },
+  {
+    "FacturaID": 12,
+    "NumeroFactura": "DEMO-2026-00012",
+    "FechaEmision": {
+      "$date": "2026-08-12T18:00:00.000Z"
+    },
+    "OrdenID": 12,
+    "Nombre": "Cliente de demostración 15",
+    "NIT": "CF",
+    "Direccion": "Dirección de demostración 12, zona 12, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "1525.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "1525.00"
+    },
+    "Notas": "Documento interno de demostración; sin validez fiscal.",
+    "Estado": "Emitida"
+  },
+  {
+    "FacturaID": 13,
+    "NumeroFactura": "DEMO-2026-00013",
+    "FechaEmision": {
+      "$date": "2026-08-13T18:00:00.000Z"
+    },
+    "OrdenID": 13,
+    "Nombre": "Cliente de demostración 16",
+    "NIT": "CF",
+    "Direccion": "Dirección de demostración 13, zona 1, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "3796.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "3796.00"
+    },
+    "Notas": "Documento interno de demostración; sin validez fiscal.",
+    "Estado": "Emitida"
+  },
+  {
+    "FacturaID": 14,
+    "NumeroFactura": "DEMO-2026-00014",
+    "FechaEmision": {
+      "$date": "2026-08-14T18:00:00.000Z"
+    },
+    "OrdenID": 14,
+    "Nombre": "Cliente de demostración 17",
+    "NIT": "CF",
+    "Direccion": "Dirección de demostración 14, zona 2, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "1395.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "1395.00"
+    },
+    "Notas": "Documento interno de demostración; sin validez fiscal.",
+    "Estado": "Emitida"
+  },
+  {
+    "FacturaID": 15,
+    "NumeroFactura": "DEMO-2026-00015",
+    "FechaEmision": {
+      "$date": "2026-08-15T18:00:00.000Z"
+    },
+    "OrdenID": 15,
+    "Nombre": "Cliente de demostración 18",
+    "NIT": "CF",
+    "Direccion": "Dirección de demostración 15, zona 3, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "586.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "586.00"
+    },
+    "Notas": "Documento interno de demostración; sin validez fiscal.",
+    "Estado": "Emitida"
+  },
+  {
+    "FacturaID": 16,
+    "NumeroFactura": "DEMO-2026-00016",
+    "FechaEmision": {
+      "$date": "2026-08-16T18:00:00.000Z"
+    },
+    "OrdenID": 16,
+    "Nombre": "Cliente de demostración 19",
+    "NIT": "CF",
+    "Direccion": "Dirección de demostración 16, zona 4, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "1265.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "1265.00"
+    },
+    "Notas": "Documento interno de demostración; sin validez fiscal.",
+    "Estado": "Emitida"
+  },
+  {
+    "FacturaID": 17,
+    "NumeroFactura": "DEMO-2026-00017",
+    "FechaEmision": {
+      "$date": "2026-08-17T18:00:00.000Z"
+    },
+    "OrdenID": 17,
+    "Nombre": "Cliente de demostración 20",
+    "NIT": "CF",
+    "Direccion": "Dirección de demostración 17, zona 5, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "2296.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "2296.00"
+    },
+    "Notas": "Documento interno de demostración; sin validez fiscal.",
+    "Estado": "Emitida"
+  },
+  {
+    "FacturaID": 18,
+    "NumeroFactura": "DEMO-2026-00018",
+    "FechaEmision": {
+      "$date": "2026-08-18T18:00:00.000Z"
+    },
+    "OrdenID": 18,
+    "Nombre": "Cliente de demostración 21",
+    "NIT": "CF",
+    "Direccion": "Dirección de demostración 18, zona 6, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "1745.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "1745.00"
+    },
+    "Notas": "Documento interno de demostración; sin validez fiscal.",
+    "Estado": "Emitida"
+  },
+  {
+    "FacturaID": 19,
+    "NumeroFactura": "DEMO-2026-00019",
+    "FechaEmision": {
+      "$date": "2026-08-19T18:00:00.000Z"
+    },
+    "OrdenID": 19,
+    "Nombre": "Cliente de demostración 23",
+    "NIT": "CF",
+    "Direccion": "Dirección de demostración 19, zona 7, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "1166.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "1166.00"
+    },
+    "Notas": "Documento interno de demostración; sin validez fiscal.",
+    "Estado": "Emitida"
+  },
+  {
+    "FacturaID": 20,
+    "NumeroFactura": "DEMO-2026-00020",
+    "FechaEmision": {
+      "$date": "2026-08-20T18:00:00.000Z"
+    },
+    "OrdenID": 20,
+    "Nombre": "Cliente de demostración 24",
+    "NIT": "CF",
+    "Direccion": "Dirección de demostración 20, zona 8, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "455.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "455.00"
+    },
+    "Notas": "Documento interno de demostración; sin validez fiscal.",
+    "Estado": "Emitida"
+  },
+  {
+    "FacturaID": 21,
+    "NumeroFactura": "DEMO-2026-00021",
+    "FechaEmision": {
+      "$date": "2026-08-21T18:00:00.000Z"
+    },
+    "OrdenID": 21,
+    "Nombre": "Cliente de demostración 25",
+    "NIT": "CF",
+    "Direccion": "Dirección de demostración 21, zona 9, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "946.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "946.00"
+    },
+    "Notas": "Documento interno de demostración; sin validez fiscal.",
+    "Estado": "Emitida"
+  },
+  {
+    "FacturaID": 22,
+    "NumeroFactura": "DEMO-2026-00022",
+    "FechaEmision": {
+      "$date": "2026-08-22T18:00:00.000Z"
+    },
+    "OrdenID": 22,
+    "Nombre": "Cliente de demostración 26",
+    "NIT": "CF",
+    "Direccion": "Dirección de demostración 22, zona 10, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "1465.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "1465.00"
+    },
+    "Notas": "Documento interno de demostración; sin validez fiscal.",
+    "Estado": "Emitida"
+  },
+  {
+    "FacturaID": 23,
+    "NumeroFactura": "DEMO-2026-00023",
+    "FechaEmision": {
+      "$date": "2026-08-23T18:00:00.000Z"
+    },
+    "OrdenID": 23,
+    "Nombre": "Cliente de demostración 27",
+    "NIT": "CF",
+    "Direccion": "Dirección de demostración 23, zona 11, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "956.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "956.00"
+    },
+    "Notas": "Documento interno de demostración; sin validez fiscal.",
+    "Estado": "Emitida"
+  },
+  {
+    "FacturaID": 24,
+    "NumeroFactura": "DEMO-2026-00024",
+    "FechaEmision": {
+      "$date": "2026-08-24T18:00:00.000Z"
+    },
+    "OrdenID": 24,
+    "Nombre": "Cliente de demostración 28",
+    "NIT": "CF",
+    "Direccion": "Dirección de demostración 24, zona 12, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "645.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "645.00"
+    },
+    "Notas": "Documento interno de demostración; sin validez fiscal.",
+    "Estado": "Emitida"
+  },
+  {
+    "FacturaID": 25,
+    "NumeroFactura": "DEMO-2026-00025",
+    "FechaEmision": {
+      "$date": "2026-08-25T18:00:00.000Z"
+    },
+    "OrdenID": 25,
+    "Nombre": "Cliente de demostración 29",
+    "NIT": "CF",
+    "Direccion": "Dirección de demostración 25, zona 1, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "506.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "506.00"
+    },
+    "Notas": "Documento interno de demostración; sin validez fiscal.",
+    "Estado": "Emitida"
+  },
+  {
+    "FacturaID": 26,
+    "NumeroFactura": "DEMO-2026-00026",
+    "FechaEmision": {
+      "$date": "2026-08-26T18:00:00.000Z"
+    },
+    "OrdenID": 26,
+    "Nombre": "Cliente de demostración 30",
+    "NIT": "CF",
+    "Direccion": "Dirección de demostración 26, zona 2, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "815.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "815.00"
+    },
+    "Notas": "Documento interno de demostración; sin validez fiscal.",
+    "Estado": "Emitida"
+  },
+  {
+    "FacturaID": 27,
+    "NumeroFactura": "DEMO-2026-00027",
+    "FechaEmision": {
+      "$date": "2026-08-27T18:00:00.000Z"
+    },
+    "OrdenID": 27,
+    "Nombre": "Cliente de demostración 31",
+    "NIT": "CF",
+    "Direccion": "Dirección de demostración 27, zona 3, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "1026.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "1026.00"
+    },
+    "Notas": "Documento interno de demostración; sin validez fiscal.",
+    "Estado": "Emitida"
+  },
+  {
+    "FacturaID": 28,
+    "NumeroFactura": "DEMO-2026-00028",
+    "FechaEmision": {
+      "$date": "2026-08-28T18:00:00.000Z"
+    },
+    "OrdenID": 28,
+    "Nombre": "Cliente de demostración 33",
+    "NIT": "CF",
+    "Direccion": "Dirección de demostración 28, zona 4, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "775.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "775.00"
+    },
+    "Notas": "Documento interno de demostración; sin validez fiscal.",
+    "Estado": "Emitida"
+  },
+  {
+    "FacturaID": 29,
+    "NumeroFactura": "DEMO-2026-00029",
+    "FechaEmision": {
+      "$date": "2026-08-29T18:00:00.000Z"
+    },
+    "OrdenID": 29,
+    "Nombre": "Cliente de demostración 34",
+    "NIT": "CF",
+    "Direccion": "Dirección de demostración 29, zona 5, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "836.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "836.00"
+    },
+    "Notas": "Documento interno de demostración; sin validez fiscal.",
+    "Estado": "Emitida"
+  },
+  {
+    "FacturaID": 30,
+    "NumeroFactura": "DEMO-2026-00030",
+    "FechaEmision": {
+      "$date": "2026-08-30T18:00:00.000Z"
+    },
+    "OrdenID": 30,
+    "Nombre": "Cliente de demostración 35",
+    "NIT": "CF",
+    "Direccion": "Dirección de demostración 30, zona 6, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "635.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "635.00"
+    },
+    "Notas": "Documento interno de demostración; sin validez fiscal.",
+    "Estado": "Emitida"
+  },
+  {
+    "FacturaID": 31,
+    "NumeroFactura": "DEMO-2026-00031",
+    "FechaEmision": {
+      "$date": "2026-08-31T18:00:00.000Z"
+    },
+    "OrdenID": 31,
+    "Nombre": "Cliente de demostración 36",
+    "NIT": "CF",
+    "Direccion": "Dirección de demostración 31, zona 7, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "536.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "536.00"
+    },
+    "Notas": "Documento interno de demostración; sin validez fiscal.",
+    "Estado": "Emitida"
+  },
+  {
+    "FacturaID": 32,
+    "NumeroFactura": "DEMO-2026-00032",
+    "FechaEmision": {
+      "$date": "2026-09-01T18:00:00.000Z"
+    },
+    "OrdenID": 32,
+    "Nombre": "Cliente de demostración 37",
+    "NIT": "CF",
+    "Direccion": "Dirección de demostración 32, zona 8, Ciudad de Guatemala",
+    "Subtotal": {
+      "$numberDecimal": "2245.00"
+    },
+    "ImpuestoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "DescuentoTotal": {
+      "$numberDecimal": "0.00"
+    },
+    "Total": {
+      "$numberDecimal": "2245.00"
+    },
+    "Notas": "Documento interno de demostración; sin validez fiscal.",
+    "Estado": "Emitida"
+  }
+]

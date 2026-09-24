@@ -1,0 +1,2130 @@
+[
+  {
+    "UsuarioID": 1,
+    "Nombres": "Oscar Estuardo",
+    "Apellidos": "Ardón Castillo",
+    "Correo": "adminoa@todoaqui.gt",
+    "Telefono": "5500-1234",
+    "Usuario": "adminoa",
+    "Contrasena": "$2y$10$nRR49i1qmznd2RUwwzbqZOnpMNZdf/Ucf6DynK0FreWGGEDXK1Fv6",
+    "TipoUsuario": "Administrador",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2024-12-01T18:00:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 2,
+    "Nombres": "Alba Gabriela",
+    "Apellidos": "Ortega",
+    "Correo": "adminao@todoaqui.gt",
+    "Telefono": "5500-4321",
+    "Usuario": "adminao",
+    "Contrasena": "$2y$10$S9sRqSZ8jOiGxKrUXE89DuBuI6vTRMBdu/TCcnHZJ2yJ4QoODf6lu",
+    "TipoUsuario": "Administrador",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2024-12-01T18:00:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 3,
+    "Nombres": "Ana",
+    "Apellidos": "García López",
+    "Correo": "cliente001@example.com",
+    "Telefono": "5550-0001",
+    "Usuario": "cliente001",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-01-13T15:07:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 4,
+    "Nombres": "Carlos",
+    "Apellidos": "López Ramírez",
+    "Correo": "cliente002@example.com",
+    "Telefono": "5550-0002",
+    "Usuario": "cliente002",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-01-16T16:14:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 5,
+    "Nombres": "María",
+    "Apellidos": "González Méndez",
+    "Correo": "cliente003@example.com",
+    "Telefono": "5550-0003",
+    "Usuario": "cliente003",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-01-19T17:21:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 6,
+    "Nombres": "José",
+    "Apellidos": "Castillo Reyes",
+    "Correo": "cliente004@example.com",
+    "Telefono": "5550-0004",
+    "Usuario": "cliente004",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-01-22T18:28:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 7,
+    "Nombres": "Gabriela",
+    "Apellidos": "Vásquez Flores",
+    "Correo": "cliente005@example.com",
+    "Telefono": "5550-0005",
+    "Usuario": "cliente005",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-01-25T19:35:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 8,
+    "Nombres": "Luis",
+    "Apellidos": "Aguilar Rojas",
+    "Correo": "cliente006@example.com",
+    "Telefono": "5550-0006",
+    "Usuario": "cliente006",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-01-28T20:42:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 9,
+    "Nombres": "Daniela",
+    "Apellidos": "Fuentes Herrera",
+    "Correo": "cliente007@example.com",
+    "Telefono": "5550-0007",
+    "Usuario": "cliente007",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-01-31T21:49:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 10,
+    "Nombres": "Fernando",
+    "Apellidos": "Salazar Pineda",
+    "Correo": "cliente008@example.com",
+    "Telefono": "5550-0008",
+    "Usuario": "cliente008",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-02-03T22:56:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 11,
+    "Nombres": "Paola",
+    "Apellidos": "Alvarado Cifuentes",
+    "Correo": "cliente009@example.com",
+    "Telefono": "5550-0009",
+    "Usuario": "cliente009",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-02-06T14:03:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 12,
+    "Nombres": "Ricardo",
+    "Apellidos": "Rodríguez Morales",
+    "Correo": "cliente010@example.com",
+    "Telefono": "5550 0010",
+    "Usuario": "cliente010",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Inactivo",
+    "FechaRegistro": {
+      "$date": "2025-02-09T15:10:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 13,
+    "Nombres": "Sofía",
+    "Apellidos": "Hernández Castillo",
+    "Correo": "cliente011@example.com",
+    "Telefono": "5550-0011",
+    "Usuario": "cliente011",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-02-12T16:17:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 14,
+    "Nombres": "Javier",
+    "Apellidos": "Morales Vásquez",
+    "Correo": "cliente012@example.com",
+    "Telefono": "5550-0012",
+    "Usuario": "cliente012",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-02-15T17:24:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 15,
+    "Nombres": "Andrea",
+    "Apellidos": "Díaz Aguilar",
+    "Correo": "cliente013@example.com",
+    "Telefono": "5550-0013",
+    "Usuario": "cliente013",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-02-18T18:31:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 16,
+    "Nombres": "Miguel",
+    "Apellidos": "Ortiz Fuentes",
+    "Correo": "cliente014@example.com",
+    "Telefono": "5550-0014",
+    "Usuario": "cliente014",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-02-21T19:38:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 17,
+    "Nombres": "Valeria",
+    "Apellidos": "Cabrera Salazar",
+    "Correo": "cliente015@example.com",
+    "Telefono": "5550-0015",
+    "Usuario": "cliente015",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-02-24T20:45:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 18,
+    "Nombres": "Diego",
+    "Apellidos": "Mendoza Alvarado",
+    "Correo": "cliente016@example.com",
+    "Telefono": "5550-0016",
+    "Usuario": "cliente016",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-02-27T21:52:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 19,
+    "Nombres": "Lucía",
+    "Apellidos": "Calderón Escobar",
+    "Correo": "cliente017@example.com",
+    "Telefono": "5550-0017",
+    "Usuario": "cliente017",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-03-02T22:59:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 20,
+    "Nombres": "Alejandro",
+    "Apellidos": "Pérez Hernández",
+    "Correo": "cliente018@example.com",
+    "Telefono": "5550 0018",
+    "Usuario": "cliente018",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-03-05T14:06:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 21,
+    "Nombres": "Camila",
+    "Apellidos": "Martínez Gómez",
+    "Correo": "cliente019@example.com",
+    "Telefono": "5550-0019",
+    "Usuario": "cliente019",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-03-08T15:13:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 22,
+    "Nombres": "Manuel",
+    "Apellidos": "Ramírez Díaz",
+    "Correo": "cliente020@example.com",
+    "Telefono": "5550-0020",
+    "Usuario": "cliente020",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Inactivo",
+    "FechaRegistro": {
+      "$date": "2025-03-11T16:20:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 23,
+    "Nombres": "Fernanda",
+    "Apellidos": "Méndez Ortiz",
+    "Correo": "cliente021@example.com",
+    "Telefono": "5550-0021",
+    "Usuario": "cliente021",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-03-14T17:27:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 24,
+    "Nombres": "Esteban",
+    "Apellidos": "Reyes Cabrera",
+    "Correo": "cliente022@example.com",
+    "Telefono": "5550-0022",
+    "Usuario": "cliente022",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-03-17T18:34:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 25,
+    "Nombres": "Natalia",
+    "Apellidos": "Flores Mendoza",
+    "Correo": "cliente023@example.com",
+    "Telefono": "5550-0023",
+    "Usuario": "cliente023",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-03-20T19:41:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 26,
+    "Nombres": "Oscar",
+    "Apellidos": "Rojas Calderón",
+    "Correo": "cliente024@example.com",
+    "Telefono": "5550-0024",
+    "Usuario": "cliente024",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-03-23T20:48:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 27,
+    "Nombres": "Isabel",
+    "Apellidos": "Herrera Barrios",
+    "Correo": "cliente025@example.com",
+    "Telefono": "5550-0025",
+    "Usuario": "cliente025",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-03-26T21:55:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 28,
+    "Nombres": "Héctor",
+    "Apellidos": "García López",
+    "Correo": "cliente026@example.com",
+    "Telefono": "5550-0026",
+    "Usuario": "cliente026",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-03-29T22:02:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 29,
+    "Nombres": "Elena",
+    "Apellidos": "López Ramírez",
+    "Correo": "cliente027@example.com",
+    "Telefono": "5550-0027",
+    "Usuario": "cliente027",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-04-01T14:09:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 30,
+    "Nombres": "Roberto",
+    "Apellidos": "González Méndez",
+    "Correo": "cliente028@example.com",
+    "Telefono": "5550 0028",
+    "Usuario": "cliente028",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-04-04T15:16:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 31,
+    "Nombres": "Mónica",
+    "Apellidos": "Castillo Reyes",
+    "Correo": "cliente029@example.com",
+    "Telefono": "5550-0029",
+    "Usuario": "cliente029",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-04-07T16:23:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 32,
+    "Nombres": "Andrés",
+    "Apellidos": "Vásquez Flores",
+    "Correo": "cliente030@example.com",
+    "Telefono": "5550-0030",
+    "Usuario": "cliente030",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Inactivo",
+    "FechaRegistro": {
+      "$date": "2025-04-10T17:30:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 33,
+    "Nombres": "Ana",
+    "Apellidos": "Aguilar Rojas",
+    "Correo": "cliente031@example.com",
+    "Telefono": "5550-0031",
+    "Usuario": "cliente031",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-04-13T18:37:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 34,
+    "Nombres": "Carlos",
+    "Apellidos": "Fuentes Herrera",
+    "Correo": "cliente032@example.com",
+    "Telefono": "5550-0032",
+    "Usuario": "cliente032",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-04-16T19:44:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 35,
+    "Nombres": "María",
+    "Apellidos": "Salazar Pineda",
+    "Correo": "cliente033@example.com",
+    "Telefono": "5550-0033",
+    "Usuario": "cliente033",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-04-19T20:51:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 36,
+    "Nombres": "José",
+    "Apellidos": "Alvarado Cifuentes",
+    "Correo": "cliente034@example.com",
+    "Telefono": "5550-0034",
+    "Usuario": "cliente034",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-04-22T21:58:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 37,
+    "Nombres": "Gabriela",
+    "Apellidos": "Rodríguez Morales",
+    "Correo": "cliente035@example.com",
+    "Telefono": "5550 0035",
+    "Usuario": "cliente035",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-04-25T22:05:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 38,
+    "Nombres": "Luis",
+    "Apellidos": "Hernández Castillo",
+    "Correo": "cliente036@example.com",
+    "Telefono": "5550-0036",
+    "Usuario": "cliente036",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-04-28T14:12:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 39,
+    "Nombres": "Daniela",
+    "Apellidos": "Morales Vásquez",
+    "Correo": "cliente037@example.com",
+    "Telefono": "5550-0037",
+    "Usuario": "cliente037",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-05-01T15:19:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 40,
+    "Nombres": "Fernando",
+    "Apellidos": "Díaz Aguilar",
+    "Correo": "cliente038@example.com",
+    "Telefono": "5550-0038",
+    "Usuario": "cliente038",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-05-04T16:26:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 41,
+    "Nombres": "Paola",
+    "Apellidos": "Ortiz Fuentes",
+    "Correo": "cliente039@example.com",
+    "Telefono": "5550-0039",
+    "Usuario": "cliente039",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-05-07T17:33:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 42,
+    "Nombres": "Ricardo",
+    "Apellidos": "Cabrera Salazar",
+    "Correo": "cliente040@example.com",
+    "Telefono": "5550-0040",
+    "Usuario": "cliente040",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Inactivo",
+    "FechaRegistro": {
+      "$date": "2025-05-10T18:40:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 43,
+    "Nombres": "Sofía",
+    "Apellidos": "Mendoza Alvarado",
+    "Correo": "cliente041@example.com",
+    "Telefono": "5550-0041",
+    "Usuario": "cliente041",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-05-13T19:47:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 44,
+    "Nombres": "Javier",
+    "Apellidos": "Calderón Escobar",
+    "Correo": "cliente042@example.com",
+    "Telefono": "5550-0042",
+    "Usuario": "cliente042",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-05-16T20:54:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 45,
+    "Nombres": "Andrea",
+    "Apellidos": "Pérez Hernández",
+    "Correo": "cliente043@example.com",
+    "Telefono": "5550-0043",
+    "Usuario": "cliente043",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-05-19T21:01:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 46,
+    "Nombres": "Miguel",
+    "Apellidos": "Martínez Gómez",
+    "Correo": "cliente044@example.com",
+    "Telefono": "5550-0044",
+    "Usuario": "cliente044",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-05-22T22:08:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 47,
+    "Nombres": "Valeria",
+    "Apellidos": "Ramírez Díaz",
+    "Correo": "cliente045@example.com",
+    "Telefono": "5550-0045",
+    "Usuario": "cliente045",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-05-25T14:15:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 48,
+    "Nombres": "Diego",
+    "Apellidos": "Méndez Ortiz",
+    "Correo": "cliente046@example.com",
+    "Telefono": "5550-0046",
+    "Usuario": "cliente046",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-05-28T15:22:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 49,
+    "Nombres": "Lucía",
+    "Apellidos": "Reyes Cabrera",
+    "Correo": "cliente047@example.com",
+    "Telefono": "5550-0047",
+    "Usuario": "cliente047",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-05-31T16:29:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 50,
+    "Nombres": "Alejandro",
+    "Apellidos": "Flores Mendoza",
+    "Correo": "cliente048@example.com",
+    "Telefono": "5550-0048",
+    "Usuario": "cliente048",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-06-03T17:36:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 51,
+    "Nombres": "Camila",
+    "Apellidos": "Rojas Calderón",
+    "Correo": "cliente049@example.com",
+    "Telefono": "5550-0049",
+    "Usuario": "cliente049",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-06-06T18:43:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 52,
+    "Nombres": "Manuel",
+    "Apellidos": "Herrera Barrios",
+    "Correo": "cliente050@example.com",
+    "Telefono": "5550-0050",
+    "Usuario": "cliente050",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Inactivo",
+    "FechaRegistro": {
+      "$date": "2025-06-09T19:50:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 53,
+    "Nombres": "Fernanda",
+    "Apellidos": "García López",
+    "Correo": "cliente051@example.com",
+    "Telefono": "5550-0051",
+    "Usuario": "cliente051",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-06-12T20:57:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 54,
+    "Nombres": "Esteban",
+    "Apellidos": "López Ramírez",
+    "Correo": "cliente052@example.com",
+    "Telefono": "5550-0052",
+    "Usuario": "cliente052",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-06-15T21:04:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 55,
+    "Nombres": "Natalia",
+    "Apellidos": "González Méndez",
+    "Correo": "cliente053@example.com",
+    "Telefono": "5550-0053",
+    "Usuario": "cliente053",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-06-18T22:11:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 56,
+    "Nombres": "Oscar",
+    "Apellidos": "Castillo Reyes",
+    "Correo": "cliente054@example.com",
+    "Telefono": "5550-0054",
+    "Usuario": "cliente054",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-06-21T14:18:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 57,
+    "Nombres": "Isabel",
+    "Apellidos": "Vásquez Flores",
+    "Correo": "cliente055@example.com",
+    "Telefono": "5550-0055",
+    "Usuario": "cliente055",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-06-24T15:25:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 58,
+    "Nombres": "Héctor",
+    "Apellidos": "Aguilar Rojas",
+    "Correo": "cliente056@example.com",
+    "Telefono": "5550-0056",
+    "Usuario": "cliente056",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-06-27T16:32:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 59,
+    "Nombres": "Elena",
+    "Apellidos": "Fuentes Herrera",
+    "Correo": "cliente057@example.com",
+    "Telefono": "5550-0057",
+    "Usuario": "cliente057",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-06-30T17:39:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 60,
+    "Nombres": "Roberto",
+    "Apellidos": "Salazar Pineda",
+    "Correo": "cliente058@example.com",
+    "Telefono": "5550-0058",
+    "Usuario": "cliente058",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-07-03T18:46:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 61,
+    "Nombres": "Mónica",
+    "Apellidos": "Alvarado Cifuentes",
+    "Correo": "cliente059@example.com",
+    "Telefono": "5550-0059",
+    "Usuario": "cliente059",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-07-06T19:53:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 62,
+    "Nombres": "Andrés",
+    "Apellidos": "Rodríguez Morales",
+    "Correo": "cliente060@example.com",
+    "Telefono": "5550-0060",
+    "Usuario": "cliente060",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Inactivo",
+    "FechaRegistro": {
+      "$date": "2025-07-09T20:00:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 63,
+    "Nombres": "Ana",
+    "Apellidos": "Hernández Castillo",
+    "Correo": "cliente061@example.com",
+    "Telefono": "5550-0061",
+    "Usuario": "cliente061",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-07-12T21:07:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 64,
+    "Nombres": "Carlos",
+    "Apellidos": "Morales Vásquez",
+    "Correo": "cliente062@example.com",
+    "Telefono": "5550-0062",
+    "Usuario": "cliente062",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-07-15T22:14:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 65,
+    "Nombres": "María",
+    "Apellidos": "Díaz Aguilar",
+    "Correo": "cliente063@example.com",
+    "Telefono": "5550-0063",
+    "Usuario": "cliente063",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-07-18T14:21:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 66,
+    "Nombres": "José",
+    "Apellidos": "Ortiz Fuentes",
+    "Correo": "cliente064@example.com",
+    "Telefono": "5550-0064",
+    "Usuario": "cliente064",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-07-21T15:28:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 67,
+    "Nombres": "Gabriela",
+    "Apellidos": "Cabrera Salazar",
+    "Correo": "cliente065@example.com",
+    "Telefono": "5550-0065",
+    "Usuario": "cliente065",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-07-24T16:35:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 68,
+    "Nombres": "Luis",
+    "Apellidos": "Mendoza Alvarado",
+    "Correo": "cliente066@example.com",
+    "Telefono": "5550-0066",
+    "Usuario": "cliente066",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-07-27T17:42:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 69,
+    "Nombres": "Daniela",
+    "Apellidos": "Calderón Escobar",
+    "Correo": "cliente067@example.com",
+    "Telefono": "5550-0067",
+    "Usuario": "cliente067",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-07-30T18:49:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 70,
+    "Nombres": "Fernando",
+    "Apellidos": "Pérez Hernández",
+    "Correo": "cliente068@example.com",
+    "Telefono": "5550-0068",
+    "Usuario": "cliente068",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-08-02T19:56:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 71,
+    "Nombres": "Paola",
+    "Apellidos": "Martínez Gómez",
+    "Correo": "cliente069@example.com",
+    "Telefono": "5550-0069",
+    "Usuario": "cliente069",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-08-05T20:03:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 72,
+    "Nombres": "Ricardo",
+    "Apellidos": "Ramírez Díaz",
+    "Correo": "cliente070@example.com",
+    "Telefono": "5550-0070",
+    "Usuario": "cliente070",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Inactivo",
+    "FechaRegistro": {
+      "$date": "2025-08-08T21:10:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 73,
+    "Nombres": "Sofía",
+    "Apellidos": "Méndez Ortiz",
+    "Correo": "cliente071@example.com",
+    "Telefono": "5550-0071",
+    "Usuario": "cliente071",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-08-11T22:17:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 74,
+    "Nombres": "Javier",
+    "Apellidos": "Reyes Cabrera",
+    "Correo": "cliente072@example.com",
+    "Telefono": "5550-0072",
+    "Usuario": "cliente072",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-08-14T14:24:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 75,
+    "Nombres": "Andrea",
+    "Apellidos": "Flores Mendoza",
+    "Correo": "cliente073@example.com",
+    "Telefono": "5550-0073",
+    "Usuario": "cliente073",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-08-17T15:31:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 76,
+    "Nombres": "Miguel",
+    "Apellidos": "Rojas Calderón",
+    "Correo": "cliente074@example.com",
+    "Telefono": "5550-0074",
+    "Usuario": "cliente074",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-08-20T16:38:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 77,
+    "Nombres": "Valeria",
+    "Apellidos": "Herrera Barrios",
+    "Correo": "cliente075@example.com",
+    "Telefono": "5550-0075",
+    "Usuario": "cliente075",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-08-23T17:45:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 78,
+    "Nombres": "Diego",
+    "Apellidos": "García López",
+    "Correo": "cliente076@example.com",
+    "Telefono": "5550-0076",
+    "Usuario": "cliente076",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-08-26T18:52:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 79,
+    "Nombres": "Lucía",
+    "Apellidos": "López Ramírez",
+    "Correo": "cliente077@example.com",
+    "Telefono": "5550-0077",
+    "Usuario": "cliente077",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-08-29T19:59:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 80,
+    "Nombres": "Alejandro",
+    "Apellidos": "González Méndez",
+    "Correo": "cliente078@example.com",
+    "Telefono": "5550-0078",
+    "Usuario": "cliente078",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-09-01T20:06:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 81,
+    "Nombres": "Manuel",
+    "Apellidos": "Vásquez Flores",
+    "Correo": "cliente080@example.com",
+    "Telefono": "5550-0080",
+    "Usuario": "cliente080",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Inactivo",
+    "FechaRegistro": {
+      "$date": "2025-09-07T22:20:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 82,
+    "Nombres": "Fernanda",
+    "Apellidos": "Aguilar Rojas",
+    "Correo": "cliente081@example.com",
+    "Telefono": "5550-0081",
+    "Usuario": "cliente081",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-09-10T14:27:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 83,
+    "Nombres": "Esteban",
+    "Apellidos": "Fuentes Herrera",
+    "Correo": "cliente082@example.com",
+    "Telefono": "5550-0082",
+    "Usuario": "cliente082",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-09-13T15:34:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 84,
+    "Nombres": "Natalia",
+    "Apellidos": "Salazar Pineda",
+    "Correo": "cliente083@example.com",
+    "Telefono": "5550-0083",
+    "Usuario": "cliente083",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-09-16T16:41:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 85,
+    "Nombres": "Oscar",
+    "Apellidos": "Alvarado Cifuentes",
+    "Correo": "cliente084@example.com",
+    "Telefono": "5550-0084",
+    "Usuario": "cliente084",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-09-19T17:48:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 86,
+    "Nombres": "Isabel",
+    "Apellidos": "Rodríguez Morales",
+    "Correo": "cliente085@example.com",
+    "Telefono": "5550-0085",
+    "Usuario": "cliente085",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-09-22T18:55:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 87,
+    "Nombres": "Héctor",
+    "Apellidos": "Hernández Castillo",
+    "Correo": "cliente086@example.com",
+    "Telefono": "5550-0086",
+    "Usuario": "cliente086",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-09-25T19:02:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 88,
+    "Nombres": "Elena",
+    "Apellidos": "Morales Vásquez",
+    "Correo": "cliente087@example.com",
+    "Telefono": "5550-0087",
+    "Usuario": "cliente087",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-09-28T20:09:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 89,
+    "Nombres": "Roberto",
+    "Apellidos": "Díaz Aguilar",
+    "Correo": "cliente088@example.com",
+    "Telefono": "5550-0088",
+    "Usuario": "cliente088",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-10-01T21:16:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 90,
+    "Nombres": "Mónica",
+    "Apellidos": "Ortiz Fuentes",
+    "Correo": "cliente089@example.com",
+    "Telefono": "5550-0089",
+    "Usuario": "cliente089",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-10-04T22:23:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 91,
+    "Nombres": "Andrés",
+    "Apellidos": "Cabrera Salazar",
+    "Correo": "cliente090@example.com",
+    "Telefono": "5550-0090",
+    "Usuario": "cliente090",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Inactivo",
+    "FechaRegistro": {
+      "$date": "2025-10-07T14:30:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 92,
+    "Nombres": "Ana",
+    "Apellidos": "Mendoza Alvarado",
+    "Correo": "cliente091@example.com",
+    "Telefono": "5550-0091",
+    "Usuario": "cliente091",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-10-10T15:37:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 93,
+    "Nombres": "Carlos",
+    "Apellidos": "Calderón Escobar",
+    "Correo": "cliente092@example.com",
+    "Telefono": "5550-0092",
+    "Usuario": "cliente092",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-10-13T16:44:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 94,
+    "Nombres": "María",
+    "Apellidos": "Pérez Hernández",
+    "Correo": "cliente093@example.com",
+    "Telefono": "5550-0093",
+    "Usuario": "cliente093",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-10-16T17:51:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 95,
+    "Nombres": "José",
+    "Apellidos": "Martínez Gómez",
+    "Correo": "cliente094@example.com",
+    "Telefono": "5550-0094",
+    "Usuario": "cliente094",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-10-19T18:58:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 96,
+    "Nombres": "Gabriela",
+    "Apellidos": "Ramírez Díaz",
+    "Correo": "cliente095@example.com",
+    "Telefono": "5550-0095",
+    "Usuario": "cliente095",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-10-22T19:05:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 97,
+    "Nombres": "Luis",
+    "Apellidos": "Méndez Ortiz",
+    "Correo": "cliente096@example.com",
+    "Telefono": "5550-0096",
+    "Usuario": "cliente096",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-10-25T20:12:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 98,
+    "Nombres": "Daniela",
+    "Apellidos": "Reyes Cabrera",
+    "Correo": "cliente097@example.com",
+    "Telefono": "5550-0097",
+    "Usuario": "cliente097",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-10-28T21:19:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 99,
+    "Nombres": "Fernando",
+    "Apellidos": "Flores Mendoza",
+    "Correo": "cliente098@example.com",
+    "Telefono": "5550 0098",
+    "Usuario": "cliente098",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-10-31T22:26:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 100,
+    "Nombres": "Paola",
+    "Apellidos": "Rojas Calderón",
+    "Correo": "cliente099@example.com",
+    "Telefono": "5550-0099",
+    "Usuario": "cliente099",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-11-03T14:33:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 101,
+    "Nombres": "Ricardo",
+    "Apellidos": "Herrera Barrios",
+    "Correo": "cliente100@example.com",
+    "Telefono": "5550-0100",
+    "Usuario": "cliente100",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Inactivo",
+    "FechaRegistro": {
+      "$date": "2025-11-06T15:40:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 102,
+    "Nombres": "Sofía",
+    "Apellidos": "García López",
+    "Correo": "cliente101@example.com",
+    "Telefono": "5550-0101",
+    "Usuario": "cliente101",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-11-09T16:47:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 103,
+    "Nombres": "Javier",
+    "Apellidos": "López Ramírez",
+    "Correo": "cliente102@example.com",
+    "Telefono": "5550-0102",
+    "Usuario": "cliente102",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-11-12T17:54:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 104,
+    "Nombres": "Andrea",
+    "Apellidos": "González Méndez",
+    "Correo": "cliente103@example.com",
+    "Telefono": "5550-0103",
+    "Usuario": "cliente103",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-11-15T18:01:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 105,
+    "Nombres": "Miguel",
+    "Apellidos": "Castillo Reyes",
+    "Correo": "cliente104@example.com",
+    "Telefono": "5550-0104",
+    "Usuario": "cliente104",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-11-18T19:08:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 106,
+    "Nombres": "Valeria",
+    "Apellidos": "Vásquez Flores",
+    "Correo": "cliente105@example.com",
+    "Telefono": "5550-0105",
+    "Usuario": "cliente105",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-11-21T20:15:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 107,
+    "Nombres": "Diego",
+    "Apellidos": "Aguilar Rojas",
+    "Correo": "cliente106@example.com",
+    "Telefono": "5550-0106",
+    "Usuario": "cliente106",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-11-24T21:22:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 108,
+    "Nombres": "Lucía",
+    "Apellidos": "Fuentes Herrera",
+    "Correo": "cliente107@example.com",
+    "Telefono": "5550-0107",
+    "Usuario": "cliente107",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-11-27T22:29:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 109,
+    "Nombres": "Alejandro",
+    "Apellidos": "Salazar Pineda",
+    "Correo": "cliente108@example.com",
+    "Telefono": "5550-0108",
+    "Usuario": "cliente108",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-11-30T14:36:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 110,
+    "Nombres": "Camila",
+    "Apellidos": "Alvarado Cifuentes",
+    "Correo": "cliente109@example.com",
+    "Telefono": "5550-0109",
+    "Usuario": "cliente109",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-12-03T15:43:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 111,
+    "Nombres": "Manuel",
+    "Apellidos": "Rodríguez Morales",
+    "Correo": "cliente110@example.com",
+    "Telefono": "5550-0110",
+    "Usuario": "cliente110",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Inactivo",
+    "FechaRegistro": {
+      "$date": "2025-12-06T16:50:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 112,
+    "Nombres": "Fernanda",
+    "Apellidos": "Hernández Castillo",
+    "Correo": "cliente111@example.com",
+    "Telefono": "5550-0111",
+    "Usuario": "cliente111",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-12-09T17:57:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 113,
+    "Nombres": "Esteban",
+    "Apellidos": "Morales Vásquez",
+    "Correo": "cliente112@example.com",
+    "Telefono": "5550-0112",
+    "Usuario": "cliente112",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-12-12T18:04:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 114,
+    "Nombres": "Natalia",
+    "Apellidos": "Díaz Aguilar",
+    "Correo": "cliente113@example.com",
+    "Telefono": "5550-0113",
+    "Usuario": "cliente113",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-12-15T19:11:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 115,
+    "Nombres": "Oscar",
+    "Apellidos": "Ortiz Fuentes",
+    "Correo": "cliente114@example.com",
+    "Telefono": "5550-0114",
+    "Usuario": "cliente114",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-12-18T20:18:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 116,
+    "Nombres": "Isabel",
+    "Apellidos": "Cabrera Salazar",
+    "Correo": "cliente115@example.com",
+    "Telefono": "5550-0115",
+    "Usuario": "cliente115",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-12-21T21:25:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 117,
+    "Nombres": "Héctor",
+    "Apellidos": "Mendoza Alvarado",
+    "Correo": "cliente116@example.com",
+    "Telefono": "5550-0116",
+    "Usuario": "cliente116",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-12-24T22:32:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 118,
+    "Nombres": "Elena",
+    "Apellidos": "Calderón Escobar",
+    "Correo": "cliente117@example.com",
+    "Telefono": "5550-0117",
+    "Usuario": "cliente117",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-12-27T14:39:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 119,
+    "Nombres": "Roberto",
+    "Apellidos": "Pérez Hernández",
+    "Correo": "cliente118@example.com",
+    "Telefono": "5550-0118",
+    "Usuario": "cliente118",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2025-12-30T15:46:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 120,
+    "Nombres": "Mónica",
+    "Apellidos": "Martínez Gómez",
+    "Correo": "cliente119@example.com",
+    "Telefono": "5550-0119",
+    "Usuario": "cliente119",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-01-02T16:53:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 121,
+    "Nombres": "Andrés",
+    "Apellidos": "Ramírez Díaz",
+    "Correo": "cliente120@example.com",
+    "Telefono": "5550-0120",
+    "Usuario": "cliente120",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Inactivo",
+    "FechaRegistro": {
+      "$date": "2026-01-05T17:00:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 122,
+    "Nombres": "Ana",
+    "Apellidos": "Méndez Ortiz",
+    "Correo": "cliente121@example.com",
+    "Telefono": "5550-0121",
+    "Usuario": "cliente121",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-01-08T18:07:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 123,
+    "Nombres": "Carlos",
+    "Apellidos": "Reyes Cabrera",
+    "Correo": "cliente122@example.com",
+    "Telefono": "5550-0122",
+    "Usuario": "cliente122",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-01-11T19:14:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 124,
+    "Nombres": "María",
+    "Apellidos": "Flores Mendoza",
+    "Correo": "cliente123@example.com",
+    "Telefono": "5550-0123",
+    "Usuario": "cliente123",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-01-14T20:21:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 125,
+    "Nombres": "José",
+    "Apellidos": "Rojas Calderón",
+    "Correo": "cliente124@example.com",
+    "Telefono": "5550-0124",
+    "Usuario": "cliente124",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-01-17T21:28:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 126,
+    "Nombres": "Gabriela",
+    "Apellidos": "Herrera Barrios",
+    "Correo": "cliente125@example.com",
+    "Telefono": "5550-0125",
+    "Usuario": "cliente125",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-01-20T22:35:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 127,
+    "Nombres": "Luis",
+    "Apellidos": "García López",
+    "Correo": "cliente126@example.com",
+    "Telefono": "5550-0126",
+    "Usuario": "cliente126",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-01-23T14:42:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 128,
+    "Nombres": "Daniela",
+    "Apellidos": "López Ramírez",
+    "Correo": "cliente127@example.com",
+    "Telefono": "5550-0127",
+    "Usuario": "cliente127",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-01-26T15:49:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 129,
+    "Nombres": "Fernando",
+    "Apellidos": "González Méndez",
+    "Correo": "cliente128@example.com",
+    "Telefono": "5550-0128",
+    "Usuario": "cliente128",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-01-29T16:56:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 130,
+    "Nombres": "Paola",
+    "Apellidos": "Castillo Reyes",
+    "Correo": "cliente129@example.com",
+    "Telefono": "5550-0129",
+    "Usuario": "cliente129",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-02-01T17:03:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 131,
+    "Nombres": "Ricardo",
+    "Apellidos": "Vásquez Flores",
+    "Correo": "cliente130@example.com",
+    "Telefono": "5550-0130",
+    "Usuario": "cliente130",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Inactivo",
+    "FechaRegistro": {
+      "$date": "2026-02-04T18:10:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 132,
+    "Nombres": "Sofía",
+    "Apellidos": "Aguilar Rojas",
+    "Correo": "cliente131@example.com",
+    "Telefono": "5550-0131",
+    "Usuario": "cliente131",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-02-07T19:17:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 133,
+    "Nombres": "Javier",
+    "Apellidos": "Fuentes Herrera",
+    "Correo": "cliente132@example.com",
+    "Telefono": "5550-0132",
+    "Usuario": "cliente132",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-02-10T20:24:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 134,
+    "Nombres": "Andrea",
+    "Apellidos": "Salazar Pineda",
+    "Correo": "cliente133@example.com",
+    "Telefono": "5550-0133",
+    "Usuario": "cliente133",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-02-13T21:31:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 135,
+    "Nombres": "Miguel",
+    "Apellidos": "Alvarado Cifuentes",
+    "Correo": "cliente134@example.com",
+    "Telefono": "5550-0134",
+    "Usuario": "cliente134",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-02-16T22:38:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 136,
+    "Nombres": "Valeria",
+    "Apellidos": "Rodríguez Morales",
+    "Correo": "cliente135@example.com",
+    "Telefono": "5550-0135",
+    "Usuario": "cliente135",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-02-19T14:45:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 137,
+    "Nombres": "Diego",
+    "Apellidos": "Hernández Castillo",
+    "Correo": "cliente136@example.com",
+    "Telefono": "5550-0136",
+    "Usuario": "cliente136",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-02-22T15:52:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 138,
+    "Nombres": "Lucía",
+    "Apellidos": "Morales Vásquez",
+    "Correo": "cliente137@example.com",
+    "Telefono": "5550-0137",
+    "Usuario": "cliente137",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-02-25T16:59:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 139,
+    "Nombres": "Alejandro",
+    "Apellidos": "Díaz Aguilar",
+    "Correo": "cliente138@example.com",
+    "Telefono": "5550-0138",
+    "Usuario": "cliente138",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-02-28T17:06:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 140,
+    "Nombres": "Camila",
+    "Apellidos": "Ortiz Fuentes",
+    "Correo": "cliente139@example.com",
+    "Telefono": "5550-0139",
+    "Usuario": "cliente139",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-03-03T18:13:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 141,
+    "Nombres": "Manuel",
+    "Apellidos": "Cabrera Salazar",
+    "Correo": "cliente140@example.com",
+    "Telefono": "5550-0140",
+    "Usuario": "cliente140",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Inactivo",
+    "FechaRegistro": {
+      "$date": "2026-03-06T19:20:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 142,
+    "Nombres": "Fernanda",
+    "Apellidos": "Mendoza Alvarado",
+    "Correo": "cliente141@example.com",
+    "Telefono": "5550-0141",
+    "Usuario": "cliente141",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-03-09T20:27:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 143,
+    "Nombres": "Esteban",
+    "Apellidos": "Calderón Escobar",
+    "Correo": "cliente142@example.com",
+    "Telefono": "5550-0142",
+    "Usuario": "cliente142",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-03-12T21:34:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 144,
+    "Nombres": "Natalia",
+    "Apellidos": "Pérez Hernández",
+    "Correo": "cliente143@example.com",
+    "Telefono": "5550-0143",
+    "Usuario": "cliente143",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-03-15T22:41:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 145,
+    "Nombres": "Oscar",
+    "Apellidos": "Martínez Gómez",
+    "Correo": "cliente144@example.com",
+    "Telefono": "5550-0144",
+    "Usuario": "cliente144",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-03-18T14:48:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 146,
+    "Nombres": "Isabel",
+    "Apellidos": "Ramírez Díaz",
+    "Correo": "cliente145@example.com",
+    "Telefono": "5550-0145",
+    "Usuario": "cliente145",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-03-21T15:55:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 147,
+    "Nombres": "Héctor",
+    "Apellidos": "Méndez Ortiz",
+    "Correo": "cliente146@example.com",
+    "Telefono": "5550-0146",
+    "Usuario": "cliente146",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-03-24T16:02:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 148,
+    "Nombres": "Elena",
+    "Apellidos": "Reyes Cabrera",
+    "Correo": "cliente147@example.com",
+    "Telefono": "5550-0147",
+    "Usuario": "cliente147",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-03-27T17:09:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 149,
+    "Nombres": "Roberto",
+    "Apellidos": "Flores Mendoza",
+    "Correo": "cliente148@example.com",
+    "Telefono": "5550-0148",
+    "Usuario": "cliente148",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-03-30T18:16:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 150,
+    "Nombres": "Mónica",
+    "Apellidos": "Rojas Calderón",
+    "Correo": "cliente149@example.com",
+    "Telefono": "5550-0149",
+    "Usuario": "cliente149",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-04-02T19:23:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 151,
+    "Nombres": "Andrés",
+    "Apellidos": "Herrera Barrios",
+    "Correo": "cliente150@example.com",
+    "Telefono": "5550-0150",
+    "Usuario": "cliente150",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Inactivo",
+    "FechaRegistro": {
+      "$date": "2026-04-05T20:30:00.000Z"
+    }
+  },
+  {
+    "UsuarioID": 152,
+    "Nombres": "Mariana",
+    "Apellidos": "Soto Villagrán",
+    "Correo": "mariana.soto151@example.com",
+    "Telefono": "5551-0151",
+    "Usuario": "marianasoto151",
+    "Contrasena": "$2y$12$qDdl9rxMat1KSbvYQRy1J.XqXGCHYJSaBcVLNqI7Ipu0v74caYs2a",
+    "TipoUsuario": "Cliente",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-02-14T16:20:00.000Z"
+    }
+  }
+]

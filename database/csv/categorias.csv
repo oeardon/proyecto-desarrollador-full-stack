@@ -1,0 +1,49 @@
+"CategoriaID","Nombre","Descripcion","Estado","CategoriaPadreID"
+"1","Celulares y tablets","Selección de celulares y tablets para la tienda TodoAquí.","Activo",
+"2","Computación","Selección de computación para la tienda TodoAquí.","Activo",
+"3","Audio y video","Selección de audio y video para la tienda TodoAquí.","Activo",
+"4","Gaming","Selección de gaming para la tienda TodoAquí.","Activo",
+"5","Hogar inteligente","Selección de hogar inteligente para la tienda TodoAquí.","Activo",
+"6","Electrodomésticos","Selección de electrodomésticos para la tienda TodoAquí.","Activo",
+"7","Hogar y cocina","Selección de hogar y cocina para la tienda TodoAquí.","Activo",
+"8","Moda y accesorios","Selección de moda y accesorios para la tienda TodoAquí.","Activo",
+"9","Deportes y aire libre","Selección de deportes y aire libre para la tienda TodoAquí.","Activo",
+"10","Belleza y cuidado personal","Selección de belleza y cuidado personal para la tienda TodoAquí.","Activo",
+"11","Herramientas y ferretería","Selección de herramientas y ferretería para la tienda TodoAquí.","Activo",
+"12","Mascotas","Selección de mascotas para la tienda TodoAquí.","Activo",
+"13","Smartphones","Productos de smartphones de la categoría Celulares y tablets.","Activo","1"
+"14","Tablets","Productos de tablets de la categoría Celulares y tablets.","Activo","1"
+"15","Cargadores móviles","Productos de cargadores móviles de la categoría Celulares y tablets.","Activo","1"
+"16","Portátiles","Productos de portátiles de la categoría Computación.","Activo","2"
+"17","Monitores","Productos de monitores de la categoría Computación.","Activo","2"
+"18","Almacenamiento","Productos de almacenamiento de la categoría Computación.","Activo","2"
+"19","Audífonos","Productos de audífonos de la categoría Audio y video.","Activo","3"
+"20","Bocinas","Productos de bocinas de la categoría Audio y video.","Activo","3"
+"21","Televisores","Productos de televisores de la categoría Audio y video.","Activo","3"
+"22","Teclados gaming","Productos de teclados gaming de la categoría Gaming.","Activo","4"
+"23","Ratones gaming","Productos de ratones gaming de la categoría Gaming.","Activo","4"
+"24","Controles gaming","Productos de controles gaming de la categoría Gaming.","Activo","4"
+"25","Cámaras de seguridad","Productos de cámaras de seguridad de la categoría Hogar inteligente.","Activo","5"
+"26","Iluminación inteligente","Productos de iluminación inteligente de la categoría Hogar inteligente.","Activo","5"
+"27","Sensores domésticos","Productos de sensores domésticos de la categoría Hogar inteligente.","Activo","5"
+"28","Cocina eléctrica","Productos de cocina eléctrica de la categoría Electrodomésticos.","Activo","6"
+"29","Limpieza eléctrica","Productos de limpieza eléctrica de la categoría Electrodomésticos.","Activo","6"
+"30","Ventilación","Productos de ventilación de la categoría Electrodomésticos.","Activo","6"
+"31","Utensilios de cocina","Productos de utensilios de cocina de la categoría Hogar y cocina.","Activo","7"
+"32","Organización del hogar","Productos de organización del hogar de la categoría Hogar y cocina.","Activo","7"
+"33","Ropa de cama","Productos de ropa de cama de la categoría Hogar y cocina.","Activo","7"
+"34","Relojes inteligentes","Productos de relojes inteligentes de la categoría Moda y accesorios.","Activo","8"
+"35","Mochilas","Productos de mochilas de la categoría Moda y accesorios.","Activo","8"
+"36","Bolsos y carteras","Productos de bolsos y carteras de la categoría Moda y accesorios.","Activo","8"
+"37","Ciclismo","Productos de ciclismo de la categoría Deportes y aire libre.","Activo","9"
+"38","Entrenamiento en casa","Productos de entrenamiento en casa de la categoría Deportes y aire libre.","Activo","9"
+"39","Campismo","Productos de campismo de la categoría Deportes y aire libre.","Activo","9"
+"40","Higiene personal","Productos de higiene personal de la categoría Belleza y cuidado personal.","Activo","10"
+"41","Cuidado del cabello","Productos de cuidado del cabello de la categoría Belleza y cuidado personal.","Activo","10"
+"42","Cuidado de la piel","Productos de cuidado de la piel de la categoría Belleza y cuidado personal.","Activo","10"
+"43","Herramientas manuales","Productos de herramientas manuales de la categoría Herramientas y ferretería.","Activo","11"
+"44","Herramientas eléctricas","Productos de herramientas eléctricas de la categoría Herramientas y ferretería.","Activo","11"
+"45","Seguridad industrial","Productos de seguridad industrial de la categoría Herramientas y ferretería.","Activo","11"
+"46","Alimentación para mascotas","Productos de alimentación para mascotas de la categoría Mascotas.","Activo","12"
+"47","Juguetes para mascotas","Productos de juguetes para mascotas de la categoría Mascotas.","Activo","12"
+"48","Accesorios para mascotas","Productos de accesorios para mascotas de la categoría Mascotas.","Activo","12"

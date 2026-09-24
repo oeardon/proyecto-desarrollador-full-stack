@@ -1,0 +1,1622 @@
+[
+  {
+    "DetalleOrdenID": 1,
+    "OrdenID": 1,
+    "ProductoID": 1,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "3299.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "3299.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 2,
+    "OrdenID": 1,
+    "ProductoID": 2,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "5799.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "11598.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 3,
+    "OrdenID": 1,
+    "ProductoID": 3,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "649.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "649.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 4,
+    "OrdenID": 2,
+    "ProductoID": 4,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "499.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "998.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 5,
+    "OrdenID": 2,
+    "ProductoID": 5,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "899.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "899.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 6,
+    "OrdenID": 2,
+    "ProductoID": 6,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "1699.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "3398.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 7,
+    "OrdenID": 3,
+    "ProductoID": 7,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "429.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "429.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 8,
+    "OrdenID": 3,
+    "ProductoID": 8,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "599.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "1198.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 9,
+    "OrdenID": 3,
+    "ProductoID": 9,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "1899.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "1899.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 10,
+    "OrdenID": 4,
+    "ProductoID": 10,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "4599.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "9198.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 11,
+    "OrdenID": 4,
+    "ProductoID": 11,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "1299.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "1299.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 12,
+    "OrdenID": 4,
+    "ProductoID": 12,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "2499.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "4998.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 13,
+    "OrdenID": 5,
+    "ProductoID": 13,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "899.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "899.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 14,
+    "OrdenID": 5,
+    "ProductoID": 14,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "129.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "258.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 15,
+    "OrdenID": 5,
+    "ProductoID": 15,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "249.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "249.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 16,
+    "OrdenID": 6,
+    "ProductoID": 16,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "179.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "358.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 17,
+    "OrdenID": 6,
+    "ProductoID": 17,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "3799.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "3799.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 18,
+    "OrdenID": 6,
+    "ProductoID": 18,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "8499.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "16998.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 19,
+    "OrdenID": 7,
+    "ProductoID": 19,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "1199.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "1199.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 20,
+    "OrdenID": 7,
+    "ProductoID": 20,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "2499.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "4998.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 21,
+    "OrdenID": 7,
+    "ProductoID": 21,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "599.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "599.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 22,
+    "OrdenID": 8,
+    "ProductoID": 22,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "89.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "178.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 23,
+    "OrdenID": 8,
+    "ProductoID": 23,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "749.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "749.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 24,
+    "OrdenID": 8,
+    "ProductoID": 24,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "249.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "498.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 25,
+    "OrdenID": 9,
+    "ProductoID": 25,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "349.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "349.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 26,
+    "OrdenID": 9,
+    "ProductoID": 26,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "799.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "1598.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 27,
+    "OrdenID": 9,
+    "ProductoID": 27,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "199.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "199.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 28,
+    "OrdenID": 10,
+    "ProductoID": 28,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "1699.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "3398.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 29,
+    "OrdenID": 10,
+    "ProductoID": 29,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "2799.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "2799.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 30,
+    "OrdenID": 10,
+    "ProductoID": 30,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "4499.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "8998.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 31,
+    "OrdenID": 11,
+    "ProductoID": 31,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "399.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "399.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 32,
+    "OrdenID": 11,
+    "ProductoID": 32,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "229.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "458.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 33,
+    "OrdenID": 11,
+    "ProductoID": 33,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "249.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "249.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 34,
+    "OrdenID": 12,
+    "ProductoID": 34,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "349.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "698.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 35,
+    "OrdenID": 12,
+    "ProductoID": 35,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "429.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "429.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 36,
+    "OrdenID": 12,
+    "ProductoID": 36,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "199.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "398.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 37,
+    "OrdenID": 13,
+    "ProductoID": 37,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "399.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "399.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 38,
+    "OrdenID": 13,
+    "ProductoID": 38,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "1299.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "2598.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 39,
+    "OrdenID": 13,
+    "ProductoID": 39,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "799.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "799.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 40,
+    "OrdenID": 14,
+    "ProductoID": 40,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "449.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "898.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 41,
+    "OrdenID": 14,
+    "ProductoID": 41,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "99.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "99.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 42,
+    "OrdenID": 14,
+    "ProductoID": 42,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "199.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "398.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 43,
+    "OrdenID": 15,
+    "ProductoID": 43,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "149.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "149.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 44,
+    "OrdenID": 15,
+    "ProductoID": 44,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "129.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "258.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 45,
+    "OrdenID": 15,
+    "ProductoID": 45,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "179.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "179.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 46,
+    "OrdenID": 16,
+    "ProductoID": 46,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "159.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "318.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 47,
+    "OrdenID": 16,
+    "ProductoID": 47,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "349.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "349.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 48,
+    "OrdenID": 16,
+    "ProductoID": 48,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "299.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "598.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 49,
+    "OrdenID": 17,
+    "ProductoID": 49,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "799.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "799.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 50,
+    "OrdenID": 17,
+    "ProductoID": 50,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "599.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "1198.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 51,
+    "OrdenID": 17,
+    "ProductoID": 51,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "299.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "299.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 52,
+    "OrdenID": 18,
+    "ProductoID": 52,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "649.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "1298.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 53,
+    "OrdenID": 18,
+    "ProductoID": 53,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "249.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "249.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 54,
+    "OrdenID": 18,
+    "ProductoID": 54,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "99.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "198.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 55,
+    "OrdenID": 19,
+    "ProductoID": 55,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "449.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "449.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 56,
+    "OrdenID": 19,
+    "ProductoID": 56,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "299.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "598.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 57,
+    "OrdenID": 19,
+    "ProductoID": 57,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "119.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "119.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 58,
+    "OrdenID": 20,
+    "ProductoID": 58,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "89.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "178.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 59,
+    "OrdenID": 20,
+    "ProductoID": 59,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "79.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "79.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 60,
+    "OrdenID": 20,
+    "ProductoID": 60,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "99.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "198.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 61,
+    "OrdenID": 21,
+    "ProductoID": 61,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "349.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "349.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 62,
+    "OrdenID": 21,
+    "ProductoID": 62,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "249.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "498.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 63,
+    "OrdenID": 21,
+    "ProductoID": 63,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "99.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "99.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 64,
+    "OrdenID": 22,
+    "ProductoID": 64,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "159.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "318.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 65,
+    "OrdenID": 22,
+    "ProductoID": 65,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "549.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "549.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 66,
+    "OrdenID": 22,
+    "ProductoID": 66,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "299.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "598.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 67,
+    "OrdenID": 23,
+    "ProductoID": 67,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "249.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "249.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 68,
+    "OrdenID": 23,
+    "ProductoID": 68,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "179.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "358.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 69,
+    "OrdenID": 23,
+    "ProductoID": 69,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "349.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "349.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 70,
+    "OrdenID": 24,
+    "ProductoID": 70,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "149.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "298.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 71,
+    "OrdenID": 24,
+    "ProductoID": 71,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "89.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "89.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 72,
+    "OrdenID": 24,
+    "ProductoID": 72,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "129.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "258.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 73,
+    "OrdenID": 25,
+    "ProductoID": 73,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "229.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "229.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 74,
+    "OrdenID": 25,
+    "ProductoID": 74,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "99.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "198.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 75,
+    "OrdenID": 25,
+    "ProductoID": 75,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "79.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "79.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 76,
+    "OrdenID": 26,
+    "ProductoID": 76,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "249.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "498.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 77,
+    "OrdenID": 26,
+    "ProductoID": 77,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "119.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "119.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 78,
+    "OrdenID": 26,
+    "ProductoID": 78,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "99.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "198.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 79,
+    "OrdenID": 27,
+    "ProductoID": 79,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "599.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "599.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 80,
+    "OrdenID": 27,
+    "ProductoID": 80,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "149.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "298.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 81,
+    "OrdenID": 27,
+    "ProductoID": 81,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "129.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "129.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 82,
+    "OrdenID": 28,
+    "ProductoID": 82,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "199.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "398.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 83,
+    "OrdenID": 28,
+    "ProductoID": 83,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "79.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "79.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 84,
+    "OrdenID": 28,
+    "ProductoID": 84,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "149.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "298.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 85,
+    "OrdenID": 29,
+    "ProductoID": 85,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "229.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "229.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 86,
+    "OrdenID": 29,
+    "ProductoID": 86,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "279.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "558.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 87,
+    "OrdenID": 29,
+    "ProductoID": 87,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "49.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "49.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 88,
+    "OrdenID": 30,
+    "ProductoID": 88,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "89.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "178.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 89,
+    "OrdenID": 30,
+    "ProductoID": 89,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "199.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "199.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 90,
+    "OrdenID": 30,
+    "ProductoID": 90,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "129.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "258.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 91,
+    "OrdenID": 31,
+    "ProductoID": 91,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "129.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "129.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 92,
+    "OrdenID": 31,
+    "ProductoID": 92,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "79.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "158.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 93,
+    "OrdenID": 31,
+    "ProductoID": 93,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "249.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "249.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 94,
+    "OrdenID": 32,
+    "ProductoID": 94,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "699.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "1398.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 95,
+    "OrdenID": 32,
+    "ProductoID": 95,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "449.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "449.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 96,
+    "OrdenID": 32,
+    "ProductoID": 96,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "199.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "398.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 97,
+    "OrdenID": 33,
+    "ProductoID": 97,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "49.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "49.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 98,
+    "OrdenID": 33,
+    "ProductoID": 98,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "59.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "118.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 99,
+    "OrdenID": 33,
+    "ProductoID": 99,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "89.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "89.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 100,
+    "OrdenID": 34,
+    "ProductoID": 100,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "159.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "318.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 101,
+    "OrdenID": 34,
+    "ProductoID": 101,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "139.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "139.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 102,
+    "OrdenID": 34,
+    "ProductoID": 102,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "49.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "98.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 103,
+    "OrdenID": 35,
+    "ProductoID": 103,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "39.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "39.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 104,
+    "OrdenID": 35,
+    "ProductoID": 104,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "199.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "398.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 105,
+    "OrdenID": 35,
+    "ProductoID": 105,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "59.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "59.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 106,
+    "OrdenID": 36,
+    "ProductoID": 106,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "69.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "138.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 107,
+    "OrdenID": 36,
+    "ProductoID": 107,
+    "Cantidad": 1,
+    "PrecioUnitario": {
+      "$numberDecimal": "249.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "249.00"
+    }
+  },
+  {
+    "DetalleOrdenID": 108,
+    "OrdenID": 36,
+    "ProductoID": 108,
+    "Cantidad": 2,
+    "PrecioUnitario": {
+      "$numberDecimal": "89.00"
+    },
+    "Descuento": {
+      "$numberDecimal": "0.00"
+    },
+    "Subtotal": {
+      "$numberDecimal": "178.00"
+    }
+  }
+]

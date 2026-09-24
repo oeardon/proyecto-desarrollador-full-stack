@@ -1,0 +1,478 @@
+[
+  {
+    "PagoID": 1,
+    "OrdenID": 1,
+    "FechaPago": {
+      "$date": "2026-08-01T17:00:00.000Z"
+    },
+    "Monto": {
+      "$numberDecimal": "15546.00"
+    },
+    "MetodoPago": "Tarjeta",
+    "ReferenciaPago": "DEMO-PAGO-0001",
+    "Notas": "Pago simulado; no representa un cobro real.",
+    "Estado": "Completado"
+  },
+  {
+    "PagoID": 2,
+    "OrdenID": 2,
+    "FechaPago": {
+      "$date": "2026-08-02T17:00:00.000Z"
+    },
+    "Monto": {
+      "$numberDecimal": "5295.00"
+    },
+    "MetodoPago": "Transferencia",
+    "ReferenciaPago": "DEMO-PAGO-0002",
+    "Notas": "Pago simulado; no representa un cobro real.",
+    "Estado": "Completado"
+  },
+  {
+    "PagoID": 3,
+    "OrdenID": 3,
+    "FechaPago": {
+      "$date": "2026-08-03T17:00:00.000Z"
+    },
+    "Monto": {
+      "$numberDecimal": "3526.00"
+    },
+    "MetodoPago": "Tarjeta",
+    "ReferenciaPago": "DEMO-PAGO-0003",
+    "Notas": "Pago simulado; no representa un cobro real.",
+    "Estado": "Completado"
+  },
+  {
+    "PagoID": 4,
+    "OrdenID": 4,
+    "FechaPago": {
+      "$date": "2026-08-04T17:00:00.000Z"
+    },
+    "Monto": {
+      "$numberDecimal": "15495.00"
+    },
+    "MetodoPago": "Transferencia",
+    "ReferenciaPago": "DEMO-PAGO-0004",
+    "Notas": "Pago simulado; no representa un cobro real.",
+    "Estado": "Completado"
+  },
+  {
+    "PagoID": 5,
+    "OrdenID": 5,
+    "FechaPago": {
+      "$date": "2026-08-05T17:00:00.000Z"
+    },
+    "Monto": {
+      "$numberDecimal": "1406.00"
+    },
+    "MetodoPago": "Tarjeta",
+    "ReferenciaPago": "DEMO-PAGO-0005",
+    "Notas": "Pago simulado; no representa un cobro real.",
+    "Estado": "Completado"
+  },
+  {
+    "PagoID": 6,
+    "OrdenID": 6,
+    "FechaPago": {
+      "$date": "2026-08-06T17:00:00.000Z"
+    },
+    "Monto": {
+      "$numberDecimal": "21155.00"
+    },
+    "MetodoPago": "Transferencia",
+    "ReferenciaPago": "DEMO-PAGO-0006",
+    "Notas": "Pago simulado; no representa un cobro real.",
+    "Estado": "Completado"
+  },
+  {
+    "PagoID": 7,
+    "OrdenID": 7,
+    "FechaPago": {
+      "$date": "2026-08-07T17:00:00.000Z"
+    },
+    "Monto": {
+      "$numberDecimal": "6796.00"
+    },
+    "MetodoPago": "Tarjeta",
+    "ReferenciaPago": "DEMO-PAGO-0007",
+    "Notas": "Pago simulado; no representa un cobro real.",
+    "Estado": "Completado"
+  },
+  {
+    "PagoID": 8,
+    "OrdenID": 8,
+    "FechaPago": {
+      "$date": "2026-08-08T17:00:00.000Z"
+    },
+    "Monto": {
+      "$numberDecimal": "1425.00"
+    },
+    "MetodoPago": "Transferencia",
+    "ReferenciaPago": "DEMO-PAGO-0008",
+    "Notas": "Pago simulado; no representa un cobro real.",
+    "Estado": "Completado"
+  },
+  {
+    "PagoID": 9,
+    "OrdenID": 9,
+    "FechaPago": {
+      "$date": "2026-08-09T17:00:00.000Z"
+    },
+    "Monto": {
+      "$numberDecimal": "2146.00"
+    },
+    "MetodoPago": "Tarjeta",
+    "ReferenciaPago": "DEMO-PAGO-0009",
+    "Notas": "Pago simulado; no representa un cobro real.",
+    "Estado": "Completado"
+  },
+  {
+    "PagoID": 10,
+    "OrdenID": 10,
+    "FechaPago": {
+      "$date": "2026-08-10T17:00:00.000Z"
+    },
+    "Monto": {
+      "$numberDecimal": "15195.00"
+    },
+    "MetodoPago": "Transferencia",
+    "ReferenciaPago": "DEMO-PAGO-0010",
+    "Notas": "Pago simulado; no representa un cobro real.",
+    "Estado": "Completado"
+  },
+  {
+    "PagoID": 11,
+    "OrdenID": 11,
+    "FechaPago": {
+      "$date": "2026-08-11T17:00:00.000Z"
+    },
+    "Monto": {
+      "$numberDecimal": "1106.00"
+    },
+    "MetodoPago": "Tarjeta",
+    "ReferenciaPago": "DEMO-PAGO-0011",
+    "Notas": "Pago simulado; no representa un cobro real.",
+    "Estado": "Completado"
+  },
+  {
+    "PagoID": 12,
+    "OrdenID": 12,
+    "FechaPago": {
+      "$date": "2026-08-12T17:00:00.000Z"
+    },
+    "Monto": {
+      "$numberDecimal": "1525.00"
+    },
+    "MetodoPago": "Transferencia",
+    "ReferenciaPago": "DEMO-PAGO-0012",
+    "Notas": "Pago simulado; no representa un cobro real.",
+    "Estado": "Completado"
+  },
+  {
+    "PagoID": 13,
+    "OrdenID": 13,
+    "FechaPago": {
+      "$date": "2026-08-13T17:00:00.000Z"
+    },
+    "Monto": {
+      "$numberDecimal": "3796.00"
+    },
+    "MetodoPago": "Tarjeta",
+    "ReferenciaPago": "DEMO-PAGO-0013",
+    "Notas": "Pago simulado; no representa un cobro real.",
+    "Estado": "Completado"
+  },
+  {
+    "PagoID": 14,
+    "OrdenID": 14,
+    "FechaPago": {
+      "$date": "2026-08-14T17:00:00.000Z"
+    },
+    "Monto": {
+      "$numberDecimal": "1395.00"
+    },
+    "MetodoPago": "Transferencia",
+    "ReferenciaPago": "DEMO-PAGO-0014",
+    "Notas": "Pago simulado; no representa un cobro real.",
+    "Estado": "Completado"
+  },
+  {
+    "PagoID": 15,
+    "OrdenID": 15,
+    "FechaPago": {
+      "$date": "2026-08-15T17:00:00.000Z"
+    },
+    "Monto": {
+      "$numberDecimal": "586.00"
+    },
+    "MetodoPago": "Tarjeta",
+    "ReferenciaPago": "DEMO-PAGO-0015",
+    "Notas": "Pago simulado; no representa un cobro real.",
+    "Estado": "Completado"
+  },
+  {
+    "PagoID": 16,
+    "OrdenID": 16,
+    "FechaPago": {
+      "$date": "2026-08-16T17:00:00.000Z"
+    },
+    "Monto": {
+      "$numberDecimal": "1265.00"
+    },
+    "MetodoPago": "Transferencia",
+    "ReferenciaPago": "DEMO-PAGO-0016",
+    "Notas": "Pago simulado; no representa un cobro real.",
+    "Estado": "Completado"
+  },
+  {
+    "PagoID": 17,
+    "OrdenID": 17,
+    "FechaPago": {
+      "$date": "2026-08-17T17:00:00.000Z"
+    },
+    "Monto": {
+      "$numberDecimal": "2296.00"
+    },
+    "MetodoPago": "Tarjeta",
+    "ReferenciaPago": "DEMO-PAGO-0017",
+    "Notas": "Pago simulado; no representa un cobro real.",
+    "Estado": "Completado"
+  },
+  {
+    "PagoID": 18,
+    "OrdenID": 18,
+    "FechaPago": {
+      "$date": "2026-08-18T17:00:00.000Z"
+    },
+    "Monto": {
+      "$numberDecimal": "1745.00"
+    },
+    "MetodoPago": "Transferencia",
+    "ReferenciaPago": "DEMO-PAGO-0018",
+    "Notas": "Pago simulado; no representa un cobro real.",
+    "Estado": "Completado"
+  },
+  {
+    "PagoID": 19,
+    "OrdenID": 19,
+    "FechaPago": {
+      "$date": "2026-08-19T17:00:00.000Z"
+    },
+    "Monto": {
+      "$numberDecimal": "1166.00"
+    },
+    "MetodoPago": "Tarjeta",
+    "ReferenciaPago": "DEMO-PAGO-0019",
+    "Notas": "Pago simulado; no representa un cobro real.",
+    "Estado": "Completado"
+  },
+  {
+    "PagoID": 20,
+    "OrdenID": 20,
+    "FechaPago": {
+      "$date": "2026-08-20T17:00:00.000Z"
+    },
+    "Monto": {
+      "$numberDecimal": "455.00"
+    },
+    "MetodoPago": "Transferencia",
+    "ReferenciaPago": "DEMO-PAGO-0020",
+    "Notas": "Pago simulado; no representa un cobro real.",
+    "Estado": "Completado"
+  },
+  {
+    "PagoID": 21,
+    "OrdenID": 21,
+    "FechaPago": {
+      "$date": "2026-08-21T17:00:00.000Z"
+    },
+    "Monto": {
+      "$numberDecimal": "946.00"
+    },
+    "MetodoPago": "Tarjeta",
+    "ReferenciaPago": "DEMO-PAGO-0021",
+    "Notas": "Pago simulado; no representa un cobro real.",
+    "Estado": "Completado"
+  },
+  {
+    "PagoID": 22,
+    "OrdenID": 22,
+    "FechaPago": {
+      "$date": "2026-08-22T17:00:00.000Z"
+    },
+    "Monto": {
+      "$numberDecimal": "1465.00"
+    },
+    "MetodoPago": "Transferencia",
+    "ReferenciaPago": "DEMO-PAGO-0022",
+    "Notas": "Pago simulado; no representa un cobro real.",
+    "Estado": "Completado"
+  },
+  {
+    "PagoID": 23,
+    "OrdenID": 23,
+    "FechaPago": {
+      "$date": "2026-08-23T17:00:00.000Z"
+    },
+    "Monto": {
+      "$numberDecimal": "956.00"
+    },
+    "MetodoPago": "Tarjeta",
+    "ReferenciaPago": "DEMO-PAGO-0023",
+    "Notas": "Pago simulado; no representa un cobro real.",
+    "Estado": "Completado"
+  },
+  {
+    "PagoID": 24,
+    "OrdenID": 24,
+    "FechaPago": {
+      "$date": "2026-08-24T17:00:00.000Z"
+    },
+    "Monto": {
+      "$numberDecimal": "645.00"
+    },
+    "MetodoPago": "Transferencia",
+    "ReferenciaPago": "DEMO-PAGO-0024",
+    "Notas": "Pago simulado; no representa un cobro real.",
+    "Estado": "Completado"
+  },
+  {
+    "PagoID": 25,
+    "OrdenID": 25,
+    "FechaPago": {
+      "$date": "2026-08-25T17:00:00.000Z"
+    },
+    "Monto": {
+      "$numberDecimal": "506.00"
+    },
+    "MetodoPago": "Tarjeta",
+    "ReferenciaPago": "DEMO-PAGO-0025",
+    "Notas": "Pago simulado; no representa un cobro real.",
+    "Estado": "Completado"
+  },
+  {
+    "PagoID": 26,
+    "OrdenID": 26,
+    "FechaPago": {
+      "$date": "2026-08-26T17:00:00.000Z"
+    },
+    "Monto": {
+      "$numberDecimal": "815.00"
+    },
+    "MetodoPago": "Transferencia",
+    "ReferenciaPago": "DEMO-PAGO-0026",
+    "Notas": "Pago simulado; no representa un cobro real.",
+    "Estado": "Completado"
+  },
+  {
+    "PagoID": 27,
+    "OrdenID": 27,
+    "FechaPago": {
+      "$date": "2026-08-27T17:00:00.000Z"
+    },
+    "Monto": {
+      "$numberDecimal": "1026.00"
+    },
+    "MetodoPago": "Tarjeta",
+    "ReferenciaPago": "DEMO-PAGO-0027",
+    "Notas": "Pago simulado; no representa un cobro real.",
+    "Estado": "Completado"
+  },
+  {
+    "PagoID": 28,
+    "OrdenID": 28,
+    "FechaPago": {
+      "$date": "2026-08-28T17:00:00.000Z"
+    },
+    "Monto": {
+      "$numberDecimal": "775.00"
+    },
+    "MetodoPago": "Transferencia",
+    "ReferenciaPago": "DEMO-PAGO-0028",
+    "Notas": "Pago simulado; no representa un cobro real.",
+    "Estado": "Completado"
+  },
+  {
+    "PagoID": 29,
+    "OrdenID": 29,
+    "FechaPago": {
+      "$date": "2026-08-29T17:00:00.000Z"
+    },
+    "Monto": {
+      "$numberDecimal": "836.00"
+    },
+    "MetodoPago": "Tarjeta",
+    "ReferenciaPago": "DEMO-PAGO-0029",
+    "Notas": "Pago simulado; no representa un cobro real.",
+    "Estado": "Completado"
+  },
+  {
+    "PagoID": 30,
+    "OrdenID": 30,
+    "FechaPago": {
+      "$date": "2026-08-30T17:00:00.000Z"
+    },
+    "Monto": {
+      "$numberDecimal": "635.00"
+    },
+    "MetodoPago": "Transferencia",
+    "ReferenciaPago": "DEMO-PAGO-0030",
+    "Notas": "Pago simulado; no representa un cobro real.",
+    "Estado": "Completado"
+  },
+  {
+    "PagoID": 31,
+    "OrdenID": 31,
+    "FechaPago": {
+      "$date": "2026-08-31T17:00:00.000Z"
+    },
+    "Monto": {
+      "$numberDecimal": "536.00"
+    },
+    "MetodoPago": "Tarjeta",
+    "ReferenciaPago": "DEMO-PAGO-0031",
+    "Notas": "Pago simulado; no representa un cobro real.",
+    "Estado": "Completado"
+  },
+  {
+    "PagoID": 32,
+    "OrdenID": 32,
+    "FechaPago": {
+      "$date": "2026-09-01T17:00:00.000Z"
+    },
+    "Monto": {
+      "$numberDecimal": "2245.00"
+    },
+    "MetodoPago": "Transferencia",
+    "ReferenciaPago": "DEMO-PAGO-0032",
+    "Notas": "Pago simulado; no representa un cobro real.",
+    "Estado": "Completado"
+  },
+  {
+    "PagoID": 33,
+    "OrdenID": 33,
+    "FechaPago": {
+      "$date": "2026-09-02T17:00:00.000Z"
+    },
+    "Monto": {
+      "$numberDecimal": "256.00"
+    },
+    "MetodoPago": "Tarjeta",
+    "ReferenciaPago": "DEMO-PAGO-0033",
+    "Notas": "Pago simulado; no representa un cobro real.",
+    "Estado": "Pendiente"
+  },
+  {
+    "PagoID": 34,
+    "OrdenID": 34,
+    "FechaPago": {
+      "$date": "2026-09-03T17:00:00.000Z"
+    },
+    "Monto": {
+      "$numberDecimal": "555.00"
+    },
+    "MetodoPago": "Transferencia",
+    "ReferenciaPago": "DEMO-PAGO-0034",
+    "Notas": "Pago simulado; no representa un cobro real.",
+    "Estado": "Pendiente"
+  }
+]

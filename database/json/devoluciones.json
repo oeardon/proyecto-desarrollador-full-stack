@@ -1,0 +1,54 @@
+[
+  {
+    "DevolucionID": 1,
+    "OrdenID": 1,
+    "FechaSolicitud": {
+      "$date": "2026-08-09T22:00:00.000Z"
+    },
+    "Motivo": "Producto recibido con daño en el empaque",
+    "Estado": "Solicitada",
+    "MontoReembolso": {
+      "$numberDecimal": "3299.00"
+    },
+    "Notas": "Caso de demostración; importe solicitado sujeto a aprobación."
+  },
+  {
+    "DevolucionID": 2,
+    "OrdenID": 2,
+    "FechaSolicitud": {
+      "$date": "2026-08-10T22:00:00.000Z"
+    },
+    "Motivo": "Producto con funcionamiento intermitente",
+    "Estado": "Aprobada",
+    "MontoReembolso": {
+      "$numberDecimal": "499.00"
+    },
+    "Notas": "Caso de demostración; importe solicitado sujeto a aprobación."
+  },
+  {
+    "DevolucionID": 3,
+    "OrdenID": 3,
+    "FechaSolicitud": {
+      "$date": "2026-08-11T22:00:00.000Z"
+    },
+    "Motivo": "Solicitud fuera de la política de cambios",
+    "Estado": "Rechazada",
+    "MontoReembolso": {
+      "$numberDecimal": "429.00"
+    },
+    "Notas": "Caso de demostración; importe solicitado sujeto a aprobación."
+  },
+  {
+    "DevolucionID": 4,
+    "OrdenID": 4,
+    "FechaSolicitud": {
+      "$date": "2026-08-12T22:00:00.000Z"
+    },
+    "Motivo": "Accesorio recibido con defecto",
+    "Estado": "Procesada",
+    "MontoReembolso": {
+      "$numberDecimal": "4599.00"
+    },
+    "Notas": "Reembolso parcial simulado; no se repuso inventario automáticamente."
+  }
+]

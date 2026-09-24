@@ -1,0 +1,158 @@
+[
+  {
+    "ProveedorID": 1,
+    "Nombre": "Distribuidora Conecta Demo",
+    "NIT": null,
+    "Contacto": "Contacto de demostración 1",
+    "Correo": "proveedor1@example.com",
+    "Telefono": null,
+    "Direccion": "Bodega de demostración 1, Ciudad de Guatemala",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-06-01T14:00:00.000Z"
+    }
+  },
+  {
+    "ProveedorID": 2,
+    "Nombre": "Suministros Digitales Demo",
+    "NIT": null,
+    "Contacto": "Contacto de demostración 2",
+    "Correo": "proveedor2@example.com",
+    "Telefono": null,
+    "Direccion": "Bodega de demostración 2, Ciudad de Guatemala",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-06-01T14:00:00.000Z"
+    }
+  },
+  {
+    "ProveedorID": 3,
+    "Nombre": "Sonido y Pantalla Demo",
+    "NIT": null,
+    "Contacto": "Contacto de demostración 3",
+    "Correo": "proveedor3@example.com",
+    "Telefono": null,
+    "Direccion": "Bodega de demostración 3, Ciudad de Guatemala",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-06-01T14:00:00.000Z"
+    }
+  },
+  {
+    "ProveedorID": 4,
+    "Nombre": "Accesorios Arena Demo",
+    "NIT": null,
+    "Contacto": "Contacto de demostración 4",
+    "Correo": "proveedor4@example.com",
+    "Telefono": null,
+    "Direccion": "Bodega de demostración 4, Ciudad de Guatemala",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-06-01T14:00:00.000Z"
+    }
+  },
+  {
+    "ProveedorID": 5,
+    "Nombre": "Casa Conectada Demo",
+    "NIT": null,
+    "Contacto": "Contacto de demostración 5",
+    "Correo": "proveedor5@example.com",
+    "Telefono": null,
+    "Direccion": "Bodega de demostración 5, Ciudad de Guatemala",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-06-01T14:00:00.000Z"
+    }
+  },
+  {
+    "ProveedorID": 6,
+    "Nombre": "Electrodomésticos Central Demo",
+    "NIT": null,
+    "Contacto": "Contacto de demostración 6",
+    "Correo": "proveedor6@example.com",
+    "Telefono": null,
+    "Direccion": "Bodega de demostración 6, Ciudad de Guatemala",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-06-01T14:00:00.000Z"
+    }
+  },
+  {
+    "ProveedorID": 7,
+    "Nombre": "Hogar Práctico Demo",
+    "NIT": null,
+    "Contacto": "Contacto de demostración 7",
+    "Correo": "proveedor7@example.com",
+    "Telefono": null,
+    "Direccion": "Bodega de demostración 7, Ciudad de Guatemala",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-06-01T14:00:00.000Z"
+    }
+  },
+  {
+    "ProveedorID": 8,
+    "Nombre": "Estilo Urbano Demo",
+    "NIT": null,
+    "Contacto": "Contacto de demostración 8",
+    "Correo": "proveedor8@example.com",
+    "Telefono": null,
+    "Direccion": "Bodega de demostración 8, Ciudad de Guatemala",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-06-01T14:00:00.000Z"
+    }
+  },
+  {
+    "ProveedorID": 9,
+    "Nombre": "Ruta Activa Demo",
+    "NIT": null,
+    "Contacto": "Contacto de demostración 9",
+    "Correo": "proveedor9@example.com",
+    "Telefono": null,
+    "Direccion": "Bodega de demostración 9, Ciudad de Guatemala",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-06-01T14:00:00.000Z"
+    }
+  },
+  {
+    "ProveedorID": 10,
+    "Nombre": "Cuidado Diario Demo",
+    "NIT": null,
+    "Contacto": "Contacto de demostración 10",
+    "Correo": "proveedor10@example.com",
+    "Telefono": null,
+    "Direccion": "Bodega de demostración 10, Ciudad de Guatemala",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-06-01T14:00:00.000Z"
+    }
+  },
+  {
+    "ProveedorID": 11,
+    "Nombre": "Taller y Obra Demo",
+    "NIT": null,
+    "Contacto": "Contacto de demostración 11",
+    "Correo": "proveedor11@example.com",
+    "Telefono": null,
+    "Direccion": "Bodega de demostración 11, Ciudad de Guatemala",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-06-01T14:00:00.000Z"
+    }
+  },
+  {
+    "ProveedorID": 12,
+    "Nombre": "Compañía Animal Demo",
+    "NIT": null,
+    "Contacto": "Contacto de demostración 12",
+    "Correo": "proveedor12@example.com",
+    "Telefono": null,
+    "Direccion": "Bodega de demostración 12, Ciudad de Guatemala",
+    "Estado": "Activo",
+    "FechaRegistro": {
+      "$date": "2026-06-01T14:00:00.000Z"
+    }
+  }
+]

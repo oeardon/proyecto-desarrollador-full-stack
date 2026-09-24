@@ -1,0 +1,5 @@
+"DevolucionID","OrdenID","FechaSolicitud","Motivo","Estado","MontoReembolso","Notas"
+"1","1","2026-08-09 16:00:00","Producto recibido con daño en el empaque","Solicitada","3299.00","Caso de demostración; importe solicitado sujeto a aprobación."
+"2","2","2026-08-10 16:00:00","Producto con funcionamiento intermitente","Aprobada","499.00","Caso de demostración; importe solicitado sujeto a aprobación."
+"3","3","2026-08-11 16:00:00","Solicitud fuera de la política de cambios","Rechazada","429.00","Caso de demostración; importe solicitado sujeto a aprobación."
+"4","4","2026-08-12 16:00:00","Accesorio recibido con defecto","Procesada","4599.00","Reembolso parcial simulado; no se repuso inventario automáticamente."
