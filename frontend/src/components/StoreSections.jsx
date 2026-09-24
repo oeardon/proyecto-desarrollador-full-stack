@@ -50,7 +50,7 @@ export function Footer() {
         <div id="ayuda"><h3>Ayuda</h3><a href="#envios">Envíos</a><a href="#devoluciones">Cambios y devoluciones</a><a href="#preguntas">Preguntas frecuentes</a><a href="#contacto">Contáctanos</a></div>
         <div><h3>Contacto</h3><p className="footer-contact"><Icon name="location" size={17}/> Ciudad de Guatemala, Guatemala</p><p className="footer-contact"><Icon name="mail" size={17}/> hola@todoaqui.com</p><p className="footer-contact"><Icon name="clock" size={17}/> Lun–Sáb, 8:00–18:00</p></div>
       </div>
-      <div className="shop-container footer-bottom"><span>© 2026 TodoAquí. Todos los derechos reservados.</span><span>Compra fácil. Compra seguro.</span></div>
+      <div className="shop-container footer-bottom"><span>© 2026 TodoAquí | Todos los derechos reservados | Realizado por Oscar Ardon y Gabriela Ortega</span><span>Compra fácil. Compra seguro.</span></div>
     </footer>
   )
 }
