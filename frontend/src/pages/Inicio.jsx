@@ -4,15 +4,15 @@ import CategorySection from '../components/CategorySection.jsx'
 import ProductSection from '../components/ProductSection.jsx'
 import QuickView from '../components/QuickView.jsx'
 import { Benefits, Deals, Newsletter } from '../components/StoreSections.jsx'
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap/dist/js/bootstrap.bundle.min.js'
-import './styles/main.scss'
-import App from './App.jsx'
-import { AuthProvider } from './context/AuthContext.jsx'
+// StrictMode debe configurarse únicamente en main.jsx
+// createRoot debe configurarse únicamente en main.jsx
+// Bootstrap CSS debe importarse únicamente en main.jsx
+// Bootstrap JS debe importarse únicamente en main.jsx
+// main.scss debe importarse únicamente en main.jsx
+// App debe renderizarse únicamente desde main.jsx
+// AuthProvider debe configurarse únicamente en main.jsx
 
-export default function Inicio({search = '', favorites = [], toggleFavorite, addToCart, 
+export default function Inicio({search = '', favorites = [], toggleFavorite, addToCart,
                                 cartOpen = false, menuOpen = false,}) {
   const [activeCategory, setActiveCategory] = useState('todos')
   const [activeSlide, setActiveSlide] = useState(0)
@@ -38,7 +38,7 @@ export default function Inicio({search = '', favorites = [], toggleFavorite, add
     }
   }, [])
 
-  // Sincroniza la animación con las tarjetas que React agrega al filtrar.
+  // Sincroniza la animación con las tarjetas que React agrega al filtrar
   useEffect(() => {
     const seccion = contenido.current
     if (!seccion) return
@@ -75,7 +75,7 @@ export default function Inicio({search = '', favorites = [], toggleFavorite, add
     }
   }, [])
 
-  // Usa una clase exclusiva para no interferir con el carrito y el menú.
+  // Usa una clase exclusiva para no interferir con el carrito y el menú
   useEffect(() => {
     const modalVisible = Boolean(quickView) && !cartOpen && !menuOpen
     document.body.classList.toggle('quick-view-open', modalVisible)
