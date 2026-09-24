@@ -1,0 +1,151 @@
+﻿DireccionID,Direccion,Ciudad,Subnacional,Pais,UsuarioID,CodigoPostal,TipoDireccion,EsPrincipal,
+1,"Avenida Las Flores 11-03, Zona 2","Ciudad de Guatemala","Guatemala","Guatemala",3,"01001","Casa",1
+2,"Calle del Comercio 12-06, Zona 3","Mixco","Guatemala","Guatemala",4,"01057","Casa",1
+3,"Avenida Reforma 13-09, Zona 4","Villa Nueva","Guatemala","Guatemala",5,"01064","Casa",1
+4,"Calle Principal 14-12, Zona 5","San Miguel Petapa","Guatemala","Guatemala",6,"01066","Casa",1
+5,"Avenida Los Próceres 15-15, Zona 6","Amatitlán","Guatemala","Guatemala",7,"01063","Casa",1
+6,"Calle de la Paz 16-18, Zona 7","Antigua Guatemala","Sacatepéquez","Guatemala",8,"03001","Casa",1
+7,"Avenida del Bosque 17-21, Zona 8","Chimaltenango","Chimaltenango","Guatemala",9,"04001","Casa",1
+8,"Calle Central 18-24, Zona 9","Escuintla","Escuintla","Guatemala",10,"05001","Casa",1
+9,"Avenida La Esperanza 19-27, Zona 10","Quetzaltenango","Quetzaltenango","Guatemala",11,"09001","Casa",1
+10,"Calle Los Pinos 20-30, Zona 11","Totonicapán","Totonicapán","Guatemala",12,"08001","Casa",1
+11,"Avenida del Mercado 21-33, Zona 12","Sololá","Sololá","Guatemala",13,"07001","Casa",1
+12,"Calle Las Rosas 22-36, Zona 13","Huehuetenango","Huehuetenango","Guatemala",14,"13001","Casa",1
+13,"Avenida del Lago 23-39, Zona 14","Cobán","Alta Verapaz","Guatemala",15,"16001","Casa",1
+14,"Calle San José 24-42, Zona 15","Salamá","Baja Verapaz","Guatemala",16,"15001","Casa",1
+15,"Avenida Los Alamos 25-45, Zona 16","Puerto Barrios","Izabal","Guatemala",17,"18001","Casa",1
+16,"Avenida Las Flores 26-48, Zona 17","Zacapa","Zacapa","Guatemala",18,"19001","Casa",1
+17,"Calle del Comercio 27-51, Zona 18","Chiquimula","Chiquimula","Guatemala",19,"20001","Casa",1
+18,"Avenida Reforma 28-54, Zona 1","Jalapa","Jalapa","Guatemala",20,"21001","Casa",1
+19,"Calle Principal 29-57, Zona 2","Jutiapa","Jutiapa","Guatemala",21,"22001","Casa",1
+20,"Avenida Los Próceres 30-60, Zona 3","Retalhuleu","Retalhuleu","Guatemala",22,"11001","Casa",1
+21,"Calle de la Paz 31-63, Zona 4","Ciudad de Guatemala","Guatemala","Guatemala",23,"01001","Casa",1
+22,"Avenida del Bosque 32-66, Zona 5","Mixco","Guatemala","Guatemala",24,"01057","Casa",1
+23,"Calle Central 33-69, Zona 6","Villa Nueva","Guatemala","Guatemala",25,"01064","Casa",1
+24,"Avenida La Esperanza 34-72, Zona 7","San Miguel Petapa","Guatemala","Guatemala",26,"01066","Casa",1
+25,"Calle Los Pinos 35-75, Zona 8","Amatitlán","Guatemala","Guatemala",27,"01063","Casa",1
+26,"Avenida del Mercado 36-78, Zona 9","Antigua Guatemala","Sacatepéquez","Guatemala",28,"03001","Casa",1
+27,"Calle Las Rosas 37-81, Zona 10","Chimaltenango","Chimaltenango","Guatemala",29,"04001","Casa",1
+28,"Avenida del Lago 38-84, Zona 11","Escuintla","Escuintla","Guatemala",30,"05001","Casa",1
+29,"Calle San José 39-87, Zona 12","Quetzaltenango","Quetzaltenango","Guatemala",31,"09001","Casa",1
+30,"Avenida Los Alamos 40-00, Zona 13","Totonicapán","Totonicapán","Guatemala",32,"08001","Casa",1
+31,"Avenida Las Flores 41-03, Zona 14","Sololá","Sololá","Guatemala",33,"07001","Casa",1
+32,"Calle del Comercio 42-06, Zona 15","Huehuetenango","Huehuetenango","Guatemala",34,"13001","Casa",1
+33,"Avenida Reforma 43-09, Zona 16","Cobán","Alta Verapaz","Guatemala",35,"16001","Casa",1
+34,"Calle Principal 44-12, Zona 17","Salamá","Baja Verapaz","Guatemala",36,"15001","Casa",1
+35,"Avenida Los Próceres 45-15, Zona 18","Puerto Barrios","Izabal","Guatemala",37,"18001","Casa",1
+36,"Calle de la Paz 46-18, Zona 1","Zacapa","Zacapa","Guatemala",38,"19001","Casa",1
+37,"Avenida del Bosque 47-21, Zona 2","Chiquimula","Chiquimula","Guatemala",39,"20001","Casa",1
+38,"Calle Central 48-24, Zona 3","Jalapa","Jalapa","Guatemala",40,"21001","Casa",1
+39,"Avenida La Esperanza 49-27, Zona 4","Jutiapa","Jutiapa","Guatemala",41,"22001","Casa",1
+40,"Calle Los Pinos 50-30, Zona 5","Retalhuleu","Retalhuleu","Guatemala",42,"11001","Casa",1
+41,"Avenida del Mercado 51-33, Zona 6","Ciudad de Guatemala","Guatemala","Guatemala",43,"01001","Casa",1
+42,"Calle Las Rosas 52-36, Zona 7","Mixco","Guatemala","Guatemala",44,"01057","Casa",1
+43,"Avenida del Lago 53-39, Zona 8","Villa Nueva","Guatemala","Guatemala",45,"01064","Casa",1
+44,"Calle San José 54-42, Zona 9","San Miguel Petapa","Guatemala","Guatemala",46,"01066","Casa",1
+45,"Avenida Los Alamos 55-45, Zona 10","Amatitlán","Guatemala","Guatemala",47,"01063","Casa",1
+46,"Avenida Las Flores 56-48, Zona 11","Antigua Guatemala","Sacatepéquez","Guatemala",48,"03001","Casa",1
+47,"Calle del Comercio 57-51, Zona 12","Chimaltenango","Chimaltenango","Guatemala",49,"04001","Casa",1
+48,"Avenida Reforma 58-54, Zona 13","Escuintla","Escuintla","Guatemala",50,"05001","Casa",1
+49,"Calle Principal 59-57, Zona 14","Quetzaltenango","Quetzaltenango","Guatemala",51,"09001","Casa",1
+50,"Avenida Los Próceres 60-60, Zona 15","Totonicapán","Totonicapán","Guatemala",52,"08001","Casa",1
+51,"Calle de la Paz 61-63, Zona 16","Sololá","Sololá","Guatemala",53,"07001","Casa",1
+52,"Avenida del Bosque 62-66, Zona 17","Huehuetenango","Huehuetenango","Guatemala",54,"13001","Casa",1
+53,"Calle Central 63-69, Zona 18","Cobán","Alta Verapaz","Guatemala",55,"16001","Casa",1
+54,"Avenida La Esperanza 64-72, Zona 1","Salamá","Baja Verapaz","Guatemala",56,"15001","Casa",1
+55,"Calle Los Pinos 65-75, Zona 2","Puerto Barrios","Izabal","Guatemala",57,"18001","Casa",1
+56,"Avenida del Mercado 66-78, Zona 3","Zacapa","Zacapa","Guatemala",58,"19001","Casa",1
+57,"Calle Las Rosas 67-81, Zona 4","Chiquimula","Chiquimula","Guatemala",59,"20001","Casa",1
+58,"Avenida del Lago 68-84, Zona 5","Jalapa","Jalapa","Guatemala",60,"21001","Casa",1
+59,"Calle San José 69-87, Zona 6","Jutiapa","Jutiapa","Guatemala",61,"22001","Casa",1
+60,"Avenida Los Alamos 70-00, Zona 7","Retalhuleu","Retalhuleu","Guatemala",62,"11001","Casa",1
+61,"Avenida Las Flores 71-03, Zona 8","Ciudad de Guatemala","Guatemala","Guatemala",63,"01001","Casa",1
+62,"Calle del Comercio 72-06, Zona 9","Mixco","Guatemala","Guatemala",64,"01057","Casa",1
+63,"Avenida Reforma 73-09, Zona 10","Villa Nueva","Guatemala","Guatemala",65,"01064","Casa",1
+64,"Calle Principal 74-12, Zona 11","San Miguel Petapa","Guatemala","Guatemala",66,"01066","Casa",1
+65,"Avenida Los Próceres 75-15, Zona 12","Amatitlán","Guatemala","Guatemala",67,"01063","Casa",1
+66,"Calle de la Paz 76-18, Zona 13","Antigua Guatemala","Sacatepéquez","Guatemala",68,"03001","Casa",1
+67,"Avenida del Bosque 77-21, Zona 14","Chimaltenango","Chimaltenango","Guatemala",69,"04001","Casa",1
+68,"Calle Central 78-24, Zona 15","Escuintla","Escuintla","Guatemala",70,"05001","Casa",1
+69,"Avenida La Esperanza 79-27, Zona 16","Quetzaltenango","Quetzaltenango","Guatemala",71,"09001","Casa",1
+70,"Calle Los Pinos 80-30, Zona 17","Totonicapán","Totonicapán","Guatemala",72,"08001","Casa",1
+71,"Avenida del Mercado 81-33, Zona 18","Sololá","Sololá","Guatemala",73,"07001","Casa",1
+72,"Calle Las Rosas 82-36, Zona 1","Huehuetenango","Huehuetenango","Guatemala",74,"13001","Casa",1
+73,"Avenida del Lago 83-39, Zona 2","Cobán","Alta Verapaz","Guatemala",75,"16001","Casa",1
+74,"Calle San José 84-42, Zona 3","Salamá","Baja Verapaz","Guatemala",76,"15001","Casa",1
+75,"Avenida Los Alamos 85-45, Zona 4","Puerto Barrios","Izabal","Guatemala",77,"18001","Casa",1
+76,"Avenida Las Flores 86-48, Zona 5","Zacapa","Zacapa","Guatemala",78,"19001","Casa",1
+77,"Calle del Comercio 87-51, Zona 6","Chiquimula","Chiquimula","Guatemala",79,"20001","Casa",1
+78,"Calle Principal 89-57, Zona 8","Jutiapa","Jutiapa","Guatemala",80,"22001","Casa",1
+79,"Avenida Los Próceres 90-60, Zona 9","Retalhuleu","Retalhuleu","Guatemala",81,"11001","Casa",1
+80,"Calle de la Paz 91-63, Zona 10","Ciudad de Guatemala","Guatemala","Guatemala",82,"01001","Casa",1
+81,"Avenida del Bosque 92-66, Zona 11","Mixco","Guatemala","Guatemala",83,"01057","Casa",1
+82,"Calle Central 93-69, Zona 12","Villa Nueva","Guatemala","Guatemala",84,"01064","Casa",1
+83,"Avenida La Esperanza 94-72, Zona 13","San Miguel Petapa","Guatemala","Guatemala",85,"01066","Casa",1
+84,"Calle Los Pinos 95-75, Zona 14","Amatitlán","Guatemala","Guatemala",86,"01063","Casa",1
+85,"Avenida del Mercado 96-78, Zona 15","Antigua Guatemala","Sacatepéquez","Guatemala",87,"03001","Casa",1
+86,"Calle Las Rosas 97-81, Zona 16","Chimaltenango","Chimaltenango","Guatemala",88,"04001","Casa",1
+87,"Avenida del Lago 98-84, Zona 17","Escuintla","Escuintla","Guatemala",89,"05001","Casa",1
+88,"Calle San José 99-87, Zona 18","Quetzaltenango","Quetzaltenango","Guatemala",90,"09001","Casa",1
+89,"Avenida Los Alamos 100-00, Zona 1","Totonicapán","Totonicapán","Guatemala",91,"08001","Casa",1
+90,"Avenida Las Flores 101-03, Zona 2","Sololá","Sololá","Guatemala",92,"07001","Casa",1
+91,"Calle del Comercio 102-06, Zona 3","Huehuetenango","Huehuetenango","Guatemala",93,"13001","Casa",1
+92,"Avenida Reforma 103-09, Zona 4","Cobán","Alta Verapaz","Guatemala",94,"16001","Casa",1
+93,"Calle Principal 104-12, Zona 5","Salamá","Baja Verapaz","Guatemala",95,"15001","Casa",1
+94,"Avenida Los Próceres 105-15, Zona 6","Puerto Barrios","Izabal","Guatemala",96,"18001","Casa",1
+95,"Calle de la Paz 106-18, Zona 7","Zacapa","Zacapa","Guatemala",97,"19001","Casa",1
+96,"Avenida del Bosque 107-21, Zona 8","Chiquimula","Chiquimula","Guatemala",98,"20001","Casa",1
+97,"Calle Central 108-24, Zona 9","Jalapa","Jalapa","Guatemala",99,"21001","Casa",1
+98,"Avenida La Esperanza 109-27, Zona 10","Jutiapa","Jutiapa","Guatemala",100,"22001","Casa",1
+99,"Calle Los Pinos 110-30, Zona 11","Retalhuleu","Retalhuleu","Guatemala",101,"11001","Casa",1
+100,"Avenida del Mercado 111-33, Zona 12","Ciudad de Guatemala","Guatemala","Guatemala",102,"01001","Casa",1
+101,"Calle Las Rosas 112-36, Zona 13","Mixco","Guatemala","Guatemala",103,"01057","Casa",1
+102,"Avenida del Lago 113-39, Zona 14","Villa Nueva","Guatemala","Guatemala",104,"01064","Casa",1
+103,"Calle San José 114-42, Zona 15","San Miguel Petapa","Guatemala","Guatemala",105,"01066","Casa",1
+104,"Avenida Los Alamos 115-45, Zona 16","Amatitlán","Guatemala","Guatemala",106,"01063","Casa",1
+105,"Avenida Las Flores 116-48, Zona 17","Antigua Guatemala","Sacatepéquez","Guatemala",107,"03001","Casa",1
+106,"Calle del Comercio 117-51, Zona 18","Chimaltenango","Chimaltenango","Guatemala",108,"04001","Casa",1
+107,"Avenida Reforma 118-54, Zona 1","Escuintla","Escuintla","Guatemala",109,"05001","Casa",1
+108,"Calle Principal 119-57, Zona 2","Quetzaltenango","Quetzaltenango","Guatemala",110,"09001","Casa",1
+109,"Avenida Los Próceres 120-60, Zona 3","Totonicapán","Totonicapán","Guatemala",111,"08001","Casa",1
+110,"Calle de la Paz 121-63, Zona 4","Sololá","Sololá","Guatemala",112,"07001","Casa",1
+111,"Avenida del Bosque 122-66, Zona 5","Huehuetenango","Huehuetenango","Guatemala",113,"13001","Casa",1
+112,"Calle Central 123-69, Zona 6","Cobán","Alta Verapaz","Guatemala",114,"16001","Casa",1
+113,"Avenida La Esperanza 124-72, Zona 7","Salamá","Baja Verapaz","Guatemala",115,"15001","Casa",1
+114,"Calle Los Pinos 125-75, Zona 8","Puerto Barrios","Izabal","Guatemala",116,"18001","Casa",1
+115,"Avenida del Mercado 126-78, Zona 9","Zacapa","Zacapa","Guatemala",117,"19001","Casa",1
+116,"Calle Las Rosas 127-81, Zona 10","Chiquimula","Chiquimula","Guatemala",118,"20001","Casa",1
+117,"Avenida del Lago 128-84, Zona 11","Jalapa","Jalapa","Guatemala",119,"21001","Casa",1
+118,"Calle San José 129-87, Zona 12","Jutiapa","Jutiapa","Guatemala",120,"22001","Casa",1
+119,"Avenida Los Alamos 130-00, Zona 13","Retalhuleu","Retalhuleu","Guatemala",121,"11001","Casa",1
+120,"Avenida Las Flores 131-03, Zona 14","Ciudad de Guatemala","Guatemala","Guatemala",122,"01001","Casa",1
+121,"Calle del Comercio 132-06, Zona 15","Mixco","Guatemala","Guatemala",123,"01057","Casa",1
+122,"Avenida Reforma 133-09, Zona 16","Villa Nueva","Guatemala","Guatemala",124,"01064","Casa",1
+123,"Calle Principal 134-12, Zona 17","San Miguel Petapa","Guatemala","Guatemala",125,"01066","Casa",1
+124,"Avenida Los Próceres 135-15, Zona 18","Amatitlán","Guatemala","Guatemala",126,"01063","Casa",1
+125,"Calle de la Paz 136-18, Zona 1","Antigua Guatemala","Sacatepéquez","Guatemala",127,"03001","Casa",1
+126,"Avenida del Bosque 137-21, Zona 2","Chimaltenango","Chimaltenango","Guatemala",128,"04001","Casa",1
+127,"Calle Central 138-24, Zona 3","Escuintla","Escuintla","Guatemala",129,"05001","Casa",1
+128,"Avenida La Esperanza 139-27, Zona 4","Quetzaltenango","Quetzaltenango","Guatemala",130,"09001","Casa",1
+129,"Calle Los Pinos 140-30, Zona 5","Totonicapán","Totonicapán","Guatemala",131,"08001","Casa",1
+130,"Avenida del Mercado 141-33, Zona 6","Sololá","Sololá","Guatemala",132,"07001","Casa",1
+131,"Calle Las Rosas 142-36, Zona 7","Huehuetenango","Huehuetenango","Guatemala",133,"13001","Casa",1
+132,"Avenida del Lago 143-39, Zona 8","Cobán","Alta Verapaz","Guatemala",134,"16001","Casa",1
+133,"Calle San José 144-42, Zona 9","Salamá","Baja Verapaz","Guatemala",135,"15001","Casa",1
+134,"Avenida Los Alamos 145-45, Zona 10","Puerto Barrios","Izabal","Guatemala",136,"18001","Casa",1
+135,"Avenida Las Flores 146-48, Zona 11","Zacapa","Zacapa","Guatemala",137,"19001","Casa",1
+136,"Calle del Comercio 147-51, Zona 12","Chiquimula","Chiquimula","Guatemala",138,"20001","Casa",1
+137,"Avenida Reforma 148-54, Zona 13","Jalapa","Jalapa","Guatemala",139,"21001","Casa",1
+138,"Calle Principal 149-57, Zona 14","Jutiapa","Jutiapa","Guatemala",140,"22001","Casa",1
+139,"Avenida Los Próceres 150-60, Zona 15","Retalhuleu","Retalhuleu","Guatemala",141,"11001","Casa",1
+140,"Calle de la Paz 151-63, Zona 16","Ciudad de Guatemala","Guatemala","Guatemala",142,"01001","Casa",1
+141,"Avenida del Bosque 152-66, Zona 17","Mixco","Guatemala","Guatemala",143,"01057","Casa",1
+142,"Calle Central 153-69, Zona 18","Villa Nueva","Guatemala","Guatemala",144,"01064","Casa",1
+143,"Avenida La Esperanza 154-72, Zona 1","San Miguel Petapa","Guatemala","Guatemala",145,"01066","Casa",1
+144,"Calle Los Pinos 155-75, Zona 2","Amatitlán","Guatemala","Guatemala",146,"01063","Casa",1
+145,"Avenida del Mercado 156-78, Zona 3","Antigua Guatemala","Sacatepéquez","Guatemala",147,"03001","Casa",1
+146,"Calle Las Rosas 157-81, Zona 4","Chimaltenango","Chimaltenango","Guatemala",148,"04001","Casa",1
+147,"Avenida del Lago 158-84, Zona 5","Escuintla","Escuintla","Guatemala",149,"05001","Casa",1
+148,"Calle San José 159-87, Zona 6","Quetzaltenango","Quetzaltenango","Guatemala",150,"09001","Casa",1
+149,"Avenida Los Alamos 160-00, Zona 7","Totonicapán","Totonicapán","Guatemala",151,"08001","Casa",1
+150,"Calle Las Jacarandas 24-18, Zona 3","San Lucas Sacatepéquez","Sacatepéquez","Guatemala",152,"03008","Casa",1
