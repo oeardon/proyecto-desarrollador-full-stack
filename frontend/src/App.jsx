@@ -1,12 +1,11 @@
 import { useEffect, useMemo, useState } from 'react'
+import { Link, Route, Routes, useLocation, useNavigate } from 'react-router-dom'
 import Header from './components/Header.jsx'
-import Hero from './components/Hero.jsx'
-import CategorySection from './components/CategorySection.jsx'
-import ProductSection from './components/ProductSection.jsx'
-import { Benefits, Deals, Newsletter, Footer } from './components/StoreSections.jsx'
+import { Footer } from './components/StoreSections.jsx'
 import CartDrawer from './components/CartDrawer.jsx'
-import QuickView from './components/QuickView.jsx'
 import Icon from './components/Icon.jsx'
+import Inicio from './pages/Inicio.jsx'
+import Cuenta from './pages/Cuenta.jsx'
 import { iniciarInteraccionesGlobales } from './js/interacciones.js'
 
 function App() {
@@ -14,33 +13,45 @@ function App() {
   const [cartOpen, setCartOpen] = useState(false)
   const [cart, setCart] = useState([])
   const [favorites, setFavorites] = useState([])
-  const [quickView, setQuickView] = useState(null)
   const [search, setSearch] = useState('')
   const [activeCategory, setActiveCategory] = useState('todos')
-  const [activeSlide, setActiveSlide] = useState(0)
+  const location = useLocation()
+  const navigate = useNavigate()
   const cartCount = useMemo(() => cart.reduce((sum, item) => sum + item.quantity, 0), [cart])
 
   useEffect(() => iniciarInteraccionesGlobales(), [])
 
   useEffect(() => {
-    const openCart = () => setCartOpen(true)
-    const escape = () => { setCartOpen(false); setQuickView(null); setMenuOpen(false) }
-    const handleDocumentClick = (event) => {
-      if (event.target.closest('[data-open-cart]')) openCart() }
-    document.addEventListener('click', handleDocumentClick)
+    const openCart = (event) => {
+      if (event.target.closest('[data-open-cart]')) setCartOpen(true)
+    }
+    const escape = () => {
+      setCartOpen(false)
+      setMenuOpen(false)
+    }
+    document.addEventListener('click', openCart)
     window.addEventListener('todoaqui:escape', escape)
-    return () => { document.removeEventListener('click', handleDocumentClick); window.removeEventListener('todoaqui:escape', escape) }
+    return () => {
+      document.removeEventListener('click', openCart)
+      window.removeEventListener('todoaqui:escape', escape)
+    }
   }, [])
 
   useEffect(() => {
-    const timer = window.setInterval(() => setActiveSlide((current) => (current + 1) % 3), 6500)
-    return () => window.clearInterval(timer)
-  }, [])
-
-  useEffect(() => {
-    document.body.classList.toggle('no-scroll', cartOpen || Boolean(quickView) || menuOpen)
+    document.body.classList.toggle('no-scroll', cartOpen || menuOpen)
     return () => document.body.classList.remove('no-scroll')
-  }, [cartOpen, quickView, menuOpen])
+  }, [cartOpen, menuOpen])
+
+  // Espera a que React muestre la página antes de buscar la sección de destino.
+  useEffect(() => {
+    if (location.hash) {
+      document.getElementById(location.hash.slice(1))?.scrollIntoView({
+        behavior: 'smooth', block: 'start',
+      })
+    } else {
+      window.scrollTo({ top: 0, behavior: 'instant' })
+    }
+  }, [location])
 
   const addToCart = (product) => {
     setCart((current) => {
@@ -48,7 +59,8 @@ function App() {
       if (existing) return current.map((item) => item.id === product.id ? { ...item, quantity: item.quantity + 1 } : item)
       return [...current, { ...product, quantity: 1 }]
     })
-    setQuickView(null); setMenuOpen(false); setCartOpen(true)
+    setMenuOpen(false)
+    setCartOpen(true)
   }
 
   const updateQuantity = (id, delta) => {
@@ -58,33 +70,34 @@ function App() {
   const removeFromCart = (id) => setCart((current) => current.filter((item) => item.id !== id))
   const toggleFavorite = (id) => setFavorites((current) => current.includes(id) ? current.filter((item) => item !== id) : [...current, id])
 
-  const chooseCategory = (category) => {
-    setActiveCategory(category)
-    setSearch('')
-    document.querySelector('#productos')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
-  }
-
   const submitSearch = (event) => {
     event.preventDefault()
+    setMenuOpen(false)
     setActiveCategory('todos')
-    document.querySelector('#productos')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    navigate('/#productos')
   }
 
   return (
     <div className="todoaqui-app">
-      <Header cartCount={cartCount} favoriteCount={favorites.length} menuOpen={menuOpen} setMenuOpen={setMenuOpen} search={search} setSearch={setSearch} onSearch={submitSearch}/>
+      <Header cartCount={cartCount} favoriteCount={favorites.length} menuOpen={menuOpen} setMenuOpen={setMenuOpen} search={search} setSearch={setSearch} onSearch={submitSearch} />
       <main>
-        <Hero activeSlide={activeSlide} setActiveSlide={setActiveSlide}/>
-        <Benefits/>
-        <CategorySection onCategory={chooseCategory}/>
-        <ProductSection activeCategory={activeCategory} setActiveCategory={setActiveCategory} search={search} favorites={favorites} toggleFavorite={toggleFavorite} addToCart={addToCart} openQuickView={setQuickView}/>
-        <Deals/>
-        <Newsletter/>
+        <Routes>
+          <Route path="/" element={
+            <Inicio search={search} setSearch={setSearch} activeCategory={activeCategory} setActiveCategory={setActiveCategory} favorites={favorites} toggleFavorite={toggleFavorite}
+                    addToCart={addToCart} cartOpen={cartOpen} menuOpen={menuOpen} />
+          } />
+          <Route path="/cuenta" element={<Cuenta />} />
+          <Route path="*" element={
+            <section className="shop-section shop-container">
+              <h1>Página no encontrada</h1>
+              <Link to="/">Volver al inicio</Link>
+            </section>
+          } />
+        </Routes>
       </main>
-      <Footer/>
-      <CartDrawer open={cartOpen} setOpen={setCartOpen} cart={cart} updateQuantity={updateQuantity} removeFromCart={removeFromCart}/>
-      <QuickView product={!cartOpen && !menuOpen ? quickView : null} onClose={() => setQuickView(null)} addToCart={addToCart}/>
-      <button data-back-to-top className="back-to-top" type="button" aria-label="Volver arriba" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}><Icon name="arrowLeft" size={18}/></button>
+      <Footer />
+      <CartDrawer open={cartOpen} setOpen={setCartOpen} cart={cart} updateQuantity={updateQuantity} removeFromCart={removeFromCart} />
+      <button data-back-to-top className="back-to-top" type="button" aria-label="Volver arriba" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}><Icon name="arrowLeft" size={18} /></button>
     </div>
   )
 }

@@ -1,6 +1,6 @@
 <?php
-     require_once "../../vendor/autoload.php";
-     $mongoURI = "mongodb+srv://USUARIO:CONTRASENA@CLUSTER.mongodb.net/?retryWrites=true&w=majority";
+     require_once "../vendor/autoload.php";
+     require_once "api_keys.php";
      try {
           $clienteMongo = new MongoDB\Client($mongoURI);
           $mongoDB = $clienteMongo->selectDatabase("todoaqui_db");

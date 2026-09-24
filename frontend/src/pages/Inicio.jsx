@@ -12,9 +12,8 @@ import { Benefits, Deals, Newsletter } from '../components/StoreSections.jsx'
 // App debe renderizarse únicamente desde main.jsx
 // AuthProvider debe configurarse únicamente en main.jsx
 
-export default function Inicio({search = '', favorites = [], toggleFavorite, addToCart,
+export default function Inicio({search = '', setSearch, activeCategory, setActiveCategory, favorites = [], toggleFavorite, addToCart,
                                 cartOpen = false, menuOpen = false,}) {
-  const [activeCategory, setActiveCategory] = useState('todos')
   const [activeSlide, setActiveSlide] = useState(0)
   const [quickView, setQuickView] = useState(null)
   const contenido = useRef(null)
@@ -84,8 +83,14 @@ export default function Inicio({search = '', favorites = [], toggleFavorite, add
     }
   }, [quickView, cartOpen, menuOpen])
 
+  function agregarAlCarrito(producto) {
+    setQuickView(null)
+    addToCart(producto)
+  }
+
   function elegirCategoria(categoria) {
     setActiveCategory(categoria)
+    setSearch('')
     document.querySelector('#productos')?.scrollIntoView({
       behavior: 'smooth',
       block: 'start',
@@ -102,13 +107,13 @@ export default function Inicio({search = '', favorites = [], toggleFavorite, add
                       search={search}
                       favorites={favorites}
                       toggleFavorite={toggleFavorite}
-                      addToCart={addToCart}
+                      addToCart={agregarAlCarrito}
                       openQuickView={setQuickView} />
       <Deals />
       <Newsletter />
       <QuickView product={!cartOpen && !menuOpen ? quickView : null}
                  onClose={() => setQuickView(null)}
-                 addToCart={addToCart} />
+                 addToCart={agregarAlCarrito} />
     </div>
   )
 }

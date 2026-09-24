@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { useState } from 'react'
 import Icon from './Icon.jsx'
 
@@ -45,8 +46,8 @@ export function Footer() {
   return (
     <footer className="footer-shop" id="contacto">
       <div className="shop-container footer-shop__grid">
-        <div className="footer-brand"><a className="brand" href="#inicio"><span className="brand__mark">T</span><span>Todo<span className="brand__accent">Aquí</span></span></a><p>Una tienda en línea moderna para encontrar tecnología, hogar y accesorios desde un solo lugar.</p><div className="social-row"><a href="#instagram" aria-label="Instagram"><Icon name="instagram" /></a><a href="#facebook" aria-label="Facebook"><Icon name="facebook" /></a><a href="#tiktok" aria-label="TikTok"><Icon name="tiktok" /></a></div></div>
-        <div><h3>Comprar</h3><a href="#productos">Tienda</a><a href="#ofertas">Ofertas</a><a href="#productos">Nuevos ingresos</a><a href="#productos">Más vendidos</a></div>
+        <div className="footer-brand"><Link className="brand" to="/#inicio"><span className="brand__mark">T</span><span>Todo<span className="brand__accent">Aquí</span></span></Link><p>Una tienda en línea moderna para encontrar tecnología, hogar y accesorios desde un solo lugar.</p><div className="social-row"><a href="#instagram" aria-label="Instagram"><Icon name="instagram" /></a><a href="#facebook" aria-label="Facebook"><Icon name="facebook" /></a><a href="#tiktok" aria-label="TikTok"><Icon name="tiktok" /></a></div></div>
+        <div><h3>Comprar</h3><Link to="/#productos">Tienda</Link><Link to="/#ofertas">Ofertas</Link><Link to="/#productos">Nuevos ingresos</Link><Link to="/#productos">Más vendidos</Link></div>
         <div id="ayuda"><h3>Ayuda</h3><a href="#envios">Envíos</a><a href="#devoluciones">Cambios y devoluciones</a><a href="#preguntas">Preguntas frecuentes</a><a href="#contacto">Contáctanos</a></div>
         <div><h3>Contacto</h3><p className="footer-contact"><Icon name="location" size={17}/> Ciudad de Guatemala, Guatemala</p><p className="footer-contact"><Icon name="mail" size={17}/> hola@todoaqui.com</p><p className="footer-contact"><Icon name="clock" size={17}/> Lun–Sáb, 8:00–18:00</p></div>
       </div>

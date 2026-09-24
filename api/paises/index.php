@@ -10,7 +10,8 @@
                . "?response_fields=names.common,codes.alpha_2,flag.emoji"
                . "&limit=100";
           $ch = curl_init($url);
-          curl_setopt($ch, CURLOPT_HTTPHEADER, ['Authorization: Bearer rc_live_0d1b07baff444ad6a400cf329db784d7']);
+          require_once "../../config/api_keys.php";
+          curl_setopt($ch, CURLOPT_HTTPHEADER, ['Authorization: Bearer '. $restCountriesApiKey]);
           curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
           $respuesta = curl_exec($ch);
           if ($respuesta === false) {

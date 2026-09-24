@@ -24,8 +24,17 @@ Thumbs.db
 # Archivos de configuración local
 config/local.php
 config/database.local.php
+config/api_keys.php
 
 # Archivos subidos por usuarios
 public/uploads/*
 !public/uploads/.gitkeep
 tests/
+
+# Marcadores de carpetas del frontend que ya contienen código
+frontend/src/components/.gitkeep
+frontend/src/context/.gitkeep
+frontend/src/pages/.gitkeep
+frontend/src/services/.gitkeep
+
+api/paises/restcountries.php
