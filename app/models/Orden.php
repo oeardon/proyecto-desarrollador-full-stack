@@ -92,7 +92,7 @@
           $sql = "SELECT COUNT(*)
                   FROM Pagos
                   WHERE OrdenID = :OrdenID AND Estado IN ('Completado', 'Reembolsado')";
-          $stmt = $conexion->prepare();
+          $stmt = $conexion->prepare($sql);
           $stmt->execute([":OrdenID" => $OrdenID]);
           return (int) $stmt->fetchColumn();
      }

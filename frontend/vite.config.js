@@ -8,7 +8,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       '/tienda_online/api': {
-        target: 'http://localhost',
+        target: 'http://localhost:8080',
         changeOrigin: true,
       },
     },

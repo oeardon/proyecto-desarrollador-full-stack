@@ -6,6 +6,7 @@ import CartDrawer from './components/CartDrawer.jsx'
 import Icon from './components/Icon.jsx'
 import Inicio from './pages/Inicio.jsx'
 import Cuenta from './pages/Cuenta.jsx'
+import AdminPage from './pages/AdminPage.jsx'
 import { iniciarInteraccionesGlobales } from './js/interacciones.js'
 
 function App() {
@@ -87,6 +88,8 @@ function App() {
                     addToCart={addToCart} cartOpen={cartOpen} menuOpen={menuOpen} />
           } />
           <Route path="/cuenta" element={<Cuenta />} />
+          <Route path="/cuenta/admin/:recurso" element={<AdminPage />} />
+          <Route path="/cuenta/admin/:recurso/:operacion" element={<AdminPage />} />
           <Route path="*" element={
             <section className="shop-section shop-container">
               <h1>Página no encontrada</h1>

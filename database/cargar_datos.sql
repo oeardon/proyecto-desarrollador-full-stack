@@ -23,7 +23,7 @@ INTO TABLE Categorias
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
-ESCAPED BY '"'
+ESCAPED BY ''
 LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES
 (CategoriaID,Nombre,@Descripcion,Estado,@CategoriaPadreID)
@@ -35,7 +35,7 @@ INTO TABLE Proveedores
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
-ESCAPED BY '"'
+ESCAPED BY ''
 LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES
 (ProveedorID,Nombre,@NIT,@Contacto,@Correo,@Telefono,@Direccion,Estado,FechaRegistro)
@@ -50,7 +50,7 @@ INTO TABLE Productos
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
-ESCAPED BY '"'
+ESCAPED BY ''
 LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES
 (ProductoID,CategoriaID,@SKU,Nombre,@Descripcion,Precio,Cantidad,@Imagen,Estado,FechaRegistro)
@@ -63,7 +63,7 @@ INTO TABLE Promociones
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
-ESCAPED BY '"'
+ESCAPED BY ''
 LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES
 (PromocionID,Nombre,@Descripcion,TipoDescuento,ValorDescuento,FechaInicio,@FechaFin,RequiereCupon,@CodigoCupon,AplicaTodosProductos,Estado)
@@ -76,7 +76,7 @@ INTO TABLE ProductosProveedores
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
-ESCAPED BY '"'
+ESCAPED BY ''
 LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES
 (ProductoID,ProveedorID,@CostoCompra,EsPrincipal)
@@ -87,7 +87,7 @@ INTO TABLE ProductosPromociones
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
-ESCAPED BY '"'
+ESCAPED BY ''
 LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES
 (ProductoID,PromocionID);
@@ -97,7 +97,7 @@ INTO TABLE Ordenes
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
-ESCAPED BY '"'
+ESCAPED BY ''
 LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES
 (OrdenID,UsuarioID,FechaOrden,DireccionPago,DireccionEnvio,Subtotal,DescuentoTotal,ImpuestoTotal,CostoEnvio,Total,Estado);
@@ -107,7 +107,7 @@ INTO TABLE DetalleOrdenes
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
-ESCAPED BY '"'
+ESCAPED BY ''
 LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES
 (DetalleOrdenID,OrdenID,ProductoID,Cantidad,PrecioUnitario,Descuento,Subtotal);
@@ -117,7 +117,7 @@ INTO TABLE Pagos
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
-ESCAPED BY '"'
+ESCAPED BY ''
 LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES
 (PagoID,OrdenID,FechaPago,Monto,MetodoPago,@ReferenciaPago,@Notas,Estado)
@@ -129,7 +129,7 @@ INTO TABLE Facturas
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
-ESCAPED BY '"'
+ESCAPED BY ''
 LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES
 (FacturaID,NumeroFactura,FechaEmision,OrdenID,Nombre,NIT,Direccion,Subtotal,ImpuestoTotal,DescuentoTotal,Total,@Notas,Estado)
@@ -140,7 +140,7 @@ INTO TABLE DetalleFacturas
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
-ESCAPED BY '"'
+ESCAPED BY ''
 LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES
 (DetalleFacturaID,FacturaID,DetalleOrdenID,Descripcion,Cantidad,PrecioUnitario,Descuento,Impuesto,Subtotal);
@@ -150,7 +150,7 @@ INTO TABLE Devoluciones
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
-ESCAPED BY '"'
+ESCAPED BY ''
 LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES
 (DevolucionID,OrdenID,FechaSolicitud,Motivo,Estado,MontoReembolso,@Notas)
@@ -161,7 +161,7 @@ INTO TABLE DetalleDevoluciones
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
-ESCAPED BY '"'
+ESCAPED BY ''
 LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES
 (DetalleDevolucionID,DevolucionID,DetalleOrdenID,Cantidad,@Motivo,MontoReembolso)
@@ -172,7 +172,7 @@ INTO TABLE ListaDeseos
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
-ESCAPED BY '"'
+ESCAPED BY ''
 LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES
 (UsuarioID,ProductoID,FechaAgregado);
@@ -182,7 +182,7 @@ INTO TABLE Resenas
 CHARACTER SET utf8mb4
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
-ESCAPED BY '"'
+ESCAPED BY ''
 LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES
 (ResenaID,UsuarioID,ProductoID,Calificacion,@Comentario,FechaResena,Estado)

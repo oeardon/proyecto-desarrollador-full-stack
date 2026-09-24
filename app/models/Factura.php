@@ -103,7 +103,7 @@
      function crearDetalleFactura($conexion, $FacturaID, $detalle) {
           $sql = "INSERT INTO DetalleFacturas (FacturaID, DetalleOrdenID, Descripcion, Cantidad, PrecioUnitario, Descuento, Impuesto, Subtotal)
                   VALUES (:FacturaID, :DetalleOrdenID, :Descripcion, :Cantidad, :PrecioUnitario, :Descuento, 0, :Subtotal)";
-          $stmt = $conexion->prepare();
+          $stmt = $conexion->prepare($sql);
           $stmt->execute([":FacturaID" => $FacturaID,
                           ":DetalleOrdenID" => $detalle["DetalleOrdenID"],
                           ":Descripcion" => $detalle["Producto"],

@@ -1,1 +1,31 @@
-// Variables personalizadas del proyecto
+// Puntos de adaptación: Sass permite utilizarlos en condiciones @media.
+$breakpoint-wide:1100px;
+$breakpoint-tablet:900px;
+$breakpoint-mobile:640px;
+
+// Fuente y valores compartidos del tema.
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --shop-primary:#0866ff;
+  --shop-primary-dark:#0751c9;
+  --shop-accent:#ff7a00;
+  --shop-accent-dark:#e96700;
+  --shop-dark:#17191f;
+  --shop-text:#30333a;
+  --shop-muted:#7a808c;
+  --shop-line:#e8ebf0;
+  --shop-soft:#f6f7f9;
+  --shop-blue-soft:#eef5ff;
+  --shop-white:#fff;
+  --shop-surface:#f5f6f8;
+  --shop-favorite:#e34e62;
+  --shop-rating:#f5af00;
+  --shop-button-dark:#15171b;
+  --shop-font-family:'Manrope',sans-serif;
+  --shop-success:#20a862;
+  --shop-container:1280px;
+  --shop-radius:14px;
+  --shop-shadow:0 18px 48px rgba(25,39,72,.10);
+  --shop-shadow-soft:0 10px 28px rgba(25,39,72,.07);
+}

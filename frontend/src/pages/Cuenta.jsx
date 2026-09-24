@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import LoginForm from '../components/LoginForm.jsx'
 import RegistroForm from '../components/RegistroForm.jsx'
+import AdminPanel from '../components/AdminPanel.jsx'
 import { useAuth } from '../context/useAuth.js'
 
 export default function Cuenta() {
@@ -10,6 +11,7 @@ export default function Cuenta() {
   const errorConsulta = error?.tipo === 'conexion' ||
                         error?.tipo === 'respuesta' ||
                         error?.status >= 500
+  const esAdministrador = usuario?.TipoUsuario === 'Administrador' && !errorConsulta
   async function reintentarSesion() {
     setErrorCuenta('')
     try {
@@ -42,7 +44,7 @@ export default function Cuenta() {
     <section className="shop-section" aria-labelledby="cuenta-titulo">
       <div className="shop-container">
         <div className="row justify-content-center">
-          <div className="col-12 col-md-10 col-lg-7">
+          <div className={esAdministrador ? 'col-12' : 'col-12 col-md-10 col-lg-7'}>
             <h1 id="cuenta-titulo" className="mb-4">Mi cuenta</h1>
             {cargandoSesion ? (
               <p role="status">Comprobando sesión...</p>
@@ -68,6 +70,7 @@ export default function Cuenta() {
                   </div>
                 )}
                 {usuario ? (
+                  <>
                   <div className="card border-0 shadow-sm">
                     <div className="card-body p-4">
                       <h2 className="h4">Hola, {usuario.Usuario}</h2>
@@ -80,6 +83,8 @@ export default function Cuenta() {
                       </button>
                     </div>
                   </div>
+                  {esAdministrador && <AdminPanel />}
+                  </>
                 ) : formulario === 'registro' ? (
                   <RegistroForm onMostrarLogin={mostrarLogin} />
                 ) : (
