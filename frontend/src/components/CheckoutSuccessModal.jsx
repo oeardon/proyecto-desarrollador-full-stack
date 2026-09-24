@@ -13,7 +13,7 @@ export default function CheckoutSuccessModal({ open, message, orderId, onClose }
           </div>
           <span className="text-uppercase fw-bold text-primary checkout-success__eyebrow">Compra confirmada</span>
           <h2 id="checkout-success-title" className="h3 fw-bold mt-2 mb-3">{message}</h2>
-          {orderId && <p className="text-secondary mb-4">Pedido #{orderId} registrado correctamente</p>}
+          {orderId && <p className="text-secondary mb-4">Pedido #{orderId} Registrado correctamente</p>}
           <button type="button" className="btn btn-primary px-4" onClick={onClose}>Seguir comprando</button>
         </div>
       </div>
