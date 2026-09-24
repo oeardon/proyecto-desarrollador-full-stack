@@ -1,3 +1,4 @@
+import { Link, NavLink } from 'react-router-dom'
 import Icon from './Icon.jsx'
 
 export default function Header({ cartCount, favoriteCount, menuOpen, setMenuOpen, search, setSearch, onSearch }) {
@@ -7,19 +8,19 @@ export default function Header({ cartCount, favoriteCount, menuOpen, setMenuOpen
         <div className="shop-container topbar-shop__inner">
           <p><strong>Envío gratis</strong> en compras seleccionadas mayores a Q500</p>
           <div className="topbar-shop__links">
-            <a href="#ayuda">Ayuda</a>
-            <a href="#seguimiento">Seguimiento</a>
-            <a href="#cuenta">Mi cuenta</a>
+            <Link onClick={() => setMenuOpen(false)} to="/#ayuda">Ayuda</Link>
+            <Link onClick={() => setMenuOpen(false)} to="/#seguimiento">Seguimiento</Link>
+            <Link onClick={() => setMenuOpen(false)} to="/cuenta">Mi cuenta</Link>
           </div>
         </div>
       </div>
 
       <header className="site-header" data-site-header>
         <div className="shop-container header-main">
-          <a className="brand" href="#inicio" aria-label="TodoAquí inicio">
+          <Link onClick={() => setMenuOpen(false)} className="brand" to="/#inicio" aria-label="TodoAquí inicio">
             <span className="brand__mark">T</span>
             <span>Todo<span className="brand__accent">Aquí</span></span>
-          </a>
+          </Link>
 
           <form className="header-search" onSubmit={onSearch}>
             <select aria-label="Categoría de búsqueda" defaultValue="todas">
@@ -41,11 +42,11 @@ export default function Header({ cartCount, favoriteCount, menuOpen, setMenuOpen
           </form>
 
           <div className="header-actions">
-            <a className="header-action d-none d-sm-grid" href="#cuenta" aria-label="Mi cuenta"><Icon name="user" /></a>
-            <a className="header-action d-none d-sm-grid" href="#favoritos" aria-label="Favoritos">
+            <Link onClick={() => setMenuOpen(false)} className="header-action d-none d-sm-grid" to="/cuenta" aria-label="Mi cuenta"><Icon name="user" /></Link>
+            <Link onClick={() => setMenuOpen(false)} className="header-action d-none d-sm-grid" to="/#favoritos" aria-label="Favoritos">
               <Icon name="heart" />
               {favoriteCount > 0 && <span className="action-badge">{favoriteCount}</span>}
-            </a>
+            </Link>
             <button className="header-action" type="button" data-open-cart aria-label="Abrir carrito">
               <Icon name="cart" />
               {cartCount > 0 && <span className="action-badge">{cartCount}</span>}
@@ -75,36 +76,36 @@ export default function Header({ cartCount, favoriteCount, menuOpen, setMenuOpen
                   ['phone','Celulares y tablets'],['laptop','Computación'],['audio','Audio y video'],
                   ['game','Gaming'],['home','Hogar inteligente'],['accessory','Accesorios']
                 ].map(([icon, label]) => (
-                  <a href="#categorias" key={label}><span><Icon name={icon} size={17} />{label}</span><Icon name="chevronRight" size={14} /></a>
+                  <Link onClick={() => setMenuOpen(false)} to="/#categorias" key={label}><span><Icon name={icon} size={17} />{label}</span><Icon name="chevronRight" size={14} /></Link>
                 ))}
               </div>
             </div>
 
             <ul className="main-menu">
-              <li><a className="active" href="#inicio">Inicio</a></li>
+              <li><NavLink onClick={() => setMenuOpen(false)} to="/" end>Inicio</NavLink></li>
               <li className="dropdown-shop">
                 <button className="menu-dropdown-button dropdown-shop__toggle" type="button">Tienda <Icon name="chevronDown" size={14} /></button>
                 <div className="dropdown-shop__menu">
-                  <a href="#productos">Todos los productos</a>
-                  <a href="#productos">Nuevos ingresos</a>
-                  <a href="#productos">Más vendidos</a>
-                  <a href="#ofertas">Ofertas especiales</a>
+                  <Link onClick={() => setMenuOpen(false)} to="/#productos">Todos los productos</Link>
+                  <Link onClick={() => setMenuOpen(false)} to="/#productos">Nuevos ingresos</Link>
+                  <Link onClick={() => setMenuOpen(false)} to="/#productos">Más vendidos</Link>
+                  <Link onClick={() => setMenuOpen(false)} to="/#ofertas">Ofertas especiales</Link>
                 </div>
               </li>
               <li className="dropdown-shop mega-parent">
                 <button className="menu-dropdown-button dropdown-shop__toggle" type="button">Categorías <Icon name="chevronDown" size={14} /></button>
                 <div className="dropdown-shop__menu mega-menu">
-                  <div><strong>Tecnología</strong><a href="#productos">Celulares</a><a href="#productos">Laptops</a><a href="#productos">Tablets</a></div>
-                  <div><strong>Entretenimiento</strong><a href="#productos">Audio</a><a href="#productos">Gaming</a><a href="#productos">TV y video</a></div>
-                  <div><strong>Para tu hogar</strong><a href="#productos">Hogar inteligente</a><a href="#productos">Accesorios</a><a href="#productos">Oficina</a></div>
+                  <div><strong>Tecnología</strong><Link onClick={() => setMenuOpen(false)} to="/#productos">Celulares</Link><Link onClick={() => setMenuOpen(false)} to="/#productos">Laptops</Link><Link onClick={() => setMenuOpen(false)} to="/#productos">Tablets</Link></div>
+                  <div><strong>Entretenimiento</strong><Link onClick={() => setMenuOpen(false)} to="/#productos">Audio</Link><Link onClick={() => setMenuOpen(false)} to="/#productos">Gaming</Link><Link onClick={() => setMenuOpen(false)} to="/#productos">TV y video</Link></div>
+                  <div><strong>Para tu hogar</strong><Link onClick={() => setMenuOpen(false)} to="/#productos">Hogar inteligente</Link><Link onClick={() => setMenuOpen(false)} to="/#productos">Accesorios</Link><Link onClick={() => setMenuOpen(false)} to="/#productos">Oficina</Link></div>
                 </div>
               </li>
-              <li><a href="#ofertas">Ofertas</a></li>
-              <li><a href="#novedades">Novedades</a></li>
-              <li><a href="#contacto">Contacto</a></li>
+              <li><Link onClick={() => setMenuOpen(false)} to="/#ofertas">Ofertas</Link></li>
+              <li><Link onClick={() => setMenuOpen(false)} to="/#novedades">Novedades</Link></li>
+              <li><Link onClick={() => setMenuOpen(false)} to="/#contacto">Contacto</Link></li>
             </ul>
 
-            <a className="nav-hot-deal" href="#ofertas">🔥 Oferta del día</a>
+            <Link onClick={() => setMenuOpen(false)} className="nav-hot-deal" to="/#ofertas">🔥 Oferta del día</Link>
           </div>
         </nav>
       </header>
