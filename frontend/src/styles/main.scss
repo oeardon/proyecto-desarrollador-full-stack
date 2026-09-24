@@ -23,6 +23,7 @@
 html { scroll-behavior:smooth; scroll-padding-top:145px; }
 body { margin:0; min-width:320px; font-family:'Manrope',sans-serif; color:var(--shop-text); background:#fff; -webkit-font-smoothing:antialiased; }
 body.no-scroll { overflow:hidden; }
+body.quick-view-open { overflow: hidden; }
 button,input,select { font:inherit; }
 button { cursor:pointer; }
 a { color:inherit; text-decoration:none; }

@@ -28,3 +28,4 @@ config/database.local.php
 # Archivos subidos por usuarios
 public/uploads/*
 !public/uploads/.gitkeep
+tests/
