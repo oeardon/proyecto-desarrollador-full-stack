@@ -29,9 +29,3 @@ config/database.local.php
 public/uploads/*
 !public/uploads/.gitkeep
 tests/
-
-# Marcadores de carpetas del frontend que ya contienen código
-/frontend/src/components/.gitkeep
-/frontend/src/context/.gitkeep
-/frontend/src/pages/.gitkeep
-/frontend/src/services/.gitkeep

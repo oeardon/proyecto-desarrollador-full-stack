@@ -1,0 +1,12 @@
+{
+  "name": "proyecto-desarrollador-full-stack",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "postinstall": "npm --prefix frontend install",
+    "dev": "npm --prefix frontend run dev",
+    "lint": "npm --prefix frontend run lint",
+    "build": "npm --prefix frontend run build",
+    "test:structure": "node tests/test_frontend_structure.mjs"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "coleccion": "interacciones",
+  "documentoEjemplo": {
+    "usuarioId": 125,
+    "sesionId": "sesion-demo-001",
+    "tipo": "vista_producto",
+    "productoId": 3,
+    "categoria": "audio",
+    "terminoBusqueda": null,
+    "metadata": {
+      "origen": "inicio",
+      "dispositivo": "movil"
+    },
+    "fecha": "2026-09-23T20:00:00-06:00"
+  }
+}
