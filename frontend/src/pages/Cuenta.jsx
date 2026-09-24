@@ -2,6 +2,13 @@ import { useState } from 'react'
 import LoginForm from '../components/LoginForm.jsx'
 import RegistroForm from '../components/RegistroForm.jsx'
 import { useAuth } from '../context/useAuth.js'
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'
+import './styles/main.scss'
+import App from './App.jsx'
+import { AuthProvider } from './context/AuthContext.jsx'
 
 export default function Cuenta() {
   const {usuario,cargandoSesion,procesando,error,actualizarSesion,cerrarSesion} = useAuth()

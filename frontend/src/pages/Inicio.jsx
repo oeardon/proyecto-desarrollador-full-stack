@@ -4,6 +4,13 @@ import CategorySection from '../components/CategorySection.jsx'
 import ProductSection from '../components/ProductSection.jsx'
 import QuickView from '../components/QuickView.jsx'
 import { Benefits, Deals, Newsletter } from '../components/StoreSections.jsx'
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'
+import './styles/main.scss'
+import App from './App.jsx'
+import { AuthProvider } from './context/AuthContext.jsx'
 
 export default function Inicio({search = '', favorites = [], toggleFavorite, addToCart, 
                                 cartOpen = false, menuOpen = false,}) {
