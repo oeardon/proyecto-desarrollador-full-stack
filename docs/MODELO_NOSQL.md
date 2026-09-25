@@ -3,7 +3,7 @@
 ## Propósito
 Los datos transaccionales como usuarios, productos, órdenes, pagos y facturas permanecen en MariaDB
 
-MongoDB se propone para almacenar eventos de navegación y preferencias de presentación que pueden cambiar con frecuencia y no requieren relaciones transaccionales estrictas
+MongoDB almacena las reseñas de productos. Los eventos de navegación descritos más abajo siguen siendo una propuesta. La integración implementada se documenta en [RESENAS_MONGODB.md](RESENAS_MONGODB.md).
 
 ## Colección `interacciones`
 

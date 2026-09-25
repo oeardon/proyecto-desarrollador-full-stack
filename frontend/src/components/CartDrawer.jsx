@@ -2,6 +2,7 @@ import { useNavigate } from 'react-router-dom'
 import Icon from './Icon.jsx'
 import StoreImage from './StoreImage.jsx'
 import { money } from '../services/userFormat.js'
+
 export default function CartDrawer({ open, setOpen, cart, updateQuantity, removeFromCart, loading }) {
   const navigate = useNavigate()
   const total = cart.reduce((sum, item) => sum + Math.round(item.price * 100) * item.quantity, 0) / 100

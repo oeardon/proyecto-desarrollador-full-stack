@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/../services/ResenasMongo.php';
 function categoriasCatalogo($conexion) {
     $filas = $conexion->query("SELECT CategoriaID, CategoriaPadreID, Nombre, Descripcion FROM Categorias WHERE Estado = 'Activo' ORDER BY Nombre")->fetchAll(PDO::FETCH_ASSOC);
     $mapa = array_column($filas, null, 'CategoriaID');
@@ -32,17 +33,20 @@ function precioCatalogo($producto, $promociones) {
 }
 function productosCatalogo($conexion, $categorias) {
     $productos = $conexion->query("SELECT P.*, C.Nombre AS Categoria,
-        COALESCE(R.Calificacion, 0) AS Calificacion, COALESCE(R.Resenas, 0) AS Resenas, COALESCE(V.Vendidos, 0) AS Vendidos
+        COALESCE(V.Vendidos, 0) AS Vendidos
         FROM Productos P INNER JOIN Categorias C ON C.CategoriaID = P.CategoriaID
-        LEFT JOIN (SELECT ProductoID, AVG(Calificacion) AS Calificacion, COUNT(*) AS Resenas FROM Resenas WHERE Estado = 'Publicada' GROUP BY ProductoID) R ON R.ProductoID = P.ProductoID
         LEFT JOIN (SELECT D.ProductoID, SUM(D.Cantidad) AS Vendidos FROM DetalleOrdenes D INNER JOIN Ordenes O ON O.OrdenID = D.OrdenID WHERE O.Estado IN ('Confirmada','Procesando','Enviada','Entregada') GROUP BY D.ProductoID) V ON V.ProductoID = P.ProductoID
         WHERE P.Estado = 'Activo' ORDER BY P.Nombre")->fetchAll(PDO::FETCH_ASSOC);
+    $resenasDisponibles = true;
+    try { $stats = estadisticasResenasMongo(); }
+    catch (ResenasNoDisponibles $error) { $stats = []; $resenasDisponibles = false; }
     $ids = array_column($categorias, 'CategoriaID');
     $promociones = promocionesCatalogo($conexion);
     $resultado = [];
     foreach ($productos as $producto) {
         if (!in_array($producto['CategoriaID'], $ids)) continue;
-        $resultado[] = array_merge($producto, precioCatalogo($producto, $promociones));
+        $rating = $resenasDisponibles ? ($stats[(int)$producto['ProductoID']] ?? ['Calificacion' => 0, 'Resenas' => 0]) : ['Calificacion' => null, 'Resenas' => null];
+        $resultado[] = array_merge($producto, precioCatalogo($producto, $promociones), $rating, ['ResenasDisponibles' => $resenasDisponibles]);
     }
     return $resultado;
 }

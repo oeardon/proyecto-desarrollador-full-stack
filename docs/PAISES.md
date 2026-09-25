@@ -11,3 +11,17 @@ La lista completa se almacena durante 24 horas en el directorio temporal de PHP;
 Referencia de paginación: https://restcountries.com/docs/countries
 
 Verificación: consulta real de 254 registros, todos con traducción española; sintaxis PHP, compilación Vite, ESLint y prueba de navegador con checkout simulado. La prueba comprueba carga diferida, Guatemala inicial, orden alfabético, España y Abjasia, y selección de México conservada en la dirección de facturación.
+
+## Actualización de caché y fallos
+
+La escritura se verifica y se publica mediante un archivo temporal y renombrado. Si falla, se conserva la caché anterior y se responde 503. Una lista vencida no se sirve.
+
+El bloqueo es no bloqueante: las solicitudes concurrentes reciben 503 con Retry-After: 60 mientras otra actualiza la lista. Si falla el proveedor o el guardado, se espera 60 segundos antes de otra descarga. Antes de consultar se persiste una protección de 180 segundos por si el proceso termina inesperadamente. Una caché vigente se devuelve aunque exista ese plazo. El bloqueo se libera siempre y los temporales fallidos se eliminan.
+
+## Dirección, ciudad y departamento
+
+Las direcciones manuales del checkout y los campos de dirección de proveedores, altas de órdenes y altas de facturas utilizan cuatro controles: Dirección, Ciudad, Departamento y País. Al enviar se concatenan, en ese orden, separados por coma y espacio. Se recortan los espacios al principio y al final de cada parte y se valida el máximo de 255 caracteres del texto completo. Se mantienen las columnas y contratos actuales de la API.
+
+Las direcciones guardadas del checkout se muestran desglosadas y de solo lectura; para introducir otra se elige Escribir otra dirección. La opción de usar la misma dirección para facturación se mantiene. Los registros antiguos conservan su texto original si no se modifica la dirección. Al editar una dirección con país reconocido y al menos tres partes previas, las últimas dos se muestran como Ciudad y Departamento; las anteriores permanecen juntas como Dirección. Si el texto antiguo no permite ese desglose, se conserva en Dirección y se completan los campos al modificarlo.
+
+Las reglas de edición no cambian: las órdenes permiten cambiar su estado y las facturas permiten anularse. El CRUD de Direcciones mantiene sus columnas separadas. Verificado con lint, compilación y pruebas de navegador con API simulada para checkout, altas de órdenes/facturas, edición de proveedores, conservación de texto antiguo, validación y pantalla móvil.

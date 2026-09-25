@@ -1,7 +1,6 @@
 import CountrySelect from './CountrySelect.jsx'
 import { useId, useRef, useState } from 'react'
 
-
 export function UserFacts({ record, fields }) {
   return <dl className="row mb-0 user-facts">{fields.map(([name, label, format]) => <div className="col-12 col-md-6 mb-3" key={name}>
     <dt className="small text-secondary">{label}</dt><dd className="mb-0">{format ? format(record[name]) : String(record[name] ?? '—')}</dd>

@@ -1,5 +1,6 @@
 import { Link, NavLink } from 'react-router-dom'
 import Icon from './Icon.jsx'
+
 export default function Header({ cartCount, favoriteCount, menuOpen, setMenuOpen, search, setSearch, onSearch, categories, activeCategory }) {
   const roots = categories.filter((category) => category.CategoriaPadreID === null)
   const close = () => setMenuOpen(false)

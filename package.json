@@ -8,10 +8,5 @@
     "lint": "npm --prefix frontend run lint",
     "build": "npm --prefix frontend run build",
     "test:structure": "node tests/test_frontend_structure.mjs"
-  },
-  "dependencies": {
-    "@popperjs/core": "^2.11.8",
-    "bootstrap": "^5.3.8",
-    "sass": "^1.105.0"
   }
 }

@@ -9,7 +9,7 @@
       "$numberDecimal": "3299.00"
     },
     "Cantidad": 27,
-    "Imagen": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=900&q=85",
+    "Imagen": "/productos/smartphone.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -25,7 +25,7 @@
       "$numberDecimal": "5799.00"
     },
     "Cantidad": 34,
-    "Imagen": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=900&q=85",
+    "Imagen": "/productos/laptop.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -41,7 +41,7 @@
       "$numberDecimal": "649.00"
     },
     "Cantidad": 41,
-    "Imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=900&q=85",
+    "Imagen": "/productos/headsets.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -57,7 +57,7 @@
       "$numberDecimal": "499.00"
     },
     "Cantidad": 48,
-    "Imagen": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=900&q=85",
+    "Imagen": "/productos/rgb-keyboard.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -73,7 +73,7 @@
       "$numberDecimal": "899.00"
     },
     "Cantidad": 55,
-    "Imagen": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=85",
+    "Imagen": "/productos/smartwatch.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -89,7 +89,7 @@
       "$numberDecimal": "1699.00"
     },
     "Cantidad": 62,
-    "Imagen": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=900&q=85",
+    "Imagen": "/productos/computer-monitor.png",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -105,7 +105,7 @@
       "$numberDecimal": "429.00"
     },
     "Cantidad": 69,
-    "Imagen": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=900&q=85",
+    "Imagen": "/productos/bluetooth-speaker.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -121,7 +121,7 @@
       "$numberDecimal": "599.00"
     },
     "Cantidad": 76,
-    "Imagen": "https://images.unsplash.com/photo-1557324232-b8917d3c3dcb?auto=format&fit=crop&w=900&q=85",
+    "Imagen": "/productos/indoor-ip-camera.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -137,7 +137,7 @@
       "$numberDecimal": "1899.00"
     },
     "Cantidad": 83,
-    "Imagen": null,
+    "Imagen": "/productos/smartphone.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -153,7 +153,7 @@
       "$numberDecimal": "4599.00"
     },
     "Cantidad": 25,
-    "Imagen": null,
+    "Imagen": "/productos/smartphone.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -169,7 +169,7 @@
       "$numberDecimal": "1299.00"
     },
     "Cantidad": 32,
-    "Imagen": null,
+    "Imagen": "/productos/tablet-computer.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -185,7 +185,7 @@
       "$numberDecimal": "2499.00"
     },
     "Cantidad": 39,
-    "Imagen": null,
+    "Imagen": "/productos/graphics-tablet-pen.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -201,7 +201,7 @@
       "$numberDecimal": "899.00"
     },
     "Cantidad": 46,
-    "Imagen": null,
+    "Imagen": "/productos/tablet-computer.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -217,7 +217,7 @@
       "$numberDecimal": "129.00"
     },
     "Cantidad": 53,
-    "Imagen": null,
+    "Imagen": "/productos/usb-c-charger.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -233,7 +233,7 @@
       "$numberDecimal": "249.00"
     },
     "Cantidad": 60,
-    "Imagen": null,
+    "Imagen": "/productos/power-bank.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -249,7 +249,7 @@
       "$numberDecimal": "179.00"
     },
     "Cantidad": 67,
-    "Imagen": null,
+    "Imagen": "/productos/wireless-charger.png",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -265,7 +265,7 @@
       "$numberDecimal": "3799.00"
     },
     "Cantidad": 74,
-    "Imagen": null,
+    "Imagen": "/productos/laptop.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -281,7 +281,7 @@
       "$numberDecimal": "8499.00"
     },
     "Cantidad": 81,
-    "Imagen": null,
+    "Imagen": "/productos/laptop.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -297,7 +297,7 @@
       "$numberDecimal": "1199.00"
     },
     "Cantidad": 23,
-    "Imagen": null,
+    "Imagen": "/productos/computer-monitor.png",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -313,7 +313,7 @@
       "$numberDecimal": "2499.00"
     },
     "Cantidad": 30,
-    "Imagen": null,
+    "Imagen": "/productos/curved-monitor.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -329,7 +329,7 @@
       "$numberDecimal": "599.00"
     },
     "Cantidad": 37,
-    "Imagen": null,
+    "Imagen": "/productos/nvme-ssd.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -345,7 +345,7 @@
       "$numberDecimal": "89.00"
     },
     "Cantidad": 44,
-    "Imagen": null,
+    "Imagen": "/productos/usb-flash-drive.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -361,7 +361,7 @@
       "$numberDecimal": "749.00"
     },
     "Cantidad": 51,
-    "Imagen": null,
+    "Imagen": "/productos/external-hard-disk.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -377,7 +377,7 @@
       "$numberDecimal": "249.00"
     },
     "Cantidad": 58,
-    "Imagen": null,
+    "Imagen": "/productos/headphones.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -393,7 +393,7 @@
       "$numberDecimal": "349.00"
     },
     "Cantidad": 65,
-    "Imagen": null,
+    "Imagen": "/productos/wireless-earbuds.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -409,7 +409,7 @@
       "$numberDecimal": "799.00"
     },
     "Cantidad": 72,
-    "Imagen": null,
+    "Imagen": "/productos/bluetooth-speaker.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -425,7 +425,7 @@
       "$numberDecimal": "199.00"
     },
     "Cantidad": 79,
-    "Imagen": null,
+    "Imagen": "/productos/bluetooth-speaker.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -441,7 +441,7 @@
       "$numberDecimal": "1699.00"
     },
     "Cantidad": 21,
-    "Imagen": null,
+    "Imagen": "/productos/flat-screen-television.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -457,7 +457,7 @@
       "$numberDecimal": "2799.00"
     },
     "Cantidad": 28,
-    "Imagen": null,
+    "Imagen": "/productos/flat-screen-television.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -473,7 +473,7 @@
       "$numberDecimal": "4499.00"
     },
     "Cantidad": 35,
-    "Imagen": null,
+    "Imagen": "/productos/flat-screen-television.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -489,7 +489,7 @@
       "$numberDecimal": "399.00"
     },
     "Cantidad": 42,
-    "Imagen": null,
+    "Imagen": "/productos/compact-mechanical-keyboard.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -505,7 +505,7 @@
       "$numberDecimal": "229.00"
     },
     "Cantidad": 49,
-    "Imagen": null,
+    "Imagen": "/productos/computer-keyboard-backlight.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -521,7 +521,7 @@
       "$numberDecimal": "249.00"
     },
     "Cantidad": 56,
-    "Imagen": null,
+    "Imagen": "/productos/gaming-mouse.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -537,7 +537,7 @@
       "$numberDecimal": "349.00"
     },
     "Cantidad": 63,
-    "Imagen": null,
+    "Imagen": "/productos/gaming-mouse.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -553,7 +553,7 @@
       "$numberDecimal": "429.00"
     },
     "Cantidad": 70,
-    "Imagen": null,
+    "Imagen": "/productos/gaming-mouse.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -569,7 +569,7 @@
       "$numberDecimal": "199.00"
     },
     "Cantidad": 77,
-    "Imagen": null,
+    "Imagen": "/productos/game-controller.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -585,7 +585,7 @@
       "$numberDecimal": "399.00"
     },
     "Cantidad": 84,
-    "Imagen": null,
+    "Imagen": "/productos/game-controller.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -601,7 +601,7 @@
       "$numberDecimal": "1299.00"
     },
     "Cantidad": 26,
-    "Imagen": null,
+    "Imagen": "/productos/racing-wheel-controller.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -617,7 +617,7 @@
       "$numberDecimal": "799.00"
     },
     "Cantidad": 33,
-    "Imagen": null,
+    "Imagen": "/productos/outdoor-surveillance-camera.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -633,7 +633,7 @@
       "$numberDecimal": "449.00"
     },
     "Cantidad": 40,
-    "Imagen": null,
+    "Imagen": "/productos/indoor-ip-camera.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -649,7 +649,7 @@
       "$numberDecimal": "99.00"
     },
     "Cantidad": 47,
-    "Imagen": null,
+    "Imagen": "/productos/smart-light-bulb.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -665,7 +665,7 @@
       "$numberDecimal": "199.00"
     },
     "Cantidad": 54,
-    "Imagen": null,
+    "Imagen": "/productos/led-strip.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -681,7 +681,7 @@
       "$numberDecimal": "149.00"
     },
     "Cantidad": 61,
-    "Imagen": null,
+    "Imagen": "/productos/smart-plug.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -697,7 +697,7 @@
       "$numberDecimal": "129.00"
     },
     "Cantidad": 68,
-    "Imagen": null,
+    "Imagen": "/productos/door-window-sensor.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -713,7 +713,7 @@
       "$numberDecimal": "179.00"
     },
     "Cantidad": 75,
-    "Imagen": null,
+    "Imagen": "/productos/pir-motion-sensor.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -729,7 +729,7 @@
       "$numberDecimal": "159.00"
     },
     "Cantidad": 82,
-    "Imagen": null,
+    "Imagen": "/productos/water-leak-detector.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -745,7 +745,7 @@
       "$numberDecimal": "349.00"
     },
     "Cantidad": 24,
-    "Imagen": null,
+    "Imagen": "/productos/blender-appliance.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -761,7 +761,7 @@
       "$numberDecimal": "299.00"
     },
     "Cantidad": 31,
-    "Imagen": null,
+    "Imagen": "/productos/drip-coffee-maker.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -777,7 +777,7 @@
       "$numberDecimal": "799.00"
     },
     "Cantidad": 38,
-    "Imagen": null,
+    "Imagen": "/productos/air-fryer.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -793,7 +793,7 @@
       "$numberDecimal": "599.00"
     },
     "Cantidad": 45,
-    "Imagen": null,
+    "Imagen": "/productos/canister-vacuum-cleaner.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -809,7 +809,7 @@
       "$numberDecimal": "299.00"
     },
     "Cantidad": 52,
-    "Imagen": null,
+    "Imagen": "/productos/handheld-vacuum-cleaner.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -825,7 +825,7 @@
       "$numberDecimal": "649.00"
     },
     "Cantidad": 59,
-    "Imagen": null,
+    "Imagen": "/productos/steam-cleaner.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -841,7 +841,7 @@
       "$numberDecimal": "249.00"
     },
     "Cantidad": 66,
-    "Imagen": null,
+    "Imagen": "/productos/pedestal-fan.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -857,7 +857,7 @@
       "$numberDecimal": "99.00"
     },
     "Cantidad": 73,
-    "Imagen": null,
+    "Imagen": "/productos/usb-fan.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -873,7 +873,7 @@
       "$numberDecimal": "449.00"
     },
     "Cantidad": 80,
-    "Imagen": null,
+    "Imagen": "/productos/tower-fan.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -889,7 +889,7 @@
       "$numberDecimal": "299.00"
     },
     "Cantidad": 22,
-    "Imagen": null,
+    "Imagen": "/productos/frying-pans.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -905,7 +905,7 @@
       "$numberDecimal": "119.00"
     },
     "Cantidad": 29,
-    "Imagen": null,
+    "Imagen": "/productos/silicone-kitchen-utensils.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -921,7 +921,7 @@
       "$numberDecimal": "89.00"
     },
     "Cantidad": 36,
-    "Imagen": null,
+    "Imagen": "/productos/bamboo-cutting-board.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -937,7 +937,7 @@
       "$numberDecimal": "79.00"
     },
     "Cantidad": 43,
-    "Imagen": null,
+    "Imagen": "/productos/drawer-organizer.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -953,7 +953,7 @@
       "$numberDecimal": "99.00"
     },
     "Cantidad": 50,
-    "Imagen": null,
+    "Imagen": "/productos/folding-storage-box.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -969,7 +969,7 @@
       "$numberDecimal": "349.00"
     },
     "Cantidad": 57,
-    "Imagen": null,
+    "Imagen": "/productos/metal-shelving.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -985,7 +985,7 @@
       "$numberDecimal": "249.00"
     },
     "Cantidad": 64,
-    "Imagen": null,
+    "Imagen": "/productos/bed-sheets.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1001,7 +1001,7 @@
       "$numberDecimal": "99.00"
     },
     "Cantidad": 71,
-    "Imagen": null,
+    "Imagen": "/productos/pillow.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1017,7 +1017,7 @@
       "$numberDecimal": "159.00"
     },
     "Cantidad": 78,
-    "Imagen": null,
+    "Imagen": "/productos/blanket.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1033,7 +1033,7 @@
       "$numberDecimal": "549.00"
     },
     "Cantidad": 20,
-    "Imagen": null,
+    "Imagen": "/productos/smartwatch.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1049,7 +1049,7 @@
       "$numberDecimal": "299.00"
     },
     "Cantidad": 27,
-    "Imagen": null,
+    "Imagen": "/productos/fitness-tracker.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1065,7 +1065,7 @@
       "$numberDecimal": "249.00"
     },
     "Cantidad": 34,
-    "Imagen": null,
+    "Imagen": "/productos/laptop-backpack.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1081,7 +1081,7 @@
       "$numberDecimal": "179.00"
     },
     "Cantidad": 41,
-    "Imagen": null,
+    "Imagen": "/productos/school-backpack.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1097,7 +1097,7 @@
       "$numberDecimal": "349.00"
     },
     "Cantidad": 48,
-    "Imagen": null,
+    "Imagen": "/productos/travel-backpack.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1113,7 +1113,7 @@
       "$numberDecimal": "149.00"
     },
     "Cantidad": 55,
-    "Imagen": null,
+    "Imagen": "/productos/canvas-tote-bag.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1129,7 +1129,7 @@
       "$numberDecimal": "89.00"
     },
     "Cantidad": 62,
-    "Imagen": null,
+    "Imagen": "/productos/wallet.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1145,7 +1145,7 @@
       "$numberDecimal": "129.00"
     },
     "Cantidad": 69,
-    "Imagen": null,
+    "Imagen": "/productos/crossbody-bag.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1161,7 +1161,7 @@
       "$numberDecimal": "229.00"
     },
     "Cantidad": 76,
-    "Imagen": null,
+    "Imagen": "/productos/bicycle-helmet.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1177,7 +1177,7 @@
       "$numberDecimal": "99.00"
     },
     "Cantidad": 83,
-    "Imagen": null,
+    "Imagen": "/productos/bicycle-light.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1193,7 +1193,7 @@
       "$numberDecimal": "79.00"
     },
     "Cantidad": 25,
-    "Imagen": null,
+    "Imagen": "/productos/bicycle-pump.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1209,7 +1209,7 @@
       "$numberDecimal": "249.00"
     },
     "Cantidad": 32,
-    "Imagen": null,
+    "Imagen": "/productos/dumbbells.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1225,7 +1225,7 @@
       "$numberDecimal": "119.00"
     },
     "Cantidad": 39,
-    "Imagen": null,
+    "Imagen": "/productos/resistance-bands.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1241,7 +1241,7 @@
       "$numberDecimal": "99.00"
     },
     "Cantidad": 46,
-    "Imagen": null,
+    "Imagen": "/productos/yoga-mat.png",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1257,7 +1257,7 @@
       "$numberDecimal": "599.00"
     },
     "Cantidad": 53,
-    "Imagen": null,
+    "Imagen": "/productos/camping-tent.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1273,7 +1273,7 @@
       "$numberDecimal": "149.00"
     },
     "Cantidad": 60,
-    "Imagen": null,
+    "Imagen": "/productos/led-flashlight.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1289,7 +1289,7 @@
       "$numberDecimal": "129.00"
     },
     "Cantidad": 67,
-    "Imagen": null,
+    "Imagen": "/productos/vacuum-flask.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1305,7 +1305,7 @@
       "$numberDecimal": "199.00"
     },
     "Cantidad": 74,
-    "Imagen": null,
+    "Imagen": "/productos/electric-toothbrush.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1321,7 +1321,7 @@
       "$numberDecimal": "79.00"
     },
     "Cantidad": 81,
-    "Imagen": null,
+    "Imagen": "/productos/toiletry-bag.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1337,7 +1337,7 @@
       "$numberDecimal": "149.00"
     },
     "Cantidad": 23,
-    "Imagen": null,
+    "Imagen": "/productos/soap-dispenser.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1353,7 +1353,7 @@
       "$numberDecimal": "229.00"
     },
     "Cantidad": 30,
-    "Imagen": null,
+    "Imagen": "/productos/hair-dryer.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1369,7 +1369,7 @@
       "$numberDecimal": "279.00"
     },
     "Cantidad": 37,
-    "Imagen": null,
+    "Imagen": "/productos/hair-straightener.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1385,7 +1385,7 @@
       "$numberDecimal": "49.00"
     },
     "Cantidad": 44,
-    "Imagen": null,
+    "Imagen": "/productos/hair-brush.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1401,7 +1401,7 @@
       "$numberDecimal": "89.00"
     },
     "Cantidad": 51,
-    "Imagen": null,
+    "Imagen": "/productos/facial-roller.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1417,7 +1417,7 @@
       "$numberDecimal": "199.00"
     },
     "Cantidad": 58,
-    "Imagen": null,
+    "Imagen": "/productos/makeup-mirror.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1433,7 +1433,7 @@
       "$numberDecimal": "129.00"
     },
     "Cantidad": 65,
-    "Imagen": null,
+    "Imagen": "/productos/silicone-facial-brush.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1449,7 +1449,7 @@
       "$numberDecimal": "129.00"
     },
     "Cantidad": 72,
-    "Imagen": null,
+    "Imagen": "/productos/screwdriver-set.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1465,7 +1465,7 @@
       "$numberDecimal": "79.00"
     },
     "Cantidad": 79,
-    "Imagen": null,
+    "Imagen": "/productos/claw-hammer.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1481,7 +1481,7 @@
       "$numberDecimal": "249.00"
     },
     "Cantidad": 21,
-    "Imagen": null,
+    "Imagen": "/productos/combination-wrenches.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1497,7 +1497,7 @@
       "$numberDecimal": "699.00"
     },
     "Cantidad": 28,
-    "Imagen": null,
+    "Imagen": "/productos/cordless-drill.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1513,7 +1513,7 @@
       "$numberDecimal": "449.00"
     },
     "Cantidad": 35,
-    "Imagen": null,
+    "Imagen": "/productos/orbital-sander.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1529,7 +1529,7 @@
       "$numberDecimal": "199.00"
     },
     "Cantidad": 42,
-    "Imagen": null,
+    "Imagen": "/productos/electric-screwdriver.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1545,7 +1545,7 @@
       "$numberDecimal": "49.00"
     },
     "Cantidad": 49,
-    "Imagen": null,
+    "Imagen": "/productos/safety-glasses.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1561,7 +1561,7 @@
       "$numberDecimal": "59.00"
     },
     "Cantidad": 56,
-    "Imagen": null,
+    "Imagen": "/productos/work-gloves.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1577,7 +1577,7 @@
       "$numberDecimal": "89.00"
     },
     "Cantidad": 63,
-    "Imagen": null,
+    "Imagen": "/productos/hard-hat.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1593,7 +1593,7 @@
       "$numberDecimal": "159.00"
     },
     "Cantidad": 70,
-    "Imagen": null,
+    "Imagen": "/productos/dry-dog-food.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1609,7 +1609,7 @@
       "$numberDecimal": "139.00"
     },
     "Cantidad": 77,
-    "Imagen": null,
+    "Imagen": "/productos/dry-cat-food.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1625,7 +1625,7 @@
       "$numberDecimal": "49.00"
     },
     "Cantidad": 84,
-    "Imagen": null,
+    "Imagen": "/productos/dog-treats.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1641,7 +1641,7 @@
       "$numberDecimal": "39.00"
     },
     "Cantidad": 26,
-    "Imagen": null,
+    "Imagen": "/productos/dog-ball-toy.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1657,7 +1657,7 @@
       "$numberDecimal": "199.00"
     },
     "Cantidad": 33,
-    "Imagen": null,
+    "Imagen": "/productos/cat-scratching-post.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1673,7 +1673,7 @@
       "$numberDecimal": "59.00"
     },
     "Cantidad": 40,
-    "Imagen": null,
+    "Imagen": "/productos/dog-rope-toy.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1689,7 +1689,7 @@
       "$numberDecimal": "69.00"
     },
     "Cantidad": 47,
-    "Imagen": null,
+    "Imagen": "/productos/dog-leash.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1705,7 +1705,7 @@
       "$numberDecimal": "249.00"
     },
     "Cantidad": 54,
-    "Imagen": null,
+    "Imagen": "/productos/dog-bed.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"
@@ -1721,7 +1721,7 @@
       "$numberDecimal": "89.00"
     },
     "Cantidad": 61,
-    "Imagen": null,
+    "Imagen": "/productos/double-pet-bowl.jpg",
     "Estado": "Activo",
     "FechaRegistro": {
       "$date": "2026-07-01T15:00:00.000Z"

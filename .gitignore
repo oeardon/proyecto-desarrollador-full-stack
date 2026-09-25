@@ -26,13 +26,10 @@ config/local.php
 config/database.local.php
 config/api_keys.php
 
-# Archivos subidos por usuarios
-public/uploads/*
-!public/uploads/.gitkeep
-!public/uploads/productos/
-public/uploads/productos/*
-!public/uploads/productos/.gitkeep
-tests/
+# Archivos de pruebas
+tests/*
+!tests/test_resenas_mongo.py
+!tests/test_imagenes_productos.py
 
 # Marcadores redundantes de carpetas que ya contienen código
 app/services/.gitkeep

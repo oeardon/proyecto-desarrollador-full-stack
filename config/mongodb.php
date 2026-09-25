@@ -1,15 +1,18 @@
 <?php
-     try {
-          require_once __DIR__ . "/../vendor/autoload.php";
-          require_once __DIR__ . "/api_keys.php";
-          if (!isset($mongoURI) || !is_string($mongoURI) || trim($mongoURI) === "") {
-               throw new RuntimeException("La URI de MongoDB no está configurada");
-          }
-          $clienteMongo = new MongoDB\Client($mongoURI);
-          $mongoDB = $clienteMongo->selectDatabase("todoaqui_db");
-          $mongoDB->command(["ping" => 1]);
-     } catch (Throwable $e) {
-          // La API se encarga de responder con el código HTTP y el JSON apropiados.
-          throw new RuntimeException("Error de conexión a MongoDB", 0, $e);
-     }
+    function conexionMongoDB() {
+        static $database;
+        if ($database !== null) return $database;
+        require_once __DIR__ . '/../vendor/autoload.php';
+        $uri = getenv('MONGODB_URI');
+        if (!$uri) {
+            require __DIR__ . '/api_keys.php';
+            $uri = $mongoURI ?? '';
+        }
+        if (!is_string($uri) || trim($uri) === '') throw new RuntimeException('MongoDB no está configurado');
+        $client = new MongoDB\Client($uri, [
+            'serverSelectionTimeoutMS' => 3000, 'connectTimeoutMS' => 3000, 'socketTimeoutMS' => 5000,
+        ], ['typeMap' => ['root' => 'array', 'document' => 'array', 'array' => 'array']]);
+        $database = $client->selectDatabase(getenv('MONGODB_DATABASE') ?: 'todoaqui_db');
+        return $database;
+    }
 ?>

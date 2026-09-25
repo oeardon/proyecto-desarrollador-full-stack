@@ -43,6 +43,7 @@
      }
 
      function responderErrorApi($error) {
+          if ($error instanceof ResenasNoDisponibles) responderApi(503, ['success' => false, 'message' => $error->getMessage()]);
           if ($error instanceof PDOException) {
                $codigo = $error->errorInfo[1] ?? 0;
                if ($codigo == 1062) responderApi(409, ["success" => false, "message" => "Ya existe un registro con esos datos únicos"]);

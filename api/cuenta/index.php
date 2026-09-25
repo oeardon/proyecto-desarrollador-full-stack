@@ -22,6 +22,7 @@ try {
         'ordenes' => ['GET'],
         'lista-deseos' => ['GET', 'DELETE'],
         'resenas' => ['GET'],
+        'productos-resenables' => ['GET'],
         'devoluciones' => ['GET', 'POST'],
     ];
     if (!is_string($recurso) || !isset($metodos[$recurso])) responderApi(404, ['success' => false, 'message' => 'Sección no encontrada']);
@@ -60,6 +61,8 @@ try {
         else {
             if (!eliminarDeseo($conexion, $usuarioID, leerIdApi())) responderApi(404, ['success' => false, 'message' => 'Producto no encontrado en su lista']);
         }
+    } elseif ($recurso === 'productos-resenables') {
+        $resultado = consultarCuenta($conexion, "SELECT DISTINCT P.ProductoID, P.Nombre FROM Productos P INNER JOIN DetalleOrdenes D ON D.ProductoID = P.ProductoID INNER JOIN Ordenes O ON O.OrdenID = D.OrdenID WHERE O.UsuarioID = ? AND O.Estado = 'Entregada' ORDER BY P.Nombre", [$usuarioID]);
     } elseif ($recurso === 'resenas') {
         $resultado = obtenerResenasCuenta($conexion, $usuarioID);
     } elseif ($recurso === 'devoluciones') {

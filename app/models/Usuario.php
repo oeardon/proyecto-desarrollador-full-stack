@@ -1,4 +1,5 @@
 <?php
+     require_once __DIR__ . '/../services/ResenasMongo.php';
      function obtenerTodosUsuarios($conexion) {
           $sql = "SELECT UsuarioID, Nombres, Apellidos, Correo, Telefono, Usuario, TipoUsuario, Estado, FechaRegistro
                   FROM Usuarios
@@ -61,6 +62,7 @@
      }
 
      function eliminarUsuario($conexion, $UsuarioID) {
+          exigirSinResenasMongo('UsuarioID', $UsuarioID);
           $sql = "DELETE FROM Usuarios
                   WHERE UsuarioID = :UsuarioID";
           $stmt = $conexion->prepare($sql);

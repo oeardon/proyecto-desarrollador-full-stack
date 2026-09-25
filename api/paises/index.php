@@ -6,14 +6,29 @@ if ($_SERVER['REQUEST_METHOD'] !== 'GET') {
     echo json_encode(['success' => false, 'message' => 'Método no permitido']);
     exit;
 }
+$lock = null;
+$locked = false;
+$refreshing = false;
+$temporary = null;
 try {
     // Cache outside the public directory; only complete lists are cached.
     $cache = sys_get_temp_dir() . '/tienda-paises-' . md5(__DIR__) . '.json';
-    $lock = fopen($cache . '.lock', 'c');
-    if (!$lock || !flock($lock, LOCK_EX)) throw new RuntimeException('Cache unavailable');
+    $lock = @fopen($cache . '.lock', 'c+');
+    if (!$lock) throw new RuntimeException('Cache unavailable');
+    $locked = flock($lock, LOCK_EX | LOCK_NB);
+    if (!$locked) throw new RuntimeException('Refresh in progress');
     $countries = is_file($cache) && filemtime($cache) > time() - 86400
         ? json_decode(file_get_contents($cache), true) : null;
     if (!is_array($countries) || !$countries) {
+        // Save a retry deadline before downloading, including if PHP stops unexpectedly.
+        rewind($lock);
+        if ((int)stream_get_contents($lock) > time()) throw new RuntimeException('Refresh cooldown');
+        $deadline = (string)(time() + 180);
+        rewind($lock);
+        if (!ftruncate($lock, 0) || fwrite($lock, $deadline) !== strlen($deadline) || !fflush($lock)) {
+            throw new RuntimeException('Cannot persist refresh deadline');
+        }
+        $refreshing = true;
         require __DIR__ . '/../../config/api_keys.php';
         $countries = [];
         for ($offset = 0; $offset < 1000; $offset += 100) {
@@ -38,12 +53,30 @@ try {
         }
         if (!$countries || $offset >= 1000) throw new RuntimeException('Incomplete list');
         $countries = array_values($countries);
-        file_put_contents($cache, json_encode($countries, JSON_THROW_ON_ERROR), LOCK_EX);
+        $json = json_encode($countries, JSON_THROW_ON_ERROR);
+        $temporary = @tempnam(dirname($cache), 'tienda-paises-');
+        if ($temporary === false || @file_put_contents($temporary, $json) !== strlen($json)
+            || !@rename($temporary, $cache)) {
+            throw new RuntimeException('Cannot save countries cache');
+        }
+        $temporary = null;
+        $refreshing = false;
     }
-    flock($lock, LOCK_UN);
-    fclose($lock);
     echo json_encode(['success' => true, 'data' => $countries], JSON_UNESCAPED_UNICODE | JSON_THROW_ON_ERROR);
 } catch (Throwable $e) {
+    if ($refreshing && $locked) {
+        rewind($lock);
+        $deadline = (string)(time() + 60);
+        if (!ftruncate($lock, 0) || fwrite($lock, $deadline) !== strlen($deadline) || !fflush($lock)) {
+            error_log('Countries API: cannot persist retry deadline.');
+        }
+    }
+    error_log('Countries API: request failed (' . get_class($e) . ').');
+    header('Retry-After: 60');
     http_response_code(503);
     echo json_encode(['success' => false, 'message' => 'No se pudo obtener el listado de países. Intenta nuevamente.']);
+} finally {
+    if (is_string($temporary) && is_file($temporary)) @unlink($temporary);
+    if ($locked) flock($lock, LOCK_UN);
+    if (is_resource($lock)) fclose($lock);
 }

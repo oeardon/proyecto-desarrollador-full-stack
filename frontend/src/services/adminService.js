@@ -9,8 +9,27 @@ export async function requestAdmin(resource, { method = 'GET', record, data, sig
   if (record) schema.keys.forEach((key) => params.set(schema.auxiliary ? key : 'id', record[key]))
   const options = { method, credentials: 'include', cache: 'no-store', signal, headers: { Accept: 'application/json' } }
   if (data !== undefined) {
-    options.headers['Content-Type'] = 'application/json'
-    options.body = JSON.stringify(data)
+    if (resource === 'resenas') {
+      const { Imagenes, ...fields } = data
+      const images = Imagenes || []
+      if (Imagenes !== undefined) fields.Imagenes = images.filter((image) => typeof image === 'string')
+      const body = new FormData()
+      body.append('datos', JSON.stringify(fields))
+      images.filter((image) => image instanceof File).forEach((image) => body.append('Imagenes[]', image))
+      options.body = body
+      if (method === 'PUT') { options.method = 'POST'; params.set('_method', 'PUT') }
+    } else if (resource === 'productos') {
+      const { Imagen, ...fields } = data
+      const body = new FormData()
+      body.append('datos', JSON.stringify(fields))
+      if (Imagen instanceof File) body.append('Imagen', Imagen)
+      options.body = body
+      // PHP procesa archivos multipart en POST; la API valida esta operación explícita.
+      if (method === 'PUT') { options.method = 'POST'; params.set('_method', 'PUT') }
+    } else {
+      options.headers['Content-Type'] = 'application/json'
+      options.body = JSON.stringify(data)
+    }
   }
   let response
   try {

@@ -1,4 +1,5 @@
-<?php 
+<?php
+     require_once __DIR__ . '/../services/ResenasMongo.php';
      function obtenerTodosProductos($conexion) {
           $sql = "SELECT P.ProductoID,
                          P.CategoriaID,
@@ -79,6 +80,7 @@
      }
 
      function eliminarProducto($conexion, $ProductoID) {
+          exigirSinResenasMongo('ProductoID', $ProductoID);
           $sql = "DELETE FROM Productos
                   WHERE ProductoID = :ProductoID";
           $stmt = $conexion->prepare($sql);

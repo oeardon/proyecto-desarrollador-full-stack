@@ -1,0 +1,1802 @@
+[
+  {
+    "ProductoID": 1,
+    "SKU": "TA-00001",
+    "Nombre": "Smartphone Nova X 256 GB",
+    "ImagenAnterior": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=900&q=85",
+    "ImagenNueva": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=900&q=85",
+    "fuente": {
+      "source": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=900&q=85",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "nota": "Imagen previamente utilizada en el catálogo; se conserva o reutiliza para productos del mismo tipo."
+    }
+  },
+  {
+    "ProductoID": 2,
+    "SKU": "TA-00002",
+    "Nombre": "Laptop Air 14” 16 GB RAM",
+    "ImagenAnterior": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=900&q=85",
+    "ImagenNueva": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=900&q=85",
+    "fuente": {
+      "source": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=900&q=85",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "nota": "Imagen previamente utilizada en el catálogo; se conserva o reutiliza para productos del mismo tipo."
+    }
+  },
+  {
+    "ProductoID": 3,
+    "SKU": "TA-00003",
+    "Nombre": "Audífonos Wave Pro ANC",
+    "ImagenAnterior": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=900&q=85",
+    "ImagenNueva": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=900&q=85",
+    "fuente": {
+      "source": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=900&q=85",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "nota": "Imagen previamente utilizada en el catálogo; se conserva o reutiliza para productos del mismo tipo."
+    }
+  },
+  {
+    "ProductoID": 4,
+    "SKU": "TA-00004",
+    "Nombre": "Teclado Mecánico RGB",
+    "ImagenAnterior": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=900&q=85",
+    "ImagenNueva": "/productos/rgb-keyboard.jpg",
+    "fuente": {
+      "title": "colorful computer keyboard",
+      "source": "https://www.pexels.com/photo/colorful-computer-keyboard-3812048/",
+      "url": "https://images.pexels.com/photos/3812048/pexels-photo-3812048.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "original": "",
+      "artist": "Maik Poblocki",
+      "license": "Pexels",
+      "license_url": "https://www.pexels.com/license/",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 5,
+    "SKU": "TA-00005",
+    "Nombre": "Smartwatch Active S",
+    "ImagenAnterior": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=85",
+    "ImagenNueva": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=85",
+    "fuente": {
+      "source": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=85",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "nota": "Imagen previamente utilizada en el catálogo; se conserva o reutiliza para productos del mismo tipo."
+    }
+  },
+  {
+    "ProductoID": 6,
+    "SKU": "TA-00006",
+    "Nombre": "Monitor UltraView 27”",
+    "ImagenAnterior": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=900&q=85",
+    "ImagenNueva": "/productos/computer-monitor.png",
+    "fuente": {
+      "title": "File:EIZO Foris FG2421 VGA computer monitor displaying test pattern.png",
+      "source": "https://commons.wikimedia.org/wiki/File:EIZO_Foris_FG2421_VGA_computer_monitor_displaying_test_pattern.png",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/EIZO_Foris_FG2421_VGA_computer_monitor_displaying_test_pattern.png/960px-EIZO_Foris_FG2421_VGA_computer_monitor_displaying_test_pattern.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/34/EIZO_Foris_FG2421_VGA_computer_monitor_displaying_test_pattern.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lucasbosch\" title=\"User:Lucasbosch\">Lucasbosch</a>",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 7,
+    "SKU": "TA-00007",
+    "Nombre": "Bocina Pulse Bluetooth",
+    "ImagenAnterior": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=900&q=85",
+    "ImagenNueva": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=900&q=85",
+    "fuente": {
+      "source": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=900&q=85",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "nota": "Imagen previamente utilizada en el catálogo; se conserva o reutiliza para productos del mismo tipo."
+    }
+  },
+  {
+    "ProductoID": 8,
+    "SKU": "TA-00008",
+    "Nombre": "Cámara Home Secure 2K",
+    "ImagenAnterior": "https://images.unsplash.com/photo-1557324232-b8917d3c3dcb?auto=format&fit=crop&w=900&q=85",
+    "ImagenNueva": "/productos/indoor-ip-camera.jpg",
+    "fuente": {
+      "title": "white indoor security camera on wooden surface",
+      "source": "https://www.pexels.com/photo/white-indoor-security-camera-on-wooden-surface-33104381/",
+      "url": "https://images.pexels.com/photos/33104381/pexels-photo-33104381.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "original": "",
+      "artist": "Andrey Matveev",
+      "license": "Pexels",
+      "license_url": "https://www.pexels.com/license/",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 9,
+    "SKU": "TA-00009",
+    "Nombre": "Smartphone Nova Lite 128 GB",
+    "ImagenAnterior": null,
+    "ImagenNueva": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=900&q=85",
+    "fuente": {
+      "source": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=900&q=85",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "nota": "Imagen previamente utilizada en el catálogo; se conserva o reutiliza para productos del mismo tipo."
+    }
+  },
+  {
+    "ProductoID": 10,
+    "SKU": "TA-00010",
+    "Nombre": "Smartphone Aurora 512 GB",
+    "ImagenAnterior": null,
+    "ImagenNueva": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=900&q=85",
+    "fuente": {
+      "source": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=900&q=85",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "nota": "Imagen previamente utilizada en el catálogo; se conserva o reutiliza para productos del mismo tipo."
+    }
+  },
+  {
+    "ProductoID": 11,
+    "SKU": "TA-00011",
+    "Nombre": "Tablet Estudio 10 pulgadas",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/tablet-computer.jpg",
+    "fuente": {
+      "title": "File:Tablet computer.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Tablet_computer.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Tablet_computer.jpg/960px-Tablet_computer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/78/Tablet_computer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:%CE%9A%CE%9A_%CE%99%CE%9D_%CE%97%CE%9A\" title=\"User:ΚΚ ΙΝ ΗΚ\">KK IN HK</a>",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 12,
+    "SKU": "TA-00012",
+    "Nombre": "Tablet Dibujo 12 pulgadas",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/graphics-tablet-pen.jpg",
+    "fuente": {
+      "title": "person holding a tablet and a pen",
+      "source": "https://www.pexels.com/photo/person-holding-a-tablet-and-a-pen-8715867/",
+      "url": "https://images.pexels.com/photos/8715867/pexels-photo-8715867.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "original": "",
+      "artist": "Katya Wolf",
+      "license": "Pexels",
+      "license_url": "https://www.pexels.com/license/",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 13,
+    "SKU": "TA-00013",
+    "Nombre": "Tablet Infantil 8 pulgadas",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/tablet-computer.jpg",
+    "fuente": {
+      "title": "File:Tablet computer.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Tablet_computer.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Tablet_computer.jpg/960px-Tablet_computer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/78/Tablet_computer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:%CE%9A%CE%9A_%CE%99%CE%9D_%CE%97%CE%9A\" title=\"User:ΚΚ ΙΝ ΗΚ\">KK IN HK</a>",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 14,
+    "SKU": "TA-00014",
+    "Nombre": "Cargador USB-C 30 W",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/usb-c-charger.jpg",
+    "fuente": {
+      "title": "File:Silicon vs GaN 30W USB-C chargers.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Silicon_vs_GaN_30W_USB-C_chargers.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Silicon_vs_GaN_30W_USB-C_chargers.jpg/960px-Silicon_vs_GaN_30W_USB-C_chargers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Silicon_vs_GaN_30W_USB-C_chargers.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:4300streetcar\" title=\"User:4300streetcar\">4300streetcar</a>",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 15,
+    "SKU": "TA-00015",
+    "Nombre": "Batería portátil 20000 mAh",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/power-bank.jpg",
+    "fuente": {
+      "title": "hands holding smartphone and power bank",
+      "source": "https://www.pexels.com/photo/hands-holding-smartphone-and-power-bank-16814787/",
+      "url": "https://images.pexels.com/photos/16814787/pexels-photo-16814787.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "original": "",
+      "artist": "DEBRAJ ROY",
+      "license": "Pexels",
+      "license_url": "https://www.pexels.com/license/",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 16,
+    "SKU": "TA-00016",
+    "Nombre": "Cargador inalámbrico 15 W",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/wireless-charger.png",
+    "fuente": {
+      "title": "File:MagSafe (iPhone).png",
+      "source": "https://commons.wikimedia.org/wiki/File:MagSafe_(iPhone).png",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/MagSafe_%28iPhone%29.png/960px-MagSafe_%28iPhone%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/bb/MagSafe_%28iPhone%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "Trending Reviews",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 17,
+    "SKU": "TA-00017",
+    "Nombre": "Laptop Aula 15 pulgadas",
+    "ImagenAnterior": null,
+    "ImagenNueva": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=900&q=85",
+    "fuente": {
+      "source": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=900&q=85",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "nota": "Imagen previamente utilizada en el catálogo; se conserva o reutiliza para productos del mismo tipo."
+    }
+  },
+  {
+    "ProductoID": 18,
+    "SKU": "TA-00018",
+    "Nombre": "Laptop Diseño 16 pulgadas",
+    "ImagenAnterior": null,
+    "ImagenNueva": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=900&q=85",
+    "fuente": {
+      "source": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=900&q=85",
+      "license": "Unsplash License",
+      "license_url": "https://unsplash.com/license",
+      "nota": "Imagen previamente utilizada en el catálogo; se conserva o reutiliza para productos del mismo tipo."
+    }
+  },
+  {
+    "ProductoID": 19,
+    "SKU": "TA-00019",
+    "Nombre": "Monitor Oficina 24 pulgadas",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/computer-monitor.png",
+    "fuente": {
+      "title": "File:EIZO Foris FG2421 VGA computer monitor displaying test pattern.png",
+      "source": "https://commons.wikimedia.org/wiki/File:EIZO_Foris_FG2421_VGA_computer_monitor_displaying_test_pattern.png",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/EIZO_Foris_FG2421_VGA_computer_monitor_displaying_test_pattern.png/960px-EIZO_Foris_FG2421_VGA_computer_monitor_displaying_test_pattern.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/34/EIZO_Foris_FG2421_VGA_computer_monitor_displaying_test_pattern.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Lucasbosch\" title=\"User:Lucasbosch\">Lucasbosch</a>",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 20,
+    "SKU": "TA-00020",
+    "Nombre": "Monitor Curvo 32 pulgadas",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/curved-monitor.jpg",
+    "fuente": {
+      "title": "File:ASUS curved monitor 20170603.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:ASUS_curved_monitor_20170603.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/ASUS_curved_monitor_20170603.jpg/960px-ASUS_curved_monitor_20170603.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/42/ASUS_curved_monitor_20170603.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "Devan Hsu",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 21,
+    "SKU": "TA-00021",
+    "Nombre": "SSD NVMe 1 TB",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/nvme-ssd.jpg",
+    "fuente": {
+      "title": "File:256GB 2230 NVME SSD + 256GB NGFF SSD.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:256GB_2230_NVME_SSD_%2B_256GB_NGFF_SSD.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/256GB_2230_NVME_SSD_%2B_256GB_NGFF_SSD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/52/256GB_2230_NVME_SSD_%2B_256GB_NGFF_SSD.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:User5515\" title=\"User:User5515\">User5515</a>",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 22,
+    "SKU": "TA-00022",
+    "Nombre": "Memoria USB 128 GB",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/usb-flash-drive.jpg",
+    "fuente": {
+      "title": "File:Kingston Technology DataTraveler G4 USB flash drive USB 3.0 32 Gb.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Kingston_Technology_DataTraveler_G4_USB_flash_drive_USB_3.0_32_Gb.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Kingston_Technology_DataTraveler_G4_USB_flash_drive_USB_3.0_32_Gb.jpg/960px-Kingston_Technology_DataTraveler_G4_USB_flash_drive_USB_3.0_32_Gb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Kingston_Technology_DataTraveler_G4_USB_flash_drive_USB_3.0_32_Gb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Knopik-som\" title=\"User:Knopik-som\">Dmitry Makeev</a>",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 23,
+    "SKU": "TA-00023",
+    "Nombre": "Disco externo 2 TB",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/external-hard-disk.jpg",
+    "fuente": {
+      "title": "portable hard disk",
+      "source": "https://www.pexels.com/photo/portable-hard-disk-20076002/",
+      "url": "https://images.pexels.com/photos/20076002/pexels-photo-20076002.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "original": "",
+      "artist": "Aleksander Dumała",
+      "license": "Pexels",
+      "license_url": "https://www.pexels.com/license/",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 24,
+    "SKU": "TA-00024",
+    "Nombre": "Audífonos Studio Cable",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/headphones.jpg",
+    "fuente": {
+      "title": "File:Headphones on white background.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Headphones_on_white_background.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Headphones_on_white_background.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/6/63/Headphones_on_white_background.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Sprinno&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Sprinno (page does not exist)\">Sprinno</a>",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 25,
+    "SKU": "TA-00025",
+    "Nombre": "Audífonos Mini Inalámbricos",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/wireless-earbuds.jpg",
+    "fuente": {
+      "title": "File:ActiveSound wireless earbuds by Hykker (POJM200483).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:ActiveSound_wireless_earbuds_by_Hykker_(POJM200483).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/ActiveSound_wireless_earbuds_by_Hykker_%28POJM200483%29.jpg/960px-ActiveSound_wireless_earbuds_by_Hykker_%28POJM200483%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/9/90/ActiveSound_wireless_earbuds_by_Hykker_%28POJM200483%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:WrS.tm.pl\" title=\"User:WrS.tm.pl\">Warszawska róg Szerokiej w Tomaszowie Mazowieckim, w województwie łódzkim, PL, EU</a>",
+      "license": "Public domain",
+      "license_url": "",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 26,
+    "SKU": "TA-00026",
+    "Nombre": "Bocina Fiesta 40 W",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/bluetooth-speaker.jpg",
+    "fuente": {
+      "title": "File:JBL Flip 3 bluetooth speaker (DSCF2653).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:JBL_Flip_3_bluetooth_speaker_(DSCF2653).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/JBL_Flip_3_bluetooth_speaker_%28DSCF2653%29.jpg/960px-JBL_Flip_3_bluetooth_speaker_%28DSCF2653%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/6/67/JBL_Flip_3_bluetooth_speaker_%28DSCF2653%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Trougnouf\" title=\"User:Trougnouf\">Trougnouf</a>",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 27,
+    "SKU": "TA-00027",
+    "Nombre": "Bocina Compacta 10 W",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/bluetooth-speaker.jpg",
+    "fuente": {
+      "title": "File:JBL Flip 3 bluetooth speaker (DSCF2653).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:JBL_Flip_3_bluetooth_speaker_(DSCF2653).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/JBL_Flip_3_bluetooth_speaker_%28DSCF2653%29.jpg/960px-JBL_Flip_3_bluetooth_speaker_%28DSCF2653%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/6/67/JBL_Flip_3_bluetooth_speaker_%28DSCF2653%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Trougnouf\" title=\"User:Trougnouf\">Trougnouf</a>",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 28,
+    "SKU": "TA-00028",
+    "Nombre": "Televisor Smart 32 pulgadas",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/flat-screen-television.jpg",
+    "fuente": {
+      "title": "File:A Flat Screen Television.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:A_Flat_Screen_Television.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/A_Flat_Screen_Television.jpg/120px-A_Flat_Screen_Television.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/8f/A_Flat_Screen_Television.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Kid_Keen_47\" title=\"User:Kid Keen 47\">Kid Keen 47</a>",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 29,
+    "SKU": "TA-00029",
+    "Nombre": "Televisor Smart 43 pulgadas",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/flat-screen-television.jpg",
+    "fuente": {
+      "title": "File:A Flat Screen Television.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:A_Flat_Screen_Television.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/A_Flat_Screen_Television.jpg/120px-A_Flat_Screen_Television.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/8f/A_Flat_Screen_Television.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Kid_Keen_47\" title=\"User:Kid Keen 47\">Kid Keen 47</a>",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 30,
+    "SKU": "TA-00030",
+    "Nombre": "Televisor UHD 55 pulgadas",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/flat-screen-television.jpg",
+    "fuente": {
+      "title": "File:A Flat Screen Television.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:A_Flat_Screen_Television.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/A_Flat_Screen_Television.jpg/120px-A_Flat_Screen_Television.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/8f/A_Flat_Screen_Television.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Kid_Keen_47\" title=\"User:Kid Keen 47\">Kid Keen 47</a>",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 31,
+    "SKU": "TA-00031",
+    "Nombre": "Teclado Compacto 60 por ciento",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/compact-mechanical-keyboard.jpg",
+    "fuente": {
+      "title": "File:2018 Bay Area Mechanical Keyboard Meetup (31007743257).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:2018_Bay_Area_Mechanical_Keyboard_Meetup_(31007743257).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/2018_Bay_Area_Mechanical_Keyboard_Meetup_%2831007743257%29.jpg/960px-2018_Bay_Area_Mechanical_Keyboard_Meetup_%2831007743257%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c1/2018_Bay_Area_Mechanical_Keyboard_Meetup_%2831007743257%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/47581723@N00\">Patrick Breen</a>",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 32,
+    "SKU": "TA-00032",
+    "Nombre": "Teclado Membrana Retroiluminado",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/computer-keyboard-backlight.jpg",
+    "fuente": {
+      "title": "close up shot of a keyboard",
+      "source": "https://www.pexels.com/photo/close-up-shot-of-a-keyboard-6399028/",
+      "url": "https://images.pexels.com/photos/6399028/pexels-photo-6399028.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "original": "",
+      "artist": "Pranjall Kumar",
+      "license": "Pexels",
+      "license_url": "https://www.pexels.com/license/",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 33,
+    "SKU": "TA-00033",
+    "Nombre": "Ratón Precisión 12000 DPI",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/gaming-mouse.jpg",
+    "fuente": {
+      "title": "File:2023 Mysz komputerowa Logitech G903 Lightspeed.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:2023_Mysz_komputerowa_Logitech_G903_Lightspeed.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/2023_Mysz_komputerowa_Logitech_G903_Lightspeed.jpg/960px-2023_Mysz_komputerowa_Logitech_G903_Lightspeed.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/71/2023_Mysz_komputerowa_Logitech_G903_Lightspeed.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Jacek_Halicki\" title=\"User:Jacek Halicki\">Jacek Halicki</a>",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 34,
+    "SKU": "TA-00034",
+    "Nombre": "Ratón Inalámbrico Arena",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/gaming-mouse.jpg",
+    "fuente": {
+      "title": "File:2023 Mysz komputerowa Logitech G903 Lightspeed.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:2023_Mysz_komputerowa_Logitech_G903_Lightspeed.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/2023_Mysz_komputerowa_Logitech_G903_Lightspeed.jpg/960px-2023_Mysz_komputerowa_Logitech_G903_Lightspeed.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/71/2023_Mysz_komputerowa_Logitech_G903_Lightspeed.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Jacek_Halicki\" title=\"User:Jacek Halicki\">Jacek Halicki</a>",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 35,
+    "SKU": "TA-00035",
+    "Nombre": "Ratón Ligero Competición",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/gaming-mouse.jpg",
+    "fuente": {
+      "title": "File:2023 Mysz komputerowa Logitech G903 Lightspeed.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:2023_Mysz_komputerowa_Logitech_G903_Lightspeed.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/2023_Mysz_komputerowa_Logitech_G903_Lightspeed.jpg/960px-2023_Mysz_komputerowa_Logitech_G903_Lightspeed.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/71/2023_Mysz_komputerowa_Logitech_G903_Lightspeed.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Jacek_Halicki\" title=\"User:Jacek Halicki\">Jacek Halicki</a>",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 36,
+    "SKU": "TA-00036",
+    "Nombre": "Control USB Universal",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/game-controller.jpg",
+    "fuente": {
+      "title": "File:Nintendo-Switch-Pro-Controller-FL.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Nintendo-Switch-Pro-Controller-FL.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Nintendo-Switch-Pro-Controller-FL.jpg/960px-Nintendo-Switch-Pro-Controller-FL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Nintendo-Switch-Pro-Controller-FL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Evan-Amos\" title=\"User:Evan-Amos\">Evan-Amos</a>",
+      "license": "Public domain",
+      "license_url": "",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 37,
+    "SKU": "TA-00037",
+    "Nombre": "Control Bluetooth Pro",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/game-controller.jpg",
+    "fuente": {
+      "title": "File:Nintendo-Switch-Pro-Controller-FL.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Nintendo-Switch-Pro-Controller-FL.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Nintendo-Switch-Pro-Controller-FL.jpg/960px-Nintendo-Switch-Pro-Controller-FL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Nintendo-Switch-Pro-Controller-FL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Evan-Amos\" title=\"User:Evan-Amos\">Evan-Amos</a>",
+      "license": "Public domain",
+      "license_url": "",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 38,
+    "SKU": "TA-00038",
+    "Nombre": "Volante de Carreras Básico",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/racing-wheel-controller.jpg",
+    "fuente": {
+      "title": "File:Thrustmaster Ferrari GT Experience steering wheel, front.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Thrustmaster_Ferrari_GT_Experience_steering_wheel,_front.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Thrustmaster_Ferrari_GT_Experience_steering_wheel%2C_front.jpg/960px-Thrustmaster_Ferrari_GT_Experience_steering_wheel%2C_front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Thrustmaster_Ferrari_GT_Experience_steering_wheel%2C_front.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:FreeMediaKid!\" class=\"mw-redirect\" title=\"User:FreeMediaKid!\">FreeMediaKid!</a>",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 39,
+    "SKU": "TA-00039",
+    "Nombre": "Cámara Exterior IP65",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/outdoor-surveillance-camera.jpg",
+    "fuente": {
+      "title": "surveillance camera on a concrete wall",
+      "source": "https://www.pexels.com/photo/surveillance-camera-on-a-concrete-wall-13646859/",
+      "url": "https://images.pexels.com/photos/13646859/pexels-photo-13646859.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "original": "",
+      "artist": "Zhengdong Hu",
+      "license": "Pexels",
+      "license_url": "https://www.pexels.com/license/",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 40,
+    "SKU": "TA-00040",
+    "Nombre": "Cámara Interior Giratoria",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/indoor-ip-camera.jpg",
+    "fuente": {
+      "title": "white indoor security camera on wooden surface",
+      "source": "https://www.pexels.com/photo/white-indoor-security-camera-on-wooden-surface-33104381/",
+      "url": "https://images.pexels.com/photos/33104381/pexels-photo-33104381.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "original": "",
+      "artist": "Andrey Matveev",
+      "license": "Pexels",
+      "license_url": "https://www.pexels.com/license/",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 41,
+    "SKU": "TA-00041",
+    "Nombre": "Bombilla Wi-Fi RGB",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/smart-light-bulb.jpg",
+    "fuente": {
+      "title": "File:Zigbee E27 Bulb.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Zigbee_E27_Bulb.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Zigbee_E27_Bulb.jpg/960px-Zigbee_E27_Bulb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/76/Zigbee_E27_Bulb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Danielrosehill\" title=\"User:Danielrosehill\">Danielrosehill</a>",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 42,
+    "SKU": "TA-00042",
+    "Nombre": "Tira LED Inteligente 5 m",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/led-strip.jpg",
+    "fuente": {
+      "title": "File:LED strip on reel.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:LED_strip_on_reel.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/LED_strip_on_reel.jpg/960px-LED_strip_on_reel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/45/LED_strip_on_reel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Andrey_Gvrv&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Andrey Gvrv (page does not exist)\">Andrey Gvrv</a>",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 43,
+    "SKU": "TA-00043",
+    "Nombre": "Enchufe Inteligente Wi-Fi",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/smart-plug.jpg",
+    "fuente": {
+      "title": "File:Wemo Mini Smart Plug (3750).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Wemo_Mini_Smart_Plug_(3750).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Wemo_Mini_Smart_Plug_%283750%29.jpg/960px-Wemo_Mini_Smart_Plug_%283750%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/10/Wemo_Mini_Smart_Plug_%283750%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Varnent\" title=\"User:Varnent\">Gregory Varnum</a>",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 44,
+    "SKU": "TA-00044",
+    "Nombre": "Sensor de Puerta Wi-Fi",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/door-window-sensor.jpg",
+    "fuente": {
+      "title": "File:Door-sensor.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Door-sensor.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Door-sensor.jpg/960px-Door-sensor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Door-sensor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Yakowljew&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Yakowljew (page does not exist)\">Yakowljew</a>",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 45,
+    "SKU": "TA-00045",
+    "Nombre": "Sensor de Movimiento Interior",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/pir-motion-sensor.jpg",
+    "fuente": {
+      "title": "File:PIR Sensor Visonic Next+MCW.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:PIR_Sensor_Visonic_Next%2BMCW.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/PIR_Sensor_Visonic_Next%2BMCW.jpg/960px-PIR_Sensor_Visonic_Next%2BMCW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d5/PIR_Sensor_Visonic_Next%2BMCW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Geom\" title=\"User:Geom\">Geom</a>",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 46,
+    "SKU": "TA-00046",
+    "Nombre": "Detector de Fugas de Agua",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/water-leak-detector.jpg",
+    "fuente": {
+      "title": "File:Water-leak-detection-system-500x500.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Water-leak-detection-system-500x500.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Water-leak-detection-system-500x500.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Water-leak-detection-system-500x500.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Engr.Syful&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Engr.Syful (page does not exist)\">Engr.Syful</a>",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 47,
+    "SKU": "TA-00047",
+    "Nombre": "Licuadora Familiar 1.5 L",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/blender-appliance.jpg",
+    "fuente": {
+      "title": "product shot of a blender",
+      "source": "https://www.pexels.com/photo/product-shot-of-a-blender-7460165/",
+      "url": "https://images.pexels.com/photos/7460165/pexels-photo-7460165.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "original": "",
+      "artist": "",
+      "license": "Pexels",
+      "license_url": "https://www.pexels.com/license/",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 48,
+    "SKU": "TA-00048",
+    "Nombre": "Cafetera de Goteo 12 Tazas",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/drip-coffee-maker.jpg",
+    "fuente": {
+      "title": "File:Wigomat-100.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Wigomat-100.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Wigomat-100.jpg/960px-Wigomat-100.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Wigomat-100.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.acosta.eu\">www.acosta.eu / or Christos Vittoratos</a>",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 49,
+    "SKU": "TA-00049",
+    "Nombre": "Freidora de Aire 5 L",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/air-fryer.jpg",
+    "fuente": {
+      "title": "File:Air Fryer 2020.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_Fryer_2020.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Air_Fryer_2020.jpg/960px-Air_Fryer_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Air_Fryer_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "I am R.",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 50,
+    "SKU": "TA-00050",
+    "Nombre": "Aspiradora Compacta 1200 W",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/canister-vacuum-cleaner.jpg",
+    "fuente": {
+      "title": "File:Aerus Lux canister vacuums 2018.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Aerus_Lux_canister_vacuums_2018.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/1/17/Aerus_Lux_canister_vacuums_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/17/Aerus_Lux_canister_vacuums_2018.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Lux1924&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Lux1924 (page does not exist)\">Lux1924</a>",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 51,
+    "SKU": "TA-00051",
+    "Nombre": "Aspiradora de Mano Recargable",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/handheld-vacuum-cleaner.jpg",
+    "fuente": {
+      "title": "File:Dirt-Devil-AccuCharge-Handheld-Vacuum.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Dirt-Devil-AccuCharge-Handheld-Vacuum.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Dirt-Devil-AccuCharge-Handheld-Vacuum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Dirt-Devil-AccuCharge-Handheld-Vacuum.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "Nigel Russco",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 52,
+    "SKU": "TA-00052",
+    "Nombre": "Limpiador a Vapor Doméstico",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/steam-cleaner.jpg",
+    "fuente": {
+      "title": "File:Steam cleaner01.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Steam_cleaner01.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Steam_cleaner01.jpg/960px-Steam_cleaner01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Steam_cleaner01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Fix_1998\" title=\"User:Fix 1998\">Fix 1998</a>",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 53,
+    "SKU": "TA-00053",
+    "Nombre": "Ventilador de Pedestal 16 pulgadas",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/pedestal-fan.jpg",
+    "fuente": {
+      "title": "fan in a minimalist interior",
+      "source": "https://www.pexels.com/photo/fan-in-a-minimalist-interior-12243531/",
+      "url": "https://images.pexels.com/photos/12243531/pexels-photo-12243531.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "original": "",
+      "artist": "EL The Explorer",
+      "license": "Pexels",
+      "license_url": "https://www.pexels.com/license/",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 54,
+    "SKU": "TA-00054",
+    "Nombre": "Ventilador de Escritorio USB",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/usb-fan.jpg",
+    "fuente": {
+      "title": "File:USB Fan 20110701 1.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:USB_Fan_20110701_1.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/USB_Fan_20110701_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/4d/USB_Fan_20110701_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Tobosha\" title=\"User:Tobosha\">Tobosha</a>",
+      "license": "Public domain",
+      "license_url": "",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 55,
+    "SKU": "TA-00055",
+    "Nombre": "Ventilador de Torre 80 cm",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/tower-fan.jpg",
+    "fuente": {
+      "title": "File:Ventilatore a torre Orieme.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Ventilatore_a_torre_Orieme.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Ventilatore_a_torre_Orieme.jpg/960px-Ventilatore_a_torre_Orieme.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Ventilatore_a_torre_Orieme.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Air_fans&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Air fans (page does not exist)\">Air fans</a>",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 56,
+    "SKU": "TA-00056",
+    "Nombre": "Juego de Sartenes Antiadherentes",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/frying-pans.jpg",
+    "fuente": {
+      "title": "close up of a frying pan with a glass lid",
+      "source": "https://www.pexels.com/photo/close-up-of-a-frying-pan-with-a-glass-lid-16510622/",
+      "url": "https://images.pexels.com/photos/16510622/pexels-photo-16510622.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "original": "",
+      "artist": "Sternsteiger Stahlwaren",
+      "license": "Pexels",
+      "license_url": "https://www.pexels.com/license/",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 57,
+    "SKU": "TA-00057",
+    "Nombre": "Juego de Utensilios de Silicona",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/silicone-kitchen-utensils.jpg",
+    "fuente": {
+      "title": "silicone spatula on a kitchen drawer",
+      "source": "https://www.pexels.com/photo/silicone-spatula-on-a-kitchen-drawer-3722564/",
+      "url": "https://images.pexels.com/photos/3722564/pexels-photo-3722564.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "original": "",
+      "artist": "",
+      "license": "Pexels",
+      "license_url": "https://www.pexels.com/license/",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 58,
+    "SKU": "TA-00058",
+    "Nombre": "Tabla de Cortar de Bambú",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/bamboo-cutting-board.jpg",
+    "fuente": {
+      "title": "wood dark desk pattern",
+      "source": "https://www.pexels.com/photo/wood-dark-desk-pattern-7415264/",
+      "url": "https://images.pexels.com/photos/7415264/pexels-photo-7415264.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "original": "",
+      "artist": "Engin Akyurt",
+      "license": "Pexels",
+      "license_url": "https://www.pexels.com/license/",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 59,
+    "SKU": "TA-00059",
+    "Nombre": "Organizador Modular de Cajones",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/drawer-organizer.jpg",
+    "fuente": {
+      "title": "File:Kitchen Drawer with Plastic Organizer.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Kitchen_Drawer_with_Plastic_Organizer.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Kitchen_Drawer_with_Plastic_Organizer.jpg/960px-Kitchen_Drawer_with_Plastic_Organizer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/56/Kitchen_Drawer_with_Plastic_Organizer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "Stilfehler",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 60,
+    "SKU": "TA-00060",
+    "Nombre": "Caja Plegable de Almacenamiento",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/folding-storage-box.jpg",
+    "fuente": {
+      "title": "folding storage box",
+      "source": "https://pixabay.com/photos/box-folding-container-gray-box-1321616/",
+      "url": "https://cdn.pixabay.com/photo/2016/04/11/09/52/box-1321616_1280.jpg",
+      "original": "",
+      "artist": "dizainers",
+      "license": "Pixabay Content License",
+      "license_url": "https://pixabay.com/service/license-summary/",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 61,
+    "SKU": "TA-00061",
+    "Nombre": "Estante Metálico de 4 Niveles",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/metal-shelving.jpg",
+    "fuente": {
+      "title": "File:Metal Book shelf.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Metal_Book_shelf.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Metal_Book_shelf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Metal_Book_shelf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Obuezie\" title=\"User:Obuezie\">Obuezie</a>",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 62,
+    "SKU": "TA-00062",
+    "Nombre": "Juego de Sábanas Matrimonial",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/bed-sheets.jpg",
+    "fuente": {
+      "title": "white pillow on white bed",
+      "source": "https://www.pexels.com/photo/white-pillow-on-white-bed-172869/",
+      "url": "https://images.pexels.com/photos/172869/pexels-photo-172869.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "original": "",
+      "artist": "Digital Buggu",
+      "license": "Pexels",
+      "license_url": "https://www.pexels.com/license/",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 63,
+    "SKU": "TA-00063",
+    "Nombre": "Almohada de Microfibra",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/pillow.jpg",
+    "fuente": {
+      "title": "white bed pillow on bed",
+      "source": "https://www.pexels.com/photo/white-bed-pillow-on-bed-7746037/",
+      "url": "https://images.pexels.com/photos/7746037/pexels-photo-7746037.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "original": "",
+      "artist": "Max Vakhtbovych",
+      "license": "Pexels",
+      "license_url": "https://www.pexels.com/license/",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 64,
+    "SKU": "TA-00064",
+    "Nombre": "Cobertor Ligero Individual",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/blanket.jpg",
+    "fuente": {
+      "title": "File:Velvet Blanket (9093890698).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Velvet_Blanket_(9093890698).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Velvet_Blanket_%289093890698%29.jpg/960px-Velvet_Blanket_%289093890698%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Velvet_Blanket_%289093890698%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/15562978@N08\">Korona Lacasse</a>",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 65,
+    "SKU": "TA-00065",
+    "Nombre": "Reloj Deportivo Track",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/smartwatch.jpg",
+    "fuente": {
+      "title": "File:Samsung Gear S3.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Samsung_Gear_S3.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Samsung_Gear_S3.jpg/960px-Samsung_Gear_S3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Samsung_Gear_S3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Ka%C5%82asznikow&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Kałasznikow (page does not exist)\">Kałasznikow</a>",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 66,
+    "SKU": "TA-00066",
+    "Nombre": "Pulsera de Actividad Fit",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/fitness-tracker.jpg",
+    "fuente": {
+      "title": "File:Fitbit Alta HR.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Fitbit_Alta_HR.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Fitbit_Alta_HR.jpg/960px-Fitbit_Alta_HR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Fitbit_Alta_HR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:PamD\" title=\"User:PamD\">PamD</a>",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 67,
+    "SKU": "TA-00067",
+    "Nombre": "Mochila Urbana para Laptop",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/laptop-backpack.jpg",
+    "fuente": {
+      "title": "person holding black backpack",
+      "source": "https://www.pexels.com/photo/person-holding-black-backpack-3731256/",
+      "url": "https://images.pexels.com/photos/3731256/pexels-photo-3731256.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "original": "",
+      "artist": "Luis Quintero",
+      "license": "Pexels",
+      "license_url": "https://www.pexels.com/license/",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 68,
+    "SKU": "TA-00068",
+    "Nombre": "Mochila Escolar Reforzada",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/school-backpack.jpg",
+    "fuente": {
+      "title": "person holding black backpack",
+      "source": "https://www.pexels.com/photo/person-holding-black-backpack-3731256/",
+      "url": "https://images.pexels.com/photos/3731256/pexels-photo-3731256.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "original": "",
+      "artist": "Luis Quintero",
+      "license": "Pexels",
+      "license_url": "https://www.pexels.com/license/",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 69,
+    "SKU": "TA-00069",
+    "Nombre": "Mochila de Viaje 35 L",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/travel-backpack.jpg",
+    "fuente": {
+      "title": "File:Clothes-travel-voyage-backpack (24324553095).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Clothes-travel-voyage-backpack_(24324553095).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Clothes-travel-voyage-backpack_%2824324553095%29.jpg/960px-Clothes-travel-voyage-backpack_%2824324553095%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Clothes-travel-voyage-backpack_%2824324553095%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/137643065@N06\">www.Pixel.la Free Stock Photos</a>",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 70,
+    "SKU": "TA-00070",
+    "Nombre": "Bolso Casual de Lona",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/canvas-tote-bag.jpg",
+    "fuente": {
+      "title": "File:Canvas two-tone tote Navy and Natural7 (9038437258).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Canvas_two-tone_tote_Navy_and_Natural7_(9038437258).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Canvas_two-tone_tote_Navy_and_Natural7_%289038437258%29.jpg/960px-Canvas_two-tone_tote_Navy_and_Natural7_%289038437258%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Canvas_two-tone_tote_Navy_and_Natural7_%289038437258%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/53554614@N05\">Tom Beatty</a>",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 71,
+    "SKU": "TA-00071",
+    "Nombre": "Cartera Compacta Unisex",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/wallet.jpg",
+    "fuente": {
+      "title": "File:WalletMpegMan.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:WalletMpegMan.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/WalletMpegMan.jpg/960px-WalletMpegMan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/3c/WalletMpegMan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "The original uploader was <a href=\"https://en.wikipedia.org/wiki/User:TheArmadillo\" class=\"extiw\" title=\"wikipedia:User:TheArmadillo\">TheArmadillo</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a>.. Uploaded to Commons by <a href=\"//commons.wikimedia.org/w/index.php?title=User:Koernerbroetchen&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Koernerbroetchen (page does not exist)\">Körnerbrötchen</a>.",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 72,
+    "SKU": "TA-00072",
+    "Nombre": "Bolso Cruzado Impermeable",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/crossbody-bag.jpg",
+    "fuente": {
+      "title": "stylish black leather crossbody bag on hay",
+      "source": "https://www.pexels.com/photo/stylish-black-leather-crossbody-bag-on-hay-32498610/",
+      "url": "https://images.pexels.com/photos/32498610/pexels-photo-32498610.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "original": "",
+      "artist": "pedro furtado",
+      "license": "Pexels",
+      "license_url": "https://www.pexels.com/license/",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 73,
+    "SKU": "TA-00073",
+    "Nombre": "Casco de Ciclismo Ajustable",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/bicycle-helmet.jpg",
+    "fuente": {
+      "title": "File:Bicycle white helmet from bikemate.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Bicycle_white_helmet_from_bikemate.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Bicycle_white_helmet_from_bikemate.jpg/960px-Bicycle_white_helmet_from_bikemate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Bicycle_white_helmet_from_bikemate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Afifa_Afrin\" title=\"User:Afifa Afrin\">Afifa Afrin</a>",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 74,
+    "SKU": "TA-00074",
+    "Nombre": "Luz Recargable para Bicicleta",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/bicycle-light.jpg",
+    "fuente": {
+      "title": "File:BRIDGESTONE SLIM SAFETY LIGHT HL-SP1.A.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:BRIDGESTONE_SLIM_SAFETY_LIGHT_HL-SP1.A.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/BRIDGESTONE_SLIM_SAFETY_LIGHT_HL-SP1.A.jpg/960px-BRIDGESTONE_SLIM_SAFETY_LIGHT_HL-SP1.A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/a2/BRIDGESTONE_SLIM_SAFETY_LIGHT_HL-SP1.A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Dinkun_Chen\" title=\"User:Dinkun Chen\">Dinkun Chen</a>",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 75,
+    "SKU": "TA-00075",
+    "Nombre": "Bomba de Aire Portátil",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/bicycle-pump.jpg",
+    "fuente": {
+      "title": "File:Bike pump.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Bike_pump.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Bike_pump.jpg/960px-Bike_pump.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Bike_pump.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "User <a href=\"https://en.wikipedia.org/wiki/User:Ewok_Slayer\" class=\"extiw\" title=\"en:User:Ewok Slayer\">Ewok Slayer</a> on <a class=\"external text\" data-mw-original-href=\"http://en.wikipedia.org\" href=\"https://en.wikipedia.org\">en.wikipedia</a>",
+      "license": "Public domain",
+      "license_url": "",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 76,
+    "SKU": "TA-00076",
+    "Nombre": "Par de Mancuernas 5 kg",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/dumbbells.jpg",
+    "fuente": {
+      "title": "File:Colorful dumbbells of various sizes.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Colorful_dumbbells_of_various_sizes.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Colorful_dumbbells_of_various_sizes.jpg/960px-Colorful_dumbbells_of_various_sizes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Colorful_dumbbells_of_various_sizes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Ser_Amantio_di_Nicolao\" title=\"User:Ser Amantio di Nicolao\">Ser Amantio di Nicolao</a>",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 77,
+    "SKU": "TA-00077",
+    "Nombre": "Bandas de Resistencia Set",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/resistance-bands.jpg",
+    "fuente": {
+      "title": "people workout using resistance bands",
+      "source": "https://www.pexels.com/photo/people-workout-using-resistance-bands-6516206/",
+      "url": "https://images.pexels.com/photos/6516206/pexels-photo-6516206.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "original": "",
+      "artist": "Polina Tankilevitch",
+      "license": "Pexels",
+      "license_url": "https://www.pexels.com/license/",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 78,
+    "SKU": "TA-00078",
+    "Nombre": "Colchoneta de Yoga 6 mm",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/yoga-mat.png",
+    "fuente": {
+      "title": "File:Yoga mats.png",
+      "source": "https://commons.wikimedia.org/wiki/File:Yoga_mats.png",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Yoga_mats.png/960px-Yoga_mats.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/7/76/Yoga_mats.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Sha89sha&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Sha89sha (page does not exist)\">Sha89sha</a>",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 79,
+    "SKU": "TA-00079",
+    "Nombre": "Tienda de Campaña para 2 Personas",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/camping-tent.jpg",
+    "fuente": {
+      "title": "File:Camping tent on tarp.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Camping_tent_on_tarp.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Camping_tent_on_tarp.jpg/960px-Camping_tent_on_tarp.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/18/Camping_tent_on_tarp.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Edenaviv5\" title=\"User:Edenaviv5\">Eden Aviv</a>",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 80,
+    "SKU": "TA-00080",
+    "Nombre": "Linterna LED Recargable",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/led-flashlight.jpg",
+    "fuente": {
+      "title": "File:Flashlight.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Flashlight.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Flashlight.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Flashlight.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"https://en.wikipedia.org/wiki/de:User:KMJ\" class=\"extiw\" title=\"w:de:User:KMJ\">KMJ</a> at <a href=\"https://en.wikipedia.org/wiki/de:\" class=\"extiw\" title=\"w:de:\">German Wikipedia</a>",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 81,
+    "SKU": "TA-00081",
+    "Nombre": "Botella Térmica de 750 ml",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/vacuum-flask.jpg",
+    "fuente": {
+      "title": "File:Термос (1).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:%D0%A2%D0%B5%D1%80%D0%BC%D0%BE%D1%81_(1).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/%D0%A2%D0%B5%D1%80%D0%BC%D0%BE%D1%81_%281%29.jpg/960px-%D0%A2%D0%B5%D1%80%D0%BC%D0%BE%D1%81_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/1b/%D0%A2%D0%B5%D1%80%D0%BC%D0%BE%D1%81_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Schekinov_Alexey_Victorovich\" title=\"User:Schekinov Alexey Victorovich\">Schekinov Alexey Victorovich</a>",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 82,
+    "SKU": "TA-00082",
+    "Nombre": "Cepillo Dental Eléctrico",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/electric-toothbrush.jpg",
+    "fuente": {
+      "title": "File:Electric toothbrush on a white background.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Electric_toothbrush_on_a_white_background.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Electric_toothbrush_on_a_white_background.jpg/960px-Electric_toothbrush_on_a_white_background.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Electric_toothbrush_on_a_white_background.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Curpharar\" title=\"User:Curpharar\">Curpharar</a>",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 83,
+    "SKU": "TA-00083",
+    "Nombre": "Kit de Aseo de Viaje",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/toiletry-bag.jpg",
+    "fuente": {
+      "title": "File:Kulturbeutel1.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Kulturbeutel1.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Kulturbeutel1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/b/be/Kulturbeutel1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Peng\" title=\"User:Peng\">Peng</a>",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 84,
+    "SKU": "TA-00084",
+    "Nombre": "Dispensador de Jabón Recargable",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/soap-dispenser.jpg",
+    "fuente": {
+      "title": "File:Soap dispenser 2017 B.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Soap_dispenser_2017_B.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Soap_dispenser_2017_B.jpg/960px-Soap_dispenser_2017_B.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Soap_dispenser_2017_B.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Fructibus\" title=\"User:Fructibus\">Fructibus</a>",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 85,
+    "SKU": "TA-00085",
+    "Nombre": "Secadora Compacta 1800 W",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/hair-dryer.jpg",
+    "fuente": {
+      "title": "File:HITACHI HAIR DRYER HD-1650.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:HITACHI_HAIR_DRYER_HD-1650.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/HITACHI_HAIR_DRYER_HD-1650.jpg/960px-HITACHI_HAIR_DRYER_HD-1650.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/1/1f/HITACHI_HAIR_DRYER_HD-1650.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "Dinkun Chen",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 86,
+    "SKU": "TA-00086",
+    "Nombre": "Plancha Cerámica para Cabello",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/hair-straightener.jpg",
+    "fuente": {
+      "title": "File:Flat iron hair straightener (51214104840).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Flat_iron_hair_straightener_(51214104840).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Flat_iron_hair_straightener_%2851214104840%29.jpg/960px-Flat_iron_hair_straightener_%2851214104840%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Flat_iron_hair_straightener_%2851214104840%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/191820653@N06\">Hair Spies</a> from US",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 87,
+    "SKU": "TA-00087",
+    "Nombre": "Cepillo Desenredante",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/hair-brush.jpg",
+    "fuente": {
+      "title": "File:Hairbrush with metal bristles.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Hairbrush_with_metal_bristles.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Hairbrush_with_metal_bristles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Hairbrush_with_metal_bristles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "Klaus Post",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 88,
+    "SKU": "TA-00088",
+    "Nombre": "Rodillo Facial de Cuarzo",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/facial-roller.jpg",
+    "fuente": {
+      "title": "jade rollers on white background",
+      "source": "https://www.pexels.com/photo/jade-rollers-on-white-background-6963155/",
+      "url": "https://images.pexels.com/photos/6963155/pexels-photo-6963155.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "original": "",
+      "artist": "",
+      "license": "Pexels",
+      "license_url": "https://www.pexels.com/license/",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 89,
+    "SKU": "TA-00089",
+    "Nombre": "Espejo de Tocador LED",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/makeup-mirror.jpg",
+    "fuente": {
+      "title": "Modern mirror with LED light",
+      "source": "https://www.pexels.com/photo/close-up-of-a-modern-mirror-with-led-light-15271510/",
+      "url": "https://images.pexels.com/photos/15271510/pexels-photo-15271510.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "original": "",
+      "artist": "Pexels",
+      "license": "Pexels",
+      "license_url": "https://www.pexels.com/license/",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 90,
+    "SKU": "TA-00090",
+    "Nombre": "Cepillo Facial de Silicona",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/silicone-facial-brush.jpg",
+    "fuente": {
+      "title": "hand holding a cleansing brush",
+      "source": "https://www.pexels.com/photo/hand-holding-a-cleansing-brush-6476121/",
+      "url": "https://images.pexels.com/photos/6476121/pexels-photo-6476121.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "original": "",
+      "artist": "Hanna Pad",
+      "license": "Pexels",
+      "license_url": "https://www.pexels.com/license/",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 91,
+    "SKU": "TA-00091",
+    "Nombre": "Juego de Destornilladores 12 Piezas",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/screwdriver-set.jpg",
+    "fuente": {
+      "title": "File:Screwdriver set with great variety of bits and ratchet screwdriver.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Screwdriver_set_with_great_variety_of_bits_and_ratchet_screwdriver.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Screwdriver_set_with_great_variety_of_bits_and_ratchet_screwdriver.jpg/960px-Screwdriver_set_with_great_variety_of_bits_and_ratchet_screwdriver.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Screwdriver_set_with_great_variety_of_bits_and_ratchet_screwdriver.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "Pittigrilli",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 92,
+    "SKU": "TA-00092",
+    "Nombre": "Martillo de Uña 16 oz",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/claw-hammer.jpg",
+    "fuente": {
+      "title": "File:Claw hammer 2.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Claw_hammer_2.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Claw_hammer_2.jpg/960px-Claw_hammer_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Claw_hammer_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:HutheMeow\" title=\"User:HutheMeow\">HutheMeow</a>",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 93,
+    "SKU": "TA-00093",
+    "Nombre": "Juego de Llaves Combinadas",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/combination-wrenches.jpg",
+    "fuente": {
+      "title": "File:Combination wrenches.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Combination_wrenches.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Combination_wrenches.jpg/960px-Combination_wrenches.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Combination_wrenches.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Ocdp\" title=\"User:Ocdp\">Ocdp</a>",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 94,
+    "SKU": "TA-00094",
+    "Nombre": "Taladro Inalámbrico 20 V",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/cordless-drill.jpg",
+    "fuente": {
+      "title": "File:Cordless Drill - unbranded.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Cordless_Drill_-_unbranded.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Cordless_Drill_-_unbranded.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Cordless_Drill_-_unbranded.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "National Institute for Occupational Safety and Health",
+      "license": "Public domain",
+      "license_url": "",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 95,
+    "SKU": "TA-00095",
+    "Nombre": "Lijadora Orbital 240 W",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/orbital-sander.jpg",
+    "fuente": {
+      "title": "File:Orbital Sander - unbranded.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Orbital_Sander_-_unbranded.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Orbital_Sander_-_unbranded.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Orbital_Sander_-_unbranded.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "National Institute for Occupational Safety and Health",
+      "license": "Public domain",
+      "license_url": "",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 96,
+    "SKU": "TA-00096",
+    "Nombre": "Atornillador Recargable 4 V",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/electric-screwdriver.jpg",
+    "fuente": {
+      "title": "File:MacAllister cordless screwdriver 02.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:MacAllister_cordless_screwdriver_02.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/MacAllister_cordless_screwdriver_02.jpg/960px-MacAllister_cordless_screwdriver_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/fd/MacAllister_cordless_screwdriver_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<b><a href=\"//commons.wikimedia.org/wiki/User:LoMit\" title=\"User:LoMit\">LoMit</a></b>",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 97,
+    "SKU": "TA-00097",
+    "Nombre": "Gafas de Protección Transparentes",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/safety-glasses.jpg",
+    "fuente": {
+      "title": "File:2023 Okulary ochronne (1).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:2023_Okulary_ochronne_(1).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/2023_Okulary_ochronne_%281%29.jpg/960px-2023_Okulary_ochronne_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/f0/2023_Okulary_ochronne_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Jacek_Halicki\" title=\"User:Jacek Halicki\">Jacek Halicki</a>",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 98,
+    "SKU": "TA-00098",
+    "Nombre": "Guantes de Trabajo Reforzados",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/work-gloves.jpg",
+    "fuente": {
+      "title": "File:Worn leather work gloves 20200225 100655.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Worn_leather_work_gloves_20200225_100655.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Worn_leather_work_gloves_20200225_100655.jpg/960px-Worn_leather_work_gloves_20200225_100655.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/40/Worn_leather_work_gloves_20200225_100655.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "el cajon yacht club",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 99,
+    "SKU": "TA-00099",
+    "Nombre": "Casco de Seguridad Ajustable",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/hard-hat.jpg",
+    "fuente": {
+      "title": "File:Yellow hard hat.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Yellow_hard_hat.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Yellow_hard_hat.jpg/960px-Yellow_hard_hat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Yellow_hard_hat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:%D7%A8%D7%A0%D7%93%D7%95%D7%9D\" title=\"User:רנדום\">רנדום</a>",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 100,
+    "SKU": "TA-00100",
+    "Nombre": "Alimento Seco para Perro 3 kg",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/dry-dog-food.jpg",
+    "fuente": {
+      "title": "File:Dog Food (208810939).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Dog_Food_(208810939).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Dog_Food_%28208810939%29.jpg/960px-Dog_Food_%28208810939%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Dog_Food_%28208810939%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/73207064@N00\">chrismetcalfTV</a>",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 101,
+    "SKU": "TA-00101",
+    "Nombre": "Alimento Seco para Gato 1.5 kg",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/dry-cat-food.jpg",
+    "fuente": {
+      "title": "File:Dry cat food 01.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Dry_cat_food_01.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Dry_cat_food_01.jpg/960px-Dry_cat_food_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/26/Dry_cat_food_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:.Anja.\" title=\"User:.Anja.\">Anne Jea.</a>",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 102,
+    "SKU": "TA-00102",
+    "Nombre": "Premios para Perro 200 g",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/dog-treats.jpg",
+    "fuente": {
+      "title": "File:Dog biscuits (14345200038).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Dog_biscuits_(14345200038).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Dog_biscuits_%2814345200038%29.jpg/960px-Dog_biscuits_%2814345200038%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Dog_biscuits_%2814345200038%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/120600995@N07\">Jacqui Brown</a>",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 103,
+    "SKU": "TA-00103",
+    "Nombre": "Pelota Resistente para Perro",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/dog-ball-toy.jpg",
+    "fuente": {
+      "title": "File:Dog ball and Chihuahua 2026-05-03.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Dog_ball_and_Chihuahua_2026-05-03.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Dog_ball_and_Chihuahua_2026-05-03.jpg/960px-Dog_ball_and_Chihuahua_2026-05-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/d/db/Dog_ball_and_Chihuahua_2026-05-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Nakonana\" title=\"User:Nakonana\">Nakonana</a>",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 104,
+    "SKU": "TA-00104",
+    "Nombre": "Rascador Compacto para Gato",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/cat-scratching-post.jpg",
+    "fuente": {
+      "title": "File:Scratching post.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Scratching_post.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Scratching_post.jpg/330px-Scratching_post.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/4/48/Scratching_post.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:MPlauche\" title=\"User:MPlauche\">MPlauche</a>",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 105,
+    "SKU": "TA-00105",
+    "Nombre": "Juguete Interactivo con Cuerda",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/dog-rope-toy.jpg",
+    "fuente": {
+      "title": "File:Maltipoo with rope toy (95554).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Maltipoo_with_rope_toy_(95554).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Maltipoo_with_rope_toy_%2895554%29.jpg/960px-Maltipoo_with_rope_toy_%2895554%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/6/60/Maltipoo_with_rope_toy_%2895554%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Rhododendrites\" title=\"User:Rhododendrites\">Rhododendrites</a>",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 106,
+    "SKU": "TA-00106",
+    "Nombre": "Correa Ajustable 1.5 m",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/dog-leash.jpg",
+    "fuente": {
+      "title": "File:PPD-Leash-PinkGreenStripes.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:PPD-Leash-PinkGreenStripes.jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/PPD-Leash-PinkGreenStripes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/3/3e/PPD-Leash-PinkGreenStripes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"https://en.wikipedia.org/wiki/User:Schizek\" class=\"extiw\" title=\"wikipedia:User:Schizek\">Schizek</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a>",
+      "license": "Public domain",
+      "license_url": "",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 107,
+    "SKU": "TA-00107",
+    "Nombre": "Cama Lavable para Mascota",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/dog-bed.jpg",
+    "fuente": {
+      "title": "File:Washable Dog Beds (248152059).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Washable_Dog_Beds_(248152059).jpg",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Washable_Dog_Beds_%28248152059%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Washable_Dog_Beds_%28248152059%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<div class=\"fn value\">\n<a rel=\"nofollow\" class=\"external text\" href=\"https://500px.com/tonykakkar2018\">Tony Kakkar</a></div>",
+      "license": "CC0",
+      "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  },
+  {
+    "ProductoID": 108,
+    "SKU": "TA-00108",
+    "Nombre": "Comedero Doble Antideslizante",
+    "ImagenAnterior": null,
+    "ImagenNueva": "/productos/double-pet-bowl.jpg",
+    "fuente": {
+      "title": "File:Cat food (pellets and water).jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Cat_food_(pellets_and_water).jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Cat_food_%28pellets_and_water%29.jpg/960px-Cat_food_%28pellets_and_water%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "original": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Cat_food_%28pellets_and_water%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Deavmi\" title=\"User:Deavmi\">Deavmi</a>",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "cambios": "Sin edición del contenido; tamaño reducido por el proveedor cuando está disponible."
+    }
+  }
+]

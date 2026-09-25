@@ -52,7 +52,7 @@ mongoimport --uri "mongodb+srv://<cluster>/" --username "<usuario-atlas>" --db t
 
 Este usuario es el usuario de conexión a Atlas, no un registro de la colección Usuarios. Dejar que la herramienta solicite la contraseña; no incluirla en el archivo.
 
-La conversión no cambia el backend PHP: sus modelos actuales siguen usando MariaDB/PDO.
+La conversión original no cambió el backend. Actualmente, las reseñas se consultan y modifican en MongoDB; usuarios, productos y compras siguen usando MariaDB/PDO. Las copias JSON de Usuarios y Productos son exportaciones, no colecciones sincronizadas por la aplicación. Véase [la integración de reseñas](../../docs/RESENAS_MONGODB.md).
 
 Fuentes oficiales:
 - [MongoDB Extended JSON v2](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)

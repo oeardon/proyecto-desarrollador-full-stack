@@ -3,19 +3,19 @@ import Icon from './Icon.jsx'
 const slides = [
   {
     eyebrow: 'Nueva colección tecnológica',
-    title: 'Tecnología que se adapta a tu ritmo',
+    title: 'Tecnología que se adapta a tu ritmo.',
     text: 'Encuentra celulares, laptops, audio y accesorios seleccionados para hacer más simple tu día a día',
     image: 'https://images.unsplash.com/photo-1498049794561-7780e7231661?auto=format&fit=crop&w=1600&q=85',
   },
   {
     eyebrow: 'Descubre nuestro catálogo',
-    title: 'Actualiza tu espacio con mejores equipos',
+    title: 'Actualiza tu espacio con mejores equipos.',
     text: 'Productos para trabajar, estudiar y disfrutar, con promociones especiales y entrega rápida',
     image: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1600&q=85',
   },
   {
     eyebrow: 'Audio y entretenimiento',
-    title: 'Más potencia para cada momento',
+    title: 'Más potencia para cada momento.',
     text: 'Descubre audífonos, bocinas y accesorios con diseño moderno y una experiencia de compra sencilla',
     image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1600&q=85',
   },

@@ -353,22 +353,23 @@ DELETE solo permite Rechazada.
 Procesada registra la gestión: no implica un reembolso bancario ni repone automáticamente
 inventario, porque falta definir si un artículo devuelto puede revenderse.
 
-## Reseñas en MariaDB
+## Reseñas en MongoDB
 
 POST: {"ProductoID":1,"Calificacion":5,"Comentario":"Buen producto"}
 
 Calificacion es un entero de 1 a 5. Comentario es opcional, con límite de aplicación
 de 10000 caracteres. Se exige haber comprado el producto en una orden Entregada.
-La restricción de BD impide dos reseñas del mismo usuario para un producto.
+El índice único (UsuarioID, ProductoID) en MongoDB impide dos reseñas del mismo usuario para un producto.
 
 GET /resenas/?ProductoID=1 filtra por producto.
 GET público solo muestra Publicada y no devuelve UsuarioID, correo, teléfono ni nombre.
 El propietario puede consultar su reseña Oculta por ID.
-PUT del propietario admite Calificacion y Comentario; el administrador puede moderar
+PUT del propietario admite Calificacion, Comentario e Imagenes; el administrador puede moderar
 con {"Estado":"Oculta"} o {"Estado":"Publicada"}, sin reescribir el texto de otro usuario.
 
-MongoDB sigue pendiente. El SQL actual no contiene título, imágenes ni preferencias
-de presentación del autor: estos campos se rechazan explícitamente al crear.
+Las reseñas se almacenan en MongoDB y las compras se verifican en MariaDB. Se conservan los ID numéricos y las respuestas actuales. Las imágenes opcionales se envían mediante multipart/form-data (datos JSON e Imagenes[]), con un máximo de 3 archivos de 2 MiB cada uno. MongoDB guarda sus rutas en Imagenes. Para editar archivos se usa POST con _method=PUT e id; las rutas de imágenes conservadas deben pertenecer a la reseña. Título y preferencias de presentación del autor todavía no forman parte del contrato.
+
+Si MongoDB no está disponible, la API de reseñas responde 503. El catálogo sigue mostrando productos e indica ResenasDisponibles=false. Véase [configuración y diseño](RESENAS_MONGODB.md).
 
 ## Wishlist
 

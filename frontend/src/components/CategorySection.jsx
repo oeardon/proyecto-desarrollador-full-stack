@@ -1,6 +1,7 @@
 import Icon from './Icon.jsx'
 import StoreImage from './StoreImage.jsx'
 import { belongsToCategory } from '../services/storeService.js'
+
 export default function CategorySection({ onCategory, catalog }) {
   const roots = catalog.categories.filter((category) => category.CategoriaPadreID === null)
   return <section className="shop-section" id="categorias"><div className="shop-container">

@@ -1,25 +1,24 @@
-import { useState } from 'react'
+import { useEffect, useRef } from 'react'
 import CountrySelect from './CountrySelect.jsx'
+import { formatAddress } from '../services/addressFormat.js'
 
-// These records store the complete address in a single database column.
-export default function AddressInput({ value, onChange, maxLength = 255, ...props }) {
-  const [country, setCountry] = useState(() => {
-    const last = value.split(',').at(-1).trim()
-    const names = new Intl.DisplayNames(['es'], { type: 'region' })
-    for (let a = 65; a <= 90; a++) for (let b = 65; b <= 90; b++) {
-      const code = String.fromCharCode(a, b)
-      if (names.of(code) === last) return last
-    }
-    return value ? '' : 'Guatemala'
-  })
-  const suffix = `, ${country}`
-  const text = country && value.endsWith(suffix) ? value.slice(0, -suffix.length) : value
-  function update(address, nextCountry) {
-    onChange({ target: { value: address.trim() ? [address, nextCountry].filter(Boolean).join(', ') : '' } })
+export default function AddressInput({ value, onChange, maxLength = 255, id, name, required = false, disabled = false, readOnly = false }) {
+  const input = useRef(null)
+  const fullAddress = formatAddress(value)
+  const error = fullAddress.length > maxLength ? `La dirección completa debe tener como máximo ${maxLength} caracteres.` : ''
+  const completeRequired = !readOnly && (required || Boolean(fullAddress)) && (!value.original || value.changed)
+  useEffect(() => { input.current.setCustomValidity(error) }, [error])
+  function update(field, text) {
+    onChange({ target: { value: { ...value, [field]: text, changed: true } } })
   }
   return <>
-    <input {...props} value={text} className="form-control" maxLength={maxLength - country.length - 2} onChange={(event) => update(event.target.value, country)} />
-    <label htmlFor={`${props.id}-country`} className="form-label mt-2">País</label>
-    <CountrySelect id={`${props.id}-country`} value={country} disabled={props.disabled} onChange={(event) => { setCountry(event.target.value); update(text, event.target.value) }} />
+    <input ref={input} id={id} name={name} type="text" value={value.address} className="form-control" maxLength={maxLength} required={required || completeRequired} disabled={disabled} readOnly={readOnly} autoComplete="address-line1" pattern=".*\S.*" aria-describedby={`${id}-help`} onChange={(event) => update('address', event.target.value)} />
+    <div className="row g-2 mt-1">
+      <div className="col-12 col-sm-6"><label htmlFor={`${id}-city`} className="form-label">Ciudad{completeRequired ? ' *' : ''}</label><input id={`${id}-city`} type="text" className="form-control" value={value.city} maxLength={75} required={completeRequired} disabled={disabled} readOnly={readOnly} autoComplete="address-level2" pattern=".*\S.*" onChange={(event) => update('city', event.target.value)} /></div>
+      <div className="col-12 col-sm-6"><label htmlFor={`${id}-department`} className="form-label">Departamento{completeRequired ? ' *' : ''}</label><input id={`${id}-department`} type="text" className="form-control" value={value.department} maxLength={100} required={completeRequired} disabled={disabled} readOnly={readOnly} autoComplete="address-level1" pattern=".*\S.*" onChange={(event) => update('department', event.target.value)} /></div>
+    </div>
+    <label htmlFor={`${id}-country`} className="form-label mt-2">País{completeRequired ? ' *' : ''}</label>
+    <CountrySelect id={`${id}-country`} value={value.country} required={completeRequired} disabled={disabled || readOnly} autoComplete="country-name" onChange={(event) => update('country', event.target.value)} />
+    <div id={`${id}-help`} className={`form-text${error ? ' text-danger' : ''}`}>{error || `Dirección, ciudad, departamento y país: máximo ${maxLength} caracteres en total.`}</div>
   </>
 }

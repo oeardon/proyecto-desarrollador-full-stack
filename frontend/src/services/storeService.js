@@ -16,7 +16,7 @@ export function catalogProduct(row) {
   const rawImage = row.Imagen || ''
   const image = /^(https?:\/\/|\/)/i.test(rawImage) ? rawImage : rawImage ? `/tienda_online/${rawImage.replace(/^\.\//, '')}` : ''
   return { id: Number(row.ProductoID), category: String(row.CategoriaID), name: row.Nombre, description: row.Descripcion, label: row.Categoria, price: Number(row.PrecioVenta), oldPrice: Number(row.Precio), image,
-    stock: Number(row.Cantidad), rating: Number(row.Calificacion), reviews: Number(row.Resenas), sold: Number(row.Vendidos), date: row.FechaRegistro, promotion: row.Promocion }
+    reviewsAvailable: row.ResenasDisponibles !== false, stock: Number(row.Cantidad), rating: Number(row.Calificacion), reviews: Number(row.Resenas), sold: Number(row.Vendidos), date: row.FechaRegistro, promotion: row.Promocion }
 }
 export function belongsToCategory(product, id, categories) {
   if (id === 'todos') return true

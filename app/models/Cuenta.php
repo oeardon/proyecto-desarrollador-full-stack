@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/../services/ResenasMongo.php';
 // Consultas del panel personal: el propietario siempre procede de la sesión.
 function consultarCuenta($conexion, $sql, $parametros) {
     $consulta = $conexion->prepare($sql);
@@ -53,7 +54,16 @@ function obtenerOrdenCuenta($conexion, $usuarioID, $id) {
 }
 
 function obtenerResenasCuenta($conexion, $usuarioID) {
-    return consultarCuenta($conexion, 'SELECT R.ResenaID, R.ProductoID, R.Calificacion, R.Comentario, R.FechaResena, R.Estado, P.Nombre AS Producto FROM Resenas R INNER JOIN Productos P ON P.ProductoID = R.ProductoID WHERE R.UsuarioID = ? ORDER BY R.FechaResena DESC', [$usuarioID]);
+    $rows = consultarResenasMongo(['UsuarioID' => (int)$usuarioID]);
+    if (!$rows) return [];
+    $ids = array_values(array_unique(array_column($rows, 'ProductoID')));
+    $marks = implode(',', array_fill(0, count($ids), '?'));
+    $products = consultarCuenta($conexion, "SELECT ProductoID, Nombre FROM Productos WHERE ProductoID IN ($marks)", $ids);
+    $names = array_column($products, 'Nombre', 'ProductoID');
+    foreach ($rows as &$row) $row['Producto'] = $names[$row['ProductoID']] ?? 'Producto no disponible';
+    unset($row);
+    usort($rows, fn($a, $b) => strcmp($b['FechaResena'], $a['FechaResena']) ?: $b['ResenaID'] <=> $a['ResenaID']);
+    return $rows;
 }
 
 function obtenerDevolucionCuenta($conexion, $usuarioID, $id) {

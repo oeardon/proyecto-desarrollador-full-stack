@@ -8,7 +8,7 @@ import UserAddresses from '../components/UserAddresses.jsx'
 import UserOrders from '../components/UserOrders.jsx'
 import UserReturns from '../components/UserReturns.jsx'
 import UserWishlist from '../components/UserWishlist.jsx'
-import { UserTable } from '../components/UserShared.jsx'
+import UserReviews from '../components/UserReviews.jsx'
 
 function UserContent({ section, id, orderId }) {
   const [data, setData] = useState(null)
@@ -35,9 +35,7 @@ function UserContent({ section, id, orderId }) {
   if (section === 'ordenes') return <UserOrders data={data} id={id} />
   if (section === 'devoluciones') return <UserReturns data={data} id={id} orderId={orderId} />
   if (section === 'lista-deseos') return <UserWishlist data={data} reload={reload} />
-  return <UserTable rows={data} rowKey="ResenaID" empty="Todavía no has colocado reseñas." columns={[
-    ['Producto', 'Producto'], ['Calificacion', 'Calificación', (value) => `${value} / 5`], ['Comentario', 'Comentario'], ['FechaResena', 'Fecha'], ['Estado', 'Estado'],
-  ]} />
+  return <UserReviews data={data} reload={reload} />
 }
 
 export default function UserPage() {

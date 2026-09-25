@@ -1,6 +1,7 @@
+import ReviewImages, { ReviewGallery } from './ReviewImages.jsx'
 import AddressInput from './AddressInput.jsx'
 import CountrySelect from './CountrySelect.jsx'
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { adminSchemas, adminTableOptions, fieldLabel, formPayload, initialValues, transitions } from '../data/adminSchemas.js'
 import { recordQuery, requestAdmin } from '../services/adminService.js'
@@ -10,6 +11,8 @@ const display = (value) => value === null || value === undefined || value === ''
 
 function Field({ field, value, onChange, disabled = false, prefix = 'registro', editing = false }) {
   const id = `${prefix}-${field.name}`
+  if (field.type === 'review-images') return <div className="col-12"><ReviewImages value={value} onChange={onChange} disabled={disabled} /></div>
+  if (field.type === 'file') return <ProductImageField id={id} value={value} onChange={onChange} disabled={disabled} editing={editing} />
   const props = { id, name: field.name, disabled, required: field.required && !(editing && field.type === 'password'), value: value ?? '', onChange: (event) => onChange(event.target.value) }
   return <div className={field.type === 'textarea' ? 'col-12' : 'col-12 col-md-6'}>
     {field.type === 'checkbox' ? <div className="form-check mt-4"><input id={id} type="checkbox" className="form-check-input" disabled={disabled} checked={Boolean(value)} onChange={(event) => onChange(event.target.checked)} /><label className="form-check-label" htmlFor={id}>{fieldLabel(field.name)}</label></div> : <>
@@ -19,6 +22,36 @@ function Field({ field, value, onChange, disabled = false, prefix = 'registro', 
           : <input {...props} type={field.type} min={field.min} max={field.max} step={field.type === 'datetime-local' ? 1 : field.step} minLength={field.minLength} maxLength={field.maxLength} autoComplete={field.type === 'password' ? 'new-password' : 'off'} className="form-control" />}
       {editing && field.type === 'password' && <div className="form-text">Deja este campo vacío para conservar la contraseña.</div>}
     </>}
+  </div>
+}
+function ProductImageField({ id, value, onChange, disabled, editing }) {
+  const preview = useRef(null)
+  const [error, setError] = useState('')
+  useEffect(() => {
+    if (!(value instanceof File)) return
+    const url = URL.createObjectURL(value)
+    preview.current.src = url
+    return () => URL.revokeObjectURL(url)
+  }, [value])
+  const src = value instanceof File ? undefined : value
+  function select(event) {
+    const file = event.target.files[0]
+    if (!file) return
+    if (!['image/jpeg', 'image/png', 'image/webp'].includes(file.type) || file.size > 5 * 1024 * 1024) {
+      setError('Selecciona una imagen JPG, PNG o WebP de hasta 5 MB.')
+      event.target.setCustomValidity('Selecciona una imagen JPG, PNG o WebP de hasta 5 MB.')
+      event.target.value = ''
+      return
+    }
+    event.target.setCustomValidity('')
+    setError(''); onChange(file)
+  }
+  return <div className="col-12 col-md-6">
+    <label className="form-label" htmlFor={id}>Imagen</label>
+    <input id={id} name="Imagen" type="file" accept="image/jpeg,image/png,image/webp" className="form-control" disabled={disabled} onChange={select} aria-describedby={`${id}-ayuda`} />
+    <div id={`${id}-ayuda`} className="form-text">JPG, PNG o WebP, máximo 5 MB.{editing && ' Si no seleccionas otra imagen, se conserva la actual.'}</div>
+    {error && <div role="alert" className="text-danger">{error}</div>}
+    {value && <div className="mt-2"><img ref={preview} src={src} alt="Vista previa del producto" style={{ width: 160, height: 160, objectFit: 'contain' }} /></div>}
   </div>
 }
 function RecordDetails({ record, prefix = 'consulta' }) {
@@ -43,6 +76,7 @@ function RecordsTable({ resource, records }) {
   const columnOptions = tableOptions.columns ?? {}
   const hidden = new Set([...(tableOptions.hidden ?? []), ...Object.values(columnOptions).map((column) => column.source).filter(Boolean)])
   const columns = [...new Set(rows.flatMap((row) => entries(row).map(([name]) => name)))].filter((name) => !hidden.has(name))
+  if (resource === 'resenas') columns.push('Imagenes')
   function columnLabel(name) {
     const useIdLabel = tableOptions.primaryIdOnly
       ? name === adminSchemas[resource].keys[0]
@@ -71,7 +105,7 @@ function RecordsTable({ resource, records }) {
     <div className="d-flex flex-wrap gap-3 align-items-center mb-3"><Link className="btn btn-primary" to={`/cuenta/admin/${resource}/agregar`}>Agregar</Link><span className="text-secondary">{rows.length} registro(s)</span></div>
     {error && <div role="alert" className="alert alert-danger">{error}</div>}{message && <div role="status" className="alert alert-success">{message}</div>}{busy && <p role="status">Eliminando registro…</p>}
     {!rows.length ? <p role="status">No hay registros para mostrar.</p> : <div className="table-responsive admin-table" tabIndex={0} aria-label="Tabla de registros"><table className="table table-striped table-hover align-middle"><caption>{resource}: registros encontrados</caption><thead><tr>{columns.map((name) => <th scope="col" key={name}>{columnLabel(name)}</th>)}<th scope="col">Acciones</th></tr></thead><tbody>{rows.map((row) => <tr key={recordQuery(resource, row)}>{columns.map((name) => <td key={name}>
-        {adminSchemas[resource].imageFields?.includes(name)
+        {name === 'Imagenes' ? <ReviewGallery images={row.Imagenes || []} /> : adminSchemas[resource].imageFields?.includes(name)
           ? <TableImage key={row[name] || 'empty'} src={row[name]} name={row.Nombre} />
           : cellValue(row, name)}
       </td>)}<td><div className="d-flex gap-2"><Link className={`btn btn-sm btn-outline-primary${busy ? ' disabled' : ''}`} aria-label={`Editar ${recordQuery(resource, row)}`} to={`/cuenta/admin/${resource}/editar?${recordQuery(resource, row)}`}>Editar</Link><button type="button" className="btn btn-sm btn-outline-danger" disabled={busy} aria-label={`Eliminar ${recordQuery(resource, row)}`} onClick={() => remove(row)}>Eliminar</button></div></td></tr>)}</tbody></table></div>}
