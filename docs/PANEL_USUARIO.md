@@ -7,7 +7,7 @@ El panel aparece en `/cuenta` al iniciar sesión. Los administradores también p
 - `/cuenta/usuario/perfil`: muestra nombres, apellidos, correo, teléfono y nombre de usuario. Permite editarlos y cambiar la contraseña, con confirmación en el formulario. Una contraseña vacía conserva la actual. No muestra contraseña, rol, estado ni campos internos editables.
 - `/cuenta/usuario/direcciones`: lista las direcciones propias. `agregar` abre el alta y `/:id` la edición. Eliminar requiere confirmación. Se conserva la regla de una dirección principal.
 - `/cuenta/usuario/ordenes`: lista las órdenes propias. `/:id` incluye productos, cantidades, importes, direcciones, facturas con sus líneas y pagos con método, estado y referencia. Se muestran mensajes cuando todavía no existen facturas o pagos.
-- `/cuenta/usuario/lista-deseos`: muestra nombre, imagen, precio y estado de los productos guardados. Permite quitar productos con confirmación. Utiliza la lista persistida en MariaDB; los favoritos locales del catálogo no se sincronizan mediante este cambio.
+- `/cuenta/usuario/lista-deseos`: muestra nombre, imagen, precio y estado de los productos guardados. Permite quitar productos con confirmación. Utiliza la lista persistida en MariaDB; los favoritos del catálogo se sincronizan con esta lista mediante la integración documentada en CATALOGO_CHECKOUT.md.
 - `/cuenta/usuario/resenas`: muestra las reseñas propias con producto, calificación, comentario, fecha y estado; incluye las ocultas del propietario.
 - `/cuenta/usuario/devoluciones`: lista solicitudes y enlaza a su detalle y orden. `nueva` permite elegir una orden entregada; `nueva?orden=:id` abre directamente el formulario. El usuario indica motivo y cantidades disponibles por producto.
 

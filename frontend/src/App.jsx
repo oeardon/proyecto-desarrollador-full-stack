@@ -8,17 +8,28 @@ import Inicio from './pages/Inicio.jsx'
 import Cuenta from './pages/Cuenta.jsx'
 import AdminPage from './pages/AdminPage.jsx'
 import UserPage from './pages/UserPage.jsx'
+import Checkout from './pages/Checkout.jsx'
+import { useCatalog } from './context/useCatalog.js'
+import { useCart } from './context/useCart.js'
+import { useWishlist } from './context/useWishlist.js'
+import { useAuth } from './context/useAuth.js'
 import { iniciarInteraccionesGlobales } from './js/interacciones.js'
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false)
   const [cartOpen, setCartOpen] = useState(false)
-  const [cart, setCart] = useState([])
-  const [favorites, setFavorites] = useState([])
   const [search, setSearch] = useState('')
-  const [activeCategory, setActiveCategory] = useState('todos')
+  const [storeNotice, setStoreNotice] = useState('')
   const location = useLocation()
   const navigate = useNavigate()
+  const catalog = useCatalog()
+  const { cart, add, updateQuantity, remove: removeFromCart, complete: completeCart } = useCart(catalog.products)
+  const { usuario } = useAuth()
+  const { favorites, toggle: toggleFavorite, busy: favoriteBusy } = useWishlist(usuario?.UsuarioID, location.pathname, setStoreNotice, () => navigate('/cuenta'))
+  const query = new URLSearchParams(location.search)
+  const activeCategory = query.get('categoria') || 'todos'
+  const view = query.get('vista') || 'todos'
+  const setActiveCategory = (id) => { setSearch(''); navigate(`/?categoria=${id}#productos`) }
   const cartCount = useMemo(() => cart.reduce((sum, item) => sum + item.quantity, 0), [cart])
 
   useEffect(() => iniciarInteraccionesGlobales(), [])
@@ -56,38 +67,28 @@ function App() {
   }, [location])
 
   const addToCart = (product) => {
-    setCart((current) => {
-      const existing = current.find((item) => item.id === product.id)
-      if (existing) return current.map((item) => item.id === product.id ? { ...item, quantity: item.quantity + 1 } : item)
-      return [...current, { ...product, quantity: 1 }]
-    })
+    add(product)
     setMenuOpen(false)
     setCartOpen(true)
   }
-
-  const updateQuantity = (id, delta) => {
-    setCart((current) => current.map((item) => item.id === id ? { ...item, quantity: Math.max(1, item.quantity + delta) } : item))
-  }
-
-  const removeFromCart = (id) => setCart((current) => current.filter((item) => item.id !== id))
-  const toggleFavorite = (id) => setFavorites((current) => current.includes(id) ? current.filter((item) => item !== id) : [...current, id])
-
   const submitSearch = (event) => {
     event.preventDefault()
+    const category = new FormData(event.currentTarget).get('categoria') || 'todos'
     setMenuOpen(false)
-    setActiveCategory('todos')
-    navigate('/#productos')
+    navigate(`/?categoria=${category}&q=${encodeURIComponent(search.trim())}#productos`)
   }
 
   return (
     <div className="todoaqui-app">
-      <Header cartCount={cartCount} favoriteCount={favorites.length} menuOpen={menuOpen} setMenuOpen={setMenuOpen} search={search} setSearch={setSearch} onSearch={submitSearch} />
+      <Header categories={catalog.categories} activeCategory={activeCategory} cartCount={cartCount} favoriteCount={favorites.length} menuOpen={menuOpen} setMenuOpen={setMenuOpen} search={search} setSearch={setSearch} onSearch={submitSearch} />
       <main>
+        {storeNotice && <div className="alert alert-warning shop-container mt-3" role="alert">{storeNotice} <button type="button" className="btn btn-sm btn-outline-dark" onClick={() => setStoreNotice('')}>Cerrar</button></div>}
         <Routes>
           <Route path="/" element={
-            <Inicio search={search} setSearch={setSearch} activeCategory={activeCategory} setActiveCategory={setActiveCategory} favorites={favorites} toggleFavorite={toggleFavorite}
+            <Inicio catalog={catalog} view={view} favoriteBusy={favoriteBusy} search={query.get('q') || ''} setSearch={setSearch} activeCategory={activeCategory} setActiveCategory={setActiveCategory} favorites={favorites} toggleFavorite={toggleFavorite}
                     addToCart={addToCart} cartOpen={cartOpen} menuOpen={menuOpen} />
           } />
+          <Route path="/checkout" element={<Checkout cart={cart} updateQuantity={updateQuantity} removeFromCart={removeFromCart} completeCart={completeCart} catalog={catalog} />} />
           <Route path="/cuenta" element={<Cuenta />} />
           <Route path="/cuenta/usuario/:seccion" element={<UserPage />} />
           <Route path="/cuenta/usuario/:seccion/:id" element={<UserPage />} />
@@ -102,7 +103,7 @@ function App() {
         </Routes>
       </main>
       <Footer />
-      <CartDrawer open={cartOpen} setOpen={setCartOpen} cart={cart} updateQuantity={updateQuantity} removeFromCart={removeFromCart} />
+      <CartDrawer loading={catalog.loading} open={cartOpen} setOpen={setCartOpen} cart={cart} updateQuantity={updateQuantity} removeFromCart={removeFromCart} />
       <button data-back-to-top className="back-to-top" type="button" aria-label="Volver arriba" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}><Icon name="arrowLeft" size={18} /></button>
     </div>
   )

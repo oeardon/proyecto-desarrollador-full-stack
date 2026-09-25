@@ -12,7 +12,7 @@ import { Benefits, Deals, Newsletter } from '../components/StoreSections.jsx'
 // App debe renderizarse únicamente desde main.jsx
 // AuthProvider debe configurarse únicamente en main.jsx
 
-export default function Inicio({search = '', setSearch, activeCategory, setActiveCategory, favorites = [], toggleFavorite, addToCart,
+export default function Inicio({catalog, view, favoriteBusy, search = '', setSearch, activeCategory, setActiveCategory, favorites = [], toggleFavorite, addToCart,
                                 cartOpen = false, menuOpen = false,}) {
   const [activeSlide, setActiveSlide] = useState(0)
   const [quickView, setQuickView] = useState(null)
@@ -101,15 +101,15 @@ export default function Inicio({search = '', setSearch, activeCategory, setActiv
     <div ref={contenido}>
       <Hero activeSlide={activeSlide} setActiveSlide={setActiveSlide} />
       <Benefits />
-      <CategorySection onCategory={elegirCategoria} />
-      <ProductSection activeCategory={activeCategory}
+      <CategorySection onCategory={elegirCategoria} catalog={catalog} />
+      <ProductSection catalog={catalog} view={view} favoriteBusy={favoriteBusy} activeCategory={activeCategory}
                       setActiveCategory={setActiveCategory}
                       search={search}
                       favorites={favorites}
                       toggleFavorite={toggleFavorite}
                       addToCart={agregarAlCarrito}
                       openQuickView={setQuickView} />
-      <Deals />
+      <Deals products={catalog.products} />
       <Newsletter />
       <QuickView product={!cartOpen && !menuOpen ? quickView : null}
                  onClose={() => setQuickView(null)}

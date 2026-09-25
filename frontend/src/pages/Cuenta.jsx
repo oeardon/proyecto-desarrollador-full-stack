@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link, useSearchParams } from 'react-router-dom'
 import LoginForm from '../components/LoginForm.jsx'
 import RegistroForm from '../components/RegistroForm.jsx'
 import AdminPanel from '../components/AdminPanel.jsx'
@@ -6,6 +7,7 @@ import UserPanel from '../components/UserPanel.jsx'
 import { useAuth } from '../context/useAuth.js'
 
 export default function Cuenta() {
+  const [params] = useSearchParams()
   const {usuario,cargandoSesion,procesando,error,actualizarSesion,cerrarSesion} = useAuth()
   const [formulario, setFormulario] = useState('login')
   const [errorCuenta, setErrorCuenta] = useState('')
@@ -47,6 +49,7 @@ export default function Cuenta() {
         <div className="row justify-content-center">
           <div className={usuario ? 'col-12' : 'col-12 col-md-10 col-lg-7'}>
             <h1 id="cuenta-titulo" className="mb-4">Mi cuenta</h1>
+            {params.get('volver') === 'checkout' && <p><Link to="/checkout">Volver a finalizar mi compra</Link></p>}
             {cargandoSesion ? (
               <p role="status">Comprobando sesión...</p>
             ) : (

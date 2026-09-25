@@ -8,7 +8,7 @@ const slides = [
     image: 'https://images.unsplash.com/photo-1498049794561-7780e7231661?auto=format&fit=crop&w=1600&q=85',
   },
   {
-    eyebrow: 'Hasta 30% en seleccionados',
+    eyebrow: 'Descubre nuestro catálogo',
     title: 'Actualiza tu espacio con mejores equipos.',
     text: 'Productos para trabajar, estudiar y disfrutar, con promociones especiales y entrega rápida.',
     image: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1600&q=85',
@@ -61,14 +61,14 @@ export default function Hero({ activeSlide, setActiveSlide }) {
 
         <div className="hero-promos">
           <article className="hero-promo hero-promo--phone reveal-item">
-            <span>OFERTA FLASH</span>
-            <h2>Smartphones desde Q1,299</h2>
+            <span>EXPLORA LA TIENDA</span>
+            <h2>Encuentra tu próximo equipo</h2>
             <a href="#productos">Comprar ahora <Icon name="arrowRight" size={15} /></a>
           </article>
           <article className="hero-promo hero-promo--audio reveal-item">
             <span>AUDIO PREMIUM</span>
             <h2>Escucha cada detalle</h2>
-            <a href="#productos">Explorar audio <Icon name="arrowRight" size={15} /></a>
+            <a href="#productos">Explorar productos <Icon name="arrowRight" size={15} /></a>
           </article>
         </div>
       </div>

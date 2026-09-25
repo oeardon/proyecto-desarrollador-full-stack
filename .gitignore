@@ -29,12 +29,19 @@ config/api_keys.php
 # Archivos subidos por usuarios
 public/uploads/*
 !public/uploads/.gitkeep
+!public/uploads/productos/
+public/uploads/productos/*
+!public/uploads/productos/.gitkeep
 tests/
 
-# Marcadores de carpetas del frontend que ya contienen código
+# Marcadores redundantes de carpetas que ya contienen código
+app/services/.gitkeep
 frontend/src/components/.gitkeep
 frontend/src/context/.gitkeep
 frontend/src/pages/.gitkeep
 frontend/src/services/.gitkeep
 
 api/paises/restcountries.php
+config/mail.local.php
+
+config/SMTPcredentials.csv
