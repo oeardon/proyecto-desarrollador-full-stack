@@ -12,13 +12,19 @@ function obtenerResenaPorId($conexion, $ResenaID) {
     return $rows[0] ?? false;
 }
 function usuarioComproProducto($conexion, $UsuarioID, $ProductoID) {
-    $stmt = $conexion->prepare("SELECT COUNT(*) FROM Ordenes O INNER JOIN DetalleOrdenes D ON D.OrdenID = O.OrdenID WHERE O.UsuarioID = :UsuarioID AND D.ProductoID = :ProductoID AND O.Estado = 'Entregada'");
+    $sql = "SELECT COUNT(*)
+            FROM Ordenes O
+            INNER JOIN DetalleOrdenes D
+                ON D.OrdenID = O.OrdenID
+            WHERE O.UsuarioID = :UsuarioID
+                AND D.ProductoID = :ProductoID
+                AND O.Estado = 'Entregada'";
+    $stmt = $conexion->prepare($sql);
     $stmt->execute([':UsuarioID' => $UsuarioID, ':ProductoID' => $ProductoID]);
     return (int)$stmt->fetchColumn() > 0;
 }
 function crearResena($conexion, $UsuarioID, $datos) {
     return ejecutarResenasMongo(function($database) use ($UsuarioID, $datos) {
-        // Safe with concurrent requests and with existing imported numeric IDs.
         prepararResenasMongo($database);
         $counter = $database->selectCollection('Contadores')->findOneAndUpdate(
             ['_id' => 'Resenas'], ['$inc' => ['secuencia' => 1]],
