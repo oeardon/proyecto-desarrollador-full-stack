@@ -1,3 +1,5 @@
+import AddressInput from './AddressInput.jsx'
+import CountrySelect from './CountrySelect.jsx'
 import { useEffect, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { adminSchemas, adminTableOptions, fieldLabel, formPayload, initialValues, transitions } from '../data/adminSchemas.js'
@@ -12,7 +14,7 @@ function Field({ field, value, onChange, disabled = false, prefix = 'registro', 
   return <div className={field.type === 'textarea' ? 'col-12' : 'col-12 col-md-6'}>
     {field.type === 'checkbox' ? <div className="form-check mt-4"><input id={id} type="checkbox" className="form-check-input" disabled={disabled} checked={Boolean(value)} onChange={(event) => onChange(event.target.checked)} /><label className="form-check-label" htmlFor={id}>{fieldLabel(field.name)}</label></div> : <>
       <label className="form-label" htmlFor={id}>{fieldLabel(field.name)}{props.required ? ' *' : ''}</label>
-      {field.type === 'select' ? <select {...props} className="form-select"><option value="">Selecciona una opción</option>{field.options.map((option) => <option key={option} value={option}>{option}</option>)}</select>
+      {field.type === 'address' ? <AddressInput {...props} maxLength={field.maxLength} /> : field.name === 'Pais' ? <CountrySelect {...props} /> : field.type === 'select' ? <select {...props} className="form-select"><option value="">Selecciona una opción</option>{field.options.map((option) => <option key={option} value={option}>{option}</option>)}</select>
         : field.type === 'textarea' ? <textarea {...props} maxLength={field.maxLength} rows={3} className="form-control" />
           : <input {...props} type={field.type} min={field.min} max={field.max} step={field.type === 'datetime-local' ? 1 : field.step} minLength={field.minLength} maxLength={field.maxLength} autoComplete={field.type === 'password' ? 'new-password' : 'off'} className="form-control" />}
       {editing && field.type === 'password' && <div className="form-text">Deja este campo vacío para conservar la contraseña.</div>}

@@ -1,3 +1,4 @@
+import CountrySelect from './CountrySelect.jsx'
 import { useId, useRef, useState } from 'react'
 
 
@@ -40,7 +41,7 @@ export function UserForm({ fields, initial = {}, onSave, onCancel, submitLabel =
         return <div className={field.wide ? 'col-12' : 'col-12 col-md-6'} key={field.name}>
           {field.type === 'checkbox' ? <div className="form-check mt-3"><input {...props} type="checkbox" className="form-check-input" checked={Boolean(values[field.name])} /><label htmlFor={id} className="form-check-label">{field.label}</label></div> : <>
             <label htmlFor={id} className="form-label">{field.label}</label>
-            {field.options ? <select {...props} className="form-select">{field.options.map((option) => <option key={option}>{option}</option>)}</select>
+            {field.name === 'Pais' ? <CountrySelect {...props} /> : field.options ? <select {...props} className="form-select">{field.options.map((option) => <option key={option}>{option}</option>)}</select>
               : field.type === 'textarea' ? <textarea {...props} className="form-control" rows={3} />
                 : <input {...props} className="form-control" type={field.type || 'text'} />}
           </>}

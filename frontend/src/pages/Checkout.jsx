@@ -4,6 +4,7 @@ import { useAuth } from '../context/useAuth.js'
 import { requestUser } from '../services/userService.js'
 import { crearOrden, consultarPedido, guardarIntento, leerIntento, quitarIntento } from '../services/orderService.js'
 import { money } from '../services/userFormat.js'
+import CountrySelect from '../components/CountrySelect.jsx'
 import StoreImage from '../components/StoreImage.jsx'
 import LoginForm from '../components/LoginForm.jsx'
 import { UserFacts, UserTable } from '../components/UserShared.jsx'
@@ -34,12 +35,13 @@ function Receipt({ token }) {
 }
 
 const addressText = (address) => [address.Direccion, address.Ciudad, address.Subnacional, address.Pais, address.CodigoPostal].filter(Boolean).join(', ')
-function AddressField({ label, name, addresses, selected, text, onSelect, onText }) {
+function AddressField({ label, name, addresses, selected, text, onSelect, onText, country, onCountry }) {
   return <div className="mb-3"><label htmlFor={`${name}-select`} className="form-label">{label}</label>
     <select id={`${name}-select`} className="form-select mb-2" value={selected} onChange={(event) => onSelect(event.target.value)}>
       <option value="">Escribir otra dirección</option>{addresses.map((address) => <option key={address.DireccionID} value={address.DireccionID}>{address.TipoDireccion}: {address.Direccion}</option>)}
     </select>
-    <textarea id={name} aria-label={`${label} completa`} className="form-control" required maxLength={255} rows={2} value={text} readOnly={Boolean(selected)} onChange={(event) => onText(event.target.value)} />
+    <textarea id={name} aria-label={`${label} completa`} className="form-control" required maxLength={selected ? 255 : 255 - country.length - 2} rows={2} value={text} readOnly={Boolean(selected)} onChange={(event) => onText(event.target.value)} />
+    {!selected && <><label htmlFor={`${name}-country`} className="form-label mt-2">País de {name === 'shipping' ? 'envío' : 'facturación'}</label><CountrySelect id={`${name}-country`} value={country} required onChange={(event) => onCountry(event.target.value)} /></>}
   </div>
 }
 
@@ -49,6 +51,10 @@ function CheckoutForm({ profile, addresses, userId, cart, updateQuantity, remove
   const [shipping, setShipping] = useState(primary ? addressText(primary) : '')
   const [billingId, setBillingId] = useState('')
   const [billing, setBilling] = useState('')
+  const [shippingCountry, setShippingCountry] = useState('Guatemala')
+  const [billingCountry, setBillingCountry] = useState('Guatemala')
+  const shippingFull = shippingId ? shipping.trim() : `${shipping.trim()}, ${shippingCountry}`
+  const billingFull = billingId ? billing.trim() : `${billing.trim()}, ${billingCountry}`
   const [sameAddress, setSameAddress] = useState(true)
   const [name, setName] = useState(`${profile.Nombres} ${profile.Apellidos}`)
   const [nit, setNit] = useState('CF')
@@ -86,7 +92,7 @@ function CheckoutForm({ profile, addresses, userId, cart, updateQuantity, remove
     event.preventDefault()
     if (pending || invalid || catalog.loading || catalog.error) return
     await send({ SolicitudID: crypto.randomUUID().replaceAll('-', ''), NombreFactura: name.trim(), NIT: nit.trim(), MetodoPago: method,
-      DireccionEnvio: shipping.trim(), DireccionPago: sameAddress ? shipping.trim() : billing.trim(), DireccionEnvioID: shippingId || null, DireccionPagoID: (sameAddress ? shippingId : billingId) || null,
+      DireccionEnvio: shippingFull, DireccionPago: sameAddress ? shippingFull : billingFull, DireccionEnvioID: shippingId || null, DireccionPagoID: (sameAddress ? shippingId : billingId) || null,
       Detalles: cart.map((item) => ({ ProductoID: item.id, Cantidad: item.quantity, PrecioEsperado: item.price.toFixed(2) })) })
   }
   if (pending) return <div className="card"><div className="card-body"><h2 className="h4">{busy ? 'Registrando tu pedido…' : 'Verifica el resultado de tu compra'}</h2><p>Conservamos este intento para poder recuperarlo sin crear otra orden.</p>{error && <div className="alert alert-warning" role="alert">{error}</div>}<button className="btn btn-primary" disabled={busy} onClick={() => send(pending)}>{busy ? 'Procesando…' : 'Recuperar o completar este pedido'}</button> <Link to="/cuenta/usuario/ordenes">Mis órdenes</Link></div></div>
@@ -104,9 +110,9 @@ function CheckoutForm({ profile, addresses, userId, cart, updateQuantity, remove
       </div></section>
       <section className="card mb-4"><div className="card-body"><h2 className="h4">2. Envío y facturación</h2>
         <p className="text-secondary">Confirmación por correo: {profile.Correo}</p>
-        <AddressField label="Dirección de envío" name="shipping" addresses={addresses} selected={shippingId} text={shipping} onSelect={(id) => { setShippingId(id); setShipping(id ? addressText(addresses.find((address) => String(address.DireccionID) === id)) : '') }} onText={setShipping} />
+        <AddressField label="Dirección de envío" name="shipping" addresses={addresses} selected={shippingId} text={shipping} onSelect={(id) => { setShippingId(id); setShipping(id ? addressText(addresses.find((address) => String(address.DireccionID) === id)) : '') }} onText={setShipping} country={shippingCountry} onCountry={setShippingCountry} />
         <div className="form-check mb-3"><input className="form-check-input" type="checkbox" id="same-address" checked={sameAddress} onChange={(event) => setSameAddress(event.target.checked)} /><label className="form-check-label" htmlFor="same-address">Usar la misma dirección para facturación</label></div>
-        {!sameAddress && <AddressField label="Dirección de facturación" name="billing" addresses={addresses} selected={billingId} text={billing} onSelect={(id) => { setBillingId(id); setBilling(id ? addressText(addresses.find((address) => String(address.DireccionID) === id)) : '') }} onText={setBilling} />}
+        {!sameAddress && <AddressField label="Dirección de facturación" name="billing" addresses={addresses} selected={billingId} text={billing} onSelect={(id) => { setBillingId(id); setBilling(id ? addressText(addresses.find((address) => String(address.DireccionID) === id)) : '') }} onText={setBilling} country={billingCountry} onCountry={setBillingCountry} />}
         <div className="row g-3"><div className="col-12 col-md-8"><label className="form-label" htmlFor="billing-name">Nombre para la factura</label><input className="form-control" id="billing-name" required maxLength={150} value={name} onChange={(event) => setName(event.target.value)} /></div><div className="col-12 col-md-4"><label className="form-label" htmlFor="billing-nit">NIT o CF</label><input className="form-control" id="billing-nit" required maxLength={20} value={nit} onChange={(event) => setNit(event.target.value)} /></div></div>
       </div></section>
       <section className="card"><div className="card-body"><h2 className="h4">3. Forma de pago</h2><label className="form-label" htmlFor="payment-method">Método de pago</label><select className="form-select" id="payment-method" value={method} onChange={(event) => setMethod(event.target.value)}><option value="Efectivo">Efectivo al recibir</option><option value="Transferencia">Transferencia bancaria</option></select><p className="small text-secondary mt-2">{method === 'Efectivo' ? 'El pago queda pendiente hasta recibir el pedido.' : 'El pago quedará pendiente de verificación. Comunícate con la tienda para coordinar la transferencia.'}</p></div></section>
