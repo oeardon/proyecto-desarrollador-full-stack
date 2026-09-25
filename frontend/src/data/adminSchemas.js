@@ -10,7 +10,7 @@ const resource = (id, fields, extra = {}) => ({ keys: [id], fields, ...extra })
 const auxiliary = { auxiliary: true }
 export const adminSchemas = {
   categorias: resource('CategoriaID', [text('Nombre', 100), note(), state, number('CategoriaPadreID', 1, false)]),
-  productos: resource('ProductoID', [number('CategoriaID'), text('SKU', 50, false), text('Nombre', 150), note(), money('Precio'), number('Cantidad', 0), text('Imagen', 255, false), state]),
+  productos: resource('ProductoID', [number('CategoriaID'), text('SKU', 50, false), text('Nombre', 150), note(), money('Precio'), number('Cantidad', 0), text('Imagen', 255, false), state], { imageFields: ['Imagen'] }),
   proveedores: resource('ProveedorID', [text('Nombre', 150), text('NIT', 20, false), text('Contacto', 100, false), { ...text('Correo', 100, false), type: 'email' }, text('Telefono', 20, false), text('Direccion', 255, false), state]),
   promociones: resource('PromocionID', [text('Nombre'), note(), select('TipoDescuento', ['Porcentaje', 'Monto']), money('ValorDescuento'), date('FechaInicio'), date('FechaFin', false), boolean('RequiereCupon'), text('CodigoCupon', 40, false), boolean('AplicaTodosProductos'), state]),
   usuarios: resource('UsuarioID', [text('Nombres', 75), text('Apellidos', 75), { ...text('Correo', 100), type: 'email' }, text('Telefono', 20), text('Usuario', 50), { ...text('Contrasena', 72), type: 'password', minLength: 8 }, select('TipoUsuario', ['Cliente', 'Administrador']), state]),
@@ -54,4 +54,33 @@ export function formPayload(fields, values, editing = false) {
     else if (f.type === 'datetime-local') value = value.replace('T', ' ') + (value.length === 16 ? ':00' : '')
     return [f.name, value]
   }))
+}
+
+// Presentación de las tablas; los identificadores originales se conservan en los registros.
+export const adminTableOptions = {
+  ordenes: { primaryIdOnly: true },
+  'detalle-ordenes': { primaryIdOnly: true },
+  pagos: { primaryIdOnly: true },
+  facturas: { primaryIdOnly: true },
+  'detalle-facturas': { primaryIdOnly: true },
+  devoluciones: { primaryIdOnly: true },
+  'detalle-devoluciones': { primaryIdOnly: true },
+  categorias: { columns: { CategoriaPadreID: { label: 'Categoría principal', source: 'CategoriaPrincipal' } } },
+  productos: { hidden: ['CategoriaID'], columns: { Precio: { format: 'currency' } } },
+  'productos-proveedores': { columns: {
+    ProductoID: { label: 'Producto', source: 'ProductoNombre' },
+    ProveedorID: { label: 'Proveedor', source: 'ProveedorNombre' },
+  } },
+  'productos-promociones': { columns: {
+    ProductoID: { label: 'Producto', source: 'ProductoNombre' },
+    PromocionID: { label: 'Promoción', source: 'PromocionNombre' },
+  } },
+  direcciones: { columns: {
+    UsuarioID: { label: 'Usuario', source: 'UsuarioNombre' },
+    EsPrincipal: { format: 'boolean' },
+  } },
+  'lista-deseos': { columns: {
+    UsuarioID: { label: 'Usuario', source: 'UsuarioNombre' },
+    ProductoID: { label: 'Producto', source: 'ProductoNombre' },
+  } },
 }

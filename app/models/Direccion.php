@@ -1,20 +1,22 @@
 <?php
      function obtenerTodosDirecciones($conexion, $UsuarioID = null) {
-          $sql = "SELECT *
-                  FROM Direcciones";
+          $sql = "SELECT D.*, TRIM(CONCAT(U.Nombres, ' ', U.Apellidos)) AS UsuarioNombre
+                  FROM Direcciones D
+                  LEFT JOIN Usuarios U ON U.UsuarioID = D.UsuarioID";
           if ($UsuarioID !== null) {
-               $sql .= " WHERE UsuarioID = :UsuarioID";
+               $sql .= " WHERE D.UsuarioID = :UsuarioID";
           }
-          $sql .= " ORDER BY DireccionID ASC";
+          $sql .= " ORDER BY D.DireccionID ASC";
           $stmt = $conexion->prepare($sql);
           $stmt->execute($UsuarioID === null ? [] : [":UsuarioID" => $UsuarioID]);
           return $stmt->fetchAll();
      }
 
      function obtenerDireccionPorId($conexion, $DireccionID) {
-          $sql = "SELECT *
-                  FROM Direcciones
-                  WHERE DireccionID = :DireccionID";
+          $sql = "SELECT D.*, TRIM(CONCAT(U.Nombres, ' ', U.Apellidos)) AS UsuarioNombre
+                  FROM Direcciones D
+                  LEFT JOIN Usuarios U ON U.UsuarioID = D.UsuarioID
+                  WHERE D.DireccionID = :DireccionID";
           $stmt = $conexion->prepare($sql);
           $stmt->execute([":DireccionID" => $DireccionID]);
           return $stmt->fetch();

@@ -2,6 +2,7 @@ import { useState } from 'react'
 import LoginForm from '../components/LoginForm.jsx'
 import RegistroForm from '../components/RegistroForm.jsx'
 import AdminPanel from '../components/AdminPanel.jsx'
+import UserPanel from '../components/UserPanel.jsx'
 import { useAuth } from '../context/useAuth.js'
 
 export default function Cuenta() {
@@ -44,7 +45,7 @@ export default function Cuenta() {
     <section className="shop-section" aria-labelledby="cuenta-titulo">
       <div className="shop-container">
         <div className="row justify-content-center">
-          <div className={esAdministrador ? 'col-12' : 'col-12 col-md-10 col-lg-7'}>
+          <div className={usuario ? 'col-12' : 'col-12 col-md-10 col-lg-7'}>
             <h1 id="cuenta-titulo" className="mb-4">Mi cuenta</h1>
             {cargandoSesion ? (
               <p role="status">Comprobando sesión...</p>
@@ -83,6 +84,7 @@ export default function Cuenta() {
                       </button>
                     </div>
                   </div>
+                  {!errorConsulta && <UserPanel />}
                   {esAdministrador && <AdminPanel />}
                   </>
                 ) : formulario === 'registro' ? (

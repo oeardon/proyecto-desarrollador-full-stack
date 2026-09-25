@@ -7,6 +7,7 @@ import Icon from './components/Icon.jsx'
 import Inicio from './pages/Inicio.jsx'
 import Cuenta from './pages/Cuenta.jsx'
 import AdminPage from './pages/AdminPage.jsx'
+import UserPage from './pages/UserPage.jsx'
 import { iniciarInteraccionesGlobales } from './js/interacciones.js'
 
 function App() {
@@ -88,6 +89,8 @@ function App() {
                     addToCart={addToCart} cartOpen={cartOpen} menuOpen={menuOpen} />
           } />
           <Route path="/cuenta" element={<Cuenta />} />
+          <Route path="/cuenta/usuario/:seccion" element={<UserPage />} />
+          <Route path="/cuenta/usuario/:seccion/:id" element={<UserPage />} />
           <Route path="/cuenta/admin/:recurso" element={<AdminPage />} />
           <Route path="/cuenta/admin/:recurso/:operacion" element={<AdminPage />} />
           <Route path="*" element={

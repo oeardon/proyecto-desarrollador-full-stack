@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { adminSchemas, fieldLabel, formPayload, initialValues, transitions } from '../data/adminSchemas.js'
+import { adminSchemas, adminTableOptions, fieldLabel, formPayload, initialValues, transitions } from '../data/adminSchemas.js'
 import { recordQuery, requestAdmin } from '../services/adminService.js'
 
 const entries = (record) => Object.entries(record).filter(([key, value]) => !/contrasena|password|hash/i.test(key) && !/^\d+$/.test(key) && !Array.isArray(value) && (value === null || typeof value !== 'object'))
@@ -27,12 +27,36 @@ function SearchRecord({ resource, onFind }) {
   const [values, setValues] = useState(Object.fromEntries(keys.map((key) => [key, ''])))
   return <form className="mb-4" onSubmit={(event) => { event.preventDefault(); onFind(values) }}><p>Indica {keys.length > 1 ? 'los dos identificadores que componen el registro' : 'el ID del registro'}.</p><div className="row g-3">{keys.map((key) => <Field key={key} field={{ name: key, type: 'number', min: 1, step: 1, required: true }} value={values[key]} prefix="buscar" onChange={(value) => setValues({ ...values, [key]: value })} />)}</div><button className="btn btn-dark mt-3" type="submit">Buscar registro</button></form>
 }
+function TableImage({ src, name }) {
+  const [failed, setFailed] = useState(false)
+  if (!src || failed) return <span className="text-secondary">{failed ? 'Imagen no disponible' : 'Sin imagen'}</span>
+  return <img src={src} alt={name || 'Producto'} width={80} height={80} loading="lazy" className="admin-table__image" onError={() => setFailed(true)} />
+}
 function RecordsTable({ resource, records }) {
   const [rows, setRows] = useState(records)
   const [busy, setBusy] = useState(false)
   const [message, setMessage] = useState('')
   const [error, setError] = useState('')
-  const columns = [...new Set(rows.flatMap((row) => entries(row).map(([name]) => name)))]
+  const tableOptions = adminTableOptions[resource] ?? {}
+  const columnOptions = tableOptions.columns ?? {}
+  const hidden = new Set([...(tableOptions.hidden ?? []), ...Object.values(columnOptions).map((column) => column.source).filter(Boolean)])
+  const columns = [...new Set(rows.flatMap((row) => entries(row).map(([name]) => name)))].filter((name) => !hidden.has(name))
+  function columnLabel(name) {
+    const useIdLabel = tableOptions.primaryIdOnly
+      ? name === adminSchemas[resource].keys[0]
+      : name.endsWith('ID')
+    return columnOptions[name]?.label ?? (useIdLabel ? 'ID' : fieldLabel(name))
+  }
+  function cellValue(row, name) {
+    const options = columnOptions[name] ?? {}
+    const value = row[options.source ?? name]
+    if (value === null || value === undefined || value === '') return '—'
+    if (options.format === 'boolean') return value === true || value === 1 || value === '1' ? 'Sí' : 'No'
+    if (options.format === 'currency' && Number.isFinite(Number(value))) {
+      return `Q. ${Number(value).toLocaleString('es-GT', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`
+    }
+    return display(value)
+  }
   async function remove(row) {
     if (!window.confirm(`¿Eliminar el registro ${recordQuery(resource, row)}? Esta acción no se puede deshacer.`)) return
     setBusy(true); setError(''); setMessage('')
@@ -44,7 +68,11 @@ function RecordsTable({ resource, records }) {
   return <>
     <div className="d-flex flex-wrap gap-3 align-items-center mb-3"><Link className="btn btn-primary" to={`/cuenta/admin/${resource}/agregar`}>Agregar</Link><span className="text-secondary">{rows.length} registro(s)</span></div>
     {error && <div role="alert" className="alert alert-danger">{error}</div>}{message && <div role="status" className="alert alert-success">{message}</div>}{busy && <p role="status">Eliminando registro…</p>}
-    {!rows.length ? <p role="status">No hay registros para mostrar.</p> : <div className="table-responsive admin-table" tabIndex={0} aria-label="Tabla de registros"><table className="table table-striped table-hover align-middle"><caption>{resource}: registros encontrados</caption><thead><tr>{columns.map((name) => <th scope="col" key={name}>{fieldLabel(name)}</th>)}<th scope="col">Acciones</th></tr></thead><tbody>{rows.map((row) => <tr key={recordQuery(resource, row)}>{columns.map((name) => <td key={name}>{display(row[name])}</td>)}<td><div className="d-flex gap-2"><Link className={`btn btn-sm btn-outline-primary${busy ? ' disabled' : ''}`} aria-label={`Editar ${recordQuery(resource, row)}`} to={`/cuenta/admin/${resource}/editar?${recordQuery(resource, row)}`}>Editar</Link><button type="button" className="btn btn-sm btn-outline-danger" disabled={busy} aria-label={`Eliminar ${recordQuery(resource, row)}`} onClick={() => remove(row)}>Eliminar</button></div></td></tr>)}</tbody></table></div>}
+    {!rows.length ? <p role="status">No hay registros para mostrar.</p> : <div className="table-responsive admin-table" tabIndex={0} aria-label="Tabla de registros"><table className="table table-striped table-hover align-middle"><caption>{resource}: registros encontrados</caption><thead><tr>{columns.map((name) => <th scope="col" key={name}>{columnLabel(name)}</th>)}<th scope="col">Acciones</th></tr></thead><tbody>{rows.map((row) => <tr key={recordQuery(resource, row)}>{columns.map((name) => <td key={name}>
+        {adminSchemas[resource].imageFields?.includes(name)
+          ? <TableImage key={row[name] || 'empty'} src={row[name]} name={row.Nombre} />
+          : cellValue(row, name)}
+      </td>)}<td><div className="d-flex gap-2"><Link className={`btn btn-sm btn-outline-primary${busy ? ' disabled' : ''}`} aria-label={`Editar ${recordQuery(resource, row)}`} to={`/cuenta/admin/${resource}/editar?${recordQuery(resource, row)}`}>Editar</Link><button type="button" className="btn btn-sm btn-outline-danger" disabled={busy} aria-label={`Eliminar ${recordQuery(resource, row)}`} onClick={() => remove(row)}>Eliminar</button></div></td></tr>)}</tbody></table></div>}
   </>
 }
 function RecordForm({ resource, operation, record }) {

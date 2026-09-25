@@ -31,7 +31,13 @@ try {
     if ($individual) foreach ($claves as $clave) $ids[] = leerIdApi($clave);
     $where = implode(' AND ', array_map(fn($clave) => "`$clave` = ?", $claves));
     if ($metodo === 'GET') {
-        $consulta = $conexion->prepare("SELECT * FROM `$tabla`" . ($individual ? " WHERE $where" : '') . ' ORDER BY ' . implode(', ', $claves));
+        $lecturas = [
+            'productos-proveedores' => 'SELECT R.*, P.Nombre AS ProductoNombre, V.Nombre AS ProveedorNombre FROM ProductosProveedores R LEFT JOIN Productos P ON P.ProductoID = R.ProductoID LEFT JOIN Proveedores V ON V.ProveedorID = R.ProveedorID',
+            'productos-promociones' => 'SELECT R.*, P.Nombre AS ProductoNombre, M.Nombre AS PromocionNombre FROM ProductosPromociones R LEFT JOIN Productos P ON P.ProductoID = R.ProductoID LEFT JOIN Promociones M ON M.PromocionID = R.PromocionID',
+            'lista-deseos' => "SELECT R.*, TRIM(CONCAT(U.Nombres, ' ', U.Apellidos)) AS UsuarioNombre, P.Nombre AS ProductoNombre FROM ListaDeseos R LEFT JOIN Usuarios U ON U.UsuarioID = R.UsuarioID LEFT JOIN Productos P ON P.ProductoID = R.ProductoID",
+        ];
+        $lectura = $lecturas[$recurso] ?? "SELECT * FROM `$tabla`";
+        $consulta = $conexion->prepare("SELECT * FROM ($lectura) AS Registros" . ($individual ? " WHERE $where" : '') . ' ORDER BY ' . implode(', ', $claves));
         $consulta->execute($ids);
         $datos = $individual ? $consulta->fetch(PDO::FETCH_ASSOC) : $consulta->fetchAll(PDO::FETCH_ASSOC);
         if ($individual && !$datos) responderApi(404, ['success' => false, 'message' => 'Registro no encontrado']);

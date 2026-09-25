@@ -383,3 +383,20 @@ img { display:block; max-width:100%; }
   td { min-width: 100px; max-width: 340px; overflow-wrap: anywhere; }
   thead { position: sticky; top: 0; z-index: 1; }
 }
+
+.admin-table__image {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.user-page {
+  .card, .user-facts, td { overflow-wrap: anywhere; }
+  td { min-width: 90px; }
+  fieldset { min-width: 0; }
+}
+.user-product-image {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+}

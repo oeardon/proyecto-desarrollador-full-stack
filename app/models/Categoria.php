@@ -1,17 +1,19 @@
 <?php 
      function obtenerCategorias($conexion) {
-          $sql = "SELECT *
-                  FROM Categorias
-                  ORDER BY CategoriaID ASC";
+          $sql = "SELECT C.*, P.Nombre AS CategoriaPrincipal
+                  FROM Categorias C
+                  LEFT JOIN Categorias P ON P.CategoriaID = C.CategoriaPadreID
+                  ORDER BY C.CategoriaID ASC";
           $consulta = $conexion->prepare($sql);
           $consulta->execute();
           return $consulta->fetchAll();
      }
 
      function obtenerCategoriaPorId($conexion, $CategoriaID) {
-          $sql = "SELECT *
-                  FROM Categorias
-                  WHERE CategoriaID = :CategoriaID";
+          $sql = "SELECT C.*, P.Nombre AS CategoriaPrincipal
+                  FROM Categorias C
+                  LEFT JOIN Categorias P ON P.CategoriaID = C.CategoriaPadreID
+                  WHERE C.CategoriaID = :CategoriaID";
           $stmt = $conexion->prepare($sql);
           $stmt->execute([":CategoriaID" => $CategoriaID]);
           return $stmt->fetch();
