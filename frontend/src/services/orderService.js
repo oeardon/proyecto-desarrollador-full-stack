@@ -1,50 +1,17 @@
-const API_ORDENES = '/api/ordenes/'
-
-async function leerRespuesta(respuesta) {
-  let resultado
-  try {
-    resultado = await respuesta.json()
-  } catch {
-    const error = new Error('El servidor no devolvió una respuesta JSON válida')
-    error.status = respuesta.status
-    throw error
-  }
-
-  if (!respuesta.ok || !resultado?.success) {
-    const error = new Error(resultado?.message || 'No se pudo completar la compra')
-    error.status = respuesta.status
-    throw error
-  }
-
-  return resultado
+import { storeRequest } from './storeService.js'
+export function crearOrden(data) {
+  return storeRequest('checkout/index.php', { method: 'POST', data })
 }
-
-export async function crearOrden({ direccionEnvio, direccionPago, cart }) {
-  const detalles = cart.map((item) => ({
-    ProductoID: item.id,
-    Cantidad: item.quantity,
-  }))
-
-  let respuesta
-  try {
-    respuesta = await fetch(API_ORDENES, {
-      method: 'POST',
-      credentials: 'include',
-      headers: {
-        Accept: 'application/json',
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        DireccionEnvio: direccionEnvio.trim(),
-        DireccionPago: direccionPago.trim(),
-        Detalles: detalles,
-      }),
-    })
-  } catch {
-    const error = new Error('No se pudo conectar con el servidor')
-    error.status = 0
-    throw error
-  }
-
-  return leerRespuesta(respuesta)
+export function consultarPedido(token, signal) {
+  return storeRequest(`checkout/index.php?solicitud=${encodeURIComponent(token)}`, { signal })
+}
+export function leerIntento(userId) {
+  try { return JSON.parse(sessionStorage.getItem(`todoaqui.checkout.${userId}`) || 'null') } catch { return null }
+}
+export function guardarIntento(userId, data) {
+  // Si no se puede conservar el identificador, no se envía una compra que no podamos recuperar.
+  sessionStorage.setItem(`todoaqui.checkout.${userId}`, JSON.stringify(data))
+}
+export function quitarIntento(userId) {
+  try { sessionStorage.removeItem(`todoaqui.checkout.${userId}`) } catch { /* El servidor conserva la protección contra duplicados. */ }
 }
