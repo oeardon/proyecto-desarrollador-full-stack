@@ -3,22 +3,40 @@ import Icon from './Icon.jsx'
 const slides = [
   {
     eyebrow: 'Nueva colección tecnológica',
-    title: 'Tecnología que se adapta a tu ritmo.',
+    title: 'Tecnología que se adapta a tu ritmo',
     text: 'Encuentra celulares, laptops, audio y accesorios seleccionados para hacer más simple tu día a día',
     image: 'https://images.unsplash.com/photo-1498049794561-7780e7231661?auto=format&fit=crop&w=1600&q=85',
   },
   {
     eyebrow: 'Descubre nuestro catálogo',
-    title: 'Actualiza tu espacio con mejores equipos.',
+    title: 'Actualiza tu espacio con mejores equipos',
     text: 'Productos para trabajar, estudiar y disfrutar, con promociones especiales y entrega rápida',
     image: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1600&q=85',
   },
   {
     eyebrow: 'Audio y entretenimiento',
-    title: 'Más potencia para cada momento.',
+    title: 'Más potencia para cada momento',
     text: 'Descubre audífonos, bocinas y accesorios con diseño moderno y una experiencia de compra sencilla',
     image: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1600&q=85',
   },
+  {
+  eyebrow: 'Electrodomésticos para tu hogar',
+  title: 'Haz de cada espacio un lugar mejor',
+  text: 'Encuentra refrigeradoras, lavadoras, estufas y equipos pensados para facilitar las tareas de todos los días',
+  image: 'https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=1600&q=85',
+},
+{
+  eyebrow: 'Gaming y entretenimiento',
+  title: 'Lleva tu experiencia al siguiente nivel',
+  text: 'Descubre equipos, accesorios y tecnología para jugar, conectarte y disfrutar tus momentos de entretenimiento',
+  image: 'https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=1600&q=85',
+},
+{
+  eyebrow: 'Tecnología para el hogar',
+  title: 'Más comodidad para tu día a día',
+  text: 'Encuentra dispositivos y soluciones inteligentes que combinan funcionalidad, diseño y tecnología para tu hogar',
+  image: 'https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=1600&q=85',
+},
 ]
 
 export default function Hero({ activeSlide, setActiveSlide }) {
