@@ -30,6 +30,6 @@ Las reglas de edición no cambian: las órdenes permiten cambiar su estado y las
 
 ## Integración local
 
-`countryService.js` solicita `/tienda_online/api/paises/`; Apache resuelve index.php mediante DirectoryIndex. Esta copia no utiliza el ajuste de URL explícita que se había hecho para hosting. `api/paises/restcountries.php` es una muestra auxiliar, no el endpoint del selector. cURL, clave privada y caché escribible son requisitos; véase [Instalación](INSTALACION_LOCAL.md).
+`countryService.js` solicita `/proyecto-desarrollador-full-stack/api/paises/`; Apache resuelve index.php mediante DirectoryIndex. Esta copia no utiliza el ajuste de URL explícita que se había hecho para hosting. `api/paises/restcountries.php` es una muestra auxiliar, no el endpoint del selector. cURL, clave privada y caché escribible son requisitos; véase [Instalación](INSTALACION_LOCAL.md).
 
 [Volver al índice documental](README.md).

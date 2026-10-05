@@ -14,7 +14,7 @@ Componentes/páginas en PascalCase; hooks y servicios con nombres descriptivos. 
 
 Tablas y columnas locales mantienen PascalCase, como Usuarios y UsuarioID. No aplicar conversiones de hosting/Linux por inferencia. MongoDB conserva las colecciones Resenas/Contadores y IDs numéricos; imágenes guardan rutas, no binarios JSON.
 
-Las rutas `/tienda_online/api` y `/productos` tienen significado en la configuración local. Los importes se calculan en servidor; las operaciones bancarias no están integradas.
+Las rutas `/proyecto-desarrollador-full-stack/api` y `/productos` tienen significado en la configuración local. Los importes se calculan en servidor; las operaciones bancarias no están integradas.
 
 ## Documentación y mantenimiento
 

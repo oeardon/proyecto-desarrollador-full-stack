@@ -6,7 +6,7 @@ Esta guía corresponde al entregable local, no a los archivos de hosting de `bui
 
 | Componente | Requisito comprobable en los archivos |
 | --- | --- |
-| XAMPP, Apache y MariaDB | Backend PHP y base relacional; ruta habitual `C:\xampp\htdocs\tienda_online`. |
+| XAMPP, Apache y MariaDB | Backend PHP y base relacional; ruta habitual `C:\xampp\htdocs\proyecto-desarrollador-full-stack`. |
 | PHP | Dependencias Composer para PHP 8.1 o superior dentro de sus rangos; comprobar con `composer check-platform-reqs`. |
 | Extensiones | PDO MySQL, BCMath para dinero, cURL para países, OpenSSL para SMTP TLS, fileinfo para imágenes y mongodb. |
 | MongoDB PHP | El lockfile fija mongodb/mongodb 2.4.2 y exige ext-mongodb `^2.4`; una extensión 1.x no satisface esta copia. |
@@ -18,7 +18,7 @@ Esta guía corresponde al entregable local, no a los archivos de hosting de `bui
 Comprobaciones sin mostrar configuración privada:
 
 ```powershell
-Set-Location 'C:\xampp\htdocs\tienda_online'
+Set-Location 'C:\xampp\htdocs\proyecto-desarrollador-full-stack'
 C:\xampp\php\php.exe -v
 C:\xampp\php\php.exe -m
 node --version
@@ -75,7 +75,7 @@ Ethereal captura el correo de prueba. El envío sucede después de guardar la co
 2. Ejecutar `npm.cmd run dev` desde la raíz.
 3. Abrir la URL informada por Vite; el puerto inicial es 5173.
 
-Vite comprueba `http://localhost` y después `http://localhost:8080` consultando `/tienda_online/api/categorias/index.php`. Si ninguno devuelve la respuesta esperada, detiene el inicio. El proxy dirige la API y las imágenes de reseñas al Apache detectado. Conservar el nombre de carpeta `tienda_online`, usado por las rutas. No abrir el HTML directamente como archivo.
+Vite comprueba `http://localhost` y después `http://localhost:8080` consultando `/proyecto-desarrollador-full-stack/api/categorias/index.php`. Si ninguno devuelve la respuesta esperada, detiene el inicio. El proxy dirige la API y las imágenes de reseñas al Apache detectado. Conservar el nombre de carpeta `proyecto-desarrollador-full-stack`, usado por las rutas. No abrir el HTML directamente como archivo.
 
 ```powershell
 npm.cmd run lint

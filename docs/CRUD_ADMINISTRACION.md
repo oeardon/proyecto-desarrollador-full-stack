@@ -15,7 +15,7 @@ El portal de Cuenta ofrece accesos de mostrar, buscar, agregar, editar y elimina
 
 `frontend/src/data/adminSchemas.js` define campos y restricciones de la interfaz. `AdminCrud.jsx` implementa la navegación y los formularios; `adminService.js` conecta con las API existentes.
 
-El nuevo servicio `/tienda_online/api/admin/index.php?recurso=...` admite `productos-proveedores`, `productos-promociones`, `lista-deseos`, `detalle-ordenes`, `detalle-facturas` y `detalle-devoluciones`.
+El nuevo servicio `/proyecto-desarrollador-full-stack/api/admin/index.php?recurso=...` admite `productos-proveedores`, `productos-promociones`, `lista-deseos`, `detalle-ordenes`, `detalle-facturas` y `detalle-devoluciones`.
 
 GET sin identificadores devuelve todos los registros. GET, PUT y DELETE de un registro utilizan el nombre de cada clave como parámetro (por ejemplo `DetalleOrdenID=12`, o `ProductoID=2&ProveedorID=3`). POST y PUT reciben JSON. En PUT de relaciones se envían las nuevas claves en el cuerpo y las originales en la URL.
 

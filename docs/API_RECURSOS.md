@@ -21,7 +21,7 @@ solicitudes aunque exista una cookie de sesión anterior.
 
 ## Convenciones HTTP
 
-Base local: http://localhost/tienda_online/api/
+Base local: http://localhost/proyecto-desarrollador-full-stack/api/
 
 GET /recurso/ lista registros.
 GET /recurso/?id=5 consulta uno.
@@ -425,7 +425,7 @@ de sesión, cookies y cierre de sesión sin conexión a la base de datos.
 
 ## Recursos complementarios
 
-| Ruta bajo `/tienda_online/api/` | Función | Guía |
+| Ruta bajo `/proyecto-desarrollador-full-stack/api/` | Función | Guía |
 | --- | --- | --- |
 | `catalogo/index.php` | GET del catálogo filtrado, promociones y agregados de reseñas. | [Checkout](CATALOGO_CHECKOUT.md) |
 | `checkout/index.php` | POST de compra y GET por solicitud propia. | [Checkout](CATALOGO_CHECKOUT.md) |

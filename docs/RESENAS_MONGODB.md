@@ -57,7 +57,7 @@ El panel de usuario permite agregar reseñas de productos de órdenes entregadas
 - Formatos JPG, PNG y WebP, comprobados por contenido en PHP, no por el nombre enviado. Límite adicional de 20 megapíxeles.
 - Los archivos se guardan en **`public/uploads/resenas`**, con nombres aleatorios `resena-<32 caracteres hexadecimales>.jpg/png/webp`.
 - MongoDB guarda las rutas en `Resenas.Imagenes`, un arreglo de 0 a 3 cadenas. No almacena binarios ni base64. Los documentos antiguos sin ese campo se presentan con `Imagenes: []`; no requieren migración.
-- Ejemplo: `"Imagenes": ["/tienda_online/public/uploads/resenas/resena-0123456789abcdef0123456789abcdef.jpg"]`.
+- Ejemplo: `"Imagenes": ["/proyecto-desarrollador-full-stack/public/uploads/resenas/resena-0123456789abcdef0123456789abcdef.jpg"]`.
 
 Al editar se envían las rutas que se desea conservar; solo se aceptan rutas que ya pertenecen a esa reseña. Omitir `Imagenes` conserva todas; enviar `[]` quita todas las anteriores. Los archivos nuevos se agregan después, siempre respetando el límite. Quitar una miniatura y cancelar el formulario no modifica MongoDB ni elimina archivos.
 
@@ -67,7 +67,7 @@ Cada modificación de contenido incrementa un contador interno `Version` mediant
 
 `api/resenas/index.php` recibe `multipart/form-data` con `datos` (JSON) e `Imagenes[]` (archivos). Crear usa POST; editar usa POST con `?id=ID&_method=PUT`. El JSON de alta contiene ProductoID, Calificacion, Comentario e Imagenes vacío; el de edición contiene Calificacion, Comentario y las rutas conservadas. Las peticiones JSON anteriores siguen funcionando.
 
-La carpeta de cargas pertenece al backend y persiste independientemente de `frontend/dist`. Vite redirige `/tienda_online/public/uploads/resenas` al mismo Apache que la API. En hosting, publicar esa ruta y conceder permiso de escritura a PHP. `RESENAS_IMAGENES_DIR` permite cambiar el directorio físico desde `config/imagenes.php`, manteniendo su correspondencia con la URL publicada. Si se usa control de versiones, excluir las cargas y conservar marcadores/reglas `.htaccess`; la copia actual no tiene Git activo. No confundir esa exclusión con el respaldo o la entrega de las fotografías existentes. Incluir la carpeta de cargas en las copias de seguridad junto con MongoDB.
+La carpeta de cargas pertenece al backend y persiste independientemente de `frontend/dist`. Vite redirige `/proyecto-desarrollador-full-stack/public/uploads/resenas` al mismo Apache que la API. En hosting, publicar esa ruta y conceder permiso de escritura a PHP. `RESENAS_IMAGENES_DIR` permite cambiar el directorio físico desde `config/imagenes.php`, manteniendo su correspondencia con la URL publicada. Si se usa control de versiones, excluir las cargas y conservar marcadores/reglas `.htaccess`; la copia actual no tiene Git activo. No confundir esa exclusión con el respaldo o la entrega de las fotografías existentes. Incluir la carpeta de cargas en las copias de seguridad junto con MongoDB.
 
 PHP debe permitir `upload_max_filesize` de al menos `2M`, `post_max_size` de al menos `8M` y `max_file_uploads` de al menos 3. Las reglas de aplicación siguen limitando cada imagen a 2 MiB aunque PHP admita más.
 
