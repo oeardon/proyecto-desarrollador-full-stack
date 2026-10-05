@@ -1,50 +1,29 @@
-# Cumplimiento de lineamientos — TodoAquí
+# Lineamientos y evidencias de entrega
 
-Este documento relaciona el proyecto con la lista de aspectos solicitados para la presentación final
+La documentación describe la copia local. `INFORME` y `build` están fuera de esta revisión; no se certifica su contenido.
 
-## Etapa 1 — problema y solución
-
-| Lineamiento | Evidencia en el proyecto | Estado |
+| Lineamiento | Evidencia | Estado |
 | --- | --- | --- |
-| Descripción del problema | `docs/DESCRIPCION_PROBLEMA.md` | Incluido |
-| Requerimientos funcionales y no funcionales | `docs/PRODUCT_BACKLOG.md` | Incluido |
-| Product Backlog | `docs/PRODUCT_BACKLOG.md` | Incluido |
-| Historias de usuario | `docs/PRODUCT_BACKLOG.md` | Incluido |
-| Validación con clientes | Sección de validación en `docs/PRODUCT_BACKLOG.md` | Requiere adjuntar evidencia real del estudiante |
-| Wireframes o mockups | `docs/MOCKUPS_Y_REFERENCIAS.md` | Incluido como guía de presentación |
-| Modelo relacional | `docs/Diagrama_EER.pdf` y `database/crear_bd_tablas.sql` | Incluido |
-| Modelo NoSQL | `docs/MODELO_NOSQL.md` y `database/modelo_nosql.json` | Incluido como diseño complementario |
-| Tecnologías utilizadas | `docs/TECNOLOGIAS.md` | Incluido |
+| Problema y solución | [Descripción](DESCRIPCION_PROBLEMA.md) | Documentado. |
+| Requerimientos e historias | [Backlog](PRODUCT_BACKLOG.md) | Documentado; falta evidencia formal de validación. |
+| Mockups/interfaz | [Guía visual](MOCKUPS_Y_REFERENCIAS.md) y capturas históricas de tests | Actualizar evidencias finales según la ejecución real. |
+| Modelo relacional | [SQL](../database/crear_bd_tablas.sql) y [modelo explicado](BASE_DATOS.md) | Incluido; el PDF EER antes citado está ausente. |
+| Modelo NoSQL | [Diseño](MODELO_NOSQL.md) y [reseñas](RESENAS_MONGODB.md) | Modelo activo y propuesta diferenciados. |
+| Datos SQL | [Dump](../database/todoaqui_db.sql), esquema y carga CSV | Incluidos; procedimientos en guía de datos. |
+| Tecnologías | [Tecnologías](TECNOLOGIAS.md) | Actualizado. |
+| Instalación y URL base | [Instalación](INSTALACION_LOCAL.md), [URLs](URLS_ENTREGA.md) | Documentado. |
+| Arquitectura y directorios | [Arquitectura](ARQUITECTURA.md) | Cubierto, incluidas dependencias/generados. |
+| API y operaciones | [API](API_RECURSOS.md), [administración](CRUD_ADMINISTRACION.md) | Documentado con restricciones. |
+| Casos y rutinas | [Pruebas](CASOS_PRUEBA.md) | Scripts existentes y limitaciones distinguidos. |
+| Convenciones | [Convenciones](CONVENCIONES.md) | Documentado. |
+| Proyecto comprimido | Copia final preparada por el responsable | No se generó un ZIP durante esta tarea. |
+| Repositorio | [Estado](TRANSFERENCIA_ESTADO.md) | Sin vínculo Git activo; no inventar URL. |
+| Sitio publicado | [URLs](URLS_ENTREGA.md) | SSL validado según el propietario; no probado aquí. |
 
-## Etapa 2 — desarrollo de la solución
+## Pendientes materiales
 
-| Lineamiento | Evidencia en el proyecto | Estado |
-| --- | --- | --- |
-| Inserción | Registro de usuarios, creación de órdenes, CRUD de recursos API | Incluido |
-| Actualización | Endpoints PUT en recursos administrativos y de negocio | Incluido |
-| Eliminación | Endpoints DELETE con reglas de negocio | Incluido |
-| Búsqueda y consulta | GET de productos, categorías, órdenes y demás recursos | Incluido |
-| Interacción con base de datos | PDO y consultas preparadas en `app/models` | Incluido |
-| URL Base | `README_EJECUCION.md` y `vite.config.js` | Incluido |
-| Configuración de base de datos | `config/database.php` | Incluido |
-| Estructura MVC | `app/models`, `app/controllers`, `api` y frontend React | Incluido |
-| Rutas | `api/<recurso>/index.php` y endpoints de autenticación | Incluido |
-| API para base de datos | Carpeta `api` | Incluido |
-| Casos y rutinas de prueba | `docs/CASOS_PRUEBA.md` y `tests/test_frontend_structure.mjs` | Incluido |
-| Convención de nombres | `docs/CONVENCIONES.md` | Incluido |
+La galería `frontend/public/creditos-imagenes.html` falta aunque existe un enlace en el pie. El comando `test:structure` apunta a una prueba ausente. Estos son pendientes de recursos/código, no se solucionan declarando documentación completa. El diagrama relacional está explicado aquí sin afirmar que se recuperó el PDF.
 
-## Archivos que se deben entregar
+Antes de entregar, registrar evidencias reales de requisitos/pruebas y verificar que el paquete conserva fotografías y configuración necesaria por el canal adecuado. No incluir contraseñas en documentos públicos. Las pruebas históricas no certifican automáticamente una copia posterior.
 
-- Descripción del problema — incluido
-- Product Backlog — incluido
-- Esquema de base de datos — incluido
-- Base SQL — incluido
-- Descripción de tecnologías — incluido
-- Casos y rutinas de prueba — incluido
-- Proyecto comprimido — generar con la carpeta final
-- URL de GitHub — completar en `docs/URLS_ENTREGA.md`
-- URL del proyecto en producción — completar en `docs/URLS_ENTREGA.md`
-
-## Elementos que no deben inventarse
-
-La evidencia de validación con clientes, la URL real de GitHub y la URL de hosting dependen de actividades externas al código y deben ser completadas por el estudiante con información real
+[Volver al índice documental](README.md).

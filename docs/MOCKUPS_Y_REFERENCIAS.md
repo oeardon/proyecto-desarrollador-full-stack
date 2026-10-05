@@ -1,22 +1,19 @@
-# Mockups y referencias
+# Referencias visuales y evidencia de interfaz
 
-## Referencia visual
-La interfaz toma como referencia general la organización de un ecommerce moderno con encabezado, búsqueda, categorías, hero, tarjetas de producto, promociones, carrito lateral y pie de página
+La interfaz usa una organización habitual de tienda: encabezado, búsqueda, categorías, hero, tarjetas, promociones, carrito lateral y pie. Fue adaptada a TodoAquí con React, Bootstrap y estilos propios.
 
-La implementación fue adaptada a TodoAquí con componentes React y estilos propios
+## Vistas que conviene presentar
 
-## Vistas que deben mostrarse durante la presentación
+- Inicio, búsqueda, filtros y vista rápida.
+- Menú y catálogo en móvil.
+- Carrito, registro y login.
+- Checkout, recuperación del intento y confirmación.
+- Panel personal: perfil, direcciones, órdenes, favoritos, reseñas e imágenes, devoluciones.
+- Administración: tablas, formularios, relaciones, moderación y cargas.
+- Estados vacíos, errores y reintentos.
 
-1 Inicio en escritorio
-2 Menú hamburguesa en móvil
-3 Catálogo con filtros
-4 Vista rápida de producto
-5 Carrito con cantidades
-6 Inicio de sesión y registro
-7 Formulario de finalización de compra
-8 Mensaje de compra confirmada
+Hay capturas históricas en `tests`, como checkout-desktop.png, checkout-mobile.png, checkout-receipt.png, user-panel-desktop.png, user-order-desktop.png y user-return-mobile.png. No son wireframes originales ni evidencia automática del estado actual. [Pruebas](CASOS_PRUEBA.md) explica cómo obtener evidencia nueva.
 
-## Evidencia recomendada
-Antes de entregar agrega capturas propias del proyecto ejecutándose y, si existen, los wireframes iniciales que se utilizaron durante el desarrollo
+No se identificó un archivo de mockups original dentro del alcance. Aportarlo si la rúbrica lo exige; no presentar una guía textual como si fuera ese archivo. Las referencias/fuentes de fotografías se describen en [Imágenes](IMAGENES_PRODUCTOS.md), incluida la galería ausente.
 
-El lineamiento permite explicar que se trata de una versión Alpha y que el diseño pudo evolucionar durante la construcción
+[Volver al índice documental](README.md).

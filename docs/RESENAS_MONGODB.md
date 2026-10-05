@@ -1,5 +1,7 @@
 # Reseñas en MongoDB
 
+Revisión documental: 26/09/2026, sobre la copia local. Las validaciones anteriores se conservan como antecedentes; no se repitieron durante esta actualización.
+
 ## Distribución de datos
 
 MongoDB es el almacenamiento activo de `Resenas`: creación, lectura, edición, moderación y eliminación. `UsuarioID` y `ProductoID` son enteros que referencian MariaDB. `ResenaID` sigue siendo entero para conservar las URLs, formularios y documentos importados. Las fechas se guardan como BSON Date UTC y se presentan en horario de Guatemala.
@@ -24,9 +26,9 @@ C:\xampp\php\php.exe database/preparar_resenas_mongo.php --aplicar
 
 Este comando no importa ni reemplaza reseñas. Crea índices únicos de `ResenaID` y `(UsuarioID, ProductoID)`, índices de búsqueda, y avanza el contador al máximo ID existente sin reducirlo. El alta también verifica esta preparación. El contador se incrementa atómicamente; puede tener saltos por intentos duplicados y nunca se debe reiniciar al borrar reseñas.
 
-En la verificación inicial había 36 reseñas en SQL y MongoDB, con los mismos IDs, referencias, calificaciones, comentarios y estados. No fue necesaria una importación. La tabla SQL Resenas se conserva intacta como copia histórica: deja de actualizarse y no se usa como respaldo automático en fallos. Sus claves foráneas siguen pudiendo impedir borrar usuarios/productos históricos. Cualquier archivo o tabla de copia requiere una política de conservación aparte.
+Como antecedente histórico, en la verificación inicial había 36 reseñas en SQL y MongoDB, con los mismos IDs, referencias, calificaciones, comentarios y estados. No fue necesaria una importación. La tabla SQL Resenas se conserva intacta como copia histórica: deja de actualizarse y no se usa como respaldo automático en fallos. Sus claves foráneas siguen pudiendo impedir borrar usuarios/productos históricos. Cualquier archivo o tabla de copia requiere una política de conservación aparte.
 
-Los permisos de Atlas fueron ajustados y se ejecutó correctamente la preparación de índices y contador sobre la base configurada. Se conservaron las 36 reseñas existentes. Las altas, modificaciones y eliminaciones se comprobaron en bases temporales para no introducir reseñas ficticias en la tienda.
+Durante la integración original, los permisos de Atlas fueron ajustados y se ejecutó correctamente la preparación de índices y contador sobre la base configurada. Se conservaron las 36 reseñas existentes. Las altas, modificaciones y eliminaciones se comprobaron en bases temporales para no introducir reseñas ficticias en la tienda.
 
 ## Fallos y API
 
@@ -42,7 +44,7 @@ python tests/test_resenas_mongo.py
 
 Requiere PHP, MariaDB local de XAMPP y `mongod` en PATH. Acepta `TEST_PHP` y `TEST_MYSQL` para sus ejecutables. Usa una base SQL de nombre aleatorio y un proceso MongoDB local privado en un puerto libre; no escribe en Atlas ni en la base SQL de la tienda. Elimina la base SQL temporal y detiene sus procesos al terminar; conserva logs en el directorio temporal mostrado.
 
-Comprueba 64 respuestas HTTP y pruebas de almacenamiento: BSON y IDs importados, CRUD, compra entregada, privacidad, propiedad, moderación, agregaciones, nombres actuales desde SQL, ausencia de duplicación de usuarios/productos, referencias al eliminar, altas concurrentes, y funcionamiento del catálogo durante una caída de MongoDB.
+La suite cubre respuestas HTTP y comprobaciones de almacenamiento; no se fija un recuento como resultado de esta revisión: BSON y IDs importados, CRUD, compra entregada, privacidad, propiedad, moderación, agregaciones, nombres actuales desde SQL, ausencia de duplicación de usuarios/productos, referencias al eliminar, altas concurrentes, y funcionamiento del catálogo durante una caída de MongoDB.
 
 Referencia: [findOneAndUpdate de la biblioteca oficial PHP](https://www.mongodb.com/docs/php-library/current/reference/method/mongodbcollection-findoneandupdate/).
 
@@ -65,10 +67,12 @@ Cada modificación de contenido incrementa un contador interno `Version` mediant
 
 `api/resenas/index.php` recibe `multipart/form-data` con `datos` (JSON) e `Imagenes[]` (archivos). Crear usa POST; editar usa POST con `?id=ID&_method=PUT`. El JSON de alta contiene ProductoID, Calificacion, Comentario e Imagenes vacío; el de edición contiene Calificacion, Comentario y las rutas conservadas. Las peticiones JSON anteriores siguen funcionando.
 
-La carpeta de cargas pertenece al backend y persiste independientemente de `frontend/dist`. Vite redirige `/tienda_online/public/uploads/resenas` al mismo Apache que la API. En hosting, publicar esa ruta y conceder permiso de escritura a PHP. `RESENAS_IMAGENES_DIR` permite cambiar el directorio físico desde `config/imagenes.php`, manteniendo su correspondencia con la URL publicada. Los archivos subidos se excluyen de Git; versionar únicamente el marcador y las reglas `.htaccess`. Incluir la carpeta de cargas en las copias de seguridad junto con MongoDB.
+La carpeta de cargas pertenece al backend y persiste independientemente de `frontend/dist`. Vite redirige `/tienda_online/public/uploads/resenas` al mismo Apache que la API. En hosting, publicar esa ruta y conceder permiso de escritura a PHP. `RESENAS_IMAGENES_DIR` permite cambiar el directorio físico desde `config/imagenes.php`, manteniendo su correspondencia con la URL publicada. Si se usa control de versiones, excluir las cargas y conservar marcadores/reglas `.htaccess`; la copia actual no tiene Git activo. No confundir esa exclusión con el respaldo o la entrega de las fotografías existentes. Incluir la carpeta de cargas en las copias de seguridad junto con MongoDB.
 
 PHP debe permitir `upload_max_filesize` de al menos `2M`, `post_max_size` de al menos `8M` y `max_file_uploads` de al menos 3. Las reglas de aplicación siguen limitando cada imagen a 2 MiB aunque PHP admita más.
 
 ### Pruebas de imágenes
 
 La prueba aislada también verifica: alta con tres archivos, rechazo del cuarto y de imágenes demasiado grandes, aceptación de exactamente 2 MiB, rechazo de contenido falso, conservación al editar texto, sustitución, eliminación, rechazo de rutas ajenas, permisos del autor y limpieza de archivos tras un conflicto de unicidad. Las reseñas y fotografías usadas en las pruebas no se escriben en Atlas ni en las carpetas de cargas reales.
+
+[Volver al índice documental](README.md).

@@ -1,8 +1,5 @@
 <?php
-     $host = "localhost";
-     $bd = "todoaqui_db";
-     $usuario = "root";
-     $contrasena = "";
+     require_once "api_keys.php";
      try {
           $conexion = new PDO("mysql:host=$host;dbname=$bd;charset=utf8mb4", $usuario, $contrasena);
           $conexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

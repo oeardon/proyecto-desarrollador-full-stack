@@ -1,6 +1,8 @@
 # Imágenes del catálogo
 
-Auditoría: 25 de septiembre de 2026. Base local `todoaqui_db`, tabla `Productos`.
+Revisión documental: 26/09/2026, sobre la copia local. Las validaciones anteriores se conservan como antecedentes; no se repitieron durante esta actualización.
+
+Auditoría histórica: 25 de septiembre de 2026. Base local `todoaqui_db`, tabla `Productos`. Los recuentos y resultados descritos corresponden a esa fecha, no a una nueva consulta de la base.
 
 Se revisaron los 108 productos: 8 tenían imagen y 100 estaban vacíos. Se conservaron las imágenes de los ID 1, 2, 3, 5 y 7. Se corrigieron el teclado RGB (ID 4: antes mostraba un teclado sin iluminación), el monitor (ID 6: mostraba una computadora todo en uno) y la cámara de seguridad (ID 8: mostraba código). Los 100 productos restantes reciben una imagen ilustrativa del tipo de producto.
 
@@ -8,8 +10,8 @@ Los nombres y especificaciones son ficticios: todos estos registros se describen
 
 ## Archivos y licencias
 
-- `frontend/public/productos/`: fotografías incorporadas al proyecto, listas para incluirse en Git y en `npm.cmd run build`.
-- `frontend/public/creditos-imagenes.html`: galería de créditos enlazada desde el pie de la tienda; contiene autores, fuentes y licencias de cada imagen local.
+- `frontend/public/productos/`: fotografías incorporadas al proyecto, incluidas como archivos del entregable y utilizadas por `npm.cmd run build`.
+- `frontend/public/creditos-imagenes.html`: recurso ausente en esta copia, aunque el pie conserva el enlace. La galería descrita en la auditoría histórica no se puede dar por incluida; debe recuperarse o reconstruirse a partir de fuentes verificadas.
 - `database/imagenes_productos.json`: los 108 registros auditados, rutas anteriores y nuevas, y metadatos de las fuentes. También sirve como respaldo de los valores anteriores de `Imagen`.
 - Fuentes: Wikimedia Commons, Pexels y Pixabay; se conservan imágenes de Unsplash. Cada fotografía conserva su propia licencia, independiente de la del código. Las versiones de tamaño reducido provienen de los proveedores; no se editó el contenido.
 
@@ -17,7 +19,7 @@ Las rutas nuevas locales tienen la forma `/productos/archivo.jpg`. Vite sirve es
 
 ## Aplicar en otra instalación
 
-Desde la raíz del repositorio, después de descargar también las imágenes:
+Desde la raíz del proyecto, con las imágenes ya presentes y después de revisar la base de destino:
 
 ```powershell
 C:\xampp\php\php.exe database/actualizar_imagenes_productos.php --verificar
@@ -34,9 +36,11 @@ C:\xampp\php\php.exe database/actualizar_imagenes_productos.php --revertir
 
 La reversión también comprueba que nadie haya sustituido posteriormente las imágenes. Las fotografías locales se mantienen para no borrar archivos de otras instalaciones. Los datos de demostración originales no se reimportan: esta actualización se aplica después de su carga. No hace falta duplicar imágenes en MongoDB: los datos actuales del producto se consultan desde MariaDB.
 
-## Validación local
+## Validación histórica
 
-Actualización aplicada: 103 filas; 108 productos con imagen y cero campos ajenos a `Imagen` modificados. Una segunda verificación reporta cero cambios pendientes. La API devuelve los 108 productos; el navegador cargó correctamente las 95 rutas distintas (90 locales y 5 externas), sin errores JavaScript ni marcadores de imagen ausente. El enlace de créditos abre la galería de 90 entradas. `php -l`, `npm.cmd run build` y `npm.cmd run lint` finalizaron correctamente.
+Actualización aplicada: 103 filas; 108 productos con imagen y cero campos ajenos a `Imagen` modificados. Una segunda verificación reporta cero cambios pendientes. La API devuelve los 108 productos; el navegador cargó correctamente las 95 rutas distintas (90 locales y 5 externas), sin errores JavaScript ni marcadores de imagen ausente. En aquella versión el enlace de créditos abría una galería de 90 entradas; el archivo no está en la copia actual. `php -l`, `npm.cmd run build` y `npm.cmd run lint` finalizaron correctamente.
+
+La revisión documental no descargó imágenes ni reconstruyó créditos. El mapa JSON conserva fuentes para revisar el recurso ausente.
 
 ## Cargar imágenes desde Administración
 
@@ -44,7 +48,7 @@ Agregar y editar Productos ahora usa un selector de archivo con vista previa. Ad
 
 La petición usa `multipart/form-data`, un campo `datos` con JSON y un archivo `Imagen`. Para editar se envía POST con `?id=ID&_method=PUT`, ya que PHP procesa `$_FILES` en POST. La API mantiene los métodos JSON anteriores para sus otros clientes. Toda escritura exige sesión de administrador.
 
-El servidor valida el contenido real, genera un nombre `producto-<identificador aleatorio>.jpg/png/webp`, copia el archivo a `frontend/public/productos` y guarda `/productos/<nombre>` en `Productos.Imagen`. Si falla el guardado en MariaDB, revierte la operación y elimina únicamente el archivo recién subido. Las imágenes anteriores no se borran porque pueden ser compartidas por otros productos o formar parte del catálogo versionado.
+El servidor valida el contenido real, genera un nombre `producto-<identificador aleatorio>.jpg/png/webp`, copia el archivo a `frontend/public/productos` y guarda `/productos/<nombre>` en `Productos.Imagen`. Si falla el guardado en MariaDB, revierte la operación y elimina únicamente el archivo recién subido. Las imágenes anteriores no se borran porque pueden ser compartidas por otros productos o formar parte del catálogo incluido en el entregable.
 
 ### Hosting
 
@@ -53,3 +57,5 @@ El servidor valida el contenido real, genera un nombre `producto-<identificador 
 ### Pruebas de la carga
 
 `tests/test_imagenes_productos.py` usa una base MariaDB temporal, servidor PHP local y carpeta de cargas aislada. Comprueba carga, sustitución, conservación, permisos, contenido falso, tamaño máximo y limpieza tras conflictos SQL. No modifica el catálogo principal. Puede ejecutarse con Python y los binarios de XAMPP; `TEST_PHP` y `TEST_MYSQL` permiten cambiar sus ubicaciones. También se verificó el formulario en navegador con API simulada, y pasaron PHP lint, ESLint y la compilación de Vite.
+
+[Volver al índice documental](README.md).

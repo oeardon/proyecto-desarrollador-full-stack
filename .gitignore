@@ -42,3 +42,13 @@ api/paises/restcountries.php
 config/mail.local.php
 
 config/SMTPcredentials.csv
+
+# Archivos del directorio INFORME
+INFORME/*
+!INFORME/Diagrama_EER.pdf
+!INFORME/Informe_Proyecto_TodoAqui-Alba_Ortega-Oscar_Ardon.pdf
+!INFORME/Modelo_SQL.mwb
+!INFORME/TodoAquí - Tecnología y compras en línea.url
+
+# Directorio build para cargar a hosting
+build/*

@@ -1,5 +1,7 @@
 # Países en formularios
 
+Revisión documental: 26/09/2026, sobre la copia local. Las validaciones anteriores se conservan como antecedentes; no se repitieron durante esta actualización.
+
 Los campos País de direcciones de usuario y administración usan CountrySelect. También se incluye en direcciones manuales de envío y facturación del checkout y en direcciones de proveedores, órdenes y facturas del administrador. En estos últimos registros el país se conserva dentro del texto de dirección, sin cambiar el esquema de la base de datos. Las direcciones existentes no se sobrescriben al abrir el formulario.
 
 Las direcciones nuevas parten de Guatemala. Al enfocar o pulsar el selector se carga la lista completa y se ordena con la configuración regional española. Se conservan valores antiguos aunque no estén en el catálogo. Si falla la carga, se mantiene el valor actual y se ofrece Reintentar.
@@ -10,7 +12,7 @@ La lista completa se almacena durante 24 horas en el directorio temporal de PHP;
 
 Referencia de paginación: https://restcountries.com/docs/countries
 
-Verificación: consulta real de 254 registros, todos con traducción española; sintaxis PHP, compilación Vite, ESLint y prueba de navegador con checkout simulado. La prueba comprueba carga diferida, Guatemala inicial, orden alfabético, España y Abjasia, y selección de México conservada en la dirección de facturación.
+Verificación histórica (no repetida en esta revisión): consulta real de 254 registros, todos con traducción española; sintaxis PHP, compilación Vite, ESLint y prueba de navegador con checkout simulado. La prueba comprueba carga diferida, Guatemala inicial, orden alfabético, España y Abjasia, y selección de México conservada en la dirección de facturación.
 
 ## Actualización de caché y fallos
 
@@ -24,4 +26,10 @@ Las direcciones manuales del checkout y los campos de dirección de proveedores,
 
 Las direcciones guardadas del checkout se muestran desglosadas y de solo lectura; para introducir otra se elige Escribir otra dirección. La opción de usar la misma dirección para facturación se mantiene. Los registros antiguos conservan su texto original si no se modifica la dirección. Al editar una dirección con país reconocido y al menos tres partes previas, las últimas dos se muestran como Ciudad y Departamento; las anteriores permanecen juntas como Dirección. Si el texto antiguo no permite ese desglose, se conserva en Dirección y se completan los campos al modificarlo.
 
-Las reglas de edición no cambian: las órdenes permiten cambiar su estado y las facturas permiten anularse. El CRUD de Direcciones mantiene sus columnas separadas. Verificado con lint, compilación y pruebas de navegador con API simulada para checkout, altas de órdenes/facturas, edición de proveedores, conservación de texto antiguo, validación y pantalla móvil.
+Las reglas de edición no cambian: las órdenes permiten cambiar su estado y las facturas permiten anularse. El CRUD de Direcciones mantiene sus columnas separadas. Validación histórica, no repetida en esta revisión: lint, compilación y pruebas de navegador con API simulada para checkout, altas de órdenes/facturas, edición de proveedores, conservación de texto antiguo, validación y pantalla móvil.
+
+## Integración local
+
+`countryService.js` solicita `/tienda_online/api/paises/`; Apache resuelve index.php mediante DirectoryIndex. Esta copia no utiliza el ajuste de URL explícita que se había hecho para hosting. `api/paises/restcountries.php` es una muestra auxiliar, no el endpoint del selector. cURL, clave privada y caché escribible son requisitos; véase [Instalación](INSTALACION_LOCAL.md).
+
+[Volver al índice documental](README.md).

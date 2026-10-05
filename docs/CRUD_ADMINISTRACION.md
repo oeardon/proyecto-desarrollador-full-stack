@@ -1,6 +1,8 @@
 # Administración: tablas y formularios
 
-El portal de Cuenta ofrece las cinco operaciones para las 17 tablas. Se requiere una sesión de Administrador; los servicios PHP vuelven a comprobar el rol.
+Revisión documental: 26/09/2026, sobre la copia local. Las validaciones anteriores se conservan como antecedentes; no se repitieron durante esta actualización.
+
+El portal de Cuenta ofrece accesos de mostrar, buscar, agregar, editar y eliminar para los 17 recursos del modelo; cada operación está sujeta a las restricciones del recurso. Las reseñas activas se guardan en MongoDB, aunque existe la tabla SQL histórica. Se requiere una sesión de Administrador; los servicios PHP vuelven a comprobar el rol.
 
 - Mostrar y buscar presentan tablas con Agregar, Editar y Eliminar.
 - Editar desde una fila carga el registro mediante sus identificadores en la URL.
@@ -31,11 +33,13 @@ Las demás tablas conservan las reglas de sus API, incluyendo transiciones de es
 
 También se corrigieron dos llamadas preexistentes a `prepare()` sin consulta en los modelos de Orden y Factura, necesarias para cancelar órdenes y crear detalles de factura.
 
-## Verificación
+## Verificación histórica
 
 - `npm --prefix frontend run lint`
 - `npm --prefix frontend run build`
 - `python tests/test_api.py --admin-only`: 80 respuestas HTTP, permisos y comprobaciones SQL de inventario/totales, en una base temporal que se elimina al terminar.
 - `node tests/admin_ui.cjs <ruta-al-modulo-playwright>`: Edge sin ventana, build local y API simulada. Recorre las 17 tablas, edición directa y por búsqueda, altas, confirmaciones, contraseña opcional, recuperación de errores, acceso restringido y ancho móvil.
 
-La suite general existente se detiene antes de estos casos por una cabecera `Cache-Control: no-store` ausente en `api/auth/logout.php`. Las pruebas nuevas se ejecutaron independientemente. La carpeta `tests/` continúa excluida por la configuración existente de `.gitignore`.
+La suite general existente se detiene antes de estos casos por una cabecera `Cache-Control: no-store` ausente en `api/auth/logout.php`. Las pruebas nuevas se ejecutaron independientemente. Las reglas de `.gitignore` son heredadas y tienen excepciones para suites especializadas; no hay repositorio activo. Consultar [Pruebas](CASOS_PRUEBA.md) para las limitaciones de ejecución actuales.
+
+[Volver al índice documental](README.md).

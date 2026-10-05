@@ -1,9 +1,8 @@
 # APIs de Todo Aquí
 
-Implementación procedural de los recursos pendientes, basada en el SQL de
-database/crear_bd_tablas.sql. Producto y Categoría también utilizan las funciones
-compartidas. Auth incluye login, logout y registro público de clientes.
-El frontend conserva sus archivos existentes.
+Revisión documental: 26/09/2026, sobre la copia local. Las validaciones anteriores se conservan como antecedentes; no se repitieron durante esta actualización.
+
+API procedural de la aplicación local. MariaDB conserva los recursos transaccionales y MongoDB las reseñas activas. Auth incluye registro, login, logout y consulta de sesión. Esta guía se complementa con [checkout](CATALOGO_CHECKOUT.md), [administración](CRUD_ADMINISTRACION.md), [cuenta](PANEL_USUARIO.md), [países](PAISES.md) y [reseñas](RESENAS_MONGODB.md).
 
 ## Organización
 
@@ -30,7 +29,7 @@ POST /recurso/ crea.
 PUT /recurso/?id=5 actualiza.
 DELETE /recurso/?id=5 elimina cuando lo permiten sus relaciones y reglas.
 
-POST y PUT requieren Content-Type: application/json y un objeto JSON.
+Las operaciones JSON POST y PUT requieren Content-Type: application/json y un objeto JSON. Productos y reseñas también admiten multipart/form-data para imágenes, con edición mediante POST y _method=PUT; véanse sus guías específicas.
 Un ID debe ser un entero positivo. Se usan respuestas:
 
 - 200: consulta, actualización o eliminación correcta.
@@ -47,8 +46,7 @@ Un ID debe ser un entero positivo. Se usan respuestas:
 Ejemplo: {"success":true,"data":[]}
 Ejemplo de error: {"success":false,"message":"Debe iniciar sesión"}
 
-No se añadió CORS. Para React hay que acordar el proxy de Vite o los orígenes
-permitidos al integrar. La cookie de sesión debe acompañar las solicitudes.
+La integración local utiliza el proxy configurado en Vite; no depende de habilitar CORS. La cookie de sesión debe acompañar las solicitudes.
 El frontend no debe inferir permisos únicamente a partir de controles visibles.
 
 ## Permisos
@@ -75,7 +73,7 @@ registro.php: el registro público fija Cliente y Activo y no permite administra
 
 ## Autenticación
 
-Los tres endpoints admiten solo POST; devuelven 405 y Allow: POST antes de conectar
+Login, registro y logout admiten solo POST; devuelven 405 y Allow: POST antes de conectar
 a MariaDB para otros métodos. Login y registro requieren Content-Type: application/json.
 Logout no necesita cuerpo ni conexión a la base de datos.
 
@@ -127,11 +125,11 @@ Las respuestas indican que no deben almacenarse en caché.
 
 ### Logout
 
-POST /auth/logout.php sin cuerpo. Vacía las variables, elimina la cookie con
-sus mismos parámetros y destruye la sesión. Responde 200 también si ya se había
-cerrado la sesión. Funciona aunque la conexión a MariaDB no esté disponible.
+POST /auth/logout.php sin cuerpo. Ejecuta session_unset() y session_destroy(); no conecta con MariaDB. La implementación actual no elimina explícitamente la cookie ni establece Cache-Control: no-store. No afirmar que esas protecciones se han implementado; véase la limitación de pruebas en [CASOS_PRUEBA.md](CASOS_PRUEBA.md).
 
-No se agregaron redirecciones, CORS ni sesion.php.
+### Consulta de sesión
+
+GET /auth/sesion.php devuelve success:true, autenticado y usuario. Sin sesión o con usuario inactivo devuelve autenticado:false y usuario:null. Con sesión activa consulta el estado/rol actual en MariaDB y devuelve UsuarioID, Usuario y TipoUsuario, sin contraseña. Otros métodos reciben 405 y Allow: GET. No establece explícitamente Cache-Control en el archivo actual.
 
 ## Productos y categorías
 
@@ -140,7 +138,7 @@ a un usuario inactivo. POST, PUT y DELETE exigen una sesión de administrador
 activo y comprueban el rol actual en MariaDB.
 
 Las consultas públicas conservan el comportamiento existente: incluyen registros
-Activos e Inactivos. El filtro de visibilidad del catálogo sigue pendiente de definición.
+Activos e Inactivos. El catálogo de la tienda usa api/catalogo/index.php, que filtra productos/categorías activos; no confundirlo con el CRUD público básico.
 El listado y detalle de Productos conservan el JOIN y el campo Categoria.
 
 ### Productos
@@ -231,8 +229,7 @@ AplicaTodosProductos, Estado.
 Fechas con formato YYYY-MM-DD HH:MM:SS. FechaFin no puede preceder a FechaInicio.
 Porcentaje no puede superar 100. RequiereCupon exige CodigoCupon.
 Los indicadores admiten true/false o 1/0.
-Esta API administra las promociones; todavía no aplica descuentos a órdenes
-ni administra la tabla puente ProductosPromociones.
+Este endpoint administra la definición de promociones. Las asociaciones se gestionan con api/admin/index.php?recurso=productos-promociones. Catálogo y checkout aplican la mejor promoción automática elegible sin cupón; no confundir ese flujo con el alta básica de órdenes.
 
 ### Direcciones
 
@@ -383,15 +380,17 @@ No admite PUT porque solo se agrega o quita la relación. Un duplicado devuelve 
 
 ## Límites de esta entrega
 
-- Las órdenes nuevas usan los valores por defecto de descuento, impuesto y envío (cero).
-  Debe acordarse su cálculo antes de integrar un checkout definitivo.
+- El alta básica por api/ordenes utiliza valores por defecto de cargos/descuentos. El checkout integrado recalcula promociones elegibles; envío e impuestos adicionales permanecen en cero.
 - Facturas rechaza órdenes con cargos o descuentos adicionales aún no desglosados.
-- No se implementaron rutas nuevas para ProductosProveedores o ProductosPromociones.
-- No se cambiaron las tablas ni se ejecutó una migración de reseñas.
+- ProductosProveedores y ProductosPromociones se gestionan mediante api/admin/index.php; véase la guía administrativa.
+- La aplicación activa usa MongoDB para reseñas; la tabla SQL se conserva como histórica, sin respaldo automático entre motores.
 - Las operaciones de pago y devolución son registros internos, no conexiones externas.
-- La recuperación de contraseña y un endpoint de consulta de sesión siguen pendientes.
+- No hay flujo de recuperación de contraseña por correo. La consulta de sesión sí está implementada; el perfil permite cambiar contraseña autenticado.
 
 ## Pruebas
+
+El ejecutor descrito a continuación es histórico. Antes de usarlo consultar [CASOS_PRUEBA.md](CASOS_PRUEBA.md): hay diferencias de cabeceras y casos de reseñas frente al código actual; el aislamiento SQL no implica aislamiento automático de MongoDB. No se ejecutó esta suite en la revisión documental.
+
 
 tests/test_api.py levanta un servidor PHP en loopback y copia app, api y config
 a una carpeta temporal. Crea una BD con nombre todoaqui_test_<identificador>,
@@ -423,3 +422,17 @@ python tests/test_api.py --auth-only
 
 Verifica registro, duplicados, hash, permisos, ambos métodos de login, regeneración
 de sesión, cookies y cierre de sesión sin conexión a la base de datos.
+
+## Recursos complementarios
+
+| Ruta bajo `/tienda_online/api/` | Función | Guía |
+| --- | --- | --- |
+| `catalogo/index.php` | GET del catálogo filtrado, promociones y agregados de reseñas. | [Checkout](CATALOGO_CHECKOUT.md) |
+| `checkout/index.php` | POST de compra y GET por solicitud propia. | [Checkout](CATALOGO_CHECKOUT.md) |
+| `cuenta/index.php?recurso=...` | Perfil y consultas/operaciones personales. | [Panel](PANEL_USUARIO.md) |
+| `admin/index.php?recurso=...` | Relaciones y líneas documentales con sus claves. | [Administración](CRUD_ADMINISTRACION.md) |
+| `paises/index.php` | GET de países; caché y 503/Retry-After ante fallos. | [Países](PAISES.md) |
+
+Los demás recursos usan su subdirectorio e index.php. Los ejemplos abreviados con barra final dependen de DirectoryIndex de Apache. No se ha añadido un endpoint de capacidades de reseñas MariaDB a esta copia local.
+
+[Volver al índice documental](README.md).

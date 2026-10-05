@@ -1,25 +1,25 @@
-# Guía breve de presentación
+# Guía de presentación
 
-## Etapa 1 — 10 a 25 minutos
+## Primera etapa: problema y diseño
 
-1 Presentar el problema y objetivo general
-2 Explicar requerimientos y Product Backlog
-3 Mostrar historias de usuario y evidencia de validación
-4 Mostrar mockups y explicar cambios de la versión Alpha
-5 Presentar el modelo relacional
-6 Presentar el diseño NoSQL complementario
-7 Explicar React, Bootstrap, JavaScript, PHP, API y MariaDB
+1. Explicar problema, objetivo y alcance académico.
+2. Mostrar backlog y evidencia real de validación.
+3. Presentar vistas/capturas y distinguir mockups de interfaz implementada.
+4. Explicar modelo relacional y reseñas activas en MongoDB; separar la propuesta de analítica.
+5. Describir React, PHP, MariaDB, Atlas, Ethereal y API de países.
 
-## Etapa 2 — 15 a 25 minutos
+## Segunda etapa: demostración
 
-1 Ejecutar la aplicación
-2 Mostrar búsqueda y filtros
-3 Registrar o iniciar sesión
-4 Agregar productos al carrito
-5 Modificar cantidades
-6 Finalizar una compra
-7 Mostrar el mensaje personalizado de confirmación
-8 Abrir MariaDB y enseñar la orden y sus detalles
-9 Explicar la estructura MVC y las rutas API
-10 Mostrar código de configuración y consultas preparadas
-11 Ejecutar pruebas de frontend y sintaxis PHP
+1. Iniciar el entorno siguiendo [Instalación](INSTALACION_LOCAL.md).
+2. Mostrar búsqueda, filtros, vista rápida, carrito y favoritos.
+3. Registrar/iniciar sesión y navegar por perfil/direcciones.
+4. Preparar una compra con datos de demostración; explicar que sí cambia registros/stock.
+5. Confirmar solo si la demostración prevé esa escritura y mostrar pedido, factura interna y correo capturado en Ethereal.
+6. Enseñar órdenes propias, reseñas con fotos y devoluciones; usar compras entregadas para esos casos.
+7. Mostrar administración, restricciones, moderación y carga de fotografías.
+8. Explicar arquitectura, rutas y configuración mediante nombres de campos, sin proyectar secretos.
+9. Mostrar resultados de pruebas realmente ejecutadas, identificando entorno/fecha y limitaciones.
+
+Los tiempos pueden ajustarse a la rúbrica. No afirmar que hay cobro bancario, factura fiscal, galería de créditos recuperada o suites aprobadas sin evidencia. Consultar [Lineamientos](LINEAMIENTOS_ENTREGA.md).
+
+[Volver al índice documental](README.md).

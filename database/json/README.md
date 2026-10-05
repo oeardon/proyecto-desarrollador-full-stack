@@ -1,6 +1,6 @@
 # JSON para MongoDB Atlas
 
-Conversión de los 17 CSV originales de `database/csv`: 1,120 documentos. Los CSV permanecen intactos; no se ha conectado ni importado nada en Atlas ni se ha modificado MariaDB.
+Exportación histórica de los 17 CSV originales de `database/csv`: 1,120 documentos según el registro de conversión. La conversión no modificó MariaDB ni importó por sí sola estos archivos a Atlas. Actualmente Atlas sí forma parte de la aplicación para reseñas; el usuario confirmó conectividad local. No interpretar esta exportación como un respaldo vivo o sincronizado.
 
 ## Formato y tipos
 
@@ -16,7 +16,7 @@ Conversión de los 17 CSV originales de `database/csv`: 1,120 documentos. Los CS
 
 ## Colecciones
 
-Cada archivo corresponde a una colección con el nombre de la tabla original. Se preserva el modelo actual con referencias por ID: no se incrustaron órdenes, direcciones ni detalles dentro de otros documentos.
+Cada archivo propone una colección con el nombre de la tabla original. Se preserva el modelo exportado con referencias por ID: no se incrustaron órdenes, direcciones ni detalles dentro de otros documentos.
 
 No se añadió `_id`; MongoDB lo genera durante la importación. Las relaciones continúan usando los campos originales, no los nuevos ObjectId. Antes de repetir una importación, considerar que esos campos no tienen automáticamente índices únicos ni validación de claves foráneas como en SQL.
 
@@ -58,3 +58,7 @@ Fuentes oficiales:
 - [MongoDB Extended JSON v2](https://www.mongodb.com/docs/manual/reference/mongodb-extended-json/)
 - [Importación con Compass](https://www.mongodb.com/docs/compass/import-export/)
 - [mongoimport](https://www.mongodb.com/docs/database-tools/mongoimport/)
+
+## Alcance de instalación
+
+No es necesario importar todas estas colecciones para ejecutar la tienda. Usuarios, productos y operaciones transaccionales se consultan en MariaDB. La preparación del entregable se explica en [Base de datos](../../docs/BASE_DATOS.md) e [Instalación](../../docs/INSTALACION_LOCAL.md). La revisión documental no ejecutó importaciones.

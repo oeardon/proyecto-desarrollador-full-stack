@@ -1,16 +1,33 @@
-# React + Vite
+# Frontend de TodoAquí
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React, Vite, React Router, Bootstrap y SCSS. Forma parte del entregable PHP/MariaDB/MongoDB y consume datos de su API.
 
-Currently, two official plugins are available:
+## Uso
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Preparar Apache, MariaDB y configuración siguiendo [Instalación](../docs/INSTALACION_LOCAL.md). Dentro de esta carpeta:
 
-## React Compiler
+```powershell
+npm.cmd run dev
+npm.cmd run lint
+npm.cmd run build
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Si faltan dependencias, `npm.cmd ci` utiliza el lockfile. Los mismos scripts se delegan desde la raíz. Vite detecta Apache en localhost:80 o localhost:8080; iniciar puede fallar si categorías no responde correctamente. Preview no tiene proxy API declarado.
 
-## Expanding the ESLint configuration
+## Organización
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `src/main.jsx`: arranque y proveedores.
+- `src/App.jsx`: rutas, navegación, catálogo, carrito y favoritos.
+- `src/pages`: pantallas principales.
+- `src/components`: formularios, controles, paneles y tablas.
+- `src/context`: estado de sesión y hooks de catálogo/carrito/deseos.
+- `src/services`: clientes PHP, formato y persistencia del intento de compra.
+- `src/data`: navegación/esquemas y datos auxiliares; el catálogo principal viene de PHP.
+- `src/styles`, `src/*.css`, `src/js`: estilos e interacciones.
+- `public`: favicon y fotografías de productos.
+- `dist`: compilación; distinta del `build` raíz.
+- `node_modules`: dependencias instaladas.
+
+Las [rutas y responsabilidades](../docs/ARQUITECTURA.md) y el [índice funcional](../docs/README.md) completan esta guía. El servidor recalcula importes y comprueba permisos, independientemente del estado del navegador.
+
+El pie enlaza `/creditos-imagenes.html`, pero el archivo falta en esta copia; queda pendiente recuperar ese recurso. No se afirma que el enlace funcione.

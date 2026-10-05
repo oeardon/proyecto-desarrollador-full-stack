@@ -1,27 +1,34 @@
-# Diseño NoSQL complementario
+# Modelo NoSQL
 
-## Propósito
-Los datos transaccionales como usuarios, productos, órdenes, pagos y facturas permanecen en MariaDB
+## Implementado: reseñas
 
-MongoDB almacena las reseñas de productos. Los eventos de navegación descritos más abajo siguen siendo una propuesta. La integración implementada se documenta en [RESENAS_MONGODB.md](RESENAS_MONGODB.md).
+MongoDB almacena la colección `Resenas` y el contador de IDs en `Contadores`. Las reseñas conservan ResenaID, UsuarioID, ProductoID, Calificacion, Comentario, FechaResena, Estado y las rutas opcionales de Imagenes. Los documentos editados usan Version para control de concurrencia. FechaResena se almacena como BSON Date; los IDs numéricos mantienen compatibilidad con MariaDB y la API.
 
-## Colección `interacciones`
+Usuarios y productos se consultan en MariaDB, no desde sus exportaciones JSON. Una compra entregada habilita la reseña; el índice único usuario/producto evita duplicados y las ocultas no participan en promedios públicos. No existen FK ni transacciones distribuidas entre motores.
 
-Campos propuestos
+La configuración, índices, imágenes y fallos se describen en [Reseñas MongoDB](RESENAS_MONGODB.md). La tabla SQL Resenas permanece como histórica y no actúa como conmutación automática.
 
-- `usuarioId` entero o nulo para visitantes
-- `sesionId` cadena
-- `tipo` búsqueda, vista_producto, favorito, categoria o carrito
-- `productoId` entero opcional
-- `categoria` cadena opcional
-- `terminoBusqueda` cadena opcional
-- `metadata` documento flexible
-- `fecha` fecha y hora
+## Exportaciones
 
-## Ejemplo
-Consulta `database/modelo_nosql.json`
+Los 17 archivos de `database/json` provienen de CSV y usan Extended JSON. Su existencia no implica que todas esas colecciones estén activas ni sincronizadas. Véase [formato/importación](../database/json/README.md).
 
-## Relación con el modelo SQL
-El identificador `usuarioId` y `productoId` se utilizan como referencias lógicas hacia MariaDB, pero no como claves foráneas dentro de MongoDB
+## Propuesta no implementada: interacciones
 
-Este diseño evita mover la información crítica de compras fuera de la base relacional
+Una futura colección podría guardar eventos de navegación. Ejemplo conceptual, no dato real ni contrato de API:
+
+```json
+{
+  "usuarioId": null,
+  "sesionId": "sesion-de-ejemplo",
+  "tipo": "vista_producto",
+  "productoId": 1,
+  "categoria": "Ejemplo",
+  "terminoBusqueda": null,
+  "metadata": {},
+  "fecha": {"$date": "2026-09-26T12:00:00.000Z"}
+}
+```
+
+No existe `database/modelo_nosql.json` en esta copia. El ejemplo queda incluido aquí y no se presenta como archivo entregado. La aplicación no guarda estos eventos ni implementa panel de analítica.
+
+[Volver al índice documental](README.md).

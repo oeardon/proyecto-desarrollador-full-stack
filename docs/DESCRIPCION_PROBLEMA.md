@@ -1,15 +1,23 @@
-# Descripción del problema
+# Problema y alcance de TodoAquí
 
 ## Contexto
-Una tienda en línea necesita centralizar la consulta de productos, registro de clientes, autenticación, carrito de compra y gestión de órdenes en una solución web que pueda utilizarse desde computadoras, tablets y teléfonos
 
-## Problema
-Cuando el catálogo, los usuarios y las compras se administran de forma separada se producen dificultades para consultar existencias, identificar clientes, mantener información consistente y registrar el proceso de compra
+Una tienda necesita reunir catálogo, inventario, clientes, pedidos y seguimiento. Gestionarlos por separado dificulta consultar existencias y mantener información consistente entre compras, documentos y atención posterior.
 
-## Objetivo general
-Desarrollar una aplicación web FullStack llamada TodoAquí que permita consultar productos, registrar clientes, autenticarse, gestionar un carrito y crear órdenes utilizando un frontend responsivo conectado mediante API a una base de datos
+## Objetivo
 
-## Solución propuesta
-TodoAquí integra React, Bootstrap y Vite en el frontend, PHP con una organización basada en Modelo y Controlador en el backend, una API HTTP y MariaDB como base relacional principal
+Desarrollar un proyecto académico FullStack con interfaz responsiva, API con permisos y almacenamiento persistente para demostrar el recorrido desde la búsqueda de productos hasta la compra simulada y su gestión posterior.
 
-El proyecto también documenta un modelo NoSQL complementario para interacciones de usuario y analítica, separado de los datos transaccionales de compras
+## Solución implementada
+
+React presenta catálogo, búsqueda, filtros, promociones, vista rápida, carrito y favoritos. Los usuarios se registran, inician sesión, gestionan perfil/direcciones, consultan órdenes y solicitan devoluciones. Checkout registra orden, factura interna y pago pendiente, descuenta inventario y puede enviar una confirmación capturada por Ethereal.
+
+PHP valida permisos y reglas. MariaDB conserva datos transaccionales y MongoDB Atlas las reseñas de productos, con moderación e imágenes opcionales. El administrador gestiona 17 recursos y sus relaciones/detalles. Un servicio de países apoya los formularios de dirección.
+
+## Límites
+
+No hay cobros/reembolsos bancarios ni facturación fiscal. Crear una compra académica sí escribe datos y modifica existencias. Las propuestas de analítica NoSQL no están implementadas. La recuperación de contraseña por correo no forma parte del flujo actual.
+
+La versión local es el entregable vigente. Los ajustes de hosting fueron revertidos intencionalmente; `build` conserva la copia publicada y queda fuera de este alcance. Véanse [estado](TRANSFERENCIA_ESTADO.md) y [backlog](PRODUCT_BACKLOG.md).
+
+[Volver al índice documental](README.md).

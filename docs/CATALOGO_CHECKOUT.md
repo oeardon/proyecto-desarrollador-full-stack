@@ -1,8 +1,10 @@
 # Catálogo y checkout
 
+Revisión documental: 26/09/2026, sobre la copia local. Las validaciones anteriores se conservan como antecedentes; no se repitieron durante esta actualización.
+
 ## Flujo implementado
 
-El inicio y el encabezado consultan `api/catalogo/index.php`: productos activos, categorías activas (incluidos sus padres), imágenes, descripción, stock, calificaciones y número real de reseñas publicadas. La consulta local confirmó 108 productos y 48 categorías.
+El inicio y el encabezado consultan `api/catalogo/index.php`: productos activos, categorías activas (incluidos sus padres), imágenes, descripción, stock, calificaciones y número real de reseñas publicadas. Una consulta histórica registró 108 productos y 48 categorías; no es un recuento actual de la base.
 
 Los enlaces del encabezado y del pie usan filtros reales:
 
@@ -54,9 +56,9 @@ Se siguió `PROYECTO/Guia envio confirmacion pedido.pdf`: PHPMailer mediante SMT
 
 PHPMailer está declarado en Composer y su versión está fijada en composer.lock. En otra instalación ejecutar `composer install`.
 
-La configuracion local ahora utiliza Ethereal, con STARTTLS en el puerto 587, a partir del CSV proporcionado por el usuario. La conexion y autenticacion SMTP se verificaron sin enviar mensajes. Ethereal captura las confirmaciones en su bandeja de pruebas y no las entrega al destinatario real.
+La configuracion local ahora utiliza Ethereal, con STARTTLS en el puerto 587, a partir del CSV proporcionado por el usuario. En la comprobación histórica se verificaron conexión y autenticación; posteriormente el usuario confirmó una nueva orden con correo capturado en Ethereal. Ethereal captura las confirmaciones en su bandeja de pruebas y no las entrega al destinatario real.
 
-Los archivos config/SMTPcredentials.csv y config/mail.local.php estan ignorados por Git y protegidos contra descarga HTTP mediante config/.htaccess (verificado: HTTP 403). Debe conservarse esta proteccion al subir el proyecto a Apache; otros servidores requieren una regla equivalente.
+La configuración privada está en config/mail.local.php; el CSV de credenciales se menciona solo como antecedente, no como requisito. La regla config/.htaccess actual deniega api_keys.php y mail.local.php, pero no incluye SMTPcredentials.csv. No atribuirle protección para otros archivos. La efectividad HTTP depende de Apache y no se volvió a probar en esta revisión.
 
 En una nueva instalacion, el correo permanece desactivado hasta proporcionar configuracion privada. Para configurarlo:
 
@@ -64,11 +66,14 @@ En una nueva instalacion, el correo permanece desactivado hasta proporcionar con
 2. Completar host, puerto, usuario, contraseña de aplicación, remitente y cifrado.
 3. Activar enabled. Para Gmail, el ejemplo usa smtp.gmail.com, puerto 587 y tls.
 
-El archivo privado está ignorado por Git. También se admiten las variables de entorno SMTP_ENABLED, SMTP_HOST, SMTP_PORT, SMTP_USERNAME, SMTP_PASSWORD, SMTP_ENCRYPTION, SMTP_FROM y SMTP_FROM_NAME. PHP no carga archivos .env automáticamente.
+El archivo privado aparece en las exclusiones heredadas; actualmente no existe repositorio Git activo. También se admiten las variables de entorno SMTP_ENABLED, SMTP_HOST, SMTP_PORT, SMTP_USERNAME, SMTP_PASSWORD, SMTP_ENCRYPTION, SMTP_FROM y SMTP_FROM_NAME. PHP no carga archivos .env automáticamente.
 
-El envío sucede después del commit. Un fallo SMTP nunca cancela una orden guardada ni pide al usuario comprar otra vez. El resultado distingue enviado, no_configurado, fallido o pendiente. No se reenvía automáticamente un correo al recuperar una solicitud. Los mensajes incluyen versión HTML con textos escapados y versión de texto; no contienen credenciales. No se enviaron correos externos durante las pruebas.
+El envío sucede después del commit. Un fallo SMTP nunca cancela una orden guardada ni pide al usuario comprar otra vez. El resultado distingue enviado, no_configurado, fallido o pendiente. No se reenvía automáticamente un correo al recuperar una solicitud. Los mensajes incluyen versión HTML con textos escapados y versión de texto; no contienen credenciales. Las pruebas históricas automatizadas usaron SMTP local; el usuario informó por separado un envío de prueba real a Ethereal.
 
-## Validación
+## Validación histórica
+
+Los resultados siguientes corresponden al desarrollo anterior; no se repitieron durante la actualización documental. Las limitaciones del ejecutor actual se explican en [Pruebas](CASOS_PRUEBA.md).
+
 
 - Lint y compilación del frontend correctos.
 - Sintaxis PHP de los archivos nuevos correcta.
@@ -78,4 +83,6 @@ El envío sucede después del commit. Un fallo SMTP nunca cancela una orden guar
 - Capturas de checkout en escritorio y móvil revisadas.
 - Consulta de catálogo real de solo lectura: 108 productos y 48 categorías. Ninguna compra de prueba se realizó en todoaqui_db.
 
-La carpeta tests/ continúa ignorada por Git; sus scripts y capturas permanecen locales.
+Las exclusiones de tests/ son metadatos heredados; existen excepciones para las suites especializadas de MongoDB e imágenes. El entregable es una carpeta local, sin Git activo.
+
+[Volver al índice documental](README.md).
