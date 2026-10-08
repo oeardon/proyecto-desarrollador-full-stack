@@ -7,7 +7,7 @@ async function detectarServidorApi() {
 
   for (const servidor of servidores) {
     try {
-      const respuesta = await fetch(`${servidor}/tienda_online/api/categorias/index.php`, {
+      const respuesta = await fetch(`${servidor}/proyecto-desarrollador-full-stack/api/categorias/index.php`, {
         signal: AbortSignal.timeout(3000),
         redirect: 'error',
       })
@@ -39,7 +39,8 @@ export default defineConfig(async ({ command, isPreview }) => {
       port: 5173,
       proxy: {
         '/tienda_online/public/uploads/resenas': { target, changeOrigin: true },
-        '/tienda_online/api': {
+        '/proyecto-desarrollador-full-stack/public/uploads/resenas': { target, changeOrigin: true },
+        '/proyecto-desarrollador-full-stack/api': {
           target,
           changeOrigin: true,
         },

@@ -1,4 +1,4 @@
-const API_AUTH = '/tienda_online/api/auth'
+const API_AUTH = '/proyecto-desarrollador-full-stack/api/auth'
 // Todas las respuestas conservan la estructura JSON enviada por PHP.
 async function solicitarAuth(archivo, metodo, datos) {
      const opciones = {

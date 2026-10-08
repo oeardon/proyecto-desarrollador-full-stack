@@ -8,7 +8,7 @@ export async function requestUser(resource, { method = 'GET', id, data, signal }
   }
   let response
   try {
-    response = await fetch(`/tienda_online/api/cuenta/index.php?${params}`, options)
+    response = await fetch(`/proyecto-desarrollador-full-stack/api/cuenta/index.php?${params}`, options)
   } catch (error) {
     if (error.name === 'AbortError') throw error
     throw new Error('No se pudo conectar con el servidor. Intenta nuevamente.', { cause: error })

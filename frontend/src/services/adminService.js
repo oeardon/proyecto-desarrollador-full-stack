@@ -33,7 +33,7 @@ export async function requestAdmin(resource, { method = 'GET', record, data, sig
   }
   let response
   try {
-    response = await fetch(`/tienda_online/api/${schema.auxiliary ? 'admin' : resource}/index.php?${params}`, options)
+    response = await fetch(`/proyecto-desarrollador-full-stack/api/${schema.auxiliary ? 'admin' : resource}/index.php?${params}`, options)
   } catch (error) {
     if (error.name === 'AbortError') throw error
     throw new Error('No se pudo conectar con el servidor. Vuelve a intentarlo.', { cause: error })
